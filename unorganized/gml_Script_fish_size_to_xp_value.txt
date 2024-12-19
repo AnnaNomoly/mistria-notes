@@ -1,0 +1,12 @@
+gml_Script_fish_size_to_xp_value
+    ArgumentCount: 1
+    Arguments:
+        [0]: VALUE_INT (1)
+    Return: VALUE_REAL (18)
+
+
+shadow_bass (medium)
+    1 => 18
+
+goby (medium)
+    1 => 18

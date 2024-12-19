@@ -1,0 +1,44 @@
+COSMETIC SOURCES
+----------------
+
+festivals: object
+    <festival_key>: object # "spring" key is for the spring_festival, not the season
+        tiers: array[object]
+            rewards: array[object]
+                item: string # internal item name
+                cosmetic: string # internal cosmetic name
+        stocks: object
+            <stock_key>: array[object]
+                item: string # internal item name
+                cosmetic: string # internal cosmetic name
+
+
+museum_wings: object
+    <wing_key>: object
+        rewards: array[object]
+            entries: array[object]
+                cosmetic: string # internal cosmetic name
+
+
+renown: object
+    rewards: array[object]
+        "cosmetic": "head_adventurer_hood"
+
+
+stores: object
+    <store_key>: object # Anything in the general store was modded in!
+        categories: array[object]
+            random_stock: array[object] # Can also be an array of strings that are just internal names
+                cosmetic: string # internal cosmetic name
+
+
+wishing_well: object
+    common: object
+        small_roll: array[object]
+            cosmetic: string // internal game name
+
+
+player_assets: object
+    <asset_key>: object
+        default_unlocked: boolean // true if available at start of game
+        

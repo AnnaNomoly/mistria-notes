@@ -1,0 +1,17 @@
+Global Namespace Notes
+
+- [struct] __interactables
+    - [array] __buffer
+        - [struct] __buffer[7]
+            - [struct] node
+                - [struct] prototype
+                    - [number] hitpoints = 5.00
+                    - [struct] max_hitpoints = 000001E7900B3E00
+                        - [array] __buffer
+                            - [number] __buffer[0] = 1.00
+                            - [number] __buffer[1] = 2.00
+                            - [number] __buffer[2] = 2.00
+                            - [number] __buffer[3] = 4.00
+                            - [number] __buffer[4] = 5.00
+                        - [number] __count = 5.00
+                        - [number] __internal_size = 5.00

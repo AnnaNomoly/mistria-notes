@@ -1,0 +1,66 @@
+gml_Script_get_all_animals
+    Arguments: 1
+    Argument[0]: VALUE_BOOL // Game passes in 1.0 on save load
+    Result: VALUE_OBJECT // struct
+        __buffer: VALUE_ARRAY
+            __buffer[i]: VALUE_OBJECT // struct
+                Member Name: breeding_with
+                Member Name: adult_sound_index
+                Member Name: ate_breeding_treat
+                Member Name: cosmetic
+                Member Name: idx
+                Member Name: instance
+                Member Name: kind
+                Member Name: can_mount
+                Member Name: location_position
+                Member Name: is_present
+                Member Name: has_animation
+                Member Name: has_animation_with_cardinal
+                Member Name: can_pet
+                Member Name: sounds
+                Member Name: days_old
+                Member Name: has_been_outside
+                Member Name: has_been_pat
+                Member Name: has_eaten
+                Member Name: birthday
+                Member Name: in_daycare
+                Member Name: liminal
+                Member Name: sprites_for_animation
+                Member Name: active_animation
+                Member Name: baby_sound_index
+                Member Name: sell_value
+                Member Name: stable
+                Member Name: feed
+                Member Name: simulated_distance_traveled
+                Member Name: send_to_stall_point
+                Member Name: eat_data
+                Member Name: pet
+                Member Name: serialize
+                Member Name: active_sprites
+                Member Name: production_days
+                Member Name: cardinality
+                Member Name: tier
+                Member Name: bark_on_sight
+                Member Name: sex
+                Member Name: variant
+                Member Name: itinerary
+                Member Name: is_baby
+                Member Name: must_name
+                Member Name: variant_data
+                Member Name: add_heart_points
+                Member Name: name
+                Member Name: deserialize
+                Member Name: heart_points
+                Member Name: celibate
+                Member Name: unhappy_days
+                Member Name: set_cardinality
+                Member Name: is_home
+                Member Name: animation
+                Member Name: is_incubating
+                Member Name: can_breed
+                Member Name: prototype
+        __count: VALUE_REAL
+        __internal_size: VALUE_REAL
+
+
+

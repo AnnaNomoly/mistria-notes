@@ -1,0 +1,15 @@
+Spell ribbon sprites:
+spr_ui_journal_magic_card_ribbon_growth
+spr_ui_journal_magic_card_ribbon_rain
+spr_ui_journal_magic_card_ribbon_restore
+
+Spell icon sprites:
+- Restore
+  - spr_ui_journal_magic_restore_card_icon
+  - spr_ui_journal_magic_restore_spell_icon_locked
+  - spr_ui_journal_magic_restore_spell_icon_main
+
+
+spr_ui_journal_magic_growth_card_icon
+spr_ui_journal_magic_growth_spell_icon_locked
+spr_ui_journal_magic_growth_spell_icon_main

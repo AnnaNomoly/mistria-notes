@@ -1,0 +1,73 @@
+Screen Size & Zoom
+
+FULL SCREEN (INCLUDING BORDERLESS) [33% increments]
+---------------------------------------------------
+1920x1080
+- 4x => 0.0 (VALUE_REAL)
+
+- 2x => 1.0 (VALUE_REAL)
+
+- 2x => 2.0 (VALUE_REAL)
+  - Heart Icon: 36x36
+    - Top Left: 16,28
+    - Bottom Right: 51,63
+  - Spacer: 16x44
+  - Health Bar: 216x44
+
+- 1x => 3.0 (VALUE_REAL)
+  - Heart Icon: 27x27
+    - Top Left: 12,21
+    - Bottom Right: 38,47
+  - Spacer: 12x33
+    - Top Left: 39,21
+    - Bottom Right: 50,53
+  - Health Bar: 162x33
+    - Top Left: 51,21
+    - Bottom Right: 212,53
+
+  - Stamina Icon: 27x27
+    - Top Left: 12,66       (x-axis: same as Top Left of Heart Icon)    (y-axis: +45 from Top Left of Heart Icon)
+    - Bottom Right: 38,92   (x-axis: same as Top Left of Heart Icon)    (y-axis: +45 from Top Left of Heart Icon)
+  - Spacer: 12x33
+    - Top Left: 39,66       (x-axis: same as Top Left of Heart Icon)    (y-axis: +45 from Top Left of Heart Icon)
+    - Bottom Right: 59,98   (x-axis: same as Top Left of Heart Icon)    (y-axis: +45 from Top Left of Heart Icon)
+  - Stamina Bar: 162x33
+    - Top Left: 51,66       (x-axis: same as Top Left of Heart Icon)    (y-axis: +45 from Top Left of Heart Icon)
+    - Bottom Right: 212,98  (x-axis: same as Top Left of Heart Icon)    (y-axis: +45 from Top Left of Heart Icon)
+
+
+WINDOWED [50% increments]
+-------------------------
+1920x1080
+- 3x => 0.0 (VALUE_REAL)    
+  - Heart Icon: 36x36      [33% increase from 2x]
+  - Spacer: 16x44
+  - Health Bar: 216x44
+
+- 2x => 1.0 (VALUE_REAL)
+  - Heart Icon: 27x27      [50% increase from 1x]
+    - Top Left: 13,52
+    - Bottom Right: 39,78
+  - Spacer: 12x33
+  - Health Bar: 162x33
+
+- 1x => 2.0 (VALUE_REAL)
+  - Heart Icon: 18x18
+    - Top Left: 9,45
+    - Bottom Right: 26,62
+  - Spacer: 8x22
+    - Top Left: 27,45
+    - Bottom Right: 34,66
+  - Health Bar: 108x22
+    - Top Left: 35,45
+    - Bottom Right: 142,66
+
+  - Stamina Icon: 18x18
+    - Top Left: 9,75        (x-axis: same as Top Left of Heart Icon)    (y-axis: +30 from Top Left of Heart Icon)
+    - Bottom Right: 26,92   (x-axis: same as Top Left of Heart Icon)    (y-axis: +30 from Top Left of Heart Icon)
+  - Spacer: 8x22
+    - Top Left: 27,75       (x-axis: same as Top Left of Heart Icon)    (y-axis: +30 from Top Left of Heart Icon)
+    - Bottom Right: 34,96   (x-axis: same as Top Left of Heart Icon)    (y-axis: +30 from Top Left of Heart Icon)
+  - Stamina Bar: 108x22
+    - Top Left: 35,75       (x-axis: same as Top Left of Heart Icon)    (y-axis: +30 from Top Left of Heart Icon)
+    - Bottom Right: 142,96  (x-axis: same as Top Left of Heart Icon)    (y-axis: +30 from Top Left of Heart Icon)

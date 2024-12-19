@@ -1,0 +1,124 @@
+gml_Script_set_cardinal@PlayerAnimationRuntime@PlayerAnimationRuntime
+gml_Script_face_dir@gml_Object_obj_ari_Create_0
+gml_Script_set_cardinal@gml_Object_obj_ari_Create_0
+gml_Script_enter_action_animation@gml_Object_obj_ari_Create_0
+gml_Script_set_animation@gml_Object_obj_ari_Create_0
+
+
+
+Loaded save from title screen (facing up towards journal)
+---------------------------------------------------------
+1. gml_Script_set_cardinal@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_INT64
+     - Arguments[0].m_i64: 0
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+2. gml_Script_face_dir@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_REAL
+     - Arguments[0].m_Real: 0.0
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+3. gml_Script_set_cardinal@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_INT64
+     - Arguments[0].m_i64: 1
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+4. gml_Script_face_dir@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_REAL
+     - Arguments[0].m_Real: 90.0
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+5. gml_Script_set_animation@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_INT64
+     - Arguments[0].m_i64: 0
+   - Result
+     - Result.m_Kind: VALUE_BOOL
+     - Result.m_Real: 0.0
+
+
+------------------------------------------------------
+Ari moved NORTH (up)
+------------------------------------------------------
+1. gml_Script_set_cardinal@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_INT64
+     - Arguments[0].m_i64: 1
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+2. gml_Script_face_dir@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_REAL
+     - Arguments[0].m_Real: 90.0
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+
+
+------------------------------------------------------
+Ari moved SOUTH (down)
+------------------------------------------------------
+1. gml_Script_set_cardinal@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_INT64
+     - Arguments[0].m_i64: 3
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+2. gml_Script_face_dir@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_REAL
+     - Arguments[0].m_Real: 270.0
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+
+
+------------------------------------------------------
+Ari moved EAST (right)
+------------------------------------------------------
+1. gml_Script_set_cardinal@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_INT64
+     - Arguments[0].m_i64: 0
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+2. gml_Script_face_dir@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_REAL
+     - Arguments[0].m_Real: -0.0
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+
+
+------------------------------------------------------
+Ari moved WEST (right)
+------------------------------------------------------
+1.  @gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_INT64
+     - Arguments[0].m_i64: 2
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+2. gml_Script_face_dir@gml_Object_obj_ari_Create_0
+   - ArgumentCount: 1
+     - Arguments[0].m_Kind: VALUE_REAL
+     - Arguments[0].m_Real: 180.0
+   - Result
+     - Result.m_Kind: VALUE_UNDEFINED
+
+
+
+----------------------------------------------------
+Ari attacking (sword) => 7, 8, 9 are the 3-hit combo
+----------------------------------------------------
+gml_Script_set_animation@gml_Object_obj_ari_Create_0
+  - ArgumentCount: 1
+    - Arguments[0].m_Kind: VALUE_INT64
+    - Arguments[0].m_i64: 7
+  - Result
+    - Result.m_Kind: VALUE_BOOL
+    - Result.m_Real: 1.0
+
+

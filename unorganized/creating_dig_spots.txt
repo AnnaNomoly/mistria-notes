@@ -1,0 +1,74 @@
+
+RValue& GmlScriptSpawnDigSitesCallback(
+	IN CInstance* Self,
+	IN CInstance* Other,
+	OUT RValue& Result,
+	IN int ArgumentCount,
+	IN RValue** Arguments
+)
+{
+	auto location_id = Arguments[0]->at("location_id");
+	g_ModuleInterface->Print(CM_WHITE, "========== %s ==========", "Arguments[0]");
+	g_ModuleInterface->EnumInstanceMembers(Arguments[0]->m_Object, EnumFunction);
+	g_ModuleInterface->Print(CM_WHITE, "========== %s ==========", "Arguments[3]");
+	g_ModuleInterface->EnumInstanceMembers(Arguments[3]->m_Object, EnumFunction);
+	g_ModuleInterface->Print(CM_WHITE, "==============================");
+
+	if (spawn_dig_spot_arguments.empty())
+	{
+		spawn_dig_spot_arguments.push_back(Arguments[0]->m_Object);
+		spawn_dig_spot_arguments.push_back(Arguments[1]->m_Real);
+		spawn_dig_spot_arguments.push_back(Arguments[2]->m_Real);
+		spawn_dig_spot_arguments.push_back(Arguments[3]->m_Object);
+		spawn_dig_spot_arguments.push_back(Arguments[4]->m_Object);
+	}
+
+	const PFUNC_YYGMLScript original = reinterpret_cast<PFUNC_YYGMLScript>(MmGetHookTrampoline(g_ArSelfModule, "gml_Script_write_dig_site_to_location"));
+	original(
+		Self,
+		Other,
+		Result,
+		ArgumentCount,
+		Arguments
+	);
+
+	return Result;
+}
+
+
+if (GetAsyncKeyState(VK_F10) & 1)
+{
+	CScript* gml_script_write_dig_site_to_location = nullptr;
+	g_ModuleInterface->GetNamedRoutinePointer(
+		"gml_Script_write_dig_site_to_location",
+		(PVOID*)&gml_script_write_dig_site_to_location
+	);
+
+	g_ModuleInterface->Print(CM_LIGHTYELLOW, "[DigUpAnything] - Writing to location: %s", spawn_dig_spot_arguments[0].at("location_id").AsString().data());
+	if (spawn_dig_spot_arguments[1].m_Kind == VALUE_REAL)
+	{
+		spawn_dig_spot_arguments[1].m_Real += 5;
+		spawn_dig_spot_arguments[2].m_Real += 5;
+	}
+	else
+	{
+		spawn_dig_spot_arguments[1].m_i64 += 5;
+		spawn_dig_spot_arguments[2].m_i64 += 5;
+	}
+	
+	RValue* arg0_ptr = &spawn_dig_spot_arguments[0];
+	RValue* arg1_ptr = &spawn_dig_spot_arguments[1];
+	RValue* arg2_ptr = &spawn_dig_spot_arguments[2];
+	RValue* arg3_ptr = &spawn_dig_spot_arguments[3];
+	RValue* arg4_ptr = &spawn_dig_spot_arguments[4];
+	RValue* rvalue_array[5] = { arg0_ptr, arg1_ptr, arg2_ptr, arg3_ptr, arg4_ptr };
+
+	RValue item_name;
+	gml_script_write_dig_site_to_location->m_Functions->m_ScriptFunction(
+		Self,
+		Other,
+		item_name,
+		5,
+		rvalue_array
+	);
+}

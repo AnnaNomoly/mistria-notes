@@ -1,0 +1,225 @@
+Known objects (work in progress)
++		[0]	"obj_camera_target"	std::string
++		[1]	"Setup"	std::string
++		[2]	"obj_trellis_point_transition"	std::string
++		[3]	"obj_roomtransition"	std::string
++		[4]	"obj_trellis_point_default"	std::string
++		[5]	"obj_trellis_point_prop"	std::string
++		[6]	"obj_trellis_point_camera"	std::string
++		[7]	"Game"	std::string
++		[8]	"obj_ari"	std::string
++		[9]	"obj_tile_cursor"	std::string
++		[10]	"obj_furniture_previewer"	std::string
++		[11]	"obj_tile_furniture_lines"	std::string
++		[12]	"obj_damage_receiver"	std::string
++		[13]	"obj_node_renderer"	std::string
++		[14]	"obj_node_renderer_top"	std::string
++		[15]	"obj_sprite_renderer"	std::string
++		[16]	"par_light"	std::string
++		[17]	"obj_shadow_level"	std::string
++		[18]	"obj_animation_effect"	std::string
++		[19]	"obj_dungeon_ladder_down"	std::string
++		[20]	"obj_dungeon_elevator"	std::string
++		[21]	"obj_sound_emitter"	std::string
++		[22]	"obj_light_small"	std::string
++		[23]	"obj_seridia_shrine"	std::string
++		[24]	"obj_assetobject"	std::string
++		[25]	"obj_renderer"	std::string
++		[26]	"obj_dungeon_ladder_up"	std::string
++		[27]	"obj_monster_shroom"	std::string
++		[28]	"obj_monster_sap"	std::string
+                "obj_eiland"
+
+
+-----------obj_monster_sap-0--------
+Member Name: trauma
+Member Name: config
+Member Name: show_damage
+Member Name: set_state_sprite
+Member Name: draw
+Member Name: dir
+Member Name: perform_effect
+Member Name: acknowledgement_reset
+Member Name: get_cardinal
+Member Name: try_despawn_stars
+Member Name: amt
+Member Name: can_overlap_ari
+Member Name: move
+Member Name: shadow_caster
+Member Name: slip_move
+Member Name: slippery_coefficient
+Member Name: original_dir
+Member Name: play_state_tango
+Member Name: original_spawn_pos
+Member Name: check_collision
+Member Name: z
+Member Name: calculate_flipper
+Member Name: debug_state
+Member Name: knockback_move
+Member Name: tired_effect
+Member Name: track_player
+Member Name: friction_coefficient
+Member Name: aggro
+Member Name: image_speed_backup
+Member Name: effect_alpha
+Member Name: fsm
+Member Name: patience
+Member Name: try_spawn_stars
+Member Name: allow_shoving
+Member Name: monster_id
+Member Name: stats_entry
+Member Name: hit_points
+Member Name: receiver
+
+
+========== obj_eiland ==========
+Member Name: possible_next_conversation
+Member Name: npc_id
+Member Name: animator
+Member Name: my_query_quests
+Member Name: hold_power
+Member Name: has_potential_interactions
+Member Name: chat_partner
+Member Name: chat_scan_timer
+Member Name: chat_timer
+Member Name: chat_with
+Member Name: z
+Member Name: think_timer
+Member Name: talk
+Member Name: zone
+Member Name: attempt_interact
+Member Name: reset_cycle_cardinality
+Member Name: can_talk
+Member Name: reset_cycle_name
+Member Name: eat_animation
+Member Name: register_interaction
+Member Name: pathfinding_agent
+Member Name: eat_plate
+Member Name: needs_talk_status_update
+Member Name: restore_animation
+Member Name: restore_cardinality
+Member Name: setup_drinking
+Member Name: initialize
+Member Name: setup_eating
+Member Name: is_group_conversation
+Member Name: override_mask
+Member Name: create_default_fsm
+Member Name: heart_particle_bundle
+Member Name: withhold_pip
+Member Name: offset_with_cardinal
+Member Name: circle_size
+Member Name: bark_emitter
+Member Name: clean_eat_and_drink
+Member Name: move_accel
+Member Name: shadow_caster
+Member Name: update_animation
+Member Name: update_cardinality
+Member Name: handle_chatting
+Member Name: anim_speed
+Member Name: drink_animation
+Member Name: move_spd
+Member Name: drink_offset
+Member Name: conversation_available
+Member Name: update_dialogue_pip
+Member Name: is_seated
+Member Name: look_for_entry_transition
+Member Name: me
+Member Name: interact_distance
+Member Name: update_position
+Member Name: handle_thinking
+Member Name: interact_nudge_distance
+Member Name: update_talk_status
+Member Name: interactable_mode
+Member Name: bounce_y_offset
+Member Name: bouncer
+Member Name: fsm
+Member Name: dummy_walk_out_of_room
+Member Name: DummyExitConditionFactory
+Member Name: want_to_talk_timer
+Member Name: highlighter
+Member Name: position
+Member Name: interactions
+Member Name: animate
+Member Name: receive_gift
+
+
+
+========== obj_terithia ==========
+Member Name: handle_chatting
+Member Name: animator
+Member Name: needs_talk_status_update
+Member Name: withhold_pip
+Member Name: update_animation
+Member Name: update_cardinality
+Member Name: handle_thinking
+Member Name: update_dialogue_pip
+Member Name: dummy_walk_out_of_room
+Member Name: DummyExitConditionFactory
+Member Name: pathfinding_agent
+Member Name: fsm
+Member Name: attempt_interact
+Member Name: chat_partner
+Member Name: update_position
+Member Name: chat_scan_timer
+Member Name: chat_timer
+Member Name: is_seated
+Member Name: chat_with
+Member Name: interact_distance
+Member Name: update_talk_status
+Member Name: interact_nudge_distance
+Member Name: highlighter
+Member Name: reset_cycle_cardinality
+Member Name: reset_cycle_name
+Member Name: register_interaction
+Member Name: interactable_mode
+Member Name: can_talk
+Member Name: look_for_entry_transition
+Member Name: override_mask
+Member Name: move_accel
+Member Name: interactions
+Member Name: want_to_talk_timer
+Member Name: me
+    ========== me ==========
+    Member Name: gift_flag
+    Member Name: simulated_distance_traveled
+    Member Name: talk_flag
+    Member Name: gifts_given
+    Member Name: give_gift
+    Member Name: serialize
+    Member Name: times_spoken_today
+    Member Name: cardinality
+Member Name: offset_with_cardinal
+Member Name: restore_animation
+Member Name: restore_cardinality
+Member Name: move_spd
+Member Name: has_potential_interactions
+Member Name: hold_power
+Member Name: anim_speed
+Member Name: talk
+Member Name: setup_drinking
+Member Name: setup_eating
+Member Name: think_timer
+Member Name: eat_animation
+Member Name: eat_plate
+Member Name: create_default_fsm
+Member Name: bark_emitter
+Member Name: circle_size
+Member Name: z
+Member Name: clean_eat_and_drink
+Member Name: zone
+Member Name: shadow_caster
+Member Name: conversation_available
+Member Name: my_query_quests
+Member Name: initialize
+Member Name: position
+Member Name: npc_id
+Member Name: bounce_y_offset
+Member Name: heart_particle_bundle
+Member Name: bouncer
+Member Name: is_group_conversation
+Member Name: animate
+Member Name: possible_next_conversation
+Member Name: drink_animation
+Member Name: drink_offset
+Member Name: drink_override
+Member Name: receive_gift

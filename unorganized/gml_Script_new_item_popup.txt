@@ -1,0 +1,49 @@
+gml_Script_new_item_popup
+    * Always 2 arguments
+    * For new ITEM:
+        * Arg0 = INT64 (item_id) 
+        * Arg1 = BOOL (TBD)
+    * For new COSMETIC:
+        * Arg0 = VALUE_OBJECT
+            [struct] prototype
+                [string] recipe_key # cosmetic
+                [string] name_key # cosmetic
+                [string] description_key # cosmetic
+                [int64] item_id # 330
+            [string] cosmetic # shoes_boots_farmer
+            [int64] item_id # 330
+        * Arg1 = VALUE_UNDEFINED
+
+
+gml_Script_new_item_popup => COSMETIC
+    - ArgumentCount: 2
+        - Argument 0: VALUE_OBJECT
+            [struct] prototype
+                [string] recipe_key # cosmetic
+                [string] name_key # misc_local/missing
+                [string] description_key # items/other/misc/cosmetic/description
+                [int64] item_id # 330
+            [string] cosmetic # shoes_boots_farmer
+            [int64] item_id # 330
+        - Argument 1: VALUE_UNDEFINED
+    - Result: VALUE_UNDEFINED
+
+
+gml_Script_new_item_popup => HARDWOOD
+    - ArgumentCount: 1
+        - Argument 0: VALUE_OBJECT
+            [struct] prototype
+                [string] recipe_key # TBD
+                [string] name_key # TBD
+                [string] description_key # TBD
+                [int64] item_id # TBD
+            [string] cosmetic # TBD
+            [int64] item_id # TBD
+    - Result: VALUE_UNDEFINED
+
+
+gml_Script_new_item_popup => RECIPE # spring_bed
+    - ArgumentCount: 1
+        - Argument 0: VALUE_INT64 # item_id == 1204
+        - Argument 1: VALUE_BOOL # m_Real == 1.0
+    - Result: VALUE_UNDEFINED

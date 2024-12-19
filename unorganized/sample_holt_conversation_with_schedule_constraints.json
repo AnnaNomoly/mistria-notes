@@ -1,0 +1,243 @@
+{
+    "Conversations/General Dialogue/season_transition/late_summer_holt": {
+        "kind": "Normal",
+        "requires": [
+            {
+                "WorldFactCheck": {
+                    "name": [
+                        {
+                            "Resolved": {
+                                "type": "string",
+                                "content": "Conversations/General Dialogue/season_transition/late_summer_holt"
+                            }
+                        }
+                    ],
+                    "value": [
+                        {
+                            "Resolved": {
+                                "type": "undefined"
+                            }
+                        }
+                    ],
+                    "comparator": "Equal",
+                    "parser": null,
+                    "subtract_from": null,
+                    "subtract": null,
+                    "priority_value": 0,
+                    "numeric_must_be_positive": false
+                }
+            },
+            {
+                "WorldFactCheck": {
+                    "name": [
+                        {
+                            "Resolved": {
+                                "type": "string",
+                                "content": "npc"
+                            }
+                        }
+                    ],
+                    "value": [
+                        {
+                            "Resolved": {
+                                "type": "string",
+                                "content": "holt" // Target NPC is Holt
+                            }
+                        }
+                    ],
+                    "comparator": "Equal",
+                    "parser": null,
+                    "subtract_from": null,
+                    "subtract": null,
+                    "priority_value": 1,
+                    "numeric_must_be_positive": false
+                }
+            },
+            {
+                "WorldFactCheck": {
+                    "name": [
+                        {
+                            "Resolved": {
+                                "type": "string",
+                                "content": "season"
+                            }
+                        }
+                    ],
+                    "value": [
+                        {
+                            "Resolved": {
+                                "type": "i64",
+                                "content": 2419200 // Appears to be in seconds, which converts to 28 days. Observed values: 0, 2419200, 4838400, 7257600
+                            }
+                        }
+                    ],
+                    "comparator": "Equal",
+                    "parser": null,
+                    "subtract_from": null,
+                    "subtract": null,
+                    "priority_value": 1,
+                    "numeric_must_be_positive": false
+                }
+            },
+            {
+                "WorldFactCheck": {
+                    "name": [
+                        {
+                            "Resolved": {
+                                "type": "string",
+                                "content": "year_time"
+                            }
+                        }
+                    ],
+                    "value": [
+                        {
+                            "Resolved": {
+                                "type": "i64",
+                                "content": 4579200 // Appears to be in seconds, which converts to 53 days. Maybe indicating the day of the year?
+                            }
+                        }
+                    ],
+                    "comparator": "GreaterThanOrEqual",
+                    "parser": null,
+                    "subtract_from": null,
+                    "subtract": null,
+                    "priority_value": 1,
+                    "numeric_must_be_positive": false
+                }
+            },
+            {
+                "WorldFactCheck": {
+                    "name": [
+                        {
+                            "Resolved": {
+                                "type": "string",
+                                "content": "year_time"
+                            }
+                        }
+                    ],
+                    "value": [
+                        {
+                            "Resolved": {
+                                "type": "i64",
+                                "content": 4838400 // Appears to be in seconds, which converts to 56 days. Maybe indicating the day of the year?
+                            }
+                        }
+                    ],
+                    "comparator": "LessThan",
+                    "parser": null,
+                    "subtract_from": null,
+                    "subtract": null,
+                    "priority_value": 1,
+                    "numeric_must_be_positive": false
+                }
+            },
+            {
+                "WorldFactCheck": {
+                    "name": [
+                        {
+                            "Resolved": {
+                                "type": "string",
+                                "content": "seasonal_transition_delay"
+                            }
+                        }
+                    ],
+                    "value": [
+                        {
+                            "Resolved": {
+                                "type": "float",
+                                "content": 0.0
+                            }
+                        }
+                    ],
+                    "comparator": "Equal",
+                    "parser": null,
+                    "subtract_from": null,
+                    "subtract": null,
+                    "priority_value": 2,
+                    "numeric_must_be_positive": false
+                }
+            }
+        ],
+        "writes": [
+            {
+                "name": [
+                    {
+                        "Resolved": {
+                            "type": "string",
+                            "content": "Conversations/General Dialogue/season_transition/late_summer_holt"
+                        }
+                    }
+                ],
+                "value": {
+                    "type": "float",
+                    "content": 1.0
+                },
+                "expires": 7257600 // Appears to be in seconds, which converts to 84 days. Maybe indicating the day of the year?
+            },
+            {
+                "name": [
+                    {
+                        "Resolved": {
+                            "type": "string",
+                            "content": "seasonal_transition_delay"
+                        }
+                    }
+                ],
+                "value": {
+                    "type": "float",
+                    "content": 1.0
+                },
+                "expires": 86400 // Appears to be in seconds, which converts to 1 day. Maybe indicating it expires the day after?
+            }
+        ],
+        "actions": [
+            {
+                "type": "spoke_to",
+                "content": "holt"
+            }
+        ],
+        "lines": {
+            "1": {
+                "local": "Conversations/General Dialogue/season_transition/late_summer_holt/1",
+                "writes": [],
+                "actions": [
+                    {
+                        "type": "speaker",
+                        "content": "holt"
+                    },
+                    {
+                        "type": "portrait",
+                        "content": "neutral"
+                    }
+                ],
+                "next_line_behavior": {
+                    "type": "finish"
+                }
+            },
+            "init": {
+                "local": "Conversations/General Dialogue/season_transition/late_summer_holt/init",
+                "writes": [],
+                "actions": [
+                    {
+                        "type": "speaker",
+                        "content": "holt"
+                    },
+                    {
+                        "type": "portrait",
+                        "content": "think"
+                    }
+                ],
+                "next_line_behavior": {
+                    "type": "next_line",
+                    "content": "1"
+                }
+            }
+        },
+        "multiple_speakers_in_conversation": false,
+        "speakers_in_conversation": [
+            "holt"
+        ],
+        "can_talk_after": false,
+        "priority": "Normal"
+    }
+}

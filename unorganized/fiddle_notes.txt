@@ -1,0 +1,391 @@
+====  __fiddle__.json ====
+
+artifacts // The "artifacts" key at object root
+    odds: object // Drop chances per rarity
+        common: float
+        ...
+    locations: object // What zones each artifact type can be found in
+        narrows: string // Key is a map location, value is the artifact type
+        ...
+    loot: object // Entries missing in this dictionary appear to be from nodes or other sources or are not yet obtainable
+        peat: string // "common"
+        ...
+
+bugs // The "bugs" key at object root
+    default: object
+    butterfly: object
+        type: string
+        move_range: array[float]
+        speed_range: array[float]
+        seasons: array[string]
+        hours: array[int]
+        weather: array[string]
+        liked_object_categories: array[string]
+        rarity: string
+
+items
+    mines
+        lava_caves
+            obsidian
+        ruins
+        upper_mines
+            miners_pickaxe
+        tide_caverns
+            stone_shell
+        deep_earth: object
+            really_round_rock: object
+                name: string
+                description: string
+                icon_sprite: string
+                tags: array[string]
+                    archaeology
+                value: object
+                    bin: int // sell price
+                    renown: int // renown sell value
+    fish: object
+        river: object
+            chum: object
+                description: string
+                icon_sprite: string
+                name: string
+                edible: boolean
+                restore: string // key in restoration/vars dictionary
+                tags: array[string]
+                    dive // Entries with this tag can only be obtained via diving
+                    forageable
+                    fishable
+                    fishy
+                value: object
+                    bin: int // sell price
+        misc
+        pond
+        ocean
+    other
+        ranching
+            animal_currency (shiny bead)
+            egg
+        armor
+            cloth_chestpiece
+        bugs: object
+            butterfly: object
+                description: string // Value stored at the key in the "eng" field in localization.json
+                icon_sprite: string // The actual sprite name (w/o file type)
+                name: string // Value stored at the key in the "eng" field in localization.json
+                tags: array[string]
+                    bugs
+                value: object
+                    bin: int // sell price
+        cooked_dishes: object // contains all food made from recipes
+            blackberry_jam: object // Info about the recipe. For the source, it varies. Recipes from fetch quests will be in the root level object "quests" in key "fetch_quests" in a key named after the quest name, such as "request_for_blackberries". Recipes from the wishing well will be in the root object "wishing_well" in key "common" in key "large_roll". Others come from letters, shops, etc.
+                name: string // Value stored at the key in the "eng" field in localization.json
+                description: string // Value stored at the key in the "eng" field in localization.json
+                stars: int
+                restore: string // ???
+                crafting_level_requirement: int
+                kitchen_tier_requirement: int
+                tags: array[string]
+                    food
+                    jam
+                recipe: array[object]
+                    <ingredients_object>: object // N of these can be in the recipe list
+                        count: int
+                        item: string // internal name
+                    <cook_time_object>: object // only one of these should be in the recipe list
+                        hours: int
+                        minutes: int
+                value:
+                    store: int // TODO: Is this the player ship price or price-to-buy in store?
+        festivals
+            breath_of_spring
+        misc
+            woodcrafting_station
+            beginner_kitchen
+        artifacts: object // Entries missing in this dictionary appear to be in items/mines/<location>. NOTE: Check for "spr_illegal" in the icon_sprite text to easily tell if it's unobtainable.
+            perfect_copper_ore
+            caldosian_emperor_bust
+            fossilized_egg: object
+                name: string // Value stored at the key in the "eng" field in localization.json
+                description: string // Value stored at the key in the "eng" field in localization.json
+                icon_sprite: string // The actual sprite name (w/o file type)
+                tags: array[string]
+                    archaeology
+                    animal_product
+                value: object
+                    bin: int // sell price
+                    renown: int // renown sell value
+
+        crops_and_forage: object // does NOT contain dive spot fish
+            <name>: object
+                description: string // localization path
+                restore: string // key in restoration/vars dictionary
+                icon_sprite: string
+                name: // localization path
+                tags: array[string]
+                value: object
+                    bin: int // shipping price
+                    store: int // store purchase price
+        monster_drops
+            monster_horn
+        blacksmithing
+            copper_ingot
+        mill
+            small_grass_starter
+        unreviewed_new_items
+            monster_wing
+        materials
+            basic_wood
+    furniture
+        rustic_cabin_set
+            rustic_cabin_scroll_bundle
+            cabin_bed_cherry
+        decor_ornate_rug_set
+            ornate_rug_small_red
+        ...
+
+fish: object
+    default: object
+    treasure_box_wood: object
+    chum: object
+        seaons: array[string]
+        water_type: string // river/ocean/etc
+        size: string
+        rarity: string
+        retrieval: array[string]
+            fishing
+            divespot // can be obtained via diving
+
+
+forageables: object
+    sand_forageables: array[string]
+    odds: object
+        common: float
+        uncommon: float
+        rare: float
+        legendary: float
+    tables: object
+        normal: object
+            locations: array[string] // internal location name
+            spring: object
+                common: array[string] // internal item name
+                uncommon: array[string] // internal item name
+                rare: array[string] // internal item name
+                legendary: array[string] // internal item name
+            winter: object
+            summer: object
+            fall: object
+        beach: object
+
+
+full_start: object
+    trees: array[string]
+    crops: object // appears to contain seasons (keys) that hold arrays of growable crops/forageables
+        spring: array[string]
+        summer: array[string]
+        fall: array[string]
+        winter: array[string]
+
+
+museum_wings/archaeology: object
+    sets: object
+        aldarian: object
+            items: array[string] // Contains artifacts by internal ID. Can cross-reference artifacts/locations dictionary to find out the location.
+
+object_prototypes
+    bush: object
+        <bush_name>: object
+            harvest: string // internal item name
+            count: int
+            regrow_days: int
+            seasons: string OR array[string]
+            off_season: string // ex: "destroy"
+            target_terrain: string
+            size: array[int]
+            offset: array[int]
+            collides: array[string]
+            sprites: object
+            water_bases: array[string]
+            sway: boolean
+    building object
+    crop: object
+        <crop_name>: object
+        harvest_time_enabled: boolean // not sure what this does, maybe a perk?
+        day_to_stage: array[int] // len-1 is growth time, if something doesn't have this key its not actually a growable crop
+        seasons: string OR array[string]
+        regrow_days: int
+        currency: int // not sure what this does
+    rock: object
+        default: object
+            drops
+                <empty_list>
+        node_copper: object
+            hp: int
+            drops: array[object]
+                item: string
+                chance: int
+                exclusive: boolean
+    tree: object
+        <tree_name>: object
+            day_to_stage: array[int]
+            max_hitpoints: array[int]
+            spawns_bugs: boolean
+            stump_id: string
+            bird_landing_pos: boolean
+            currency: int
+            wood_items: object
+                <stage_name>: array[object]
+                    item: string
+                    count_range: array[int]
+            shake_item: string
+            fruit_data: object
+                harvest: string // internal item name
+                regrow_days: int
+                seasons: array[string]
+
+dungeons: object
+    dungeons
+        biomes: array[object]
+            name: string // "The Tide Caverns"
+            floor: int // 20
+            ore: string // "ore_iron"
+            gem: string // "ore_sapphire"
+            taste_maker: array[string] // cooking recipes
+            shrine: object
+                inputs: array[object]
+                    item_id: string
+                    amount: int
+                outputs: object
+                    health: int
+                    stamina: int
+                    essence: int
+            votes: object
+                ore_rock: array[object]
+                    object: string // "node_sapphire"
+                    votes: int
+
+
+stores: object
+    inn: object
+        name: string
+        categories: array[object]
+            tag: string // "food", "drinks", or null/missing (cooking recipes / furniture)
+            random_stock: array[object]
+                item: string // internal game name
+                recipe_scroll: string // internal game name
+
+
+misc: object
+    cooking_recipe_star_prices: array[int] // cost of recipes in shops based on stars (index 0 = 1 star)
+        150, 300, 400, 600, 800
+    xp_values: object
+        key: int // key is the name of an entry, value is the EXP granted in, note that fish are based on size 
+
+
+fishing: object
+    chest_tables: object
+        wood: object
+            gold: array[int]
+            items: array[object]
+                value: string // internal game name of item
+                kind: string // "item", "recipe"
+                count: int // optional - only if multiple rewarded
+
+
+wishing_well: object
+    common: object
+        small_roll: array[object]
+            item: string // internal game name
+            count: int // optional - only if multiple rewarded
+            cosmetic: string // internal game name
+        large_roll: array[object]
+            item: string // internal game name
+            count: int // optional - only if multiple rewarded
+            recipe_scroll: string // internal game name
+
+
+letters: object
+    <letter_name>: object // an internal name for the letter, ex: "sliced_turnip_recipe"
+        default: boolean // ???
+        npc: string // who its FROM
+        subject_line: string // entry in localization file
+        local: string // probably the contents, entry in localization
+        quest_to_start: string // internal name of quest
+        quest_is_completed: string // internal name of quest
+        appears_on: object // date letter arrives
+            season: string
+            day: int
+            year: int
+        day_type: string // ???
+        heart_level_needed: object // heart level requirements
+            npce: sting
+            hearts: int
+        items: array[object]
+            item_name: string // internal name of item
+            count: int
+            recipe_scroll: string // internal name of recipe
+        ari_has_sold: string // internal name of item
+        ari_has_donated: string // internal name of item
+        
+        
+quests: object
+    heart_quests: object
+        <quest_name>: object // an internal name for the quest name, ex: "tall_dark_and_mysterious"
+            name: string // entry in localization file
+            stages: array[object]
+                objective_description: string // entry in localization file
+                queries: array[object] // constraints
+                    npc: string
+                    npc_conversation: string // internal name for a conversation, looks like it can be dialog from cutscenes (see t2_output.json)
+                    cutscene: string // internal name for a cutscene
+                    location: string // internal name for a location (ex: "town")
+                    area: array[int] // probably a bounding box for where the player has to be
+    request_board: object // NOTE: rewards for these seem to be in story_quests
+        <quest_name>: object // // an internal name for the request name, ex: "do_a_bro_a_favor"
+            date_is_at_least: object // constraint
+                season: string
+                day: int
+            required_progression_flag: string // flag check
+            quest_is_completed: string // internal quest name
+            required_heart_level: object // constraint
+                npc: string
+                amount: int
+            randomly_selected: boolean
+            seasons: array[string]
+            skill_level_at_least: object // constraint
+                skill: string // internal skill name
+                level: int
+            has_acquired_item: string // internal item name
+    story_quests: object
+        name: string // entry in localization file
+        rewards: array[object]
+            recipe_scroll: string // internal item name
+            item: string // internal item name
+            count: int
+            gold: int
+            renown: int
+        stages: array[object]
+            objective_description: string // entry in localization file
+            requirements: array[object] // constraints
+                met_npcs: array[string]
+                item: string // internal item name
+                TODO
+            queries: array[object] // constraints
+
+    fetch_quests: object
+        <quest_name>: object // // an internal name for the request name, ex: "do_a_bro_a_favor"
+            name: string // entry in localization file
+            rewards: array[object]
+                recipe_scroll: string // internal item name
+                item: string // internal item name
+                count: int
+                gold: int
+                renown: int
+
+spells: object
+    <spell_name>: object
+        name: string // localization path: 
+        description: // localization path: 
+        type: // localization path:
+        cost: int // 1 = 1/4th of a mana dot
+        icon_key: string // icon name: "spr_ui_journal_magic_growth_spell_icon",
+        upper_icon: string // "spr_ui_journal_magic_growth_card_icon",
+        ribbon: string // "spr_ui_journal_magic_card_ribbon_growth"

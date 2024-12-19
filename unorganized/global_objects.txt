@@ -1,0 +1,287 @@
+GLOBAL OBJECTS
+
+========== __ari ==========
+Member Name: status_effects
+Member Name: cosmetic_unlocks
+    ========== cosmetic_unlocks ==========
+    Member Name: inner
+        ========== inner ==========
+        Member Name: face_gear_reading_glasses_small
+        Member Name: face_gear_stud_earrings
+        Member Name: hair_afro
+        Member Name: hair_afro_puffs
+        Member Name: hair_braided_pigtails
+        Member Name: hair_buzzcut
+        Member Name: hair_curly_high_top
+        Member Name: hair_curly_shaved_side
+        Member Name: hair_curly_updo
+        Member Name: hair_dreadlocks_bun
+        Member Name: hair_fade
+        Member Name: hair_medium_boyish
+        Member Name: hair_medium_half_bun_fringe
+        Member Name: hair_mohawk
+        Member Name: hair_mushroom
+        Member Name: hair_pixie
+        Member Name: hair_rounded_afro
+        Member Name: hair_short_parted_curls
+        Member Name: hair_straight_buns_fringed
+        Member Name: hair_straight_long
+        Member Name: hair_straight_long_fringed
+        Member Name: hair_straight_medium
+        Member Name: hair_straight_medium_ponytail
+        Member Name: hair_straight_medium_ponytail_fluffy_bangs
+        Member Name: hair_straight_pompadour
+        Member Name: hair_straight_shaved_side
+        Member Name: hair_textured_buzzcut
+        Member Name: hair_wavy_long
+        Member Name: hair_wavy_long_fringed
+        Member Name: hair_wavy_rugged
+        Member Name: head_circlet_earth
+        Member Name: head_crown_tide
+        Member Name: head_adventurer_hood
+        Member Name: head_aviator_goggles
+        Member Name: head_bandana
+        Member Name: head_baseball_cap
+        Member Name: head_beekeeper_hat
+        Member Name: head_beret
+        Member Name: head_cap_basic
+        Member Name: head_caldosian_hat
+        Member Name: head_cat_ears
+        Member Name: head_clips_angel_wing
+        Member Name: head_clips_bat_wing
+        Member Name: head_clips_moon
+        Member Name: head_clips_star
+        Member Name: head_clips_strawberry
+        Member Name: head_cloth_helmet
+        Member Name: head_cowboy_hat_basic
+        Member Name: head_devil_horns
+        Member Name: head_explorer_hat
+        Member Name: head_farmer_cap
+        Member Name: head_fighter_headband
+        Member Name: head_fishing_hat
+        Member Name: head_flower_crown
+        Member Name: head_headband_basic
+        Member Name: head_hijab
+        Member Name: head_iron_helmet
+        Member Name: head_lily_pad
+        Member Name: head_mini_horns
+        Member Name: head_rain_hat
+        Member Name: head_ranger_leaves
+        Member Name: head_ribbons_basic
+        Member Name: head_scrap_metal_helmet
+        Member Name: head_short_bow
+        Member Name: head_striped_bow
+        Member Name: head_striped_bucket_hat
+        Member Name: head_sunhat_straw
+        Member Name: head_tangerine
+        Member Name: head_verdigris_helmet
+        Member Name: head_witch_hat
+        Member Name: overalls_basic
+        Member Name: overalls_farmer
+        Member Name: overalls_shorts
+        Member Name: overalls_skirt
+        Member Name: pants_adventurer
+        Member Name: pants_basic
+        Member Name: pants_beekeeper
+        Member Name: pants_cloth_armor
+        Member Name: pants_explorer
+        Member Name: pants_iron_armor
+        Member Name: pants_scrap_metal
+        Member Name: pants_verdigris_armor
+        Member Name: shoes_boots
+        Member Name: shoes_boots_adventurer
+        Member Name: shoes_boots_beekeeper
+        Member Name: shoes_boots_caldosian
+        Member Name: shoes_boots_cloth_armor
+        Member Name: shoes_boots_crystal_armor
+        Member Name: shoes_boots_explorer
+        Member Name: shoes_boots_pirate
+        Member Name: shoes_boots_ranger
+        Member Name: shoes_boots_farmer
+        Member Name: shoes_boots_fishing
+        Member Name: shoes_boots_iron_armor
+        Member Name: shoes_boots_miner
+        Member Name: shoes_boots_scrap_metal
+        Member Name: shoes_boots_short_basic
+        Member Name: shoes_boots_verdigris_armor
+        Member Name: shoes_boots_work
+        Member Name: shoes_dressy_stockings
+        Member Name: shoes_sandals_earth
+        Member Name: shoes_sandals_tide
+        Member Name: shoes_sandals_worn
+        Member Name: shorts_basic
+        Member Name: shorts_fishing
+        Member Name: skirt_long_basic
+        Member Name: skirt_long_scalloped
+        Member Name: skirt_maid
+        Member Name: skirt_pleated_medium
+        Member Name: skirt_pleated_short
+        Member Name: skirt_short_basic
+        Member Name: top_adventurer
+        Member Name: top_caldosian_overcoat
+        Member Name: top_cami
+        Member Name: top_cloth_armor
+        Member Name: top_copper_armor
+        Member Name: top_explorer
+        Member Name: top_fishing_vest
+        Member Name: top_iron_armor
+        Member Name: top_jacket_and_tee_basic
+        Member Name: top_long_sleeve_baseball
+        Member Name: top_long_sleeve_basic
+        Member Name: top_long_sleeve_basic_cropped
+        Member Name: top_long_sleeve_beekeeper
+        Member Name: top_long_sleeve_striped
+        Member Name: top_plaid_flannel
+        Member Name: top_ranger_jacket
+        Member Name: top_ranger
+        Member Name: top_tanktop
+        Member Name: top_tanktop_buttons
+        Member Name: top_tee_basic
+        Member Name: top_tee_oversized
+        Member Name: top_tee_ringer_basic
+        Member Name: top_verdigris_armor
+        Member Name: underwear_bottoms_polkadot
+        Member Name: underwear_bra
+        Member Name: underwear_bra_small
+        Member Name: underwear_briefs
+        Member Name: underwear_shorts
+        Member Name: underwear_tank
+        Member Name: anya_cones
+        Member Name: cute_ribbon
+        Member Name: dfo_witch_hat
+        Member Name: long_fluffy
+        Member Name: long_fringe_hair
+        Member Name: mikutwintails
+        Member Name: shortestskirt
+        Member Name: socksandshoes
+        Member Name: star_puffs
+        Member Name: tinytwintails
+        Member Name: back_gear_basic_backpack
+        Member Name: back_gear_basic_cape
+        Member Name: beard_basic
+        Member Name: beard_thick
+        Member Name: dress_maid
+        Member Name: dress_modest
+        Member Name: dress_sleeveless_basic
+        Member Name: robe_earth
+        Member Name: eyes_droopy
+        Member Name: eyes_closed
+        Member Name: eyes_default
+        Member Name: eyes_eyelashes
+        Member Name: eyes_serious
+        Member Name: eyes_small
+        Member Name: face_gear_blush
+        Member Name: face_gear_caldosian_moon_earrings
+        Member Name: face_gear_face_mask
+        Member Name: face_gear_glasses
+        Member Name: face_gear_hoop_earrings
+        Member Name: face_gear_reading_glasses        
+Member Name: gold
+Member Name: inventory
+Member Name: used_elevator
+Member Name: gain_essence
+Member Name: name
+Member Name: farm_name
+Member Name: inventory_subscriber
+Member Name: mana_current
+Member Name: gain_xp
+Member Name: seen_cosmetics
+Member Name: mana_max
+Member Name: invulnerable_hits
+Member Name: check_for_held_items
+Member Name: learn_spell
+Member Name: festival_items_turned_in
+Member Name: festival_results
+Member Name: player_dir_game_start
+Member Name: festival_tier
+Member Name: is_birthday
+Member Name: mark_item_as_acquired
+Member Name: player_home_reset_position
+Member Name: legendary_fish_caught
+Member Name: level
+Member Name: get_bathhouse_cost
+Member Name: serialize_stats
+Member Name: max_health_can_add
+Member Name: get_damage_mitigation
+Member Name: max_stamina_can_add
+Member Name: deserialize_stats
+Member Name: end_of_day_sequence
+Member Name: spells_learned
+Member Name: end_of_day_status
+Member Name: animal_cosmetic_unlocks
+Member Name: meddler
+Member Name: get_equipment_bonus_from
+Member Name: base_health
+Member Name: get_essence
+Member Name: get_essence_overflow
+Member Name: base_stamina
+Member Name: get_gold
+Member Name: get_health
+Member Name: animal_variant_unlocks
+Member Name: set_essence
+Member Name: animation_assets
+Member Name: get_mana
+Member Name: get_max_health
+Member Name: get_max_stamina
+Member Name: inbox
+Member Name: set_gold
+Member Name: get_move_speed
+Member Name: annual_item_purchase_bans
+Member Name: items_acquired
+Member Name: recipe_unlocks
+Member Name: set_health
+Member Name: preset_index_selected
+Member Name: turn_in_festival_items
+Member Name: set_held_item_index
+Member Name: items_sold
+Member Name: presets
+Member Name: tutorials_seen
+Member Name: birthday
+Member Name: run_toggle
+Member Name: modify_essence
+Member Name: modify_gold
+Member Name: modify_health
+Member Name: modify_mana
+Member Name: modify_renown
+Member Name: essence
+Member Name: stamina_costs_modifier
+Member Name: modify_stamina
+Member Name: get_stamina
+Member Name: stamina_current
+Member Name: essence_overflow
+Member Name: set_mana
+Member Name: get_swim_speed
+Member Name: essence_update_dist
+Member Name: health_current
+Member Name: essence_update_x
+Member Name: essence_update_y
+Member Name: initiate_essence_update
+Member Name: pending_renown_entries
+Member Name: skill_xp
+Member Name: armor
+Member Name: unlock_recipe
+Member Name: armor_subscriber
+Member Name: acquire_perk
+Member Name: skip_pickup_animation
+Member Name: set_pinned_spell
+Member Name: perk_value
+Member Name: perks
+Member Name: held_animal_id
+Member Name: update
+Member Name: held_animal_last_frame
+Member Name: held_item
+Member Name: held_item_index
+Member Name: set_renown
+Member Name: held_item_last_frame
+Member Name: times_bathhouse_used_today
+Member Name: times_item_tag_sold
+Member Name: renown
+Member Name: free_baths
+Member Name: give_item
+Member Name: active_pursuit
+Member Name: on_new_day
+Member Name: pinned_spell
+Member Name: pronoun_choice
+Member Name: set_stamina
+
+

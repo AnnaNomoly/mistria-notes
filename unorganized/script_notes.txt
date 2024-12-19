@@ -1,0 +1,215 @@
+gml_Script_can_write_object_on_node
+X gml_Script_can_interact
+gml_Script_attempt_to_write_object_node
+X gml_Script_local_pos_is_valid
+gml_Script_is_npc_dateable
+  IN: VALUE_REAL (0 -> ???, char ID probably)
+  OUT: VALUE_BOOL (uses m_Real value, 1=datable)
+---
+gml_Script_set_collision_on_node
+  object
+    Member Name: try_node_at_room_position
+    Member Name: dims
+    Member Name: water_tilemap_id
+    Member Name: location_id
+    Member Name: force_set_cell
+    Member Name: dyn_index
+    Member Name: load
+    Member Name: is_setup
+    Member Name: node_at_cell
+    Member Name: node_at_room_position
+    Member Name: node_counter
+    Member Name: write_ground
+    Member Name: auto_tile_tile
+    Member Name: grass_autotile_tilemap_id
+    Member Name: write_lava
+    Member Name: parent_node
+    Member Name: simple_clone
+    Member Name: write_node
+    Member Name: lost_items
+    Member Name: grass_variant_tilemap_id
+    Member Name: wilt_crops
+    Member Name: write_node_without_initializing
+    Member Name: wilt_trees_and_forageables
+    Member Name: update_tilemap_for_node
+    Member Name: soil_tilemap_id
+    Member Name: new_day
+    Member Name: grid
+    Member Name: save
+    Member Name: tile_flag_satisfies
+    Member Name: write_water
+    Member Name: tile_flag_satisfies_node
+    Member Name: tile_flag_satisfies_region
+    Member Name: initialize_node_renderer
+    Member Name: item_effects_node_at_cell
+    Member Name: initialize_on_room_start
+    Member Name: remove_as_current_grid
+    Member Name: try_node_at_cell
+  real
+  real
+  bool
+  null
+
+
+X gml_Script_remove_collision_on_node
+X gml_Script_set_collision_grid_flag_on_node
+X gml_Script_collision_checker@gml_Object_obj_item_Create_0 <---
+
+
+
+gml_Script_can_write_object_on_node
+  object
+    Member Name: force [VALUE_REAL = 0.0]
+    Member Name: is_static_collision [VALUE_REAL = 0.0]
+    Member Name: can_jump_over (REAL) [VALUE_REAL = 0.0]
+    Member Name: pathfinding_cost (REAL) [VALUE_REAL = 5.0]
+    Member Name: pathfinding_sitting (REAL) [VALUE_REAL = 0.0]
+    Member Name: rug_id (NULL) [NULL]
+    Member Name: flags (REAL, 0=unplaceable?, 1=placeable?) [VALUE_REAL = 3]
+    Member Name: collideable (REAL, 0=placeable?, 1=unplaceable?)  [VALUE_REAL = 0]
+    Member Name: object_id (NULL) [NULL]
+    Member Name: terrain (OBJECT)
+      Member Name: kind
+        VALUE_REAL [0]
+      Member Name: tile
+        VALUE_REAL [46]
+      Member Name: top_left_x
+        VALUE_REAL
+      Member Name: top_left_y
+        VALUE_REAL
+      Member Name: variant
+        UNDEFINED
+      Member Name: ground_kind
+        VALUE_INT64 [0]
+      Member Name: is_watered
+        VALUE_REAL
+    Member Name: terrain_kind (REAL, 0=ground?, 1=water?) [VALUE_INT64 = 0]
+    Member Name: footstep_kind (REAL) [VALUE_REAL = 0.0]
+  bool
+    REAL: 1.0
+  int
+    INT64: 0
+  bool
+    REAL: 1.0
+  bool
+    REAL: 0.0
+
+
+
+
+gml_Script_write_furniture_to_location
+
+
+
+gml_Script_interact
+  ArgCount: 1
+  Arg0: VALUE_OBJECT
+    Member Name: stage
+    Member Name: top_left_x
+    Member Name: prototype
+      Member Name: mound_sprite
+      Member Name: day_to_stage
+      Member Name: mound_sprite_is_floor
+      Member Name: post_harvest_day_to_stage
+      Member Name: seasons
+      Member Name: offset
+      Member Name: count
+      Member Name: sprites
+      Member Name: managed_regrow_days
+      Member Name: managed_regrow_sprite
+      Member Name: category_id
+      Member Name: stage_zero_is_seed
+      Member Name: interact_size
+      Member Name: harvest
+      Member Name: harvest_time_enabled
+      Member Name: currency
+      Member Name: size
+      Member Name: object_id
+        VALUE_INT64: 590 == snow peas?
+      Member Name: sways
+      Member Name: sound_on_collide
+      Member Name: winter_mound_sprite
+    Member Name: top_left_y
+    Member Name: ctx
+    Member Name: regrow_cycle
+    Member Name: last_update
+    Member Name: flags
+    Member Name: collideable
+    Member Name: write_size_x
+    Member Name: write_size_y
+    Member Name: object_id
+    Member Name: renderer
+    Member Name: day_count
+
+
+
+gml_Script_give_item@Ari@Ari
+
+
+
+1. Detect text for gift favorability
+
+2. Call gml_Script_give_gift@Npc@Npc on the NPC.
+gml_Script_receive_gift@gml_Object_par_NPC_Create_0
+gml_Script_GIFT_NODE@anon@1362@set_to_npc_id@RelationshipsMenu@RelationshipsMenu
+
+3. Remove the heart points you just added.
+gml_Script_add_heart_points@Npc@Npc
+gml_Script_set_heart_level@Npc@Npc
+gml_Script_heart_level@Npc@Npc
+
+
+
+
+TEXTBOX
+gml_Script_set_speaker@TextboxMenu@TextboxMenu
+gml_Script_set_name@TextboxMenu@TextboxMenu
+gml_Script_play_text@TextboxMenu@TextboxMenu
+gml_Script_say@TextboxMenu@TextboxMenu
+ - Args[0] => VALUE_STRING => An entry in the localization JSON (ex: Conversations/gameplay_triggered/weather_sunny/init)
+ - Returns
+gml_Script_ask@TextboxMenu@TextboxMenu
+
+
+---- MUSEUM -----
+gml_Script_spawn_menu@gml_Object_obj_museum_Create_0
+gml_Script_register_item_to_museum
+gml_Script_donate_item_to_museum
+
+------- SPELLS ------
+gml_Script_set_pinned_spell@Ari@Ari
+ArgumentCount: 1
+Arg0: VALUE_REAL => 0-index of spell (0=, 2=summon_rain) 
+
+------ RECIPES --------
+gml_Script_unlock_recipe@Ari@Ari
+    ArgCount: 1
+    Argument: VALUE_INT64 (1028 == riceball, it's the itemID of the recipe to unlock!)
+
+----- ITEMS -----
+gml_Script_try_item_id_to_string
+gml_Script_item_id_to_string
+
+-- COSMETICS----
+
+gml_Script_equip_cosmetic@CustomizationMenu@CustomizationMenu
+    Arg0: VALUE_INT64
+        0: 
+        1: EYES
+        2: HAIRCUT
+        3: FACIAL HAIR
+        4: GLASSES/FACEGEAR
+        5: HATS
+        6: SHIRTS & DRESSES
+        7: BACK ACCESSORIES
+        8: SHORTS & PANTS
+        9: SHOES
+    Arg1: VALUE_STRING
+        ex: skirt_maid
+    Arg2: VALUE_REAL
+        ex: index (1-based) of color variant
+
+
+
+gml_Script_spawn_request_board_menu -> No args, return value is an OBJECT (can just call the method to open the menu)
+gml_Script_spawn_menu@gml_Object_obj_museum_Create_0 => No args, no return value (can just call the method to open the menu)

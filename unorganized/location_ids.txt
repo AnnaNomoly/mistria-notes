@@ -1,0 +1,89 @@
+0, adelines_bedroom
+1, adelines_office
+2, aldaria
+3, balors_room
+4, bathhouse
+5, bathhouse_bath
+6, bathhouse_bedroom
+7, bathhouse_change_room
+8, beach
+9, blacksmith_room_left
+10, blacksmith_room_right
+11, blacksmith_store
+12, celines_room
+13, clinic_b1
+14, clinic_f1
+15, clinic_f2
+16, deep_woods
+17, dells_bedroom
+18, dungeon
+19, earth_seal
+20, eastern_road
+21, eilands_bedroom
+22, eilands_office
+23, elsies_bedroom
+24, errols_bedroom
+25, farm
+26, fire_seal
+27, general_store_home
+28, general_store_store
+29, haydens_bedroom
+30, haydens_farm
+31, haydens_house
+32, holt_and_noras_bedroom
+33, inn
+34, jo_and_hemlocks_room
+35, landens_house_f1
+36, landens_house_f2
+37, large_barn
+38, large_coop
+39, lucs_room
+40, manor_house_dining_room
+41, manor_house_entry
+42, maples_room
+43, medium_barn
+44, medium_coop
+45, mill
+46, mines_entry
+47, museum_entry
+48, narrows
+49, player_home
+50, reinas_room
+51, seridias_chamber
+52, small_barn
+53, small_coop
+54, summit
+55, terithias_house
+56, town
+57, water_seal
+58, western_ruins
+
+// NOTE: The location ID is passed to/from scripts as VALUE_REAL
+std::map<int, std::string> location_id_map = {};
+for (double i = 0; i < 200; i++)
+{
+	CScript* gml_script_try_location_id_to_string = nullptr;
+	g_ModuleInterface->GetNamedRoutinePointer(
+		"gml_Script_try_location_id_to_string",
+		(PVOID*)&gml_script_try_location_id_to_string
+	);
+
+	RValue* location_id = new RValue(i);
+	RValue location_name;
+	gml_script_try_location_id_to_string->m_Functions->m_ScriptFunction(
+		Self,
+		Other,
+		location_name,
+		1,
+		{ &location_id }
+	);
+	delete location_id;
+
+	if (location_name.m_Kind != VALUE_NULL && location_name.m_Kind != VALUE_UNSET && location_name.m_Kind != VALUE_UNDEFINED)
+	{
+		if (location_id_map.count(i) <= 0)
+		{
+			location_id_map[i] = location_name.AsString().data();
+		}
+	}
+}

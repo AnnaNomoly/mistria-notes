@@ -1,0 +1,289 @@
+__fiddle__.json
+
+npcs/celine/cycles/idle/outfits
+npcs/celine/cycles/walk
+npcs/nora/loved_gifts
+
+======LOCATIONS============
+* The "locations" key in __fiddle__.json
+    default
+    aldaria
+    farm
+    town
+    bathhouse
+    bathhouse_bedroom
+    bathhouse_change_room
+    bathhouse_bath
+    eastern_road
+    deep_woods
+    narrows
+    player_home
+    summit
+    western_ruins
+        routine_entrance
+        Grid Supervisor
+    beach
+    terithias_house
+    landens_house_f1
+    landens_house_f2
+    haydens_farm
+    haydens_house
+    mines_entry
+    blacksmith_store
+    blacksmith_room_left
+    blacksmith_room_right
+    general_store_store
+    general_store_home
+    inn
+    jo_and_hemlocks_room
+    lucs_room
+    maples_room
+    reinas_room
+    balors_room
+    celines_room
+    clinic_f1
+    clinic_f2
+    clinic_b1
+    small_coop
+    medium_coop
+    large_coop
+    small_barn
+    medium_barn
+    large_barn
+    dungeon
+    manor_house_entry
+    adelines_office
+    eilands_office
+    manor_house_dining_room
+    eilands_bedroom
+    adelines_bedroom
+    elsies_bedroom
+    errols_bedroom
+    museum_entry
+    mill
+    haydens_bedroom
+    holt_and_noras_bedroom
+    dells_bedroom
+    seridias_chamber
+    water_seal
+    earth_seal
+    fire_seal
+
+
+* Archaeology Spawn Points in __fiddle__.json
+    "activities/archaeology_pickaxe/trellis_points": [
+        "eastern_road/archaeology_1",
+        "eastern_road/archaeology_6",
+        "narrows/archaeology_7",
+        "western_ruins/pit_1",
+        "western_ruins/pit_2",
+        "western_ruins/pit_3",
+        "western_ruins/pit_4"
+    ],
+
+===== DAY OF WEEK========
+MONDAY (0)
+    "WorldFactCheck": {
+        "name": [
+            {
+                "Resolved": {
+                    "type": "string",
+                    "content": "day_of_the_week"
+                }
+            }
+        ],
+        "value": [
+            {
+                "Resolved": {
+                    "type": "i64",
+                    "content": 0
+                }
+            }
+        ]
+    }
+
+TUESDAY (86400)
+    "WorldFactCheck": {
+        "name": [
+            {
+                "Resolved": {
+                    "type": "string",
+                    "content": "day_of_the_week"
+                }
+            }
+        ],
+        "value": [
+            {
+                "Resolved": {
+                    "type": "i64",
+                    "content": 86400
+                }
+            }
+        ]
+    }
+
+WEDNESDAY (172,800)
+
+====WEATHER=========
+
+* The values appear to be different depending on the file.
+* In __fiddle__.json the values are (for when a FISH is available): 
+    - calm
+    - special
+    - inclement
+    - heavy_inclement
+* In t2_output.json the values are
+    - pleasant
+        - When combined with the "weather_is_strong" WorldFactCheck, it appears to indicate special weather (spring_petals)
+    - rainy
+        - When combined with the "weather_is_strong" WorldFactCheck, it probably indicates stormy (thunderstorm)
+    - snowy
+        - When combined with the "weather_is_strong" WorldFactCheck, it probably indicates blizzard
+* In __fiddle__.json, the following object provides more info:
+    "weather_crystal_ball": {
+        "forecaster": {
+            "spring": {
+                "calm": "spr_obj_crystal_ball_spring_sunny",
+                "inclement": "spr_obj_crystal_ball_spring_rain",
+                "heavy_inclement": "spr_obj_crystal_ball_spring_storm",
+                "special": "spr_obj_crystal_ball_spring_petals"
+            },
+            "summer": {
+                "calm": "spr_obj_crystal_ball_spring_sunny",
+                "inclement": "spr_obj_crystal_ball_spring_rain",
+                "heavy_inclement": "spr_obj_crystal_ball_spring_storm",
+                "special": "spr_obj_crystal_ball_spring_sunny"
+            },
+            "fall": {
+                "calm": "spr_obj_crystal_ball_spring_sunny",
+                "inclement": "spr_obj_crystal_ball_spring_rain",
+                "heavy_inclement": "spr_obj_crystal_ball_spring_storm",
+                "special": "spr_obj_crystal_ball_spring_leaves"
+            },
+            "winter": {
+                "calm": "spr_obj_crystal_ball_spring_sunny",
+                "inclement": "spr_obj_crystal_ball_spring_blizzard",
+                "heavy_inclement": "spr_obj_crystal_ball_spring_snow",
+                "special": "spr_obj_crystal_ball_spring_sunny"
+            }
+        }
+    }
+* In t2_output.json we can see these example constraints used for "Conversations/Bank/Caldarus/Statue Lines/general_lines/spring_petals":
+    {
+        "WorldFactCheck": {
+            "name": [
+                {
+                    "Resolved": {
+                        "type": "string",
+                        "content": "weather"
+                    }
+                }
+            ],
+            "value": [
+                {
+                    "Resolved": {
+                        "type": "string",
+                        "content": "pleasant"
+                    }
+                }
+            ],
+            "comparator": "Equal",
+            "parser": null,
+            "subtract_from": null,
+            "subtract": null,
+            "priority_value": 1,
+            "numeric_must_be_positive": false
+        }
+    },
+    {
+        "WorldFactCheck": {
+            "name": [
+                {
+                    "Resolved": {
+                        "type": "string",
+                        "content": "weather_is_strong"
+                    }
+                }
+            ],
+            "value": [
+                {
+                    "Resolved": {
+                        "type": "float",
+                        "content": 1.0
+                    }
+                }
+            ],
+            "comparator": "Equal",
+            "parser": null,
+            "subtract_from": null,
+            "subtract": null,
+            "priority_value": 1,
+            "numeric_must_be_positive": false
+        }
+    }
+
+=====SCHEDULES========
+t2_output.json
+
+Look for: "content": "celine_schedule"
+{
+    "schdules": {
+        "adline": {
+            "Schedules/Fall Schedules/fall_monday": {
+                "requires": [
+                    // WorldFactCheck contraints
+                ],
+
+                "itinerary": {
+                    "21600": { // time of day in seconds (6AM)
+                        // info
+                    }
+                }
+            },
+
+        }
+    }
+}
+    
+
+====================
+sleep_time
+move_speed
+movement_speed
+
+======================
+blueprints
+birds
+bugs
+dungeons/dungeons/biomes
+festivals
+fish
+footsteps
+misc
+npcs
+stores
+letters
+locations
+    default
+    aldaria
+    farm
+    town
+    ...
+monsters
+perks
+player
+quests
+    fetch_quests
+    ...
+    story_quests
+    ...
+    request_board
+rumbles
+skills
+stores
+ui
+weather
+
+
+
+
