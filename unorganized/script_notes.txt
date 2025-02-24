@@ -144,6 +144,12 @@ gml_Script_interact
 
 
 gml_Script_give_item@Ari@Ari
+- ArgumentCount: 5
+- Arguments[0]: VALUE_OBJECT
+- Arguments[1]: VALUE_REAL (1.0)
+- Arguments[2]: VALUE_BOOL (1.0)
+- Arguments[3]: VALUE_BOOL (1.0)
+- Arguments[4]: VALUE_BOOL (0.0)
 
 
 

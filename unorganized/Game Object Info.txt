@@ -31,6 +31,49 @@ Known objects (work in progress)
                 "obj_eiland"
 
 
+========== obj_monster_mimic ==========
+Member Name: aggro
+Member Name: play_state_tango
+Member Name: monster_id
+Member Name: friction_coefficient
+Member Name: tired_effect
+Member Name: set_state_sprite
+Member Name: show_damage
+Member Name: fsm
+Member Name: can_overlap_ari
+Member Name: allow_shoving
+Member Name: stats_entry
+Member Name: knockback_move
+Member Name: image_speed_backup
+Member Name: check_collision
+Member Name: patience
+Member Name: dir
+Member Name: try_spawn_stars
+Member Name: interactable
+Member Name: gobble
+Member Name: hit_points
+Member Name: move
+Member Name: acknowledgement_reset
+Member Name: amt
+Member Name: debug_state
+Member Name: perform_effect
+Member Name: try_despawn_stars
+Member Name: config
+Member Name: track_player
+Member Name: effect_alpha
+Member Name: z
+Member Name: calculate_flipper
+Member Name: shadow_caster
+Member Name: draw
+Member Name: slip_move
+Member Name: slippery_coefficient
+Member Name: trauma
+Member Name: get_cardinal
+Member Name: receiver
+Member Name: original_dir
+Member Name: original_spawn_pos
+
+
 -----------obj_monster_sap-0--------
 Member Name: trauma
 Member Name: config

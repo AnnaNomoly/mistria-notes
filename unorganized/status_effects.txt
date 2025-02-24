@@ -1,0 +1,74 @@
+ - [array] __status_effect_id__
+   - [string] __status_effect_id__[0] = 'restorative'
+   - [string] __status_effect_id__[1] = 'speedy'
+   - [string] __status_effect_id__[2] = 'fairy'
+   - [string] __status_effect_id__[3] = 'guardians_shield'
+   - [string] __status_effect_id__[4] = 'mine_time'
+   - [string] __status_effect_id__[5] = 'slime_dash'
+   - [string] __status_effect_id__[6] = 'shrine_boon'
+   - [string] __status_effect_id__[7] = 'kill_haste'
+
+
+ - [array] __vitals_element__
+   - [string] __vitals_element__[0] = 'health'
+   - [string] __vitals_element__[1] = 'stamina'
+   - [string] __vitals_element__[2] = 'spell_slots'
+   - [string] __vitals_element__[3] = 'status_effects'
+
+
+ - [struct] __ari 
+    - [struct] status_effects = 000001E751E4CA00
+     - [method] cancel = script 'gml_Script_cancel@StatusEffectManager@StatusEffectManager'
+     - [method] deserialize = script 'gml_Script_deserialize@StatusEffectManager@StatusEffectManager'
+     - [struct] effects = 000001E751E4AF00
+       - [method] entry = script 'gml_Script_entry@__Map@Map'
+       - [struct] inner = 000001E751E4B500
+         - [undefined] 0
+         - [undefined] 1
+         - [undefined] 2
+         - [undefined] 3
+         - [undefined] 4
+         - [undefined] 5
+         - [undefined] 6
+         - [undefined] 7
+       - [method] toString = script 'gml_Script_anon@6437@__Map@Map'
+     - [method] get_effect_value = script 'gml_Script_get_effect_value@StatusEffectManager@StatusEffectManager'
+     - [method] register = script 'gml_Script_register@StatusEffectManager@StatusEffectManager'
+     - [method] serialize = script 'gml_Script_serialize@StatusEffectManager@StatusEffectManager'
+     - [method] update = script 'gml_Script_update@StatusEffectManager@StatusEffectManager'
+
+
+> Testing in the dungeon. Only buffs active are Guardian's Shield and Mine Time.
+- [struct] inner
+    - [undefined] 0
+    - [undefined] 1
+    - [undefined] 2
+    - [struct] 3
+        - [float] finish = 2147483647.0
+        - [int64] start = 9529440
+        - [undefined] amount
+        - [int64] last_update = 9529440
+        - [int64] type = 3 
+    - [struct] 4
+        - [int64] finish = 9530340
+        - [int64] start = 9529440
+        - [float] amount = 1.30
+        - [int64] last_update = 9529440
+        - [int64] type = 4
+    - [undefined] 5
+    - [undefined] 6
+    - [undefined] 7    
+
+
+StatusEffect
+StatusEffectManager
+gml_Script____struct___574@register@StatusEffectManager@StatusEffectManager
+gml_Script_register@StatusEffectManager@StatusEffectManager
+gml_Script_cancel@StatusEffectManager@StatusEffectManager
+gml_Script_update@StatusEffectManager@StatusEffectManager
+gml_Script_get_effect_value@StatusEffectManager@StatusEffectManager
+gml_Script_anon@2038@serialize@StatusEffectManager@StatusEffectManager
+gml_Script_serialize@StatusEffectManager@StatusEffectManager
+gml_Script_anon@2399@deserialize@StatusEffectManager@StatusEffectManager
+gml_Script_deserialize@StatusEffectManager@StatusEffectManager
+gml_Script_StatusEffectManager

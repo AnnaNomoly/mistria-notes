@@ -1,0 +1,13 @@
+// Function: gml_Script_pop@InventorySlot@Inventory
+// Result: VALUE_OBJECT
+/*
+    Member Name: auto_use
+    Member Name: cosmetic
+    Member Name: gold_to_gain
+    Member Name: animal_cosmetic
+    Member Name: item_id
+    Member Name: toString
+    Member Name: inner_item
+    Member Name: infusion
+    Member Name: prototype
+*/

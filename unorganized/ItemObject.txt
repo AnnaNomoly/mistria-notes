@@ -1,0 +1,68 @@
+- [struct] __buffer[3] = 000001E751934800
+  - [undefined] animal_cosmetic
+  - [bool] auto_use = 0.00
+  - [undefined] cosmetic
+  - [undefined] gold_to_gain
+  - [undefined] infusion
+  - [undefined] inner_item
+  - [int64] item_id = 930.00
+  - [struct] prototype = 000001E790BD9800
+    - [undefined] animal_feed
+    - [undefined] blueprint
+    - [undefined] cosmetic_to_unlock
+    - [number] crafting_level_requirement = 2.00
+    - [undefined] crafting_preview_sprite
+    - [undefined] crop_object
+    - [number] damage = 0.00
+    - [undefined] default_infusion
+    - [number] defense = 0.00
+    - [string] description_key = 'items/other/cooked_dishes/pan_fried_bream/description'
+    - [bool] edible = 1.00
+    - [undefined] flooring
+    - [bool] giftable = 1.00
+    - [number] health_modifier = 24.00
+    - [bool] hold_over_head = 1.00
+    - [ref] icon_sprite
+    - [ref] icon_sprite_outline
+    - [int64] item_id = 930.00
+    - [number] kitchen_tier_requirement = 1.00
+    - [undefined] mana_modifier
+    - [number] max_health_modifier = 0.00
+    - [number] max_stack = 999.00
+    - [number] max_stamina_modifier = 0.00
+    - [undefined] mini_sprite
+    - [string] name_key = 'items/other/cooked_dishes/pan_fried_bream/name'
+    - [undefined] new_inventory_size
+    - [undefined] object
+    - [undefined] plant_grass
+    - [bool] purchased_once_per_year = 0.00
+    - [int64] quality = 0.00
+    - [number] range = 1.00
+    - [struct] recipe = 000001E790BD8300
+      - [struct] components = 000001E790BD8200
+      - [method] context = script 'gml_Script_context@Recipe@Recipe'
+      - [method] craft_into = script 'gml_Script_craft_into@Recipe@Recipe'
+      - [bool] is_default = 0.00
+      - [int64] item_id = 930.00
+      - [array] potential_infusions
+    - [string] recipe_key = 'pan_fried_bream'
+    - [undefined] sapling
+    - [undefined] set_unlock
+    - [undefined] size
+    - [bool] soulbound = 0.00
+    - [undefined] sow_sprite
+    - [number] stamina_modifier = 24.00
+    - [number] stars = 1.00
+    - [struct] tags = 000001E790BD9900
+      - [array] __buffer
+      - [number] __count = 4.00
+      - [number] __internal_size = 4.00
+    - [undefined] tile_placement
+    - [undefined] tool_type
+    - [int64] use = 10.00
+    - [struct] value = 000001E716601D00
+      - [number] bin = 80.00
+      - [undefined] renown
+      - [number] store = 150.00
+    - [undefined] wallpaper
+  - [method] toString = script 'gml_Script_anon@8931@LiveItem@LiveItem'
