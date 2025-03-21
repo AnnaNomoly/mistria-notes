@@ -1,0 +1,26 @@
+> Give an NPC a gift, the following methods get called in order
+1. gml_Script_receive_gift@gml_Object_par_NPC_Create_0
+	- Self: obj_adeline // NPC object
+	- Other: obj_ari // Ari object
+	- Arg1: [object] // LiveItem
+	- Result: UNDEFINED
+2. gml_Script_give_gift@Npc@Npc
+	- Self: NULL
+	- Other: obj_ari // Ari object
+	- Arg1: [object] // LiveItem
+	- Result: [object] // ??? (has "convo" and "bark" fields)
+3. gml_Script____struct___406@give_gift@Npc@Npc
+	- Self: NULL
+	- Other: NULL
+	- Arg0: [string] <npc_name> // adeline
+	- Arg1: [string] <item_name> // paper
+	- Arg2: [string] <desire> // liked
+	- Arg3: [REAL] <day> // 103
+	- Result: UNDEFINED
+
+Additional scripts that got called (after):
+1. gml_Script_anon@39044@gml_Object_par_NPC_Create_0
+	- Self: obj_adeline
+	- Other: obj_ari
+	- Arguments: None
+	- Result: UNDEFINED

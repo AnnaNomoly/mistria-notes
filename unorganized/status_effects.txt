@@ -57,7 +57,17 @@
         - [int64] type = 4
     - [undefined] 5
     - [undefined] 6
-    - [undefined] 7    
+    - [undefined] 7
+
+
+> Testing in the inn. Only buff active is Restoration.
+- [struct] inner
+ - 0
+    - finish = 9541200
+    - start = 9534000
+    - amount = undefined
+    - last_update = 9534000
+    - type = 0
 
 
 StatusEffect

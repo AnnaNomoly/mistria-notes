@@ -115,78 +115,6 @@ Member Name: hit_points
 Member Name: receiver
 
 
-========== obj_eiland ==========
-Member Name: possible_next_conversation
-Member Name: npc_id
-Member Name: animator
-Member Name: my_query_quests
-Member Name: hold_power
-Member Name: has_potential_interactions
-Member Name: chat_partner
-Member Name: chat_scan_timer
-Member Name: chat_timer
-Member Name: chat_with
-Member Name: z
-Member Name: think_timer
-Member Name: talk
-Member Name: zone
-Member Name: attempt_interact
-Member Name: reset_cycle_cardinality
-Member Name: can_talk
-Member Name: reset_cycle_name
-Member Name: eat_animation
-Member Name: register_interaction
-Member Name: pathfinding_agent
-Member Name: eat_plate
-Member Name: needs_talk_status_update
-Member Name: restore_animation
-Member Name: restore_cardinality
-Member Name: setup_drinking
-Member Name: initialize
-Member Name: setup_eating
-Member Name: is_group_conversation
-Member Name: override_mask
-Member Name: create_default_fsm
-Member Name: heart_particle_bundle
-Member Name: withhold_pip
-Member Name: offset_with_cardinal
-Member Name: circle_size
-Member Name: bark_emitter
-Member Name: clean_eat_and_drink
-Member Name: move_accel
-Member Name: shadow_caster
-Member Name: update_animation
-Member Name: update_cardinality
-Member Name: handle_chatting
-Member Name: anim_speed
-Member Name: drink_animation
-Member Name: move_spd
-Member Name: drink_offset
-Member Name: conversation_available
-Member Name: update_dialogue_pip
-Member Name: is_seated
-Member Name: look_for_entry_transition
-Member Name: me
-Member Name: interact_distance
-Member Name: update_position
-Member Name: handle_thinking
-Member Name: interact_nudge_distance
-Member Name: update_talk_status
-Member Name: interactable_mode
-Member Name: bounce_y_offset
-Member Name: bouncer
-Member Name: fsm
-Member Name: dummy_walk_out_of_room
-Member Name: DummyExitConditionFactory
-Member Name: want_to_talk_timer
-Member Name: highlighter
-Member Name: position
-Member Name: interactions
-Member Name: animate
-Member Name: receive_gift
-
-
-
 ========== obj_terithia ==========
 Member Name: handle_chatting
 Member Name: animator
@@ -223,14 +151,38 @@ Member Name: interactions
 Member Name: want_to_talk_timer
 Member Name: me
     ========== me ==========
-    Member Name: gift_flag
-    Member Name: simulated_distance_traveled
+    Member Name: activity_handler
+    Member Name: brain
+    Member Name: brain_dead
     Member Name: talk_flag
-    Member Name: gifts_given
-    Member Name: give_gift
-    Member Name: serialize
+    Member Name: set_cardinality
+    Member Name: id
+    Member Name: wardrobe
+    Member Name: add_heart_points
     Member Name: times_spoken_today
+    Member Name: serialize
+    Member Name: complete_pathfind
+    Member Name: simulated_distance_traveled
+    Member Name: heart_level
+    Member Name: itinerary
+    Member Name: has_met
+    Member Name: heart_points
+    Member Name: gift_flag
+    Member Name: is_birthday
+    Member Name: known_gift_preferences
+    Member Name: deserialize
+    Member Name: location_position
+    Member Name: try_set_animation
     Member Name: cardinality
+    Member Name: gifts_given
+    Member Name: animation
+    Member Name: set_animation
+    Member Name: give_gift
+    Member Name: set_has_met
+    Member Name: report_hearts
+    Member Name: set_heart_level
+    Member Name: can_perform_animation
+    Member Name: prototype
 Member Name: offset_with_cardinal
 Member Name: restore_animation
 Member Name: restore_cardinality

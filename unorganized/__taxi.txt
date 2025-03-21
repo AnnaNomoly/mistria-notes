@@ -1,0 +1,15 @@
+ - [struct] __taxi = 000001E7901DBB00
+   - [method] arrive = script 'gml_Script_arrive@Taxi@Taxi'
+   - [undefined] chain
+   - [method] current_location_id = script 'gml_Script_current_location_id@Taxi@Taxi'
+   - [method] depart = script 'gml_Script_depart@Taxi@Taxi'
+   - [method] enter_world = script 'gml_Script_enter_world@Taxi@Taxi'
+   - [undefined] index_last
+   - [method] is_traveling = script 'gml_Script_is_traveling@Taxi@Taxi'
+   - [undefined] itinerary
+   - [number] location_current = 49.00
+   - [number] location_last = 25.00
+   - [method] place_player_in_room = script 'gml_Script_place_player_in_room@Taxi@Taxi'
+   - [method] resolve_player_position = script 'gml_Script_resolve_player_position@Taxi@Taxi'
+   - [undefined] room_swap_request
+   - [method] taxi_player = script 'gml_Script_taxi_player@Taxi@Taxi'

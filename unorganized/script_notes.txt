@@ -219,3 +219,36 @@ gml_Script_equip_cosmetic@CustomizationMenu@CustomizationMenu
 
 gml_Script_spawn_request_board_menu -> No args, return value is an OBJECT (can just call the method to open the menu)
 gml_Script_spawn_menu@gml_Object_obj_museum_Create_0 => No args, no return value (can just call the method to open the menu)
+
+
+----- PERKS -----
+gml_Script_perk_active@Ari@Ari
+  Self->m_Object: NULL
+  Other->m_Object->m_Name: "Game"
+  ArgCount: 1
+    - Arguments[0]
+      - Kind: VALUE_REAL
+      - Example Value: 0.0
+  Result: VALUE_BOOL
+
+gml_Script_perk_value@Ari@Ari
+  Self->m_Object: NULL
+  Other->m_Object->m_Name: "obj_ari"
+  ArgCount: 1
+    - Arguments[0]
+      - Kind: VALUE_INT64
+      - Example Value: 52
+  Result: VALUE_REAL
+
+
+
+----- STATUS EFFECTS -----
+gml_Script_register@StatusEffectManager@StatusEffectManager
+  Self->m_Object: NULL
+  Other->m_Object->m_Name: "obj_ari"
+  ArgCount: 4
+    - Arguments[0]: 3 [int64] // Buff Type (Guardian Shield), see global __status_effect_id__ array for IDs
+    - Arguments[1]: undefined // Amount (unused for some buffs)
+    - Arguments[2]: 9526712 [int64] // Start (time in seconds)
+    - Arguments[3]: 2147483647.0 [float] // Finish ("End of Time" value used)
+  Result: undefined

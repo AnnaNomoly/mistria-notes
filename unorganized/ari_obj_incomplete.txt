@@ -81,9 +81,41 @@ Member Name: celebrate_loot
 Member Name: cell_select
 Member Name: fsm
     ========== obj_ari->fsm ==========
-    Member Name: state_frame
-    Member Name: next_state
+    Member Name: state_frame [REAL]
+    Member Name: next_state [UNDEFINED]
     Member Name: states
-    Member Name: last_state_id
+        ========== states ==========
+        Member Name: __internal_size
+        Member Name: __count
+        Member Name: __buffer
+    Member Name: last_state_id [UNDEFINED]
     Member Name: blackboard
     Member Name: state
+        ========== state ==========
+        Member Name: stashed_cardinal
+        Member Name: idle_timer
+        Member Name: idle_variance_rate
+        Member Name: saved_heading
+        Member Name: state_id [INT64]
+        Member Name: fsm
+        Member Name: delayed_audio
+        Member Name: dir
+        Member Name: target_idle
+        Member Name: reset_idle_timer
+        Member Name: furniture_heading
+        Member Name: start
+        Member Name: step
+        Member Name: move
+        Member Name: relative_cell_select
+        Member Name: create
+        Member Name: blackboard
+        Member Name: __capabilities
+        Member Name: in_idle_animation
+        Member Name: hold_checks
+        Member Name: item_cool_down
+        Member Name: stop
+        Member Name: owner
+        Member Name: blink_rate
+        Member Name: blink_timer
+        Member Name: input
+        Member Name: drop_animal
