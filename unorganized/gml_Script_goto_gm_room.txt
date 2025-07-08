@@ -1,0 +1,62 @@
+===== ARGUMENTS: gml_Script_goto_gm_room =====
+===== RESULT: gml_Script_goto_gm_room =====
+set_player_asleep_flag: OBJECT
+------------------------------
+set_arrival_callback: OBJECT
+------------------------------
+mode: INT64 == 0
+player_position: OTHER
+dyn_index: OTHER
+instant: BOOL == false
+player_sleep_flag: BOOL == false
+set_specific_location_tag: OBJECT
+------------------------------
+set_exact_position: OBJECT
+------------------------------
+destination: INT64 == 20
+player_tag: OTHER
+no_player: OBJECT
+------------------------------
+run_prologue: BOOL == false
+set_instant: OBJECT
+------------------------------
+gm_room: OTHER
+arrival_callback: OTHER
+player_flag: BOOL == true
+arrival_callback_args: ARRAY (length == 0)
+
+
+////////////////////////////////////////////////
+For getting the name of the GM room:
+
+RValue gm_room = StructVariableGet(Result, "gm_room");
+RValue gm_room_name = g_ModuleInterface->CallBuiltin("room_get_name", { gm_room });
+std::string gm_room_name_str = gm_room_name.AsString().data();
+
+
+------- Dungeon Floor Names -------
+rm_mines_upper_floor1
+rm_mines_upper_pillars
+rm_mines_upper_boomerang
+rm_mines_upper_snake
+rm_mines_upper_elevator5
+rm_mines_upper_four
+rm_mines_upper_muscle
+rm_mines_upper_pond
+rm_mines_upper_staple
+rm_mines_upper_elevator10
+rm_mines_upper_canada
+rm_mines_upper_ponds
+rm_mines_upper_pits
+rm_mines_upper_amoeba
+rm_mines_upper_elevator15
+rm_mines_upper_slimetime
+rm_mines_upper_wishbone
+rm_mines_upper_stream
+rm_mines_upper_sock
+rm_water_seal
+rm_mines_tide_floor21
+rm_mines_tide_paths
+rm_mines_tide_basic1
+rm_mines_tide_shrine1
+rm_mines_tide_elevator25

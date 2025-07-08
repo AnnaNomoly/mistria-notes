@@ -2,7 +2,7 @@ import math
 import json
 
 
-ignored_item_categories = ["furniture"]
+ignored_item_categories = ["furniture", "unreviewed_new_items"]
 items_to_reduce_buy_price = ["sugar", "flour", "rice", "rock_salt", "oil", "soy_sauce", "curry_powder", "honey"]
 
 def calculate_modified_item_prices(items, out_file_name, profit_margin):
@@ -34,13 +34,13 @@ def calculate_modified_item_prices(items, out_file_name, profit_margin):
                                 modified_values = {"value": {}}
 
                                 modified_bin_value = None
-                                if original_bin_value != None and original_bin_value > 1:
+                                if original_bin_value != None and type(original_bin_value) == int and original_bin_value > 1:
                                     modified_bin_value = math.floor(float(original_bin_value) * profit_margin)
                                     if modified_bin_value == 0:
                                         modified_bin_value = 1
 
                                 modified_store_value = None
-                                if original_store_value != None and original_store_value > 1:
+                                if original_store_value != None and type(original_store_value) == int and original_store_value > 1:
                                     modified_store_value = math.floor(float(original_store_value) * profit_margin)
                                     if modified_store_value == 0:
                                         modified_store_value = 1

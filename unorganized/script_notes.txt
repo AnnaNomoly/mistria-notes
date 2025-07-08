@@ -145,8 +145,68 @@ gml_Script_interact
 
 gml_Script_give_item@Ari@Ari
 - ArgumentCount: 5
-- Arguments[0]: VALUE_OBJECT
-- Arguments[1]: VALUE_REAL (1.0)
+- Arguments[0]: VALUE_OBJECT // The item
+  prototype: OBJECT
+    Member Name: recipe
+    Member Name: tool_type
+    Member Name: mini_sprite
+    Member Name: mana_modifier
+    Member Name: purchased_once_per_year
+    Member Name: recipe_key
+    Member Name: tags
+    Member Name: default_infusion
+    Member Name: stamina_modifier
+    Member Name: quality
+    Member Name: wallpaper
+    Member Name: edible
+    Member Name: defense
+    Member Name: name_key
+    Member Name: use
+    Member Name: stars
+    Member Name: door_mold
+    Member Name: essence_charge
+    Member Name: kitchen_tier_requirement
+    Member Name: description_key
+    Member Name: flooring
+    Member Name: hold_over_head
+    Member Name: max_health_modifier
+    Member Name: damage
+    Member Name: tile_placement
+    Member Name: cosmetic_to_unlock
+    Member Name: soulbound
+    Member Name: pet_treat
+    Member Name: set_unlock
+    Member Name: sapling
+    Member Name: new_inventory_size
+    Member Name: value
+    Member Name: item_id
+    Member Name: max_stack
+    Member Name: animal_feed
+    Member Name: max_stamina_modifier
+    Member Name: range
+    Member Name: blueprint
+    Member Name: crafting_level_requirement
+    Member Name: sow_sprite
+    Member Name: crafting_preview_sprite
+    Member Name: object
+    Member Name: health_modifier
+    Member Name: crop_object
+    Member Name: plant_grass
+    Member Name: icon_sprite
+    Member Name: size
+    Member Name: icon_sprite_outline
+    Member Name: giftable
+  infusion: OTHER
+  inner_item: OTHER
+  animal_cosmetic: OTHER
+  item_id: INT64 == 1140
+  gold_to_gain: OTHER
+  icon_override: OTHER
+  pet_cosmetic_set_name: OTHER
+  auto_use: BOOL == false
+  toString: OBJECT
+  cosmetic: OTHER
+- Arguments[1]: VALUE_REAL (1.0) // Quantity of item
 - Arguments[2]: VALUE_BOOL (1.0)
 - Arguments[3]: VALUE_BOOL (1.0)
 - Arguments[4]: VALUE_BOOL (0.0)
@@ -252,3 +312,36 @@ gml_Script_register@StatusEffectManager@StatusEffectManager
     - Arguments[2]: 9526712 [int64] // Start (time in seconds)
     - Arguments[3]: 2147483647.0 [float] // Finish ("End of Time" value used)
   Result: undefined
+
+
+
+
+----- BUGS -----
+1. Load Game
+2. ENTER: gml_Script_spawn_bug
+3. ENTER: gml_Script_setup@gml_Object_obj_bug_Create_0
+4. EXIT: gml_Script_setup@gml_Object_obj_bug_Create_0
+5. EXIT: gml_Script_spawn_bug
+
+gml_Script_spawn_bug
+  Self->m_Object->m_Name: "Game"
+  Other->m_Object->m_Name: "Game"
+  ArgumentCount: 3
+    - Arguments[0]: 178.0 [REAL] // X-coord in node GRID
+    - Arguments[1]: 84.0 [REAL] // Y-coord in node GRID
+    - Arguments[2]: undefined // ???
+  Result: VALUE_REF
+
+gml_Script_spawn_bugs_on_room_start
+  Self->m_Object->m_Name: "Game"
+  Other->m_Object->m_Name: "Setup"
+  ArgumentCount: 0
+  Result: VALUE_UNDEFINED
+
+gml_Script_setup@gml_Object_obj_bug_Create_0
+  Self->m_Object->m_Name: "obj_bug"
+  Other->m_Object->m_Name: "Game"
+  ArgumentCount: 2
+    - Arguments[0]: 1588 [int64] // item id of bug
+    - Arguments[1]: 0 [bool] // ???
+  Result: VALUE_UNDEFINED

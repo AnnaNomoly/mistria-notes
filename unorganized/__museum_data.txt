@@ -1,0 +1,66 @@
+ - [struct] __museum_data
+   - [array] data
+     - [struct] data[0]
+       - [string] name = 'museum_wings/archaeology/name'
+       - [struct] sets
+         - [struct] inner
+           - [struct] alda
+             - [array] items
+               - [int64] items[0] = 2.00
+               - [int64] items[1] = 3.00
+               - [int64] items[2] = 4.00
+               - [int64] items[3] = 5.00
+               - [int64] items[4] = 6.00
+           - [struct] aldarian = 000001E7A1424000
+             - [array] items
+               - [int64] items[0] = 13.00
+               - [int64] items[1] = 537.00
+               - [int64] items[2] = 14.00
+               - [int64] items[3] = 12.00
+               - [int64] items[4] = 788.00
+           - [struct] ancient = 000001E7A1423700
+             - [array] items
+               - [int64] items[0] = 23.00
+               - [int64] items[1] = 20.00
+               - [int64] items[2] = 19.00
+               - [int64] items[3] = 21.00
+               - [int64] items[4] = 22.00
+           - [struct] aquatic = 000001E7A1422D00
+             - [array] items
+               - [int64] items[0] = 1050.00
+               - [int64] items[1] = 607.00
+               - [int64] items[2] = 307.00
+               - [int64] items[3] = 1380.00
+               - [int64] items[4] = 1052.00
+
+
+ - [array] __museum_progress_data
+   - [bool] __museum_progress_data[0] = 0.00
+   - [bool] __museum_progress_data[1] = 0.00
+   - [bool] __museum_progress_data[2] = 0.00
+   - [bool] __museum_progress_data[3] = 0.00
+   - [bool] __museum_progress_data[4] = 0.00
+   - [bool] __museum_progress_data[5] = 0.00
+   - [bool] __museum_progress_data[6] = 1.00
+   - [bool] __museum_progress_data[7] = 0.00
+   - [bool] __museum_progress_data[8] = 0.00
+   - [bool] __museum_progress_data[9] = 0.00
+   - [bool] __museum_progress_data[10] = 0.00
+   - [bool] __museum_progress_data[11] = 0.00
+   - [bool] __museum_progress_data[12] = 0.00
+   - [bool] __museum_progress_data[13] = 0.00
+   - [bool] __museum_progress_data[14] = 0.00
+   - [bool] __museum_progress_data[15] = 0.00
+   - [bool] __museum_progress_data[16] = 0.00
+   - [bool] __museum_progress_data[17] = 0.00
+   - [bool] __museum_progress_data[18] = 0.00
+   - [bool] __museum_progress_data[19] = 0.00
+   - [bool] __museum_progress_data[20] = 0.00
+   - [bool] __museum_progress_data[21] = 1.00
+
+
+ - [array] __museum_wing__
+   - [string] __museum_wing__[0] = 'archaeology'
+   - [string] __museum_wing__[1] = 'fish'
+   - [string] __museum_wing__[2] = 'flora'
+   - [string] __museum_wing__[3] = 'insect'

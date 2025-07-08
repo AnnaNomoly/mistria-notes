@@ -1,0 +1,7 @@
+The order of scripts called when interacting with an object that produces a dialogue box:
+ENTER: gml_script_interact
+ENTER: gml_script_play_conversation
+EXIT: gml_script_play_conversation
+EXIT: gml_script_interact
+ENTER: gml_script_play_text
+EXIT: gml_script_play_text

@@ -1,0 +1,91 @@
+- [array] __object_category__
+  - [string] __object_category__[0] = 'breakable'
+  - [string] __object_category__[1] = 'building'
+  - [string] __object_category__[2] = 'bush'
+  - [string] __object_category__[3] = 'crop'
+  - [string] __object_category__[4] = 'dig_site'
+  - [string] __object_category__[5] = 'furniture'
+  - [string] __object_category__[6] = 'grass'
+  - [string] __object_category__[7] = 'rock'
+  - [string] __object_category__[8] = 'stump'
+  - [string] __object_category__[9] = 'tree'
+
+* Categories for Bounty Boon: bush, crop, rock, stump, tree
+* Can prevent from triggering on the farm
+
+- [array] __node_prototypes
+   - [struct] __node_prototypes[720]
+     - [number] category_id = 2.00
+     - [int64] harvest = 1396.00 // The item produced
+     - [int64] object_id = 720.00 // Can be used to find what node corresponds to an object
+   - [struct] __node_prototypes[78]
+     - [number] category_id = 8.00
+       - [struct] exclusive_drops
+         - [array] __buffer
+           - [struct] __buffer[0]
+             - [array] __buffer
+               - [struct] __buffer[0]
+                 - [number] chance = 100.00
+                 - [array] count_range
+                 - [bool] is_exclusive = 1.00
+                 - [int64] item_id = 85.00 // The item produced
+             - [number] __count = 1.00
+             - [number] __internal_size = 1.00
+         - [number] __count = 1.00
+         - [number] __internal_size = 4.00
+     - [int64] object_id = 78.00 // Can be used to find what node corresponds to an object
+
+- [array] __item_data
+  - [struct] __item_data[1396]
+    - [string] description_key = 'items/other/crops_and_forage/wild_berries/description'
+    - [string] name_key = 'items/other/crops_and_forage/wild_berries/name'
+    - [string] recipe_key = 'wild_berries'
+    - [int64] item_id = 1396.00
+    - [struct] tags = 000001E790843700
+      - [array] __buffer
+        - [string] __buffer[0] = 'forageable'
+      - [number] __count = 1.00
+      - [number] __internal_size = 1.00
+
+ - [struct] __menus
+   - [struct] inner
+     - [struct] 1
+       - [array] categories
+         - [struct] categories[0]
+           - [array] tags
+             - [string] tags[0] = 'archaeology'
+         - [struct] categories[1]
+           - [array] tags
+             - [string] tags[0] = 'blacksmithing'
+         - [struct] categories[2]
+           - [array] tags
+             - [string] tags[0] = 'bugs'
+         - [struct] categories[3]
+           - [array] tags
+             - [string] tags[0] = 'food'
+         - [struct] categories[4]
+           - [array] tags
+             - [string] tags[0] = 'crop'
+         - [struct] categories[5]
+           - [array] tags
+             - [string] tags[0] = 'fishable'
+         - [struct] categories[6]
+           - [array] tags
+             - [string] tags[0] = 'forageable'
+         - [struct] categories[7]
+           - [array] tags
+             - [string] tags[0] = 'furniture'
+         - [struct] categories[8]
+           - [array] tags
+             - [string] tags[0] = 'material'
+         - [struct] categories[9]
+           - [array] tags
+             - [string] tags[0] = 'ranching'
+
+tags to look for:
+- forageable
+- fishable
+- material (ones WITHOUT the archaeology tag)
+- bugs
+
+For fish could also look for "items/fish" in name_key

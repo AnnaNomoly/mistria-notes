@@ -1,0 +1,46 @@
+ - [array] __npc_database
+   - [struct] __npc_database[0]
+       - [int64] hated_gift = 860.00
+       - [struct] liked_gifts = 000001E751A97000
+         - [array] __buffer
+           - [int64] __buffer[0] = 199.00
+           . . .
+       - [struct] loved_gifts = 000001E751A97200
+         - [array] __buffer
+           - [int64] __buffer[0] = 303.00
+
+ - [array] __npc_id__
+   - [string] __npc_id__[0] = 'adeline'
+   - [string] __npc_id__[1] = 'balor'
+   - [string] __npc_id__[2] = 'caldarus'
+   - [string] __npc_id__[3] = 'celine'
+   - [string] __npc_id__[4] = 'darcy'
+   - [string] __npc_id__[5] = 'dell'
+   - [string] __npc_id__[6] = 'dozy'
+   - [string] __npc_id__[7] = 'eiland'
+   - [string] __npc_id__[8] = 'elsie'
+   - [string] __npc_id__[9] = 'errol'
+   - [string] __npc_id__[10] = 'hayden'
+   - [string] __npc_id__[11] = 'hemlock'
+   - [string] __npc_id__[12] = 'henrietta'
+   - [string] __npc_id__[13] = 'holt'
+   - [string] __npc_id__[14] = 'josephine'
+   - [string] __npc_id__[15] = 'juniper'
+   - [string] __npc_id__[16] = 'landen'
+   - [string] __npc_id__[17] = 'louis'
+   - [string] __npc_id__[18] = 'luc'
+   - [string] __npc_id__[19] = 'maple'
+   - [string] __npc_id__[20] = 'march'
+   - [string] __npc_id__[21] = 'merri'
+   - [string] __npc_id__[22] = 'nora'
+   - [string] __npc_id__[23] = 'olric'
+   - [string] __npc_id__[24] = 'reina'
+   - [string] __npc_id__[25] = 'ryis'
+   - [string] __npc_id__[26] = 'seridia'
+   - [string] __npc_id__[27] = 'stillwell'
+   - [string] __npc_id__[28] = 'taliferro'
+   - [string] __npc_id__[29] = 'terithia'
+   - [string] __npc_id__[30] = 'valen'
+   - [string] __npc_id__[31] = 'vera'
+   - [string] __npc_id__[32] = 'wheedle'
+   - [string] __npc_id__[33] = 'zorel'

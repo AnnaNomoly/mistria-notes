@@ -1,0 +1,227 @@
+gml_Script_on_object_destroy@DungeonRunner@DungeonRunner
+Self: Null
+Other: obj_ari
+Arguments[0]: 20.0 (REAL)
+Arguments[1]: 24.0 (REAL)
+Result: UNDEFINED
+
+
+
+gml_Script_write_breakable_to_location
+gml_Script_find_node
+gml_Script_can_pick_node
+gml_Script_anon@10520@anon@9519@pick_node@Pick
+gml_Script_anon@9519@pick_node@Pick
+gml_Script_anon@15637@pick_node@Pick
+
+
+gml_Script_pick_node
+Self: null
+Other: obj_ari
+Arguments[0]: OBJECT // node object
+Arguments[1]: 20.0 // room x-coord
+Arguments[2]: 24.0 // room y-coord
+Arguments[3]: OBJECT // item
+Arguments[4]: 0.0 (???)
+Arguments[5]: undefined
+Arguments[6]: OBJECT // ???
+Arguments[7]: undefined
+Result: 1 (INT64) // 
+
+
+
+
+
+gml_Script_try_node_index_for_room_position@Grid@Grid
+Self: Null
+Other: obj_ari
+Arguments[0]: 216.0 (REAL)
+Arguments[1]: 217.0 (REAL)
+Result: 2403.0 (REAL)
+
+
+gml_Script_destroy@Grid@Grid
+
+
+
+ENTER: gml_Script_pick_node
+=============== Argument[0] ===============
+node_grass_count: OTHER
+node_index_for_cell: OBJECT
+------------------------------
+node_index_for_room_position: OBJECT
+------------------------------
+node_is_room_editor_collision: ARRAY (length == 53336)
+node_len: REAL == 53336.000000
+dyn_index: OTHER
+node_object_id: ARRAY (length == 53336)
+node_parent: ARRAY (length == 53336)
+node_pathfinding_cost: ARRAY (length == 53336)
+node_pathfinding_sitting: ARRAY (length == 53336)
+node_restrict_tree_growth: OTHER
+node_rug_id: ARRAY (length == 53336)
+node_rug_parent: ARRAY (length == 53336)
+node_spawn_colliders_timer: OTHER
+load_objects: OBJECT
+------------------------------
+node_spawn_grass_timer: OTHER
+node_terrain_ground_kind: ARRAY (length == 53336)
+node_terrain_is_watered: ARRAY (length == 53336)
+node_terrain_kind: ARRAY (length == 53336)
+node_terrain_tile: ARRAY (length == 53336)
+node_terrain_variant: ARRAY (length == 53336)
+update_tilemap_for_node: OBJECT
+------------------------------
+node_top_left_x: ARRAY (length == 53336)
+node_top_left_y: ARRAY (length == 53336)
+write_ground: OBJECT
+------------------------------
+write_lava: OBJECT
+------------------------------
+write_node: OBJECT
+------------------------------
+write_node_without_initializing: OBJECT
+------------------------------
+is_setup: BOOL == true
+pet_beds: ARRAY (length == 0)
+location_id: REAL == 65.000000
+auto_tile_tile: OBJECT
+------------------------------
+parent_node: OTHER
+write_water: OBJECT
+------------------------------
+tile_flag_satisfies: OBJECT
+------------------------------
+pet_dishes: ARRAY (length == 0)
+water_tilemap_id: OTHER
+tile_flag_satisfies_node: OBJECT
+------------------------------
+tile_flag_satisfies_region: OBJECT
+------------------------------
+soil_tilemap_id: OTHER
+remove_as_current_grid: OBJECT
+------------------------------
+new_day: OBJECT
+------------------------------
+item_effects_node_at_cell: OBJECT
+------------------------------
+grass_autotile_tilemap_id: OTHER
+destroy: OBJECT
+------------------------------
+save: OBJECT
+------------------------------
+grass_variant_tilemap_id: OTHER
+try_node_index_for_cell: OBJECT
+------------------------------
+try_node_index_for_room_position: OBJECT
+------------------------------
+terrain_editors: ARRAY (length == 0)
+lost_items: OBJECT
+Member Name: __count
+Member Name: __internal_size
+Member Name: __buffer
+------------------------------
+wilt_crops: OBJECT
+------------------------------
+wilt_trees_and_forageables: OBJECT
+------------------------------
+sprinklers: ARRAY (length == 0)
+dims: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+load: OBJECT
+------------------------------
+node_animal_claimed: OTHER
+node_can_jump_over: ARRAY (length == 53336)
+node_collideable: ARRAY (length == 53336)
+ocarina: OTHER
+node_colliders_count: OTHER
+node_counter: REAL == 1.000000
+node_flags: ARRAY (length == 53336)
+node_footstep_kind: ARRAY (length == 53336)
+node_force: ARRAY (length == 53336)
+initialize_node_renderer: OBJECT
+------------------------------
+initialize_on_room_start: OBJECT
+------------------------------
+node_furniture_footstep: OTHER
+=============== Argument[3] ===============
+recipe: OBJECT
+Member Name: context
+Member Name: potential_infusions
+Member Name: components
+Member Name: craft_into
+Member Name: item_id
+Member Name: is_default
+------------------------------
+tool_type: INT64 == 2
+mini_sprite: OTHER
+mana_modifier: OTHER
+purchased_once_per_year: BOOL == false
+recipe_key: STRING == pick_axe_silver
+tags: OBJECT
+Member Name: __count
+Member Name: __internal_size
+Member Name: __buffer
+------------------------------
+default_infusion: OTHER
+stamina_modifier: OTHER
+quality: INT64 == 3
+wallpaper: OTHER
+edible: BOOL == false
+defense: REAL == 0.000000
+name_key: STRING == items/other/blacksmithing/pick_axe_silver/name
+use: INT64 == 1
+stars: OTHER
+door_mold: OTHER
+essence_charge: OTHER
+kitchen_tier_requirement: OTHER
+description_key: STRING == items/other/blacksmithing/pick_axe_silver/description
+flooring: OTHER
+hold_over_head: BOOL == false
+max_health_modifier: REAL == 0.000000
+damage: REAL == 4.000000
+tile_placement: OTHER
+cosmetic_to_unlock: OTHER
+soulbound: BOOL == false
+pet_treat: OTHER
+set_unlock: OTHER
+sapling: OTHER
+new_inventory_size: OTHER
+value: OBJECT
+Member Name: store
+Member Name: renown
+Member Name: bin
+------------------------------
+item_id: INT64 == 1320
+max_stack: REAL == 1.000000
+animal_feed: OTHER
+max_stamina_modifier: REAL == 0.000000
+range: REAL == 1.000000
+blueprint: OTHER
+crafting_level_requirement: REAL == 16.000000
+sow_sprite: OTHER
+crafting_preview_sprite: OTHER
+object: OTHER
+health_modifier: OTHER
+crop_object: OTHER
+plant_grass: OTHER
+icon_sprite: OTHER
+size: OTHER
+icon_sprite_outline: OTHER
+giftable: BOOL == false
+=============== Argument[6] ===============
+play_good: OBJECT
+------------------------------
+sounds: OBJECT
+Member Name: __count
+Member Name: __internal_size
+Member Name: __buffer
+------------------------------
+play_bad: OBJECT
+------------------------------
+resolve: OBJECT
+------------------------------
+=============== Result ===============
+EXIT: gml_Script_pick_node

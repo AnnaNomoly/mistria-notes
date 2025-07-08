@@ -1,0 +1,97 @@
+ - [struct] __game_stats
+   - [array] mines_data
+     - [struct] mines_data[0]
+       - [number] day_entered = 10.00
+       - [array] floor_data
+         - [struct] floor_data[1]
+         - [number] current_floor = 2.00
+          - [array] monsters_spawned
+            - [string] monsters_spawned[0] = 'sapling'
+            - [string] monsters_spawned[1] = 'enchantern'
+            - [string] monsters_spawned[2] = 'sapling_cool'
+            - [string] monsters_spawned[3] = 'mushroom'
+
+
+ - [array] __monster_id__
+   - [string] __monster_id__[0] = 'bat'
+   - [string] __monster_id__[1] = 'copperclod'
+   - [string] __monster_id__[2] = 'enchantern'
+   - [string] __monster_id__[3] = 'enchantern_blue'
+   - [string] __monster_id__[4] = 'goldclod'
+   - [string] __monster_id__[5] = 'ironclod'
+   - [string] __monster_id__[6] = 'mistrilclod'
+   - [string] __monster_id__[7] = 'mushroom'
+   - [string] __monster_id__[8] = 'mushroom_blue'
+   - [string] __monster_id__[9] = 'mushroom_green'
+   - [string] __monster_id__[10] = 'mushroom_purple'
+   - [string] __monster_id__[11] = 'rockclod'
+   - [string] __monster_id__[12] = 'rockclod_blue'
+   - [string] __monster_id__[13] = 'rockclod_green'
+   - [string] __monster_id__[14] = 'rockclod_purple'
+   - [string] __monster_id__[15] = 'rockclod_red'
+   - [string] __monster_id__[16] = 'sapling'
+   - [string] __monster_id__[17] = 'sapling_blue'
+   - [string] __monster_id__[18] = 'sapling_cool'
+   - [string] __monster_id__[19] = 'sapling_orange'
+   - [string] __monster_id__[20] = 'sapling_pink'
+   - [string] __monster_id__[21] = 'sapling_purple'
+   - [string] __monster_id__[22] = 'silverclod'
+   - [string] __monster_id__[23] = 'stalagmite'
+   - [string] __monster_id__[24] = 'stalagmite_green'
+   - [string] __monster_id__[25] = 'stalagmite_purple'
+
+   
+==============================================
+
+* Can use static bool "ari_is_in_dungeon" to check if in dungeon
+* Can use AriIsAtSanityLossLocation() method to check if outside
+
+if(IsNight(current_time_in_seconds) && AriIsAtSanityLossLocation() && !ari_is_in_dungeon)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+==================== SPAWN MONSTER ====================
+
+if (GetAsyncKeyState(VK_F1) & 1)
+{
+    RValue x;
+    g_ModuleInterface->GetBuiltin("x", self, NULL_INDEX, x);
+
+    RValue y;
+    g_ModuleInterface->GetBuiltin("y", self, NULL_INDEX, y);
+
+    CScript* gml_script_spawn_monster = nullptr;
+    g_ModuleInterface->GetNamedRoutinePointer(
+        "gml_Script_spawn_monster",
+        (PVOID*)&gml_script_spawn_monster
+    );
+
+    RValue _x = x.m_Real + 10;
+    RValue _y = y.m_Real + 10;
+    RValue _id = 0;
+
+    RValue result;
+    RValue* _x_ptr = &_x;
+    RValue* _y_ptr = &_y;
+    RValue* _id_ptr = &_id;
+    RValue* argument_array[3] = { _x_ptr, _y_ptr, _id_ptr };
+
+    gml_script_spawn_monster->m_Functions->m_ScriptFunction(
+        self,
+        other,
+        result,
+        3,
+        argument_array
+    );
+
+}

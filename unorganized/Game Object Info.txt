@@ -218,3 +218,39 @@ Member Name: drink_animation
 Member Name: drink_offset
 Member Name: drink_override
 Member Name: receive_gift
+
+
+
+===== obj_bug =====
+Member Name: idle_range
+Member Name: idle_shadow
+Member Name: pause_frame
+Member Name: idle_sprite
+Member Name: item_id
+Member Name: shadow_caster
+Member Name: idle_timer
+Member Name: randomise_spd
+Member Name: acceptable_terrain
+Member Name: state
+Member Name: shadow_sprite
+Member Name: z
+Member Name: setup
+Member Name: spd
+Member Name: move_bug
+Member Name: move_range
+Member Name: attraction
+Member Name: move_shadow
+Member Name: is_acceptable_terrain
+Member Name: bug_choose_new_spd_dir
+Member Name: bug_crawl
+Member Name: bug_fly
+Member Name: move_sprite
+Member Name: bug_fly_wave
+Member Name: bug_jump
+Member Name: move_timer
+Member Name: dir
+Member Name: cutscene_ended
+Member Name: cutscene_started
+Member Name: bug_to_idle
+Member Name: movement_type
+Member Name: light

@@ -1,0 +1,1775 @@
+{
+  "spr_portrait_adeline_autumn_angry_blush": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_blush": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_cartoon_embarassed": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_concerned": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_embarassed": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_happy": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_mad": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_neutral": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_sad": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_sigh": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_sly": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_think": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_ugh": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_adeline_autumn_wink": {
+    "Location": "images/spr_portrait_adeline_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_angry_blush": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_annoyed": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_blush_closed_eyes": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_blush_special": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_concerned": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_embarassed": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_angry_blush": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_annoyed": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_blush_closed_eyes": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_blush_special": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_blush": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_concerned": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_gloomy": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_happy": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_laugh": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_mad": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_neutral": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_sad": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_sweat": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_think": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_ugh": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_very_happy": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_garden_wink": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_gloomy": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_happy": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_laugh": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_mad": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_neutral": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_sad": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_sweat": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_think": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_ugh": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_very_happy": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_celine_autumn_wink": {
+    "Location": "images/spr_portrait_celine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dell_autumn_embarassed": {
+    "Location": "images/spr_portrait_dell_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dell_autumn_happy": {
+    "Location": "images/spr_portrait_dell_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dell_autumn_mad": {
+    "Location": "images/spr_portrait_dell_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dell_autumn_neutral": {
+    "Location": "images/spr_portrait_dell_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dell_autumn_sad": {
+    "Location": "images/spr_portrait_dell_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dell_autumn_think": {
+    "Location": "images/spr_portrait_dell_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dell_autumn_ugh": {
+    "Location": "images/spr_portrait_dell_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dell_autumn_wink": {
+    "Location": "images/spr_portrait_dell_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dozy_autumn_happy": {
+    "Location": "images/spr_portrait_dozy_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dozy_autumn_mad": {
+    "Location": "images/spr_portrait_dozy_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dozy_autumn_neutral_closed": {
+    "Location": "images/spr_portrait_dozy_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dozy_autumn_neutral": {
+    "Location": "images/spr_portrait_dozy_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dozy_autumn_sad": {
+    "Location": "images/spr_portrait_dozy_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_dozy_autumn_ugh": {
+    "Location": "images/spr_portrait_dozy_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_eiland_autumn_embarassed": {
+    "Location": "images/spr_portrait_eiland_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_eiland_autumn_happy": {
+    "Location": "images/spr_portrait_eiland_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_eiland_autumn_mad": {
+    "Location": "images/spr_portrait_eiland_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_eiland_autumn_neutral": {
+    "Location": "images/spr_portrait_eiland_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_eiland_autumn_sad": {
+    "Location": "images/spr_portrait_eiland_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_eiland_autumn_think": {
+    "Location": "images/spr_portrait_eiland_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_eiland_autumn_ugh": {
+    "Location": "images/spr_portrait_eiland_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_eiland_autumn_wink": {
+    "Location": "images/spr_portrait_eiland_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_annoyed": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_blush": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_embarassed": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_gloomy": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_happy_arm_down": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_happy_fist": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_happy": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_laugh": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_mad": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_neutral_arm_down": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_neutral_fist": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_neutral": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_sad": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_sweat": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_think": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_ugh": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_wink_arm_down": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_wink_fist": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hayden_autumn_wink": {
+    "Location": "images/spr_portrait_hayden_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hemlock_autumn_embarassed": {
+    "Location": "images/spr_portrait_hemlock_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hemlock_autumn_happy": {
+    "Location": "images/spr_portrait_hemlock_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hemlock_autumn_mad": {
+    "Location": "images/spr_portrait_hemlock_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hemlock_autumn_neutral": {
+    "Location": "images/spr_portrait_hemlock_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hemlock_autumn_sad": {
+    "Location": "images/spr_portrait_hemlock_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hemlock_autumn_think": {
+    "Location": "images/spr_portrait_hemlock_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hemlock_autumn_ugh": {
+    "Location": "images/spr_portrait_hemlock_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_hemlock_autumn_wink": {
+    "Location": "images/spr_portrait_hemlock_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_henrietta_autumn_happy": {
+    "Location": "images/spr_portrait_henrietta_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_henrietta_autumn_mad": {
+    "Location": "images/spr_portrait_henrietta_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_henrietta_autumn_neutral_closed": {
+    "Location": "images/spr_portrait_henrietta_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_henrietta_autumn_neutral": {
+    "Location": "images/spr_portrait_henrietta_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_henrietta_autumn_sad": {
+    "Location": "images/spr_portrait_henrietta_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_henrietta_autumn_ugh": {
+    "Location": "images/spr_portrait_henrietta_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_holt_autumn_embarassed": {
+    "Location": "images/spr_portrait_holt_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_holt_autumn_happy": {
+    "Location": "images/spr_portrait_holt_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_holt_autumn_mad": {
+    "Location": "images/spr_portrait_holt_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_holt_autumn_neutral": {
+    "Location": "images/spr_portrait_holt_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_holt_autumn_sad": {
+    "Location": "images/spr_portrait_holt_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_holt_autumn_think": {
+    "Location": "images/spr_portrait_holt_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_holt_autumn_ugh": {
+    "Location": "images/spr_portrait_holt_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_holt_autumn_wink": {
+    "Location": "images/spr_portrait_holt_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_josephine_autumn_embarassed": {
+    "Location": "images/spr_portrait_josephine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_josephine_autumn_happy": {
+    "Location": "images/spr_portrait_josephine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_josephine_autumn_mad": {
+    "Location": "images/spr_portrait_josephine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_josephine_autumn_neutral": {
+    "Location": "images/spr_portrait_josephine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_josephine_autumn_sad": {
+    "Location": "images/spr_portrait_josephine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_josephine_autumn_think": {
+    "Location": "images/spr_portrait_josephine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_josephine_autumn_ugh": {
+    "Location": "images/spr_portrait_josephine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_josephine_autumn_wink": {
+    "Location": "images/spr_portrait_josephine_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_angry_blush": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_angry_brows": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_annoyed": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_blush": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_embarassed": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_happy": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_laugh": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_mad": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_neutral": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_sad": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_sly": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_think": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_ugh": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_unimpressed": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_wild_laugh": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_juniper_autumn_wink": {
+    "Location": "images/spr_portrait_juniper_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_landen_autumn_embarassed": {
+    "Location": "images/spr_portrait_landen_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_landen_autumn_happy": {
+    "Location": "images/spr_portrait_landen_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_landen_autumn_mad": {
+    "Location": "images/spr_portrait_landen_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_landen_autumn_neutral": {
+    "Location": "images/spr_portrait_landen_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_landen_autumn_sad": {
+    "Location": "images/spr_portrait_landen_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_landen_autumn_think": {
+    "Location": "images/spr_portrait_landen_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_landen_autumn_ugh": {
+    "Location": "images/spr_portrait_landen_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_landen_autumn_wink": {
+    "Location": "images/spr_portrait_landen_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_luc_autumn_embarassed": {
+    "Location": "images/spr_portrait_luc_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_luc_autumn_happy": {
+    "Location": "images/spr_portrait_luc_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_luc_autumn_mad": {
+    "Location": "images/spr_portrait_luc_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_luc_autumn_neutral": {
+    "Location": "images/spr_portrait_luc_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_luc_autumn_sad": {
+    "Location": "images/spr_portrait_luc_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_luc_autumn_think": {
+    "Location": "images/spr_portrait_luc_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_luc_autumn_ugh": {
+    "Location": "images/spr_portrait_luc_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_luc_autumn_wink": {
+    "Location": "images/spr_portrait_luc_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_maple_autumn_embarassed": {
+    "Location": "images/spr_portrait_maple_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_maple_autumn_happy": {
+    "Location": "images/spr_portrait_maple_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_maple_autumn_mad": {
+    "Location": "images/spr_portrait_maple_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_maple_autumn_neutral": {
+    "Location": "images/spr_portrait_maple_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_maple_autumn_sad": {
+    "Location": "images/spr_portrait_maple_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_maple_autumn_think": {
+    "Location": "images/spr_portrait_maple_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_maple_autumn_ugh": {
+    "Location": "images/spr_portrait_maple_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_maple_autumn_wink": {
+    "Location": "images/spr_portrait_maple_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_drunk": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_embarassed": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_happy": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_mad": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_neutral": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_sad": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_sigh": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_sly": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_think": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_tsundere": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_ugh": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_unimpressed": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_march_autumn_wink": {
+    "Location": "images/spr_portrait_march_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_bunny_ears_neutral": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_embarassed": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_happy": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_mad": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_neutral": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_sad": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_think": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_ugh": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_olric_autumn_wink": {
+    "Location": "images/spr_portrait_olric_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_nora_autumn_embarassed": {
+    "Location": "images/spr_portrait_nora_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_nora_autumn_happy": {
+    "Location": "images/spr_portrait_nora_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_nora_autumn_mad": {
+    "Location": "images/spr_portrait_nora_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_nora_autumn_neutral": {
+    "Location": "images/spr_portrait_nora_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_nora_autumn_sad": {
+    "Location": "images/spr_portrait_nora_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_nora_autumn_think": {
+    "Location": "images/spr_portrait_nora_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_nora_autumn_ugh": {
+    "Location": "images/spr_portrait_nora_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_nora_autumn_wink": {
+    "Location": "images/spr_portrait_nora_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_terithia_autumn_embarassed": {
+    "Location": "images/spr_portrait_terithia_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_terithia_autumn_happy": {
+    "Location": "images/spr_portrait_terithia_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_terithia_autumn_mad": {
+    "Location": "images/spr_portrait_terithia_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_terithia_autumn_neutral": {
+    "Location": "images/spr_portrait_terithia_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_terithia_autumn_sad": {
+    "Location": "images/spr_portrait_terithia_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_terithia_autumn_think": {
+    "Location": "images/spr_portrait_terithia_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_terithia_autumn_ugh": {
+    "Location": "images/spr_portrait_terithia_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  },
+  "spr_portrait_terithia_autumn_wink": {
+    "Location": "images/spr_portrait_terithia_costume.png",
+    "OriginX": 0,
+    "OriginY": 0,
+    "MarginLeft": 0,
+    "MarginRight": 296,
+    "MarginBottom": 180,
+    "MarginTop": 0
+  }
+}

@@ -1,0 +1,3732 @@
+{
+  "items": {
+    "fish": {
+      "misc": {
+        "seaweed": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "clam": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "newt": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "pearl_clam": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "paper_pondshell": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "freshwater_oyster": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "spirula_shell": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "sand_dollar": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "pink_scallop_shell": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "blue_conch_shell": {
+          "value": {
+            "bin": 15
+          }
+        }
+      },
+      "ocean": {
+        "cod": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "jellyfish": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "octopus": {
+          "value": {
+            "bin": 52
+          }
+        },
+        "pollock": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "puffer_fish": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "red_snapper": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "sardine": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "sea_bream": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "squid": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "swordfish": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "tuna": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "anchovy": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "lobster": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "mackerel": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "ocean_sunfish": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "shrimp": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "bonito": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "char": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "crab": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "dart": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "grouper": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "stingray": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "butterfish": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "halibut": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "mullet": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "saury": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "shark": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "horse_mackerel": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "king_crab": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "oarfish": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "sand_lance": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "sea_bass": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "snow_fish": {
+          "value": {
+            "bin": 375
+          }
+        }
+      },
+      "river": {
+        "chum": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "crayfish": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "gar": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "goby": {
+          "value": {
+            "bin": 52
+          }
+        },
+        "pike": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "rock_bass": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "salmon": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "smallmouth_bass": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "sturgeon": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "trout": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "bluegill": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "walleye": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "carp": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "chub": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "paddlefish": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "bream": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "lightning_fish": {
+          "value": {
+            "bin": 375
+          }
+        },
+        "loach": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "minnow": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "sweetfish": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "tarpon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "grayling": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "lamprey": {
+          "value": {
+            "bin": 52
+          }
+        },
+        "leaf_fish": {
+          "value": {
+            "bin": 375
+          }
+        },
+        "perch": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "razorback": {
+          "value": {
+            "bin": 120
+          }
+        },
+        "shad": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "bowfish": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "dace": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "herring": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "shadow_bass": {
+          "value": {
+            "bin": 105
+          }
+        }
+      },
+      "deep_woods": {
+        "sunny": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "forest_perch": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "silver_redhorse": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "lake_trout": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "muskie": {
+          "value": {
+            "bin": 67
+          }
+        }
+      },
+      "pond": {
+        "bullfrog": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "catfish": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "frog": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "koi": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "roach": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "snakehead": {
+          "value": {
+            "bin": 45
+          }
+        },
+        "snapping_turtle": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "tetra": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "turtle": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "angel_fish": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "barb": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "cherry_fish": {
+          "value": {
+            "bin": 375
+          }
+        },
+        "crucian_carp": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "goldfish": {
+          "value": {
+            "bin": 90
+          }
+        },
+        "brown_bullhead": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "brown_trout": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "giant_koi": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "golden_shiner": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "lake_chub": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "sauger": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "bluefish": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "killifish": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "white_perch": {
+          "value": {
+            "bin": 90
+          }
+        },
+        "rainbow_trout": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "striped_bass": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "alligator_gar": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "burbot": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "flathead_catfish": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "freshwater_eel": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "giant_tilapia": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "tilapia": {
+          "value": {
+            "bin": 33
+          }
+        }
+      }
+    },
+    "mines": {
+      "upper_mines": {
+        "miners_pickaxe": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "tin_lunchbox": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "miners_slab": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "miners_rucksack": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "miners_helmet": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "upper_mines_mushroom": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "sweetroot": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "shadow_flower": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "narrows_moss": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "cave_shrimp": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "rock_guppy": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "stone_loach": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "cave_eel": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "cave_shark": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "lantern_moth": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "copper_beetle": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "worm": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "mine_cricket": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "tunnel_millipede": {
+          "value": {
+            "bin": 11
+          }
+        }
+      },
+      "lava_caves": {
+        "fire_crystal": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "warm_rock": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "red_obsidian": {
+          "value": {
+            "bin": 45
+          }
+        },
+        "rainbow_geode": {
+          "value": {
+            "bin": 45
+          }
+        },
+        "tiny_volcano": {
+          "value": {
+            "bin": 101
+          }
+        },
+        "flame_pepper": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "ash_mushroom": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "lava_chestnuts": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "hot_potato": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "breath_of_fire": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "obsidian": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "lava_piranha": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "candelabra_seadragon": {
+          "value": {
+            "bin": 45
+          }
+        },
+        "armored_bass": {
+          "value": {
+            "bin": 48
+          }
+        },
+        "sulfur_crab": {
+          "value": {
+            "bin": 45
+          }
+        },
+        "firesail_fish": {
+          "value": {
+            "bin": 97
+          }
+        },
+        "fire_wasp": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "cooktop_beetle": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "lava_snail": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "smoke_moth": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "diamond_beetle": {
+          "value": {
+            "bin": 60
+          }
+        }
+      },
+      "deep_earth": {
+        "really_round_rock": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "seriously_square_stone": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "earth_infused_stone": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "faceted_rock_gem": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "rock_statue": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "crystal": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "crystal_berries": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "shale_grass": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "earthshroom": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "rockroot": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "crystal_rose": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "pebble_minnow": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "shardfin": {
+          "value": {
+            "bin": 41
+          }
+        },
+        "earth_eel": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "rockbiter": {
+          "value": {
+            "bin": 41
+          }
+        },
+        "emerald_horned_charger": {
+          "value": {
+            "bin": 90
+          }
+        },
+        "rock_roach": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "deep_earthworm": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "crystalline_cricket": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "gem_shard_caterpillar": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "crystal_wing_moth": {
+          "value": {
+            "bin": 37
+          }
+        }
+      },
+      "tide_caverns": {
+        "stone_shell": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "starlight_coral": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "tidestone": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "dense_water": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "crab_statue": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "coral": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "underseaweed": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "sea_grapes": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "cave_kelp": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "mines_mussels": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "tide_lettuce": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "sapphire_betta": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "archerfish": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "transparent_jellyfish": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "water_balloon_fish": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "mini_whale_shark": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "sea_scarab": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "waterfly": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "hermit_snail": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "puddle_spider": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "coral_mantis": {
+          "value": {
+            "bin": 26
+          }
+        }
+      },
+      "ruins": {
+        "spell_fruit": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "essence_blossom": {
+          "value": {
+            "bin": 7
+          }
+        }
+      }
+    },
+    "other": {
+      "artifacts": {
+        "ritual_incense_burner": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "ritual_beads": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "ritual_chalice": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "ritual_scepter": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "ritual_tablet": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "perfect_copper_ore": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "perfect_iron_ore": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "perfect_silver_ore": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "perfect_gold_ore": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "perfect_mistril_ore": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "perfect_ruby": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "perfect_sapphire": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "perfect_emerald": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "perfect_diamond": {
+          "value": {
+            "bin": 168
+          }
+        },
+        "perfect_pink_diamond": {
+          "value": {
+            "bin": 243
+          }
+        },
+        "tiny_dinosaur_skeleton": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "trilobite_fossil": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "meteorite": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "fossilized_egg": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "amber_trapped_insect": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "dragon_claw": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "dragon_forged_bracelet": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "dragon_pact_tablet": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "dragon_scale": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "hardened_essence": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "ancient_crystal_goblet": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "ancient_gold_coin": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "ancient_horn_circlet": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "ancient_royal_scepter": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "ancient_stone_lantern": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "alda_bronze_sword": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "alda_clay_pot": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "alda_feather_pendant": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "alda_gem_bracelet": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "alda_mural_tablet": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "statuette_of_caldarus": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "caldosian_breastplate": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "caldosian_drinking_horn": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "caldosian_emperor_bust": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "caldosian_sword": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "lost_crown_of_aldaria": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "family_crest_pendant": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "aldarian_sword": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "aldarian_war_banner": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "aldarian_gauntlet": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "unknown_dragon_statuette": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "weightless_stone": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "muttering_cube": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "completely_wrong_map": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "black_tablet": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "rusted_treasure_chest": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "rubber_fish": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "water_sphere": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "giant_fish_scale": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "coin_lump": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "rainbow_seaweed": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "rock_with_a_hole": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "rusted_shield": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "mermaids_comb": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "criminal_confession": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "obsidian_blade": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "stone_horse": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "shortcut_scroll": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "flint_arrowhead": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "diamond_backed_mirror": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "petrified_wood": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "metal_leaf": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "fossilized_mandrake_root": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "gathering_basket": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "crystal_apple": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "vintage_watering_can": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "vintage_hammer": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "vintage_sickle": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "vintage_brush": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "vintage_cow_bell": {
+          "value": {
+            "bin": 93
+          }
+        }
+      },
+      "armor": {
+        "cloth_chestpiece": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "cloth_helmet": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "cloth_pants": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "cloth_wristband": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "cloth_shoes": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "scrap_metal_helmet": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "scrap_metal_chestpiece": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "scrap_metal_pants": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "scrap_metal_boots": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "scrap_metal_ring": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "copper_armor": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "copper_ring": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "copper_greaves": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "copper_helmet": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "copper_legplates": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "verdigris_helmet": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "verdigris_chestpiece": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "verdigris_tassets": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "verdigris_boots": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "verdigris_ring": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "iron_armor": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "iron_ring": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "iron_greaves": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "iron_helmet": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "iron_legplates": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "crystal_helmet": {
+          "value": {
+            "bin": 225
+          }
+        },
+        "crystal_chestpiece": {
+          "value": {
+            "bin": 225
+          }
+        },
+        "crystal_tassets": {
+          "value": {
+            "bin": 225
+          }
+        },
+        "crystal_boots": {
+          "value": {
+            "bin": 225
+          }
+        },
+        "crystal_ring": {
+          "value": {
+            "bin": 225
+          }
+        },
+        "silver_armor": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "silver_ring": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "silver_greaves": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "silver_helmet": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "silver_legplates": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "tarnished_gold_helmet": {
+          "value": {
+            "bin": 300
+          }
+        },
+        "tarnished_gold_armor": {
+          "value": {
+            "bin": 300
+          }
+        },
+        "tarnished_gold_legplates": {
+          "value": {
+            "bin": 300
+          }
+        },
+        "tarnished_gold_boots": {
+          "value": {
+            "bin": 300
+          }
+        },
+        "tarnished_gold_ring": {
+          "value": {
+            "bin": 300
+          }
+        },
+        "sword_tarnished_gold": {
+          "value": {
+            "bin": 825
+          }
+        },
+        "gold_armor": {
+          "value": {
+            "bin": 911
+          }
+        },
+        "gold_ring": {
+          "value": {
+            "bin": 911
+          }
+        },
+        "gold_greaves": {
+          "value": {
+            "bin": 911
+          }
+        },
+        "gold_helmet": {
+          "value": {
+            "bin": 911
+          }
+        },
+        "gold_legplates": {
+          "value": {
+            "bin": 911
+          }
+        }
+      },
+      "monster_drops": {
+        "sap": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "monster_fang": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "red_toadstool": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "wild_mushroom": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "glowing_mushroom": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "monster_powder": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "purple_mushroom": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "monster_shell": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "monster_core": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "monster_horn": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "essence_drop": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "monster_wing": {
+          "value": {
+            "bin": 22
+          }
+        }
+      },
+      "cooked_dishes": {
+        "coffee": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "beer": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "floral_tea": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "tulip_cake": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "lavender_tea": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "red_wine": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "white_wine": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "mushroom_brew": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "hot_toddy": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "twice_baked_rations": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "dragon_horn_mushroom_with_thyme": {
+          "value": {
+            "bin": 292
+          }
+        },
+        "bucket_brew": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "mint_gimlet": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "heavy_mist": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "humble_pie": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "confiscated_coffee": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "mixed_fruit_juice": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "big_cookie": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "honey_curry": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "espresso": {
+          "value": {
+            "bin": 7
+          }
+        }
+      },
+      "misc": {
+        "woodcrafting_station": {
+          "value": {
+            "bin": 375
+          }
+        },
+        "beginner_kitchen": {
+          "value": {
+            "bin": 375
+          }
+        },
+        "cozy_kitchen": {
+          "value": {
+            "bin": 562
+          }
+        },
+        "adept_kitchen": {
+          "value": {
+            "bin": 1125
+          }
+        },
+        "clay_key": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "mana_potion": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "construction_fence": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "unusual_seed": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "dragon_horn_mushroom": {
+          "value": {
+            "bin": 60
+          }
+        }
+      },
+      "festivals": {
+        "scent_of_spring": {
+          "value": {
+            "bin": 187
+          }
+        },
+        "star_shaped_cookie": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "chicky_hot_chocolate": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "cow_donut": {
+          "value": {
+            "bin": 225
+          }
+        },
+        "blue_capybara_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "blue_chicken_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "blue_duck_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "blue_rabbit_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "red_capybara_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "red_chicken_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "red_duck_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "red_rabbit_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "white_capybara_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "white_chicken_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "white_duck_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "white_rabbit_wall_ribbon": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "bronze_alpaca_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "bronze_cow_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "bronze_horse_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "bronze_sheep_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "gold_alpaca_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "gold_cow_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "gold_horse_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "gold_sheep_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "silver_alpaca_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "silver_cow_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "silver_horse_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "silver_sheep_trophy": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "alpaca_plushie": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "capybara_plushie": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "chicken_plushie": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "cow_plushie": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "duck_plushie": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "horse_plushie": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "rabbit_plushie": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "sheep_plushie": {
+          "value": {
+            "bin": 75
+          }
+        }
+      },
+      "ranching": {
+        "egg": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "feather": {
+          "value": {
+            "bin": 45
+          }
+        },
+        "cow_milk": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "bull_horn": {
+          "value": {
+            "bin": 90
+          }
+        },
+        "duck_egg": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "golden_duck_egg": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "duck_feather": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "golden_duck_feather": {
+          "value": {
+            "bin": 202
+          }
+        },
+        "horse_hair": {
+          "value": {
+            "bin": 97
+          }
+        },
+        "golden_horse_hair": {
+          "value": {
+            "bin": 292
+          }
+        },
+        "alpaca_wool": {
+          "value": {
+            "bin": 97
+          }
+        },
+        "golden_alpaca_wool": {
+          "value": {
+            "bin": 292
+          }
+        },
+        "bristle": {
+          "value": {
+            "bin": 90
+          }
+        },
+        "golden_bristle": {
+          "value": {
+            "bin": 270
+          }
+        },
+        "golden_bull_horn": {
+          "value": {
+            "bin": 270
+          }
+        },
+        "golden_cow_milk": {
+          "value": {
+            "bin": 90
+          }
+        },
+        "golden_egg": {
+          "value": {
+            "bin": 45
+          }
+        },
+        "golden_feather": {
+          "value": {
+            "bin": 135
+          }
+        },
+        "rabbit_wool": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "golden_rabbit_wool": {
+          "value": {
+            "bin": 202
+          }
+        },
+        "sheep_wool": {
+          "value": {
+            "bin": 90
+          }
+        },
+        "golden_sheep_wool": {
+          "value": {
+            "bin": 270
+          }
+        },
+        "cat_treat": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "dog_treat": {
+          "value": {
+            "bin": 37
+          }
+        }
+      },
+      "blacksmithing": {
+        "copper_ingot": {
+          "value": {
+            "bin": 82
+          }
+        },
+        "iron_ingot": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "silver_ingot": {
+          "value": {
+            "bin": 165
+          }
+        },
+        "gold_ingot": {
+          "value": {
+            "bin": 206
+          }
+        },
+        "mistril_ingot": {
+          "value": {
+            "bin": 247
+          }
+        },
+        "axe_worn": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "fishing_rod_worn": {
+          "value": {
+            "bin": 187
+          }
+        },
+        "hoe_worn": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "net_worn": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "pick_axe_worn": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "shovel_worn": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "watering_can_worn": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "axe_copper": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "fishing_rod_copper": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "hoe_copper": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "net_copper": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "pick_axe_copper": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "shovel_copper": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "watering_can_copper": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "axe_iron": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "fishing_rod_iron": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "hoe_iron": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "net_iron": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "pick_axe_iron": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "shovel_iron": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "watering_can_iron": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "watering_can_silver": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "axe_silver": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "fishing_rod_silver": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "hoe_silver": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "net_silver": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "pick_axe_silver": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "shovel_silver": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "axe_gold": {
+          "value": {
+            "bin": 900
+          }
+        },
+        "fishing_rod_gold": {
+          "value": {
+            "bin": 900
+          }
+        },
+        "hoe_gold": {
+          "value": {
+            "bin": 900
+          }
+        },
+        "net_gold": {
+          "value": {
+            "bin": 900
+          }
+        },
+        "pick_axe_gold": {
+          "value": {
+            "bin": 900
+          }
+        },
+        "shovel_gold": {
+          "value": {
+            "bin": 900
+          }
+        },
+        "watering_can_gold": {
+          "value": {
+            "bin": 900
+          }
+        },
+        "axe_mistril": {
+          "value": {
+            "bin": 1087
+          }
+        },
+        "fishing_rod_mistril": {
+          "value": {
+            "bin": 1087
+          }
+        },
+        "hoe_mistril": {
+          "value": {
+            "bin": 1087
+          }
+        },
+        "net_mistril": {
+          "value": {
+            "bin": 1087
+          }
+        },
+        "pick_axe_mistril": {
+          "value": {
+            "bin": 1087
+          }
+        },
+        "shovel_mistril": {
+          "value": {
+            "bin": 1087
+          }
+        },
+        "watering_can_mistril": {
+          "value": {
+            "bin": 1087
+          }
+        },
+        "sword_worn": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "sword_scrap_metal": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "sword_copper": {
+          "value": {
+            "bin": 360
+          }
+        },
+        "sword_verdigris": {
+          "value": {
+            "bin": 450
+          }
+        },
+        "sword_iron": {
+          "value": {
+            "bin": 543
+          }
+        },
+        "sword_crystal": {
+          "value": {
+            "bin": 637
+          }
+        },
+        "sword_silver": {
+          "value": {
+            "bin": 727
+          }
+        },
+        "sword_gold": {
+          "value": {
+            "bin": 900
+          }
+        },
+        "sword_mistril": {
+          "value": {
+            "bin": 1087
+          }
+        }
+      },
+      "materials": {
+        "basic_wood": {
+          "value": {
+            "bin": 1
+          }
+        },
+        "hard_wood": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "fiber": {
+          "value": {
+            "bin": 1
+          }
+        },
+        "grass_seed": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "hay": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "sod": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "peat": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "clay": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "glass": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "paper": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "shards": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "shard_mass": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "rock_salt": {
+          "value": {
+            "bin": 18,
+            "store": 37
+          }
+        },
+        "oil": {
+          "value": {
+            "bin": 22,
+            "store": 45
+          }
+        },
+        "soy_sauce": {
+          "value": {
+            "bin": 22,
+            "store": 45
+          }
+        },
+        "curry_powder": {
+          "value": {
+            "bin": 15,
+            "store": 30
+          }
+        },
+        "honey": {
+          "value": {
+            "bin": 37,
+            "store": 75
+          }
+        },
+        "chocolate": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "ore_copper": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "ore_emerald": {
+          "value": {
+            "bin": 45
+          }
+        },
+        "ore_ruby": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "ore_sapphire": {
+          "value": {
+            "bin": 37
+          }
+        },
+        "ore_diamond": {
+          "value": {
+            "bin": 52
+          }
+        },
+        "ore_pink_diamond": {
+          "value": {
+            "bin": 225
+          }
+        },
+        "ore_gold": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "ore_mistril": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "ore_iron": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "ore_silver": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "ore_stone": {
+          "value": {
+            "bin": 1
+          }
+        },
+        "essence_stone_tiny": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "essence_stone_small": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "essence_stone_medium": {
+          "value": {
+            "bin": 120
+          }
+        },
+        "essence_stone_large": {
+          "value": {
+            "bin": 240
+          }
+        }
+      },
+      "bugs": {
+        "butterfly": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "caterpillar": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "flower_crown_beetle": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "petalhopper": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "ladybug": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "luna_moth": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "orchid_mantis": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "roly_poly": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "snail": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "waterbug": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "cicada": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "cricket": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "dragonfly": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "firefly": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "jewel_beetle": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "magma_beetle": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "strawhopper": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "strobe_firefly": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "sand_bug": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "surf_beetle": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "beach_hopper": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "chillipede": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "cicada_nymph": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "fairy_bee": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "inchworm": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "leafhopper": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "mistmoth": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "monarch_butterfly": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "tiger_swallowtail_butterfly": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "walking_leaf": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "crystal_caterpillar": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "brightbulb_moth": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "frost_flutter_butterfly": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "icehopper": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "polar_fly": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "snug_bug": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "relic_crab": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "snowball_beetle": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "walking_stick": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "winterpillar": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "ant": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "bumblebee": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "fuzzy_moth": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "grasshopper": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "hermit_crab": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "hummingbird_hawk_moth": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "lightning_dragonfly": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "pond_skater": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "praying_mantis": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "question_mark_butterfly": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "redhead_worm": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "speedy_snail": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "rhinoceros_beetle": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "pond_snail": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "river_snail": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "windleaf_butterfly": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "mote_firefly": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "loam_caterpillar": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "dragon_horn_beetle": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "singing_katydid": {
+          "value": {
+            "bin": 52
+          }
+        }
+      },
+      "crops_and_forage": {
+        "turnip": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "potato": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "cabbage": {
+          "value": {
+            "bin": 135
+          }
+        },
+        "strawberry": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "carrot": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "peas": {
+          "value": {
+            "bin": 101
+          }
+        },
+        "cherry": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "chickpea": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "wild_leek": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "tulip": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "lilac": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "lemon": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "snowdrop_anemone": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "middlemist": {
+          "value": {
+            "bin": 75
+          }
+        },
+        "daffodil": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "dandelion": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "morel_mushroom": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "fennel": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "fiddlehead": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "nettle": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "blueberry": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "cucumber": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "tomato": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "corn": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "chili_pepper": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "watermelon": {
+          "value": {
+            "bin": 135
+          }
+        },
+        "sugar_cane": {
+          "value": {
+            "bin": 60
+          }
+        },
+        "tea": {
+          "value": {
+            "bin": 101
+          }
+        },
+        "seed_sunflower": {
+          "value": {
+            "store": 15
+          }
+        },
+        "peach": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "pear": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "rose": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "dill": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "sage": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "sunflower": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "sesame": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "hydrangea": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "daisy": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "iris": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "catmint": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "night_queen": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "coconut": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "thyme": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "oregano": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "basil": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "cosmos": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "marigold": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "wild_grapes": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "sweet_potato": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "broccoli": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "pumpkin": {
+          "value": {
+            "bin": 135
+          }
+        },
+        "onion": {
+          "value": {
+            "bin": 101
+          }
+        },
+        "cranberry": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "rice_stalk": {
+          "value": {
+            "bin": 112
+          }
+        },
+        "wheat": {
+          "value": {
+            "bin": 112
+          }
+        },
+        "moon_fruit": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "rosemary": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "orange": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "apple": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "chestnut": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "fog_orchid": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "viola": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "celosia": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "heather": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "garlic": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "chrysanthemum": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "horseradish": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "blackberry": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "cauliflower": {
+          "value": {
+            "bin": 56
+          }
+        },
+        "daikon_radish": {
+          "value": {
+            "bin": 135
+          }
+        },
+        "burdock_root": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "poinsettia": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "snow_peas": {
+          "value": {
+            "bin": 93
+          }
+        },
+        "beet": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "pomegranate": {
+          "value": {
+            "bin": 33
+          }
+        },
+        "frost_lily": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "jasmine": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "snapdragon": {
+          "value": {
+            "bin": 30
+          }
+        },
+        "crocus": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "holly": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "pineshroom": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "glowberry": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "oyster_mushroom": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "ice_block": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "rose_hip": {
+          "value": {
+            "bin": 15
+          }
+        },
+        "wintergreen_berry": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "plum_blossom": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "pinecone": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "acorn": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "cattail": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "water_chestnut": {
+          "value": {
+            "bin": 3
+          }
+        },
+        "seed_basil": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_broccoli": {
+          "value": {
+            "store": 30
+          }
+        },
+        "seed_cabbage": {
+          "value": {
+            "store": 52
+          }
+        },
+        "seed_carrot": {
+          "value": {
+            "store": 30
+          }
+        },
+        "seed_cauliflower": {
+          "value": {
+            "store": 30
+          }
+        },
+        "seed_catmint": {
+          "value": {
+            "store": 15
+          }
+        },
+        "seed_celosia": {
+          "value": {
+            "store": 11
+          }
+        },
+        "seed_chickpea": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "seed_chili_pepper": {
+          "value": {
+            "store": 30
+          }
+        },
+        "seed_chrysanthemum": {
+          "value": {
+            "store": 15
+          }
+        },
+        "seed_corn": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_cranberry": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_cucumber": {
+          "value": {
+            "store": 18
+          }
+        },
+        "seed_daffodil": {
+          "value": {
+            "store": 11
+          }
+        },
+        "seed_daisy": {
+          "value": {
+            "store": 7
+          }
+        },
+        "seed_dill": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_cosmos": {
+          "value": {
+            "store": 15
+          }
+        },
+        "seed_iris": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "seed_lilac": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "seed_marigold": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_night_queen": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_oregano": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_peas": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_potato": {
+          "value": {
+            "store": 30
+          }
+        },
+        "seed_pumpkin": {
+          "value": {
+            "store": 52
+          }
+        },
+        "seed_sage": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_snowdrop_anemone": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_strawberry": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_sweet_potato": {
+          "value": {
+            "store": 18
+          }
+        },
+        "seed_thyme": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_tomato": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_tulip": {
+          "value": {
+            "store": 15
+          }
+        },
+        "seed_turnip": {
+          "value": {
+            "store": 18
+          }
+        },
+        "seed_watermelon": {
+          "value": {
+            "store": 52
+          }
+        },
+        "seed_sugar_cane": {
+          "value": {
+            "store": 30
+          }
+        },
+        "seed_tea": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_garlic": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_heather": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "seed_moon_fruit": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_onion": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_rice": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_rosemary": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_viola": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_wheat": {
+          "value": {
+            "store": 225
+          }
+        },
+        "seed_beet": {
+          "value": {
+            "store": 18
+          }
+        },
+        "seed_burdock_root": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "seed_daikon_radish": {
+          "value": {
+            "store": 52
+          }
+        },
+        "seed_frost_lily": {
+          "value": {
+            "store": 11
+          }
+        },
+        "seed_jasmine": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "seed_poinsettia": {
+          "value": {
+            "store": 15
+          }
+        },
+        "seed_snapdragon": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "seed_snow_peas": {
+          "value": {
+            "store": 225
+          }
+        },
+        "thorn_vine": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "spirit_mushroom": {
+          "value": {
+            "bin": 26
+          }
+        },
+        "temple_flower": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "seed_temple_flower": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "walnut": {
+          "value": {
+            "bin": 18
+          }
+        },
+        "bell_berry": {
+          "value": {
+            "bin": 15
+          }
+        }
+      },
+      "mill": {
+        "flour": {
+          "value": {
+            "bin": 131,
+            "store": 150
+          }
+        },
+        "rice": {
+          "value": {
+            "bin": 131,
+            "store": 150
+          }
+        },
+        "sugar": {
+          "value": {
+            "bin": 75,
+            "store": 86
+          }
+        },
+        "cheese": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "golden_cheese": {
+          "value": {
+            "bin": 195
+          }
+        },
+        "butter": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "golden_butter": {
+          "value": {
+            "bin": 195
+          }
+        },
+        "mayonnaise": {
+          "value": {
+            "bin": 67
+          }
+        },
+        "duck_mayonnaise": {
+          "value": {
+            "bin": 52
+          }
+        },
+        "golden_mayonnaise": {
+          "value": {
+            "bin": 105
+          }
+        },
+        "golden_duck_mayonnaise": {
+          "value": {
+            "bin": 150
+          }
+        },
+        "quality_small_animal_feed": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "deluxe_small_animal_feed": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "ultimate_small_animal_feed": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "quality_hay": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "deluxe_hay": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "ultimate_hay": {
+          "value": {
+            "bin": 22
+          }
+        },
+        "small_grass_starter": {
+          "value": {
+            "bin": 11
+          }
+        },
+        "sapling_oak": {
+          "value": {
+            "bin": 7
+          }
+        },
+        "sapling_pine": {
+          "value": {
+            "bin": 7
+          }
+        }
+      }
+    }
+  }
+}

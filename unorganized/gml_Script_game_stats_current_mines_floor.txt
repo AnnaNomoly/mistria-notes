@@ -1,0 +1,31 @@
+===== RESULT: gml_Script_game_stats_current_mines_floor =====
+room_name: UNDEFINED
+current_floor: UNDEFINED
+monsters_spawned: ARRAY (length == 0)
+damages: ARRAY (length == 0)
+pickaxe_spawned_bugs: ARRAY (length == 0)
+time_end: OTHER
+time_start: INT64 == 31929
+whirlpool_uses: REAL == 0.000000
+fishes_spawned: ARRAY (length == 0)
+forageables_harvested: ARRAY (length == 0)
+stamina_on_floor_enter: REAL == 0.000000
+stamina_on_floor_exit: REAL == 0.000000
+forageables_spawned: ARRAY (length == 0)
+fishing_items: ARRAY (length == 0)
+status: STRING == unexpected
+artifacts: ARRAY (length == 0)
+enemy_drops: ARRAY (length == 0)
+digsites: REAL == 0.000000
+enemy_kill: OBJECT
+------------------------------
+health_on_floor_enter: REAL == 0.000000
+health_on_floor_exit: REAL == 0.000000
+chest_items_released: ARRAY (length == 0)
+snacks: ARRAY (length == 0)
+rock_drops: ARRAY (length == 0)
+rocks_broken: ARRAY (length == 0)
+rocks_spawned: ARRAY (length == 0)
+bugs_caught: ARRAY (length == 0)
+debris_items_released: ARRAY (length == 0)
+bugs_spawned: ARRAY (length == 0)
