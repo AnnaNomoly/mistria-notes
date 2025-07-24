@@ -4,7 +4,7 @@ import json
 characters = [
     "adeline",
     "balor",
-    #"caldarus",
+    "caldarus",
     "celine",
     "darcy",
     "dell",
@@ -30,11 +30,11 @@ characters = [
     "reina",
     "ryis",
     #"stillwell",
-    #"taliferro",
+    "taliferro",
     "terithia",
     "valen",
     "vera",
-    #"wheedle",
+    "wheedle",
     #"zorel"
 ]
 
