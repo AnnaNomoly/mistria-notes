@@ -1,0 +1,14 @@
+top_left_x: 133 x 8 = 1064	# Argument 1
+top_left_y:  24 x 8 = 192	# Argument 2
+write_size_x: 3 x 8 = 24
+write_size_y: 3 x 8 = 24
+
+
+-- Approx Center --
+1076
+206
+
+
+-- Actual Center --
+(top_left_x * 8) + (write_size_x * 8 / 2) = 1064 + 12 = 1076
+(top_left_y * 8) + (write_size_y * 8 / 2) = 192 + 12 = 204

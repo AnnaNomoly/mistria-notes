@@ -1,0 +1,108 @@
+ENTER: gml_Script_write_node@Grid@Grid
+=============== Self ===============
+Member Name: remove_as_current_grid
+Member Name: write_node
+Member Name: write_node_without_initializing
+Member Name: node_animal_claimed
+Member Name: node_can_jump_over
+Member Name: water_tilemap_id
+Member Name: destroy
+Member Name: node_collideable
+Member Name: node_colliders_count
+Member Name: ocarina
+Member Name: node_counter
+Member Name: node_flags
+Member Name: node_footstep_kind
+Member Name: write_water
+Member Name: node_force
+Member Name: node_furniture_footstep
+Member Name: node_grass_count
+Member Name: load_objects
+Member Name: node_index_for_cell
+Member Name: node_index_for_room_position
+Member Name: node_is_room_editor_collision
+Member Name: node_len
+Member Name: node_object_id
+Member Name: node_parent
+Member Name: node_pathfinding_cost
+Member Name: save
+Member Name: node_pathfinding_sitting
+Member Name: node_restrict_tree_growth
+Member Name: node_rug_id
+Member Name: node_rug_parent
+Member Name: node_spawn_colliders_timer
+Member Name: node_spawn_grass_timer
+Member Name: soil_tilemap_id
+Member Name: node_terrain_ground_kind
+Member Name: is_setup
+Member Name: node_terrain_is_watered
+Member Name: dims
+Member Name: node_terrain_kind
+Member Name: node_terrain_tile
+Member Name: node_terrain_variant
+Member Name: node_top_left_x
+Member Name: node_top_left_y
+Member Name: grass_autotile_tilemap_id
+Member Name: wilt_crops
+Member Name: wilt_trees_and_forageables
+Member Name: grass_variant_tilemap_id
+Member Name: location_id
+Member Name: auto_tile_tile
+Member Name: item_effects_node_at_cell
+Member Name: dyn_index
+Member Name: parent_node
+Member Name: tile_flag_satisfies
+Member Name: new_day
+Member Name: tile_flag_satisfies_node
+Member Name: tile_flag_satisfies_region
+Member Name: update_tilemap_for_node
+Member Name: pet_beds
+Member Name: sprinklers
+Member Name: pet_dishes
+Member Name: lost_items
+Member Name: terrain_editors
+Member Name: initialize_node_renderer
+Member Name: initialize_on_room_start
+Member Name: load
+Member Name: try_node_index_for_cell
+Member Name: try_node_index_for_room_position
+Member Name: write_ground
+Member Name: write_lava
+=============== Other ===============
+Member Name: execute_return_to_menu
+Member Name: last_serde_path
+Member Name: unique_identifier
+Member Name: load_state
+Member Name: play_time_comparator
+Member Name: exit_to_menu
+=============== Argument[0] ===============
+OBJECT:
+REAL: 224.000000
+=============== Argument[1] ===============
+OBJECT:
+REAL: 116.000000
+=============== Argument[2] ===============
+OBJECT:
+INT64: 1188
+=============== Argument[3] ===============
+OBJECT:
+REAL: 0.000000
+=============== Result ===============
+OBJECT
+Member Name: object_id
+Member Name: renderer
+Member Name: prototype
+Member Name: date_photo
+Member Name: old_terrain
+Member Name: on
+Member Name: write_size_x
+Member Name: write_size_y
+Member Name: last_update
+Member Name: top_left_x
+Member Name: top_left_y
+Member Name: parent_grid
+Member Name: cardinal_index
+Member Name: destructable
+Member Name: infusion
+Member Name: child_grid
+Member Name: fence_image_index

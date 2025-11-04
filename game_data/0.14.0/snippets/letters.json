@@ -1,0 +1,1835 @@
+    "letters": {
+        "default": {
+            "subject_line": "letters/default/subject_line",
+            "local": "letters/default/local",
+            "npc": "adeline",
+            "quest_to_start": "<n/a>",
+            "quest_to_progress": "<n/a>",
+            "can_repeat": false,
+            "items": [],
+            "requirements": {}
+        },
+        "friday_at_the_sleeping_dragon_inn": {
+            "subject_line": "letters/friday_at_the_sleeping_dragon_inn/subject_line",
+            "local": "letters/friday_at_the_sleeping_dragon_inn/local",
+            "npc": "reina",
+            "quest_to_start": "friday_at_the_sleeping_dragon_inn",
+            "requirements": {
+                "reached_date": {
+                    "season": "spring",
+                    "day": 5
+                }
+            }
+        },
+        "museum_donation_wanted": {
+            "npc": "errol",
+            "subject_line": "letters/museum_donation_wanted/subject_line",
+            "local": "letters/museum_donation_wanted/local",
+            "quest_to_start": "museum_donation_wanted",
+            "requirements": {
+                "reached_date": {
+                    "season": "spring",
+                    "day": 2
+                }
+            }
+        },
+        "tea_with_hayden": {
+            "npc": "hayden",
+            "subject_line": "letters/tea_with_hayden/subject_line",
+            "local": "letters/tea_with_hayden/local",
+            "quest_to_start": "tea_with_hayden",
+            "requirements": {
+                "completed_quest": "repair_the_mill"
+            }
+        },
+        "repair_the_mill": {
+            "npc": "adeline",
+            "subject_line": "letters/repair_the_mill/subject_line",
+            "local": "letters/repair_the_mill/local",
+            "quest_to_start": "repair_the_mill",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "replenishing_mistrias_food_reserves_1",
+                    "days_after": 3
+                }
+            }
+        },
+        "cozy_kitchen_unlock": {
+            "npc": "ryis",
+            "subject_line": "letters/cozy_kitchen_unlock/subject_line",
+            "local": "letters/cozy_kitchen_unlock/local",
+            "requirements": {
+                "reached_skill_level": {
+                    "cooking": 15
+                }
+            }
+        },
+        "adept_kitchen_unlock": {
+            "npc": "ryis",
+            "subject_line": "letters/adept_kitchen_unlock/subject_line",
+            "local": "letters/adept_kitchen_unlock/local",
+            "requirements": {
+                "reached_skill_level": {
+                    "cooking": 30
+                }
+            }
+        },
+        "greet_the_vendors": {
+            "npc": "nora",
+            "subject_line": "letters/greet_the_vendors/subject_line",
+            "local": "letters/greet_the_vendors/local",
+            "quest_to_start": "greet_the_vendors",
+            "requirements": {
+                "is_day_type": "saturday",
+                "completed_quest": "repair_the_bridge"
+            }
+        },
+        "the_unusual_seed": {
+            "subject_line": "letters/the_unusual_seed/subject_line",
+            "local": "letters/the_unusual_seed/local",
+            "npc": "celine",
+            "quest_to_start": "the_unusual_seed",
+            "requirements": {
+                "reached_heart_level": {
+                    "celine": 2
+                }
+            }
+        },
+        "the_smell_of_drying_ink": {
+            "subject_line": "letters/the_smell_of_drying_ink/subject_line",
+            "local": "letters/the_smell_of_drying_ink/local",
+            "npc": "adeline",
+            "quest_to_start": "the_smell_of_drying_ink",
+            "requirements": {
+                "reached_heart_level": {
+                    "adeline": 2
+                }
+            }
+        },
+        "the_stele": {
+            "subject_line": "letters/the_stele/subject_line",
+            "local": "letters/the_stele/local",
+            "npc": "eiland",
+            "quest_to_start": "the_stele",
+            "requirements": {
+                "has_progression": "repaired_dragon_shrine",
+                "reached_heart_level": {
+                    "eiland": 2
+                }
+            }
+        },
+        "surprise_me": {
+            "subject_line": "letters/surprise_me/subject_line",
+            "local": "letters/surprise_me/local",
+            "npc": "march",
+            "quest_to_start": "surprise_me",
+            "requirements": {
+                "reached_heart_level": {
+                    "march": 2
+                }
+            }
+        },
+        "pie_in_the_sky": {
+            "subject_line": "letters/pie_in_the_sky/subject_line",
+            "local": "letters/pie_in_the_sky/local",
+            "npc": "reina",
+            "quest_to_start": "pie_in_the_sky",
+            "requirements": {
+                "reached_heart_level": {
+                    "reina": 2
+                }
+            }
+        },
+        "bird_song": {
+            "subject_line": "letters/bird_song/subject_line",
+            "local": "letters/bird_song/local",
+            "npc": "landen",
+            "quest_to_start": "bird_song",
+            "requirements": {
+                "reached_heart_level": {
+                    "ryis": 2
+                }
+            }
+        },
+        "a_rewarding_choice": {
+            "subject_line": "letters/a_rewarding_choice/subject_line",
+            "local": "letters/a_rewarding_choice/local",
+            "npc": "adeline",
+            "quest_to_start": "a_rewarding_choice",
+            "requirements": {
+                "completed_quest": "the_smell_of_drying_ink",
+                "reached_heart_level": {
+                    "adeline": 4
+                }
+            }
+        },
+        "adeline_4h_reward_1": {
+            "subject_line": "letters/adeline_4h_reward_1/subject_line",
+            "local": "letters/adeline_4h_reward_1/local",
+            "npc": "adeline",
+            "items": [
+                {
+                    "item_name": "basic_wood",
+                    "count": 25
+                },
+                {
+                    "item_name": "ore_stone",
+                    "count": 25
+                }
+            ],
+            "requirements": {
+                "world_fact_is": {
+                    "adeline_4h_materials": true
+                }
+            }
+        },
+        "adeline_4h_reward_2": {
+            "subject_line": "letters/adeline_4h_reward_2/subject_line",
+            "local": "letters/adeline_4h_reward_2/local",
+            "npc": "adeline",
+            "items": [
+                {
+                    "item_name": "big_cookie",
+                    "count": 1
+                }
+            ],
+            "requirements": {
+                "world_fact_is": {
+                    "adeline_4h_cookie": true
+                }
+            }
+        },
+        "water_and_soil": {
+            "subject_line": "letters/water_and_soil/subject_line",
+            "local": "letters/water_and_soil/local",
+            "npc": "celine",
+            "quest_to_start": "water_and_soil",
+            "requirements": {
+                "completed_quest": "the_unusual_seed",
+                "reached_heart_level": {
+                    "celine": 4
+                }
+            }
+        },
+        "many_hands_make_light_work": {
+            "subject_line": "letters/many_hands_make_light_work/subject_line",
+            "local": "letters/many_hands_make_light_work/local",
+            "npc": "olric",
+            "quest_to_start": "many_hands_make_light_work",
+            "requirements": {
+                "completed_quest": "surprise_me",
+                "has_progression": "saturday_market_unlocked",
+                "reached_heart_level": {
+                    "march": 4
+                }
+            }
+        },
+        "shopping_buddy": {
+            "subject_line": "letters/shopping_buddy/subject_line",
+            "local": "letters/shopping_buddy/local",
+            "npc": "reina",
+            "quest_to_start": "shopping_buddy",
+            "requirements": {
+                "completed_quest": "pie_in_the_sky",
+                "reached_heart_level": {
+                    "reina": 4
+                }
+            }
+        },
+        "the_ruins": {
+            "subject_line": "letters/the_ruins/subject_line",
+            "local": "letters/the_ruins/local",
+            "npc": "eiland",
+            "quest_to_start": "the_ruins",
+            "requirements": {
+                "completed_quest": "the_stele",
+                "reached_heart_level": {
+                    "eiland": 4
+                }
+            }
+        },
+        "batch_312": {
+            "subject_line": "letters/batch_312/subject_line",
+            "local": "letters/batch_312/local",
+            "npc": "valen",
+            "quest_to_start": "batch_312",
+            "requirements": {
+                "completed_quest": "the_annual_check_up",
+                "reached_heart_level": {
+                    "valen": 4
+                }
+            }
+        },
+        "baked_potato_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/baked_potato_recipe/subject_line",
+            "local": "letters/baked_potato_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "baked_potato"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "potato"
+            }
+        },
+        "sliced_turnip_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/sliced_turnip_recipe/subject_line",
+            "local": "letters/sliced_turnip_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "sliced_turnip"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "turnip"
+            }
+        },
+        "cabbage_slaw_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/cabbage_slaw_recipe/subject_line",
+            "local": "letters/cabbage_slaw_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "cabbage_slaw"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "cabbage"
+            }
+        },
+        "candied_strawberries_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/candied_strawberries_recipe/subject_line",
+            "local": "letters/candied_strawberries_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "candied_strawberries"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "strawberry"
+            }
+        },
+        "candied_lemon_peel_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/candied_lemon_peel_recipe/subject_line",
+            "local": "letters/candied_lemon_peel_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "candied_lemon_peel"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "lemon"
+            }
+        },
+        "spicy_water_chestunut_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/spicy_water_chestunut_recipe/subject_line",
+            "local": "letters/spicy_water_chestunut_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "spicy_water_chestnuts"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "chili_pepper"
+            }
+        },
+        "grilled_corn_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/grilled_corn_recipe/subject_line",
+            "local": "letters/grilled_corn_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "grilled_corn"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "corn"
+            }
+        },
+        "cucumber_salad_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/cucumber_salad_recipe/subject_line",
+            "local": "letters/cucumber_salad_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "cucumber_salad"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "cucumber"
+            }
+        },
+        "tomato_soup_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/tomato_soup_recipe/subject_line",
+            "local": "letters/tomato_soup_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "tomato_soup"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "tomato"
+            }
+        },
+        "salted_watermelon_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/salted_watermelon_recipe/subject_line",
+            "local": "letters/salted_watermelon_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "salted_watermelon"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "watermelon"
+            }
+        },
+        "rose_tea_recipe": {
+            "npc": "josephine",
+            "subject_line": "letters/rose_tea_recipe/subject_line",
+            "local": "letters/rose_tea_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "rose_tea"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "tea"
+            }
+        },
+        "steamed_broccoli_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/steamed_broccoli_recipe/subject_line",
+            "local": "letters/steamed_broccoli_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "steamed_broccoli"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "broccoli"
+            }
+        },
+        "sauteed_snow_peas_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/sauteed_snow_peas_recipe/subject_line",
+            "local": "letters/sauteed_snow_peas_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "sauteed_snow_peas"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "snow_peas"
+            }
+        },
+        "onion_soup_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/onion_soup_recipe/subject_line",
+            "local": "letters/onion_soup_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "onion_soup"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "onion"
+            }
+        },
+        "roasted_sweet_potato_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/roasted_sweet_potato_recipe/subject_line",
+            "local": "letters/roasted_sweet_potato_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "roasted_sweet_potato"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "sweet_potato"
+            }
+        },
+        "pumpkin_stew_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/pumpkin_stew_recipe/subject_line",
+            "local": "letters/pumpkin_stew_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "pumpkin_stew"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "pumpkin"
+            }
+        },
+        "cranberry_juice_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/cranberry_juice_recipe/subject_line",
+            "local": "letters/cranberry_juice_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "cranberry_juice"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "cranberry"
+            }
+        },
+        "beet_salad_recipe": {
+            "npc": "valen",
+            "subject_line": "letters/beet_salad_recipe/subject_line",
+            "local": "letters/beet_salad_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "beet_salad"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "beet"
+            }
+        },
+        "roasted_cauliflower_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/roasted_cauliflower_recipe/subject_line",
+            "local": "letters/roasted_cauliflower_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "roasted_cauliflower"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "cauliflower"
+            }
+        },
+        "simmered_daikon_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/simmered_daikon_recipe/subject_line",
+            "local": "letters/simmered_daikon_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "simmered_daikon"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "daikon_radish"
+            }
+        },
+        "braised_burdock_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/braised_burdock_recipe/subject_line",
+            "local": "letters/braised_burdock_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "braised_burdock"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "burdock_root"
+            }
+        },
+        "coconut_milk_recipe": {
+            "npc": "landen",
+            "subject_line": "letters/coconut_milk_recipe/subject_line",
+            "local": "letters/coconut_milk_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "coconut_milk"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "coconut"
+            }
+        },
+        "toasted_sunflower_seeds_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/toasted_sunflower_seeds_recipe/subject_line",
+            "local": "letters/toasted_sunflower_seeds_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "toasted_sunflower_seeds"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "sunflower"
+            }
+        },
+        "poached_pear_recipe": {
+            "npc": "elsie",
+            "subject_line": "letters/poached_pear_recipe/subject_line",
+            "local": "letters/poached_pear_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "poached_pear"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "pear"
+            }
+        },
+        "peaches_and_cream_recipe": {
+            "npc": "adeline",
+            "subject_line": "letters/peaches_and_cream_recipe/subject_line",
+            "local": "letters/peaches_and_cream_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "peaches_and_cream"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "peach"
+            }
+        },
+        "orange_juice_recipe": {
+            "npc": "nora",
+            "subject_line": "letters/orange_juice_recipe/subject_line",
+            "local": "letters/orange_juice_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "orange_juice"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "orange"
+            }
+        },
+        "apple_juice_recipe": {
+            "npc": "dell",
+            "subject_line": "letters/apple_juice_recipe/subject_line",
+            "local": "letters/apple_juice_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "apple_juice"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "apple"
+            }
+        },
+        "pomegranate_sorbet_recipe": {
+            "npc": "elsie",
+            "subject_line": "letters/pomegranate_sorbet_recipe/subject_line",
+            "local": "letters/pomegranate_sorbet_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "pomegranate_sorbet"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "pomegranate"
+            }
+        },
+        "unlocking_the_mines_pt_1": {
+            "npc": "eiland",
+            "subject_line": "letters/unlocking_the_mines_pt_1/subject_line",
+            "local": "letters/unlocking_the_mines_pt_1/local",
+            "quest_to_start": "unlocking_the_mines_pt_1",
+            "requirements": {
+                "reached_date": {
+                    "season": "spring",
+                    "day": 6,
+                    "year": 1
+                }
+            }
+        },
+        "unlocking_the_mines_pt_2": {
+            "npc": "errol",
+            "subject_line": "letters/unlocking_the_mines_pt_2/subject_line",
+            "local": "letters/unlocking_the_mines_pt_2/local",
+            "quest_to_start": "unlocking_the_mines_pt_2",
+            "requirements": {
+                "completed_quest": "unlocking_the_mines_pt_1",
+                "reached_renown_level": 10
+            }
+        },
+        "repair_the_bridge": {
+            "npc": "adeline",
+            "subject_line": "letters/repair_the_bridge/subject_line",
+            "local": "letters/repair_the_bridge/local",
+            "quest_to_start": "repair_the_bridge",
+            "requirements": {
+                "reached_date": {
+                    "season": "spring",
+                    "day": 3,
+                    "year": 1
+                }
+            }
+        },
+        "miners_mushroom_stew": {
+            "npc": "errol",
+            "subject_line": "letters/miners_mushroom_stew/subject_line",
+            "local": "letters/miners_mushroom_stew/local",
+            "items": [
+                {
+                    "recipe_scroll": "miners_mushroom_stew"
+                }
+            ],
+            "requirements": {
+                "donated_item": "upper_mines_mushroom"
+            }
+        },
+        "baked_sweetroot": {
+            "npc": "errol",
+            "subject_line": "letters/baked_sweetroot/subject_line",
+            "local": "letters/baked_sweetroot/local",
+            "items": [
+                {
+                    "recipe_scroll": "baked_sweetroot"
+                }
+            ],
+            "requirements": {
+                "donated_item": "sweetroot"
+            }
+        },
+        "deep_sea_soup": {
+            "npc": "reina",
+            "subject_line": "letters/deep_sea_soup/subject_line",
+            "local": "letters/deep_sea_soup/local",
+            "items": [
+                {
+                    "recipe_scroll": "deep_sea_soup"
+                }
+            ],
+            "requirements": {
+                "donated_item": "cave_kelp"
+            }
+        },
+        "horsing_around": {
+            "npc": "juniper",
+            "subject_line": "letters/horsing_around/subject_line",
+            "local": "letters/horsing_around/local",
+            "quest_to_start": "horsing_around",
+            "requirements": {
+                "completed_quest": "becoming_junipers_guinea_pig",
+                "reached_heart_level": {
+                    "juniper": 4
+                }
+            }
+        },
+        "replenishing_mistrias_food_reserves_1": {
+            "npc": "adeline",
+            "subject_line": "letters/replenishing_mistrias_food_reserves_1/subject_line",
+            "local": "letters/replenishing_mistrias_food_reserves_1/local",
+            "quest_to_start": "replenishing_mistrias_food_reserves_1",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "repair_the_bridge",
+                    "days_after": 2
+                }
+            }
+        },
+        "an_open_book": {
+            "npc": "balor",
+            "subject_line": "letters/an_open_book/subject_line",
+            "local": "letters/an_open_book/local",
+            "quest_to_start": "an_open_book",
+            "requirements": {
+                "completed_quest": "tall_dark_and_mysterious",
+                "reached_heart_level": {
+                    "balor": 4
+                }
+            }
+        },
+        "repair_the_general_store": {
+            "npc": "adeline",
+            "subject_line": "letters/repair_the_general_store/subject_line",
+            "local": "letters/repair_the_general_store/local",
+            "quest_to_start": "repair_the_general_store",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "repair_the_summit_stairs",
+                    "days_after": 3
+                }
+            }
+        },
+        "crafting_tutorial": {
+            "npc": "ryis",
+            "subject_line": "letters/crafting_tutorial/subject_line",
+            "local": "letters/crafting_tutorial/local",
+            "quest_to_start": "crafting_tutorial",
+            "requirements": {
+                "reached_date": {
+                    "season": "spring",
+                    "day": 10,
+                    "year": 1
+                }
+            }
+        },
+        "medium_farm_buildings_unlocked": {
+            "npc": "ryis",
+            "subject_line": "letters/medium_farm_buildings_unlocked/subject_line",
+            "local": "letters/medium_farm_buildings_unlocked/local",
+            "requirements": {
+                "reached_skill_level": {
+                    "ranching": 20
+                }
+            }
+        },
+        "large_farm_buildings_unlocked": {
+            "npc": "ryis",
+            "subject_line": "letters/large_farm_buildings_unlocked/subject_line",
+            "local": "letters/large_farm_buildings_unlocked/local",
+            "requirements": {
+                "reached_skill_level": {
+                    "ranching": 40
+                }
+            }
+        },
+        "repair_the_summit_stairs": {
+            "npc": "adeline",
+            "subject_line": "letters/repair_the_summit_stairs/subject_line",
+            "local": "letters/repair_the_summit_stairs/local",
+            "quest_to_start": "repair_the_summit_stairs",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "repair_the_mill",
+                    "days_after": 3
+                }
+            }
+        },
+        "weather_globe_letter": {
+            "npc": "juniper",
+            "subject_line": "letters/weather_globe_letter/subject_line",
+            "local": "letters/weather_globe_letter/local",
+            "items": [
+                {
+                    "item_name": "weather_crystal_ball",
+                    "count": 1
+                }
+            ],
+            "requirements": {
+                "completed_quest": {
+                    "quest": "stinky_stamina_potion",
+                    "days_after": 1
+                }
+            }
+        },
+        "repair_haydens_barn": {
+            "npc": "adeline",
+            "subject_line": "letters/repair_haydens_barn/subject_line",
+            "local": "letters/repair_haydens_barn/local",
+            "quest_to_start": "repair_haydens_barn",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "replenishing_mistrias_food_reserves_2",
+                    "days_after": 2
+                }
+            }
+        },
+        "a_get_together": {
+            "npc": "hayden",
+            "subject_line": "letters/a_get_together/subject_line",
+            "local": "letters/a_get_together/local",
+            "quest_to_start": "a_get_together",
+            "requirements": {
+                "reached_heart_level": {
+                    "hayden": 2
+                }
+            }
+        },
+        "copper_fishing_rod_unlocked": {
+            "npc": "terithia",
+            "subject_line": "letters/copper_fishing_rod_unlocked/subject_line",
+            "local": "letters/copper_fishing_rod_unlocked/local",
+            "requirements": {
+                "reached_skill_level": {
+                    "fishing": 8
+                }
+            }
+        },
+        "iron_fishing_rod_unlocked": {
+            "npc": "terithia",
+            "subject_line": "letters/iron_fishing_rod_unlocked/subject_line",
+            "local": "letters/iron_fishing_rod_unlocked/local",
+            "requirements": {
+                "reached_skill_level": {
+                    "fishing": 15
+                }
+            }
+        },
+        "silver_fishing_rod_unlocked": {
+            "npc": "terithia",
+            "subject_line": "letters/silver_fishing_rod_unlocked/subject_line",
+            "local": "letters/silver_fishing_rod_unlocked/local",
+            "requirements": {
+                "reached_skill_level": {
+                    "fishing": 20
+                }
+            }
+        },
+        "gold_fishing_rod_unlocked": {
+            "npc": "terithia",
+            "subject_line": "letters/gold_fishing_rod_unlocked/subject_line",
+            "local": "letters/gold_fishing_rod_unlocked/local",
+            "requirements": {
+                "reached_skill_level": {
+                    "fishing": 30
+                }
+            }
+        },
+        "iron_tools_unlocked": {
+            "npc": "march",
+            "subject_line": "letters/iron_tools_unlocked/subject_line",
+            "local": "letters/iron_tools_unlocked/local",
+            "requirements": {
+                "reached_mines_level": 20
+            }
+        },
+        "silver_tools_unlocked": {
+            "npc": "march",
+            "subject_line": "letters/silver_tools_unlocked/subject_line",
+            "local": "letters/silver_tools_unlocked/local",
+            "requirements": {
+                "reached_mines_level": 40
+            }
+        },
+        "gold_tools_unlocked": {
+            "npc": "march",
+            "subject_line": "letters/gold_tools_unlocked/subject_line",
+            "local": "letters/gold_tools_unlocked/local",
+            "requirements": {
+                "reached_mines_level": 60
+            }
+        },
+        "a_sapling": {
+            "npc": "ryis",
+            "subject_line": "letters/a_sapling/subject_line",
+            "local": "letters/a_sapling/local",
+            "quest_to_start": "a_sapling",
+            "requirements": {
+                "completed_quest": "bird_song",
+                "reached_heart_level": {
+                    "ryis": 4
+                }
+            }
+        },
+        "replenishing_mistrias_food_reserves_2": {
+            "npc": "adeline",
+            "subject_line": "letters/replenishing_mistrias_food_reserves_2/subject_line",
+            "local": "letters/replenishing_mistrias_food_reserves_2/local",
+            "quest_to_start": "replenishing_mistrias_food_reserves_2",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "repair_the_beach_bridge",
+                    "days_after": 2
+                }
+            }
+        },
+        "repair_the_beach_bridge": {
+            "npc": "terithia",
+            "subject_line": "letters/repair_the_beach_bridge/subject_line",
+            "local": "letters/repair_the_beach_bridge/local",
+            "quest_to_start": "repair_the_beach_bridge",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "repair_the_general_store",
+                    "days_after": 3
+                }
+            }
+        },
+        "repair_the_inn": {
+            "npc": "adeline",
+            "subject_line": "letters/repair_the_inn/subject_line",
+            "local": "letters/repair_the_inn/local",
+            "quest_to_start": "repair_the_inn",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "repair_haydens_barn",
+                    "days_after": 3
+                }
+            }
+        },
+        "extra_feed": {
+            "npc": "hayden",
+            "subject_line": "letters/extra_feed/subject_line",
+            "local": "letters/extra_feed/local",
+            "quest_to_start": "extra_feed",
+            "requirements": {
+                "completed_quest": "a_get_together",
+                "reached_heart_level": {
+                    "hayden": 4
+                }
+            }
+        },
+        "stone_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/stone_star_rank_letter/subject_line",
+            "local": "letters/stone_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "copper_ingot",
+                    "count": 1
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 10
+            }
+        },
+        "copper_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/copper_star_rank_letter/subject_line",
+            "local": "letters/copper_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "strawberry_shortcake"
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 20
+            }
+        },
+        "ruby_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/ruby_star_rank_letter/subject_line",
+            "local": "letters/ruby_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "iron_ingot",
+                    "count": 3
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 30
+            }
+        },
+        "iron_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/iron_star_rank_letter/subject_line",
+            "local": "letters/iron_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "silver_ingot",
+                    "count": 3
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 40
+            }
+        },
+        "sapphire_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/sapphire_star_rank_letter/subject_line",
+            "local": "letters/sapphire_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "treasure_box_gold"
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 50
+            }
+        },
+        "silver_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/silver_star_rank_letter/subject_line",
+            "local": "letters/silver_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "treasure_box_gold"
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 60
+            }
+        },
+        "emerald_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/emerald_star_rank_letter/subject_line",
+            "local": "letters/emerald_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "treasure_box_gold"
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 70
+            }
+        },
+        "gold_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/gold_star_rank_letter/subject_line",
+            "local": "letters/gold_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "treasure_box_gold"
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 80
+            }
+        },
+        "diamond_star_rank_letter": {
+            "npc": "adeline",
+            "subject_line": "letters/diamond_star_rank_letter/subject_line",
+            "local": "letters/diamond_star_rank_letter/local",
+            "items": [
+                {
+                    "item_name": "mana_potion"
+                }
+            ],
+            "requirements": {
+                "reached_renown_level": 90
+            }
+        },
+        "post_carpenters_upgrade": {
+            "npc": "adeline",
+            "subject_line": "letters/post_carpenters_upgrade/subject_line",
+            "local": "letters/post_carpenters_upgrade/local",
+            "items": [
+                {
+                    "item_name": "mana_potion"
+                }
+            ],
+            "requirements": {
+                "completed_quest": {
+                    "quest": "upgrade_the_carpenters_shop",
+                    "days_after": 1
+                }
+            }
+        },
+        "ari_birthday_adeline": {
+            "npc": "adeline",
+            "subject_line": "letters/ari_birthday_adeline/subject_line",
+            "local": "letters/ari_birthday_adeline/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "lemon_pie"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "adeline": 4
+                }
+            }
+        },
+        "ari_birthday_balor": {
+            "npc": "balor",
+            "subject_line": "letters/ari_birthday_balor/subject_line",
+            "local": "letters/ari_birthday_balor/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "chickpea_curry"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "balor": 4
+                }
+            }
+        },
+        "ari_birthday_caldarus": {
+            "npc": "caldarus",
+            "subject_line": "letters/ari_birthday_caldarus/subject_line",
+            "local": "letters/ari_birthday_caldarus/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "marigold"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "world_fact_is": {
+                    "caldarus_home": true
+                },
+                "reached_heart_level": {
+                    "caldarus": 6
+                }
+            }
+        },
+        "ari_birthday_celine": {
+            "npc": "celine",
+            "subject_line": "letters/ari_birthday_celine/subject_line",
+            "local": "letters/ari_birthday_celine/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "rose_tea"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "celine": 4
+                }
+            }
+        },
+        "ari_birthday_eiland": {
+            "npc": "eiland",
+            "subject_line": "letters/ari_birthday_eiland/subject_line",
+            "local": "letters/ari_birthday_eiland/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "caldosian_chocolate_cake"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "eiland": 4
+                }
+            }
+        },
+        "ari_birthday_hayden": {
+            "npc": "hayden",
+            "subject_line": "letters/ari_birthday_hayden/subject_line",
+            "local": "letters/ari_birthday_hayden/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "loaded_baked_potato"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "hayden": 4
+                }
+            }
+        },
+        "ari_birthday_juniper": {
+            "npc": "juniper",
+            "subject_line": "letters/ari_birthday_juniper/subject_line",
+            "local": "letters/ari_birthday_juniper/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "pizza"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "juniper": 4
+                }
+            }
+        },
+        "ari_birthday_march": {
+            "npc": "march",
+            "subject_line": "letters/ari_birthday_march/subject_line",
+            "local": "letters/ari_birthday_march/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "iron_ingot",
+                    "count": 4
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "march": 4
+                }
+            }
+        },
+        "ari_birthday_reina": {
+            "npc": "reina",
+            "subject_line": "letters/ari_birthday_reina/subject_line",
+            "local": "letters/ari_birthday_reina/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "spicy_cheddar_biscuit"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "reina": 4
+                }
+            }
+        },
+        "ari_birthday_ryis": {
+            "npc": "ryis",
+            "subject_line": "letters/ari_birthday_ryis/subject_line",
+            "local": "letters/ari_birthday_ryis/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "hard_wood",
+                    "count": 5
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "ryis": 4
+                }
+            }
+        },
+        "ari_birthday_valen": {
+            "npc": "valen",
+            "subject_line": "letters/ari_birthday_valen/subject_line",
+            "local": "letters/ari_birthday_valen/local",
+            "can_repeat": true,
+            "items": [
+                {
+                    "item_name": "green_tea"
+                }
+            ],
+            "requirements": {
+                "is_player_birthday": true,
+                "reached_heart_level": {
+                    "valen": 4
+                }
+            }
+        },
+        "new_animals_in_stock": {
+            "npc": "hayden",
+            "subject_line": "letters/new_animals_in_stock/subject_line",
+            "local": "letters/new_animals_in_stock/local",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "repair_haydens_barn",
+                    "days_after": 1
+                },
+                "reached_date": {
+                    "season": "winter",
+                    "day": 1,
+                    "year": 1
+                }
+            }
+        },
+        "an_outside_consultant": {
+            "npc": "valen",
+            "subject_line": "letters/an_outside_consultant/subject_line",
+            "local": "letters/an_outside_consultant/local",
+            "quest_to_start": "an_outside_consultant",
+            "requirements": {
+                "completed_quest": "batch_312",
+                "reached_heart_level": {
+                    "valen": 6
+                }
+            }
+        },
+        "real_fine_day": {
+            "npc": "hayden",
+            "subject_line": "letters/real_fine_day/subject_line",
+            "local": "letters/real_fine_day/local",
+            "quest_to_start": "real_fine_day",
+            "requirements": {
+                "completed_quest": "extra_feed",
+                "reached_heart_level": {
+                    "hayden": 6
+                }
+            }
+        },
+        "the_manor": {
+            "subject_line": "letters/the_manor/subject_line",
+            "local": "letters/the_manor/local",
+            "npc": "eiland",
+            "quest_to_start": "the_manor",
+            "requirements": {
+                "completed_quest": "the_ruins",
+                "reached_heart_level": {
+                    "eiland": 6
+                }
+            }
+        },
+        "lemonade_from_lemons": {
+            "npc": "balor",
+            "subject_line": "letters/lemonade_from_lemons/subject_line",
+            "local": "letters/lemonade_from_lemons/local",
+            "quest_to_start": "lemonade_from_lemons",
+            "requirements": {
+                "earned_gold": 10000,
+                "completed_quest": "an_open_book",
+                "reached_heart_level": {
+                    "balor": 6
+                }
+            }
+        },
+        "a_change_of_greenery": {
+            "subject_line": "letters/a_change_of_greenery/subject_line",
+            "local": "letters/a_change_of_greenery/local",
+            "npc": "celine",
+            "quest_to_start": "a_change_of_greenery",
+            "requirements": {
+                "completed_quest": "water_and_soil",
+                "reached_heart_level": {
+                    "celine": 6
+                }
+            }
+        },
+        "farm_fresh_sous_chef": {
+            "subject_line": "letters/farm_fresh_sous_chef/subject_line",
+            "local": "letters/farm_fresh_sous_chef/local",
+            "npc": "reina",
+            "quest_to_start": "farm_fresh_sous_chef",
+            "requirements": {
+                "completed_quest": "shopping_buddy",
+                "reached_heart_level": {
+                    "reina": 6
+                }
+            }
+        },
+        "working_like_a_dog": {
+            "subject_line": "letters/working_like_a_dog/subject_line",
+            "local": "letters/working_like_a_dog/local",
+            "npc": "juniper",
+            "quest_to_start": "working_like_a_dog",
+            "requirements": {
+                "completed_quest": "horsing_around",
+                "reached_heart_level": {
+                    "juniper": 6
+                }
+            }
+        },
+        "chief_inspector": {
+            "subject_line": "letters/chief_inspector/subject_line",
+            "local": "letters/chief_inspector/local",
+            "npc": "adeline",
+            "quest_to_start": "chief_inspector",
+            "requirements": {
+                "completed_quest": "a_rewarding_choice",
+                "reached_heart_level": {
+                    "adeline": 6
+                }
+            }
+        },
+        "shooting_star_morning_letter": {
+            "subject_line": "letters/shooting_star_morning_letter/subject_line",
+            "local": "letters/shooting_star_morning_letter/local",
+            "npc": "josephine",
+            "items": [
+                {
+                    "recipe_scroll": "star_lantern_yellow"
+                },
+                {
+                    "recipe_scroll": "star_viewing_blanket_yellow"
+                },
+                {
+                    "recipe_scroll": "star_cushion_yellow"
+                }
+            ],
+            "requirements": {
+                "reached_date": {
+                    "season": "summer",
+                    "day": 28
+                }
+            }
+        },
+        "crown_requests_unlocked": {
+            "subject_line": "letters/crown_requests_unlocked/subject_line",
+            "local": "letters/crown_requests_unlocked/local",
+            "npc": "adeline",
+            "requirements": {
+                "eligible_for_crown_request": true
+            }
+        },
+        "shield_of_the_realm": {
+            "subject_line": "letters/shield_of_the_realm/subject_line",
+            "local": "letters/shield_of_the_realm/local",
+            "npc": "march",
+            "quest_to_start": "shield_of_the_realm",
+            "requirements": {
+                "completed_quest": "many_hands_make_light_work",
+                "reached_heart_level": {
+                    "march": 6
+                }
+            }
+        },
+        "a_birdhouse": {
+            "subject_line": "letters/a_birdhouse/subject_line",
+            "local": "letters/a_birdhouse/local",
+            "npc": "ryis",
+            "quest_to_start": "a_birdhouse",
+            "requirements": {
+                "completed_quest": "a_sapling",
+                "reached_heart_level": {
+                    "ryis": 6
+                }
+            }
+        },
+        "procuring_the_sealing_scroll": {
+            "subject_line": "letters/procuring_the_sealing_scroll/subject_line",
+            "npc": "balor",
+            "quest_to_progress": "procuring_the_sealing_scroll",
+            "local": "letters/procuring_the_sealing_scroll/local",
+            "requirements": {
+                "completed_quest": {
+                    "quest": "the_fire_tablet",
+                    "days_after": 2
+                }
+            }
+        },
+        "stone_refinery": {
+            "subject_line": "letters/stone_refinery/subject_line",
+            "npc": "adeline",
+            "quest_to_start": "stone_refinery",
+            "local": "letters/stone_refinery/local",
+            "requirements": {
+                "has_progression": "open_mines",
+                "reached_renown_level": 55,
+                "completed_quest": {
+                    "quest": "repair_the_inn",
+                    "days_after": 2
+                }
+            }
+        },
+        "lost_track_of_time_ssa": {
+            "subject_line": "letters/lost_track_of_time_ssa/subject_line",
+            "npc": "adeline",
+            "quest_to_start": "lost_track_of_time",
+            "local": "letters/lost_track_of_time_ssa/local",
+            "requirements": {
+                "completed_quest": "chief_inspector",
+                "world_fact_is": [
+                    {
+                        "shooting_star_adeline_attended": true
+                    },
+                    {
+                        "adeline_status": "undefined"
+                    }
+                ],
+                "reached_heart_level": {
+                    "adeline": 8
+                }
+            }
+        },
+        "lost_track_of_time_ssna": {
+            "subject_line": "letters/lost_track_of_time_ssna/subject_line",
+            "npc": "adeline",
+            "quest_to_start": "lost_track_of_time",
+            "local": "letters/lost_track_of_time_ssna/local",
+            "requirements": {
+                "completed_quest": "chief_inspector",
+                "world_fact_is": [
+                    {
+                        "shooting_star_adeline_attended": false
+                    },
+                    {
+                        "adeline_status": "undefined"
+                    }
+                ],
+                "reached_heart_level": {
+                    "adeline": 8
+                }
+            }
+        },
+        "bell_berry_bakewell_tart_recipe": {
+            "npc": "reina",
+            "subject_line": "letters/bell_berry_bakewell_tart_recipe/subject_line",
+            "local": "letters/bell_berry_bakewell_tart_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "bell_berry_bakewell_tart"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "bell_berry"
+            }
+        },
+        "candied_walnuts_recipe": {
+            "npc": "landen",
+            "subject_line": "letters/candied_walnuts_recipe/subject_line",
+            "local": "letters/candied_walnuts_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "candied_walnuts"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "walnut"
+            }
+        },
+        "spirit_mushroom_tea_recipe": {
+            "npc": "valen",
+            "subject_line": "letters/spirit_mushroom_tea_recipe/subject_line",
+            "local": "letters/spirit_mushroom_tea_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "spirit_mushroom_tea"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "spirit_mushroom"
+            }
+        },
+        "for_good_ssa": {
+            "npc": "balor",
+            "subject_line": "letters/for_good_ssa/subject_line",
+            "local": "letters/for_good_ssa/local",
+            "quest_to_start": "for_good",
+            "requirements": {
+                "completed_quest": [
+                    "an_open_book",
+                    "repair_the_bridge"
+                ],
+                "world_fact_is": [
+                    {
+                        "balor_status": "undefined"
+                    }
+                ],
+                "reached_heart_level": {
+                    "balor": 8
+                }
+            }
+        },
+        "for_good_ssna": {
+            "npc": "balor",
+            "subject_line": "letters/for_good_ssna/subject_line",
+            "local": "letters/for_good_ssna/local",
+            "quest_to_start": "for_good",
+            "requirements": {
+                "or": []
+            }
+        },
+        "a_lost_flower": {
+            "subject_line": "letters/a_lost_flower/subject_line",
+            "local": "letters/a_lost_flower/local",
+            "npc": "celine",
+            "quest_to_start": "a_lost_flower",
+            "requirements": {
+                "completed_quest": [
+                    "a_change_of_greenery",
+                    "repair_the_summit_stairs"
+                ],
+                "reached_heart_level": {
+                    "celine": 8
+                }
+            }
+        },
+        "a_little_while_longer_ssa": {
+            "npc": "hayden",
+            "subject_line": "letters/a_little_while_longer_ssa/subject_line",
+            "local": "letters/a_little_while_longer_ssa/local",
+            "quest_to_start": "a_little_while_longer",
+            "requirements": {
+                "completed_quest": [
+                    "real_fine_day",
+                    "repair_the_mill"
+                ],
+                "world_fact_is": [
+                    {
+                        "shooting_star_hayden_attended": true
+                    },
+                    {
+                        "hayden_status": "undefined"
+                    }
+                ],
+                "reached_heart_level": {
+                    "hayden": 8
+                }
+            }
+        },
+        "a_little_while_longer_ssna": {
+            "npc": "hayden",
+            "subject_line": "letters/a_little_while_longer_ssna/subject_line",
+            "local": "letters/a_little_while_longer_ssna/local",
+            "quest_to_start": "a_little_while_longer",
+            "requirements": {
+                "completed_quest": [
+                    "real_fine_day",
+                    "repair_the_mill"
+                ],
+                "world_fact_is": [
+                    {
+                        "shooting_star_hayden_attended": false
+                    },
+                    {
+                        "hayden_status": "undefined"
+                    }
+                ],
+                "reached_heart_level": {
+                    "hayden": 8
+                }
+            }
+        },
+        "potions_and_errands": {
+            "subject_line": "letters/potions_and_errands/subject_line",
+            "local": "letters/potions_and_errands/local",
+            "npc": "juniper",
+            "quest_to_start": "potions_and_errands",
+            "requirements": {
+                "completed_quest": [
+                    "working_like_a_dog",
+                    "the_earth_tablet"
+                ],
+                "reached_heart_level": {
+                    "juniper": 8
+                }
+            }
+        },
+        "the_aldarian_cooking_contest": {
+            "npc": "reina",
+            "subject_line": "letters/the_aldarian_cooking_contest/subject_line",
+            "local": "letters/the_aldarian_cooking_contest/local",
+            "quest_to_start": "the_aldarian_cooking_contest",
+            "requirements": {
+                "completed_quest": [
+                    "farm_fresh_sous_chef"
+                ],
+                "reached_heart_level": {
+                    "reina": 8
+                }
+            }
+        },
+        "the_glade": {
+            "subject_line": "letters/the_glade/subject_line",
+            "local": "letters/the_glade/local",
+            "npc": "eiland",
+            "quest_to_start": "the_glade",
+            "requirements": {
+                "completed_quest": "the_manor",
+                "reached_heart_level": {
+                    "eiland": 8
+                },
+                "building_is_status": {
+                    "thorny_bridge": "fixed"
+                }
+            }
+        },
+        "the_glade_hint": {
+            "subject_line": "letters/the_glade_hint/subject_line",
+            "local": "letters/the_glade_hint/local",
+            "npc": "eiland",
+            "requirements": {
+                "completed_quest": "the_manor",
+                "reached_heart_level": {
+                    "eiland": 8
+                },
+                "building_is_status": {
+                    "thorny_bridge": "destroyed"
+                }
+            }
+        },
+        "gold_ore": {
+            "npc": "olric",
+            "subject_line": "letters/gold_ore/subject_line",
+            "local": "letters/gold_ore/local",
+            "requirements": {
+                "completed_quest": "shield_of_the_realm",
+                "reached_heart_level": {
+                    "march": 8
+                },
+                "invert": {
+                    "broke_seal": "fire"
+                }
+            }
+        },
+        "life_in_this_form": {
+            "subject_line": "letters/life_in_this_form/subject_line",
+            "local": "letters/life_in_this_form/local",
+            "npc": "caldarus",
+            "quest_to_start": "life_in_this_form",
+            "requirements": {
+                "reached_heart_level": {
+                    "caldarus": 8
+                },
+                "building_is_status": {
+                    "thorny_bridge": "fixed"
+                }
+            }
+        },
+        "upgrade_the_carpenters_shop": {
+            "npc": "adeline",
+            "subject_line": "letters/upgrade_the_carpenters_shop/subject_line",
+            "local": "letters/upgrade_the_carpenters_shop/local",
+            "quest_to_start": "upgrade_the_carpenters_shop",
+            "requirements": {
+                "reached_renown_level": 65,
+                "completed_quest": {
+                    "quest": "upgrade_the_saturday_market",
+                    "days_after": 1
+                }
+            }
+        },
+        "upgrade_the_saturday_market": {
+            "subject_line": "letters/upgrade_the_saturday_market/subject_line",
+            "local": "letters/upgrade_the_saturday_market/local",
+            "npc": "adeline",
+            "quest_to_start": "upgrade_the_saturday_market",
+            "requirements": {
+                "reached_renown_level": 65,
+                "world_fact_is": {
+                    "market_is_back": true
+                },
+                "completed_quest": {
+                    "quest": "stone_refinery",
+                    "days_after": 1
+                }
+            }
+        },
+        "elsie_dating_followup": {
+            "npc": "elsie",
+            "subject_line": "letters/elsie_dating_followup/subject_line",
+            "local": "letters/elsie_dating_followup/local",
+            "items": [
+                {
+                    "item_name": "picnic_set",
+                    "count": 1
+                }
+            ],
+            "requirements": {
+                "seen_cutscene": "elsie_dating_tutorial",
+                "building_is_status": {
+                    "thorny_bridge": "fixed"
+                },
+                "invert": {
+                    "unlocked_date": "deep_woods_picnic"
+                }
+            }
+        },
+        "a_duet": {
+            "npc": "ryis",
+            "subject_line": "letters/a_duet/subject_line",
+            "quest_to_start": "a_duet",
+            "local": "letters/a_duet/local",
+            "requirements": {
+                "completed_quest": "a_birdhouse",
+                "reached_heart_level": {
+                    "ryis": 8
+                }
+            }
+        },
+        "crystal_berry_pie_recipe": {
+            "npc": "reina",
+            "subject_line": "letters/crystal_berry_pie_recipe/subject_line",
+            "local": "letters/crystal_berry_pie_recipe/local",
+            "items": [
+                {
+                    "recipe_scroll": "crystal_berry_pie"
+                }
+            ],
+            "requirements": {
+                "shipped_item": "crystal_berries"
+            }
+        },
+        "the_panacea": {
+            "npc": "valen",
+            "subject_line": "letters/the_panacea/subject_line",
+            "local": "letters/the_panacea/local",
+            "quest_to_start": "the_panacea",
+            "requirements": {
+                "completed_quest": "an_outside_consultant",
+                "reached_heart_level": {
+                    "valen": 8
+                }
+            }
+        },
+        "harvest_festival_patch_case": {
+            "npc": "reina",
+            "subject_line": "letters/harvest_festival_patch_case/subject_line",
+            "local": "letters/harvest_festival_patch_case/local",
+            "items": [
+                {
+                    "item_name": "queen_berry",
+                    "count": 10
+                }
+            ],
+            "requirements": {
+                "or": []
+            }
+        }
+    },

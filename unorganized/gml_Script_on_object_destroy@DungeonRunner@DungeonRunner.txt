@@ -1,0 +1,7 @@
+gml_Script_on_object_destroy@DungeonRunner@DungeonRunner
+- Self: ???
+- Other: ???
+- ArgumentCount: 2
+  - Arguments[0]: REAL // x-coord of node
+  - Arguments[1]: REAL // y-coord of node
+- Result: UNDEFINED

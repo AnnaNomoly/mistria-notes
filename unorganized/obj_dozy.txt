@@ -1,0 +1,266 @@
+========== obj_dozy ==========
+look_for_entry_transition: OBJECT
+------------------------------
+shadow_caster: ARRAY (length == 10)
+anim_speed: REAL == 1.000000
+register_interaction: OBJECT
+------------------------------
+pet_loops_requested: REAL == 3.000000
+reset_cycle_cardinality: OTHER
+reset_cycle_name: OTHER
+heart_particle_bundle: OBJECT
+Member Name: animate
+Member Name: fadeout_after_one_loop
+Member Name: instances
+Member Name: init_alpha
+Member Name: x_offset
+Member Name: spawn_rectangle
+Member Name: follow_obj
+Member Name: y_offset
+Member Name: on_floor
+Member Name: spd
+Member Name: spd_inc
+Member Name: ydir
+Member Name: rand_range
+Member Name: lifetime
+Member Name: dir
+Member Name: grav
+Member Name: grav_inc
+Member Name: size_inc
+Member Name: start_alpha_fadeout
+Member Name: start_angle
+Member Name: rot_spd
+Member Name: angle_lock
+Member Name: image_angle_equal_dir
+Member Name: sway
+------------------------------
+pet_sound: STRING == SoundEffects/Animals/DozyBark
+eat_animation: OTHER
+eat_plate: OTHER
+initialize: OBJECT
+------------------------------
+me: OBJECT
+Member Name: set_cardinality
+Member Name: activity_handler
+Member Name: animation
+Member Name: times_spoken_today
+Member Name: heart_level
+Member Name: heart_points
+Member Name: serialize
+Member Name: gift_flag
+Member Name: has_met
+Member Name: complete_pathfind
+Member Name: can_go_on_dates
+Member Name: id
+Member Name: gifts_given
+Member Name: is_romantic
+Member Name: add_heart_points
+Member Name: give_gift
+Member Name: is_best_friend
+Member Name: itinerary
+Member Name: is_birthday
+Member Name: report_hearts
+Member Name: cardinality
+Member Name: prototype
+Member Name: known_gift_preferences
+Member Name: can_perform_animation
+Member Name: simulated_distance_traveled
+Member Name: set_animation
+Member Name: brain
+Member Name: location_position
+Member Name: brain_dead
+Member Name: deserialize
+Member Name: set_has_met
+Member Name: talk_flag
+Member Name: set_heart_level
+Member Name: wardrobe
+Member Name: try_set_animation
+------------------------------
+handle_chatting: OBJECT
+------------------------------
+move_accel: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+restore_animation: OTHER
+restore_cardinality: OTHER
+fsm: OBJECT
+Member Name: last_state_id
+Member Name: states
+Member Name: blackboard
+Member Name: next_state
+Member Name: state
+Member Name: state_frame
+------------------------------
+move_spd: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+handle_thinking: OBJECT
+------------------------------
+chat_partner: OTHER
+z: REAL == 0.000000
+chat_scan_timer: REAL == 69.000000
+is_group_conversation: REAL == 0.000000
+chat_timer: OTHER
+chat_with: OBJECT
+------------------------------
+talk: OBJECT
+------------------------------
+zone: STRING == bathhouse/desk
+bark_emitter: OBJECT
+Member Name: bubble_index
+Member Name: timer
+Member Name: bubble_index_counter
+Member Name: bubble_sprite
+Member Name: active_bark
+Member Name: icon_index
+Member Name: icon_index_counter
+Member Name: x_offset
+Member Name: owner
+Member Name: is_barking
+Member Name: on_draw
+Member Name: emit
+Member Name: bark_type
+Member Name: y_offset
+Member Name: state
+Member Name: modifier
+------------------------------
+can_talk: OBJECT
+------------------------------
+highlighter: OBJECT
+Member Name: timer
+Member Name: request_highlight_mode
+Member Name: hold_amplitude
+Member Name: override_strength
+Member Name: override_strength_decrease
+Member Name: hold_period
+Member Name: interact_strength
+Member Name: highlight_mode
+Member Name: hold_transform
+Member Name: play_sound_time
+Member Name: highlight_this_frame
+Member Name: strength
+Member Name: update
+Member Name: color
+------------------------------
+update_animation: OBJECT
+------------------------------
+pathfinding_agent: OBJECT
+Member Name: raise_error
+Member Name: reserve_new_square
+Member Name: ok_response
+Member Name: conversion_rate
+Member Name: set_path
+Member Name: should_reserve_squares
+Member Name: onto_next_point
+Member Name: clear_all_reservations
+Member Name: meddler
+Member Name: path_check_error
+Member Name: itinerary
+Member Name: move_along_path
+Member Name: todo_list
+Member Name: err_response
+Member Name: squares_to_check
+------------------------------
+think_timer: REAL == 2028.000000
+update_cardinality: OBJECT
+------------------------------
+offset_with_cardinal: BOOL == true
+animate: OBJECT
+------------------------------
+position: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+update_dialogue_pip: OBJECT
+------------------------------
+override_mask: OTHER
+drink_animation: OTHER
+drink_offset: REAL == 0.000000
+drink_override: OTHER
+update_position: OBJECT
+------------------------------
+interact_distance: REAL == 48.000000
+possible_next_conversation: STRING == Conversations/Bank/Dozy/Banked Lines/dialogue/dialogue_10
+animator: OBJECT
+Member Name: set_cardinality
+Member Name: animate
+Member Name: loop_count
+Member Name: stop_sound
+Member Name: animation_is_over
+Member Name: hold_last_frame_flag
+Member Name: loops_requested
+Member Name: trigger_sound
+Member Name: update_sprite
+Member Name: set_loop_infinite
+Member Name: set_loop_x_times
+Member Name: owner
+Member Name: complex_index
+Member Name: next_tick_values
+Member Name: cardinality
+Member Name: retrieve_pack
+Member Name: sprite
+Member Name: retrieve_sprite
+Member Name: set_animation
+Member Name: current
+Member Name: sprite_pack_collection
+Member Name: set_animation_raw
+Member Name: tango_instance
+Member Name: index
+Member Name: set_index
+------------------------------
+my_query_quests: OBJECT
+------------------------------
+update_talk_status: OBJECT
+------------------------------
+hold_power: OTHER
+interact_nudge_distance: REAL == 4.000000
+has_potential_interactions: OBJECT
+------------------------------
+is_seated: OBJECT
+------------------------------
+withhold_pip: BOOL == false
+setup_drinking: OBJECT
+------------------------------
+interactable_mode: INT64 == 0
+setup_eating: OBJECT
+------------------------------
+receive_gift: OBJECT
+------------------------------
+allowed_in_fire_spell: BOOL == false
+dummy_walk_out_of_room: OBJECT
+------------------------------
+DummyExitConditionFactory: OBJECT
+------------------------------
+interactions: OBJECT
+Member Name: __buffer
+Member Name: __count
+Member Name: __internal_size
+------------------------------
+bounce_y_offset: REAL == -18.000000
+bouncer: OBJECT
+Member Name: offset
+Member Name: timer
+Member Name: request_bounce
+Member Name: period
+Member Name: alpha
+Member Name: alpha_refresh_rate
+Member Name: update
+Member Name: status
+Member Name: override_request_bounce
+------------------------------
+circle_size: REAL == 8.000000
+clean_eat_and_drink: OBJECT
+------------------------------
+want_to_talk_timer: REAL == 0.000000
+create_default_fsm: OBJECT
+------------------------------
+needs_talk_status_update: BOOL == false
+pet_animation: STRING == tailwag
+attempt_interact: OBJECT
+------------------------------
+npc_id: INT64 == 6
+get_walk_animation: OBJECT
+------------------------------
+conversation_available: BOOL == true

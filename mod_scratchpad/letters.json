@@ -1,0 +1,3894 @@
+{
+  "secret_santa_notice_adeline": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_adeline/subject_line",
+    "local": "letters/secret_santa_notice_adeline/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_adeline": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_adeline/subject_line",
+    "local": "letters/secret_santa_reminder_adeline/local"
+  },
+  "secret_santa_adeline_berry_bowl": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_beet_soup": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_fried_rice": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_vegetable_pot_pie": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_floral_tea": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_tulip_cake": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_sushi_platter": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_lobster_roll": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_summer_salad": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_adeline_vegetable_quiche": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_adeline_gift/subject_line",
+    "local": "letters/secret_santa_adeline_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_balor": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_balor/subject_line",
+    "local": "letters/secret_santa_notice_balor/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_balor": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_balor/subject_line",
+    "local": "letters/secret_santa_reminder_balor/local"
+  },
+  "secret_santa_balor_berry_bowl": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_beet_soup": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_fried_rice": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_vegetable_pot_pie": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_floral_tea": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_tulip_cake": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_sushi_platter": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_lobster_roll": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_summer_salad": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_balor_vegetable_quiche": {
+    "default": false,
+    "npc": "balor",
+    "subject_line": "letters/secret_santa_balor_gift/subject_line",
+    "local": "letters/secret_santa_balor_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_celine": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_celine/subject_line",
+    "local": "letters/secret_santa_notice_celine/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_celine": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_celine/subject_line",
+    "local": "letters/secret_santa_reminder_celine/local"
+  },
+  "secret_santa_celine_berry_bowl": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_beet_soup": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_fried_rice": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_vegetable_pot_pie": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_floral_tea": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_tulip_cake": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_sushi_platter": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_lobster_roll": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_summer_salad": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_celine_vegetable_quiche": {
+    "default": false,
+    "npc": "celine",
+    "subject_line": "letters/secret_santa_celine_gift/subject_line",
+    "local": "letters/secret_santa_celine_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_darcy": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_darcy/subject_line",
+    "local": "letters/secret_santa_notice_darcy/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_darcy": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_darcy/subject_line",
+    "local": "letters/secret_santa_reminder_darcy/local"
+  },
+  "secret_santa_darcy_berry_bowl": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_beet_soup": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_fried_rice": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_vegetable_pot_pie": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_floral_tea": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_tulip_cake": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_sushi_platter": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_lobster_roll": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_summer_salad": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_darcy_vegetable_quiche": {
+    "default": false,
+    "npc": "darcy",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_dell": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_dell/subject_line",
+    "local": "letters/secret_santa_notice_dell/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_dell": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_dell/subject_line",
+    "local": "letters/secret_santa_reminder_dell/local"
+  },
+  "secret_santa_dell_berry_bowl": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_beet_soup": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_fried_rice": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_vegetable_pot_pie": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_floral_tea": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_tulip_cake": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_sushi_platter": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_lobster_roll": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_summer_salad": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dell_vegetable_quiche": {
+    "default": false,
+    "npc": "dell",
+    "subject_line": "letters/secret_santa_dell_gift/subject_line",
+    "local": "letters/secret_santa_dell_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_dozy": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_dozy/subject_line",
+    "local": "letters/secret_santa_notice_dozy/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_dozy": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_dozy/subject_line",
+    "local": "letters/secret_santa_reminder_dozy/local"
+  },
+  "secret_santa_dozy_berry_bowl": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_beet_soup": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_fried_rice": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_vegetable_pot_pie": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_floral_tea": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_tulip_cake": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_sushi_platter": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_lobster_roll": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_summer_salad": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_dozy_vegetable_quiche": {
+    "default": false,
+    "npc": "dozy",
+    "subject_line": "letters/secret_santa_dozy_gift/subject_line",
+    "local": "letters/secret_santa_dozy_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_eiland": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_eiland/subject_line",
+    "local": "letters/secret_santa_notice_eiland/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_eiland": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_eiland/subject_line",
+    "local": "letters/secret_santa_reminder_eiland/local"
+  },
+  "secret_santa_eiland_berry_bowl": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_beet_soup": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_fried_rice": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_vegetable_pot_pie": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_floral_tea": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_tulip_cake": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_sushi_platter": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_lobster_roll": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_summer_salad": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_eiland_vegetable_quiche": {
+    "default": false,
+    "npc": "eiland",
+    "subject_line": "letters/secret_santa_eiland_gift/subject_line",
+    "local": "letters/secret_santa_eiland_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_elsie": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_elsie/subject_line",
+    "local": "letters/secret_santa_notice_elsie/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_elsie": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_elsie/subject_line",
+    "local": "letters/secret_santa_reminder_elsie/local"
+  },
+  "secret_santa_elsie_berry_bowl": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_beet_soup": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_fried_rice": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_vegetable_pot_pie": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_floral_tea": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_tulip_cake": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_sushi_platter": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_lobster_roll": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_summer_salad": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_elsie_vegetable_quiche": {
+    "default": false,
+    "npc": "elsie",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_errol": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_errol/subject_line",
+    "local": "letters/secret_santa_notice_errol/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_errol": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_errol/subject_line",
+    "local": "letters/secret_santa_reminder_errol/local"
+  },
+  "secret_santa_errol_berry_bowl": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_beet_soup": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_fried_rice": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_vegetable_pot_pie": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_floral_tea": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_tulip_cake": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_sushi_platter": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_lobster_roll": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_summer_salad": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_errol_vegetable_quiche": {
+    "default": false,
+    "npc": "errol",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_hayden": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_hayden/subject_line",
+    "local": "letters/secret_santa_notice_hayden/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_hayden": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_hayden/subject_line",
+    "local": "letters/secret_santa_reminder_hayden/local"
+  },
+  "secret_santa_hayden_berry_bowl": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_beet_soup": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_fried_rice": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_vegetable_pot_pie": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_floral_tea": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_tulip_cake": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_sushi_platter": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_lobster_roll": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_summer_salad": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hayden_vegetable_quiche": {
+    "default": false,
+    "npc": "hayden",
+    "subject_line": "letters/secret_santa_hayden_gift/subject_line",
+    "local": "letters/secret_santa_hayden_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_hemlock": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_hemlock/subject_line",
+    "local": "letters/secret_santa_notice_hemlock/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_hemlock": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_hemlock/subject_line",
+    "local": "letters/secret_santa_reminder_hemlock/local"
+  },
+  "secret_santa_hemlock_berry_bowl": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_beet_soup": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_fried_rice": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_vegetable_pot_pie": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_floral_tea": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_tulip_cake": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_sushi_platter": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_lobster_roll": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_summer_salad": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_hemlock_vegetable_quiche": {
+    "default": false,
+    "npc": "hemlock",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_henrietta": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_henrietta/subject_line",
+    "local": "letters/secret_santa_notice_henrietta/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_henrietta": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_henrietta/subject_line",
+    "local": "letters/secret_santa_reminder_henrietta/local"
+  },
+  "secret_santa_henrietta_berry_bowl": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_beet_soup": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_fried_rice": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_vegetable_pot_pie": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_floral_tea": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_tulip_cake": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_sushi_platter": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_lobster_roll": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_summer_salad": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_henrietta_vegetable_quiche": {
+    "default": false,
+    "npc": "henrietta",
+    "subject_line": "letters/secret_santa_henrietta_gift/subject_line",
+    "local": "letters/secret_santa_henrietta_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_holt": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_holt/subject_line",
+    "local": "letters/secret_santa_notice_holt/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_holt": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_holt/subject_line",
+    "local": "letters/secret_santa_reminder_holt/local"
+  },
+  "secret_santa_holt_berry_bowl": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_beet_soup": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_fried_rice": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_vegetable_pot_pie": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_floral_tea": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_tulip_cake": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_sushi_platter": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_lobster_roll": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_summer_salad": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_holt_vegetable_quiche": {
+    "default": false,
+    "npc": "holt",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_josephine": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_josephine/subject_line",
+    "local": "letters/secret_santa_notice_josephine/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_josephine": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_josephine/subject_line",
+    "local": "letters/secret_santa_reminder_josephine/local"
+  },
+  "secret_santa_josephine_berry_bowl": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_beet_soup": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_fried_rice": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_vegetable_pot_pie": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_floral_tea": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_tulip_cake": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_sushi_platter": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_lobster_roll": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_summer_salad": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_josephine_vegetable_quiche": {
+    "default": false,
+    "npc": "josephine",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_juniper": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_juniper/subject_line",
+    "local": "letters/secret_santa_notice_juniper/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_juniper": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_juniper/subject_line",
+    "local": "letters/secret_santa_reminder_juniper/local"
+  },
+  "secret_santa_juniper_berry_bowl": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_beet_soup": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_fried_rice": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_vegetable_pot_pie": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_floral_tea": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_tulip_cake": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_sushi_platter": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_lobster_roll": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_summer_salad": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_juniper_vegetable_quiche": {
+    "default": false,
+    "npc": "juniper",
+    "subject_line": "letters/secret_santa_juniper_gift/subject_line",
+    "local": "letters/secret_santa_juniper_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_landen": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_landen/subject_line",
+    "local": "letters/secret_santa_notice_landen/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_landen": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_landen/subject_line",
+    "local": "letters/secret_santa_reminder_landen/local"
+  },
+  "secret_santa_landen_berry_bowl": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_beet_soup": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_fried_rice": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_vegetable_pot_pie": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_floral_tea": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_tulip_cake": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_sushi_platter": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_lobster_roll": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_summer_salad": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_landen_vegetable_quiche": {
+    "default": false,
+    "npc": "landen",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_luc": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_luc/subject_line",
+    "local": "letters/secret_santa_notice_luc/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_luc": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_luc/subject_line",
+    "local": "letters/secret_santa_reminder_luc/local"
+  },
+  "secret_santa_luc_berry_bowl": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_beet_soup": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_fried_rice": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_vegetable_pot_pie": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_floral_tea": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_tulip_cake": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_sushi_platter": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_lobster_roll": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_summer_salad": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_luc_vegetable_quiche": {
+    "default": false,
+    "npc": "luc",
+    "subject_line": "letters/secret_santa_luc_gift/subject_line",
+    "local": "letters/secret_santa_luc_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_louis": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_louis/subject_line",
+    "local": "letters/secret_santa_notice_louis/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_louis": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_louis/subject_line",
+    "local": "letters/secret_santa_reminder_louis/local"
+  },
+  "secret_santa_louis_berry_bowl": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_beet_soup": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_fried_rice": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_vegetable_pot_pie": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_floral_tea": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_tulip_cake": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_sushi_platter": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_lobster_roll": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_summer_salad": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_louis_vegetable_quiche": {
+    "default": false,
+    "npc": "louis",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_maple": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_maple/subject_line",
+    "local": "letters/secret_santa_notice_maple/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_maple": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_maple/subject_line",
+    "local": "letters/secret_santa_reminder_maple/local"
+  },
+  "secret_santa_maple_berry_bowl": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_beet_soup": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_fried_rice": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_vegetable_pot_pie": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_floral_tea": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_tulip_cake": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_sushi_platter": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_lobster_roll": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_summer_salad": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_maple_vegetable_quiche": {
+    "default": false,
+    "npc": "maple",
+    "subject_line": "letters/secret_santa_maple_gift/subject_line",
+    "local": "letters/secret_santa_maple_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_march": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_march/subject_line",
+    "local": "letters/secret_santa_notice_march/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_march": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_march/subject_line",
+    "local": "letters/secret_santa_reminder_march/local"
+  },
+  "secret_santa_march_berry_bowl": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_beet_soup": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_fried_rice": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_vegetable_pot_pie": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_floral_tea": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_tulip_cake": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_sushi_platter": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_lobster_roll": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_summer_salad": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_march_vegetable_quiche": {
+    "default": false,
+    "npc": "march",
+    "subject_line": "letters/secret_santa_march_gift/subject_line",
+    "local": "letters/secret_santa_march_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_merri": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_merri/subject_line",
+    "local": "letters/secret_santa_notice_merri/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_merri": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_merri/subject_line",
+    "local": "letters/secret_santa_reminder_merri/local"
+  },
+  "secret_santa_merri_berry_bowl": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_beet_soup": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_fried_rice": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_vegetable_pot_pie": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_floral_tea": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_tulip_cake": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_sushi_platter": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_lobster_roll": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_summer_salad": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_merri_vegetable_quiche": {
+    "default": false,
+    "npc": "merri",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_olric": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_olric/subject_line",
+    "local": "letters/secret_santa_notice_olric/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_olric": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_olric/subject_line",
+    "local": "letters/secret_santa_reminder_olric/local"
+  },
+  "secret_santa_olric_berry_bowl": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_beet_soup": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_fried_rice": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_vegetable_pot_pie": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_floral_tea": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_tulip_cake": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_sushi_platter": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_lobster_roll": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_summer_salad": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_olric_vegetable_quiche": {
+    "default": false,
+    "npc": "olric",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_nora": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_nora/subject_line",
+    "local": "letters/secret_santa_notice_nora/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_nora": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_nora/subject_line",
+    "local": "letters/secret_santa_reminder_nora/local"
+  },
+  "secret_santa_nora_berry_bowl": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_beet_soup": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_fried_rice": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_vegetable_pot_pie": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_floral_tea": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_tulip_cake": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_sushi_platter": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_lobster_roll": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_summer_salad": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_nora_vegetable_quiche": {
+    "default": false,
+    "npc": "nora",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_reina": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_reina/subject_line",
+    "local": "letters/secret_santa_notice_reina/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_reina": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_reina/subject_line",
+    "local": "letters/secret_santa_reminder_reina/local"
+  },
+  "secret_santa_reina_berry_bowl": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_beet_soup": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_fried_rice": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_vegetable_pot_pie": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_floral_tea": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_tulip_cake": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_sushi_platter": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_lobster_roll": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_summer_salad": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_reina_vegetable_quiche": {
+    "default": false,
+    "npc": "reina",
+    "subject_line": "letters/secret_santa_reina_gift/subject_line",
+    "local": "letters/secret_santa_reina_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_ryis": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_ryis/subject_line",
+    "local": "letters/secret_santa_notice_ryis/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_ryis": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_ryis/subject_line",
+    "local": "letters/secret_santa_reminder_ryis/local"
+  },
+  "secret_santa_ryis_berry_bowl": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_beet_soup": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_fried_rice": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_vegetable_pot_pie": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_floral_tea": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_tulip_cake": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_sushi_platter": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_lobster_roll": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_summer_salad": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_ryis_vegetable_quiche": {
+    "default": false,
+    "npc": "ryis",
+    "subject_line": "letters/secret_santa_ryis_gift/subject_line",
+    "local": "letters/secret_santa_ryis_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_terithia": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_terithia/subject_line",
+    "local": "letters/secret_santa_notice_terithia/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_terithia": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_terithia/subject_line",
+    "local": "letters/secret_santa_reminder_terithia/local"
+  },
+  "secret_santa_terithia_berry_bowl": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_beet_soup": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_fried_rice": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_vegetable_pot_pie": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_floral_tea": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_tulip_cake": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_sushi_platter": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_lobster_roll": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_summer_salad": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_terithia_vegetable_quiche": {
+    "default": false,
+    "npc": "terithia",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_valen": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_valen/subject_line",
+    "local": "letters/secret_santa_notice_valen/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_valen": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_valen/subject_line",
+    "local": "letters/secret_santa_reminder_valen/local"
+  },
+  "secret_santa_valen_berry_bowl": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_beet_soup": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_fried_rice": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_vegetable_pot_pie": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_floral_tea": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_tulip_cake": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_sushi_platter": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_lobster_roll": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_summer_salad": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_valen_vegetable_quiche": {
+    "default": false,
+    "npc": "valen",
+    "subject_line": "letters/secret_santa_valen_gift/subject_line",
+    "local": "letters/secret_santa_valen_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_notice_vera": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_notice_vera/subject_line",
+    "local": "letters/secret_santa_notice_vera/local",
+    "items": [
+      {
+        "big_cookie": 1,
+        "hot_cocoa": 1,
+        "purse": 500
+      }
+    ]
+  },
+  "secret_santa_reminder_vera": {
+    "default": false,
+    "npc": "adeline",
+    "subject_line": "letters/secret_santa_reminder_vera/subject_line",
+    "local": "letters/secret_santa_reminder_vera/local"
+  },
+  "secret_santa_vera_berry_bowl": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "berry_bowl",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_beet_soup": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "beet_soup",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_fried_rice": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "fried_rice",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_vegetable_pot_pie": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_pot_pie",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_floral_tea": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "floral_tea",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_tulip_cake": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "tulip_cake",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_sushi_platter": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "sushi_platter",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_lobster_roll": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "lobster_roll",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_summer_salad": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "summer_salad",
+        "count": 3
+      }
+    ]
+  },
+  "secret_santa_vera_vegetable_quiche": {
+    "default": false,
+    "npc": "vera",
+    "subject_line": "letters/secret_santa_generic_gift/subject_line",
+    "local": "letters/secret_santa_generic_gift/local",
+    "items": [
+      {
+        "item_name": "vegetable_quiche",
+        "count": 3
+      }
+    ]
+  }
+}

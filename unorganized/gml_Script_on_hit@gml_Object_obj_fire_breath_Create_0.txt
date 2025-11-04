@@ -1,0 +1,132 @@
+gml_Script_on_hit@gml_Object_obj_fire_breath_Create_0
+- Self: obj_fire_breath [OBJECT]
+    y_offset
+    move_x
+    is_last_poof
+    move_y
+    fire_breath_damage
+    make_poof_sound
+    image_speed_backup
+    shadow_caster
+    x_offset
+    on_hit
+    has_alpha_out
+    tarball
+- Other: obj_monster_sap [OBJECT]
+    process_status
+    slip_move
+    slippery_coefficient
+    tired_effect
+    process_tarball_status
+    acknowledgement_reset
+    insta_kill_timer
+    image_speed_backup
+    hit_points
+    allow_shoving
+    set_state_sprite
+    calculate_flipper
+    shove_factor
+    config
+    venomous_opacity
+    venomous_overlay_color
+    patience
+    amt
+    show_damage
+    dir
+    z
+    knockback_move
+    try_spawn_stars
+    debug_state
+    play_state_tango
+    receiver
+    try_despawn_stars
+    perform_effect
+    get_cardinal
+    track_player
+    monster_id
+    free_fly
+    friction_coefficient
+    stats_entry
+    can_overlap_ari
+    frozen_opacity
+    effect_alpha
+    status_effects
+    frozen_overlay_color
+    fsm
+    trauma
+    check_collision
+    original_dir
+    original_spawn_pos
+    shadow_caster
+    move
+    draw
+    aggro
+    skip_destroy_logic
+- ArgumentCount: 1
+    - Arguments[0]: OBJECT
+        iframes: REAL == 1.000000
+        target: INT64 == 2
+        on_damage_back: UNDEFINED
+        parent_id: OBJECT
+            process_status
+            slip_move
+            slippery_coefficient
+            tired_effect
+            process_tarball_status
+            acknowledgement_reset
+            insta_kill_timer
+            image_speed_backup
+            hit_points
+            allow_shoving
+            set_state_sprite
+            calculate_flipper
+            shove_factor
+            config
+            venomous_opacity
+            venomous_overlay_color
+            patience
+            amt
+            show_damage
+            dir
+            z
+            knockback_move
+            try_spawn_stars
+            debug_state
+            play_state_tango
+            receiver
+            try_despawn_stars
+            perform_effect
+            get_cardinal
+            track_player
+            monster_id
+            free_fly
+            friction_coefficient
+            stats_entry
+            can_overlap_ari
+            frozen_opacity
+            effect_alpha
+            status_effects
+            frozen_overlay_color
+            fsm
+            trauma
+            check_collision
+            original_dir
+            original_spawn_pos
+            shadow_caster
+            move
+            draw
+            aggro
+            skip_destroy_logic
+        damage: OBJECT
+    damage_back_tarball: UNDEFINED
+    parent_object: OBJECT
+    in_air: BOOL == false
+    damaged: REFERENCE
+    current_iframes: REAL == 1.000000
+    drop_damage: OBJECT
+    offset: UNDEFINED
+    try_take_damage: OBJECT
+    status: INT64 == 0
+- Result: UNDEFINED
+
+

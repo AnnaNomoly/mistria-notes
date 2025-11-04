@@ -1,0 +1,8 @@
+gml_Script_drain@InventorySlot@Inventory
+
+ENTER: gml_Script_drain@InventorySlot@Inventory. ArgCount: 0
+========== Result: OBJECT ==========
+__buffer: ARRAY (length == 8)
+__count: REAL == 8.000000
+__internal_size: REAL == 9.000000
+!

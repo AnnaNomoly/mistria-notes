@@ -1,0 +1,8 @@
+gml_script_play_conversation
+* Self: The thing being interacted with (ex: obj_dragonshrine)
+* Other: obj_ari
+* ArgumentCount: 4
+    - Arguments[0]: (2) INT64
+    - Arguments[1]: STRING
+    - Arguments[2]: UNDEFINED
+    - Arguments[3]: UNDEFINED

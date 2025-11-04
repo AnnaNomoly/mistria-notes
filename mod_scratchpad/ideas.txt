@@ -1,0 +1,37 @@
+~~Evil~~ shit I'm cooking up for a Mistbloom companion mod based on Deep Dungeons from FF. These will apply to the mines:
+
+**Sigils**: Items you'll find in treasure chests (I'll be setting the treasure chest spawn chance to 100%). Only usable in the mines. Not guaranteed to drop from a chest.
+```
+- Sigil of Storms: Sets the HP of all enemies on the floor to 1.
+- Sigil of Serenity: Removes all floor enchantments.
+- Sigil of Safety: Removes all floor traps.
+- Sigil of Flight: Reduces enemy spawns on the next floor.
+- Sigil of Fortune: Spawns a staircase (ignores Gloom penalty).
+```
+
+**Negative Floor Enchantments**: Random chance to apply on a floor. Higher chances on higher floors.
+```
+- Gloom: A **purple haze** fills the dungeon floor. (You suffer damage over time and enemies are stronger.)
+- HP Penalty: You feel an ancient magic **siphon some of your life**. (Maximum HP reduced for the current floor.)
+- Exhaustion: (Stamina costs doubled on the current floor.)
+- Amnesia: You can't remember how to cast magic. (Prevents spells from being cast.)
+- Item Penalty: Your items have turned into worthless stones. (Prevents item use except for Sigil of Serenity.)
+```
+
+**Positive Floor Enchantments**: Random chance to apply on a floor. Lower chances on higher floors.
+```
+- Fey: Grants the Fairy status effect and reduces the cost of all spells by half on the current floor.
+- Restoration: You recover health over time.
+- Second Wind: You recover stamina over time.
+- Haste: Increased movement speed.
+```
+
+**Floor Traps**: Psuedo-random hidden (invisible) traps. Simply stepping near them activates them.
+```
+Explosion: Deals 80% of your current health as damage.
+Luring: Spawns enemies nearby.
+```
+
+**Danger Floors**: Contain a __dread beast__ (modified monster) with significantly higher stats.
+
+**The Dungeon's Curse**: All buffs are removed at the start of a floor.

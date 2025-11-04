@@ -1,19 +1,7 @@
-// Function: gml_Script_pop@InventorySlot@Inventory
-// Result: VALUE_OBJECT
-/*
-    Member Name: auto_use
-    Member Name: cosmetic
-    Member Name: gold_to_gain
-    Member Name: animal_cosmetic
-    Member Name: item_id
-    Member Name: toString
-    Member Name: inner_item
-    Member Name: infusion
-    Member Name: prototype
-*/
-
-ENTER: gml_Script_pop@InventorySlot@Inventory. ArgCount: 0
-========== Result: OBJECT ==========
+ENTER: gml_Script_get_treasure_from_distribution
+=============== Result ===============
+ARRAY (length == 2)
+=============== Array[0] ===============
 cosmetic: OTHER
 prototype: OBJECT
 Member Name: health_modifier
@@ -73,11 +61,13 @@ Member Name: quality
 date_photo: OTHER
 auto_use: BOOL == false
 infusion: OTHER
-inner_item: OTHER
+inner_item: INT64 == 1287
 gold_to_gain: OTHER
 icon_override: OTHER
 animal_cosmetic: OTHER
-item_id: INT64 == 799
+item_id: INT32 == 31
 pet_cosmetic_set_name: OTHER
 toString: OBJECT
 ------------------------------
+=============== Array[1] ===============
+EXIT: gml_Script_get_treasure_from_distribution

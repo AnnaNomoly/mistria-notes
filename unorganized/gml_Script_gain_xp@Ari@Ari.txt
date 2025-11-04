@@ -1,0 +1,8 @@
+gml_Script_gain_xp@Ari@Ari
+- Self: NULL
+- Other: obj_ari
+- ArgumentCount: 2
+- Arguments[0]: 6 (INT64) // The ID of the skill, see global: [array] __skill__
+- Arguments[1]: 4 (REAL) // The XP amount (mined stone on the farm)
+- Result: UNDEFINED
+

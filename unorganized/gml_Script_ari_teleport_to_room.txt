@@ -1,0 +1,5 @@
+gml_Script_ari_teleport_to_room
+* Cald statue in his house
+- Arg0: INT64 (30)
+- Arg1: REAL (1176.0)
+- Arg2: REAL (200.0)

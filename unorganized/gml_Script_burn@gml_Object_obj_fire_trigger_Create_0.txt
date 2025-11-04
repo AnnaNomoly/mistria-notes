@@ -1,0 +1,3 @@
+gml_Script_burn@gml_Object_obj_fire_trigger_Create_0
+- Self
+- Other

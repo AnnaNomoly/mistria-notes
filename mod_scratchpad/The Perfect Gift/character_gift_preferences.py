@@ -1,6 +1,8 @@
 import re
 import json
 
+CURRENT_GAME_VERSION = "v0.14.4"
+
 characters = [
     "adeline",
     "balor",
@@ -40,11 +42,11 @@ characters = [
 
 character_gift_preferences = {}
 with open("preferred_gifts.json", "w") as preferred_gifts_file:
-    with open("localization.json", "r", encoding="utf-8") as localization_file:
+    with open(CURRENT_GAME_VERSION + "/localization.json", "r", encoding="utf-8") as localization_file:
         eng = json.loads(localization_file.read())["eng"]
         for key in eng:
             if "gift_lines" not in key: # Ignore all dialogue that only shows up after being gifted the item
-                results = re.findall("=(\w+(?: \w+)*)=", eng[key])
+                results = re.findall(r"=(\w+(?: \w+)*)=", eng[key])
                 if results:
                     for c in characters:
                         if c in key.lower():

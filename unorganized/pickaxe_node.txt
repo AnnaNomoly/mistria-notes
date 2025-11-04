@@ -16,17 +16,17 @@ gml_Script_anon@15637@pick_node@Pick
 
 
 gml_Script_pick_node
-Self: null
+Self: null (actually AriFsm?)
 Other: obj_ari
 Arguments[0]: OBJECT // node object
 Arguments[1]: 20.0 // room x-coord
 Arguments[2]: 24.0 // room y-coord
-Arguments[3]: OBJECT // item
+Arguments[3]: OBJECT // pick_axe item
 Arguments[4]: 0.0 (???)
 Arguments[5]: undefined
-Arguments[6]: OBJECT // ???
+Arguments[6]: OBJECT // (has members like "play_good" from @TangoDoppel@AriFsm)
 Arguments[7]: undefined
-Result: 1 (INT64) // 
+Result: 1 (INT64) // ???
 
 
 
@@ -55,6 +55,8 @@ node_is_room_editor_collision: ARRAY (length == 53336)
 node_len: REAL == 53336.000000
 dyn_index: OTHER
 node_object_id: ARRAY (length == 53336)
+    * ARRAY contains unrelated INT64 values
+    * ARRAY contains the object_id as a REAL
 node_parent: ARRAY (length == 53336)
 node_pathfinding_cost: ARRAY (length == 53336)
 node_pathfinding_sitting: ARRAY (length == 53336)

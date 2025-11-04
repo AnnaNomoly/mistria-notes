@@ -96,11 +96,6 @@ gml_Script_can_write_object_on_node
 
 
 
-
-gml_Script_write_furniture_to_location
-
-
-
 gml_Script_interact
   ArgCount: 1
   Arg0: VALUE_OBJECT

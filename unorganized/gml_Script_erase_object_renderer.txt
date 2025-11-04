@@ -1,0 +1,137 @@
+ENTER: gml_Script_erase_object_renderer
+
+=============== Argument[0] ===============
+  prototype: OBJECT
+    Member Name: pet_dish
+    Member Name: can_be_child
+    Member Name: rug
+    Member Name: ari_craft_offset
+    Member Name: rule_grid
+    Member Name: bird_perch
+    Member Name: is_bed
+    Member Name: can_overlap_collision
+    Member Name: is_date_photo
+    Member Name: object_id
+    Member Name: depth_offset
+    Member Name: depth_to_floor
+    Member Name: essence_machine
+    Member Name: fence
+    Member Name: animal_toy
+    Member Name: collision_grid
+    Member Name: is_journal
+    Member Name: input_terrain
+    Member Name: window_tiles
+    Member Name: output_terrain
+    Member Name: placeable_locations
+    Member Name: check_pick
+    Member Name: animated
+    Member Name: mirror_west
+    Member Name: destructable
+    Member Name: interact_local
+    Member Name: interact_local_off
+    Member Name: cardinal_data
+    Member Name: interact_mask
+    Member Name: kitchen_level
+    Member Name: sub_grid
+    Member Name: interaction_chest
+    Member Name: footstep
+    Member Name: cardinals
+    Member Name: interaction_turn_on
+    Member Name: sprinkler
+    Member Name: house_stairs
+    Member Name: size
+    Member Name: on_twos_only
+    Member Name: on_wall
+    Member Name: pet_bed
+    Member Name: forecaster
+    Member Name: category_id
+  ------------------------------
+  date_photo: UNDEFINED
+  write_size_x: REAL == 3.000000
+  write_size_y: REAL == 3.000000
+  object_id: REAL == 1280.000000
+  infusion: UNDEFINED
+  is_on: BOOL == false
+  old_terrain: UNDEFINED
+  on: BOOL == false
+  destructable: BOOL == true
+  cardinal_index: REAL == 3.000000
+  parent_grid: OBJECT
+    Member Name: dyn_index
+    Member Name: write_node_without_initializing
+    Member Name: pet_dishes
+    Member Name: auto_tile_tile
+    Member Name: water_tilemap_id
+    Member Name: write_water
+    Member Name: lost_items
+    Member Name: initialize_node_renderer
+    Member Name: initialize_on_room_start
+    Member Name: remove_as_current_grid
+    Member Name: load
+    Member Name: node_animal_claimed
+    Member Name: wilt_crops
+    Member Name: node_can_jump_over
+    Member Name: wilt_trees_and_forageables
+    Member Name: node_collideable
+    Member Name: node_colliders_count
+    Member Name: ocarina
+    Member Name: node_counter
+    Member Name: node_flags
+    Member Name: node_footstep_kind
+    Member Name: soil_tilemap_id
+    Member Name: node_force
+    Member Name: node_furniture_footstep
+    Member Name: node_grass_count
+    Member Name: save
+    Member Name: node_index_for_cell
+    Member Name: node_index_for_room_position
+    Member Name: node_is_room_editor_collision
+    Member Name: node_len
+    Member Name: load_objects
+    Member Name: node_object_id
+    Member Name: node_parent
+    Member Name: destroy
+    Member Name: node_pathfinding_cost
+    Member Name: node_pathfinding_sitting
+    Member Name: node_restrict_tree_growth
+    Member Name: node_rug_id
+    Member Name: node_rug_parent
+    Member Name: node_spawn_colliders_timer
+    Member Name: node_spawn_grass_timer
+    Member Name: node_terrain_ground_kind
+    Member Name: node_terrain_is_watered
+    Member Name: node_terrain_kind
+    Member Name: node_terrain_tile
+    Member Name: node_terrain_variant
+    Member Name: node_top_left_x
+    Member Name: node_top_left_y
+    Member Name: update_tilemap_for_node
+    Member Name: is_setup
+    Member Name: tile_flag_satisfies
+    Member Name: tile_flag_satisfies_node
+    Member Name: tile_flag_satisfies_region
+    Member Name: grass_autotile_tilemap_id
+    Member Name: dims
+    Member Name: location_id
+    Member Name: grass_variant_tilemap_id
+    Member Name: sprinklers
+    Member Name: item_effects_node_at_cell
+    Member Name: terrain_editors
+    Member Name: parent_node
+    Member Name: pet_beds
+    Member Name: write_ground
+    Member Name: new_day
+    Member Name: write_lava
+    Member Name: try_node_index_for_cell
+    Member Name: write_node
+    Member Name: try_node_index_for_room_position
+  ------------------------------
+  top_left_x: REAL == 134.000000
+  top_left_y: REAL == 24.000000
+  last_update: REAL == 881483216.000000
+  child_grid: UNDEFINED
+  renderer: REFERENCE
+=============== Result ===============
+(null): OTHER
+
+EXIT: gml_Script_erase_object_renderer

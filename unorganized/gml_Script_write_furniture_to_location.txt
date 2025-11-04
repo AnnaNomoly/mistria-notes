@@ -1,0 +1,189 @@
+ENTER: gml_Script_write_furniture_to_location
+=============== Argument[0] ===============
+OBJECT:
+dyn_index: UNDEFINED
+write_node_without_initializing: OBJECT
+------------------------------
+pet_dishes: ARRAY (length == 0)
+auto_tile_tile: OBJECT
+------------------------------
+water_tilemap_id: REFERENCE
+write_water: OBJECT
+------------------------------
+lost_items: OBJECT
+Member Name: __buffer
+Member Name: __count
+Member Name: __internal_size
+------------------------------
+initialize_node_renderer: OBJECT
+------------------------------
+initialize_on_room_start: OBJECT
+------------------------------
+remove_as_current_grid: OBJECT
+------------------------------
+load: OBJECT
+------------------------------
+node_animal_claimed: REFERENCE
+wilt_crops: OBJECT
+------------------------------
+node_can_jump_over: ARRAY (length == 56856)
+wilt_trees_and_forageables: OBJECT
+------------------------------
+node_collideable: ARRAY (length == 56856)
+node_colliders_count: REFERENCE
+ocarina: UNDEFINED
+node_counter: REAL == 1.000000
+node_flags: ARRAY (length == 56856)
+node_footstep_kind: ARRAY (length == 56856)
+soil_tilemap_id: REFERENCE
+node_force: ARRAY (length == 56856)
+node_furniture_footstep: REFERENCE
+node_grass_count: REFERENCE
+save: OBJECT
+------------------------------
+node_index_for_cell: OBJECT
+------------------------------
+node_index_for_room_position: OBJECT
+------------------------------
+node_is_room_editor_collision: ARRAY (length == 56856)
+node_len: REAL == 56856.000000
+load_objects: OBJECT
+------------------------------
+node_object_id: ARRAY (length == 56856)
+node_parent: ARRAY (length == 56856)
+destroy: OBJECT
+------------------------------
+node_pathfinding_cost: ARRAY (length == 56856)
+node_pathfinding_sitting: ARRAY (length == 56856)
+node_restrict_tree_growth: REFERENCE
+node_rug_id: ARRAY (length == 56856)
+node_rug_parent: ARRAY (length == 56856)
+node_spawn_colliders_timer: REFERENCE
+node_spawn_grass_timer: REFERENCE
+node_terrain_ground_kind: ARRAY (length == 56856)
+node_terrain_is_watered: ARRAY (length == 56856)
+node_terrain_kind: ARRAY (length == 56856)
+node_terrain_tile: ARRAY (length == 56856)
+node_terrain_variant: ARRAY (length == 56856)
+node_top_left_x: ARRAY (length == 56856)
+node_top_left_y: ARRAY (length == 56856)
+update_tilemap_for_node: OBJECT
+------------------------------
+is_setup: BOOL == true
+tile_flag_satisfies: OBJECT
+------------------------------
+tile_flag_satisfies_node: OBJECT
+------------------------------
+tile_flag_satisfies_region: OBJECT
+------------------------------
+grass_autotile_tilemap_id: REFERENCE
+dims: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+location_id: REAL == 30.000000
+grass_variant_tilemap_id: REFERENCE
+sprinklers: ARRAY (length == 0)
+item_effects_node_at_cell: OBJECT
+------------------------------
+terrain_editors: ARRAY (length == 0)
+parent_node: UNDEFINED
+pet_beds: ARRAY (length == 0)
+write_ground: OBJECT
+------------------------------
+new_day: OBJECT
+------------------------------
+write_lava: OBJECT
+------------------------------
+try_node_index_for_cell: OBJECT
+------------------------------
+write_node: OBJECT
+------------------------------
+try_node_index_for_room_position: OBJECT
+------------------------------
+=============== Argument[1] ===============
+REAL: 134.000000
+=============== Argument[2] ===============
+REAL: 24.000000
+=============== Argument[3] ===============
+OBJECT:
+pet_dish: UNDEFINED
+can_be_child: BOOL == true
+rug: BOOL == false
+ari_craft_offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+rule_grid: REFERENCE
+bird_perch: UNDEFINED
+is_bed: BOOL == false
+can_overlap_collision: BOOL == false
+is_date_photo: BOOL == false
+object_id: REAL == 1281.000000
+depth_offset: REAL == 0.000000
+depth_to_floor: BOOL == true
+essence_machine: UNDEFINED
+fence: BOOL == false
+animal_toy: UNDEFINED
+collision_grid: REFERENCE
+is_journal: BOOL == false
+input_terrain: UNDEFINED
+window_tiles: UNDEFINED
+output_terrain: UNDEFINED
+placeable_locations: ARRAY (length == 1)
+check_pick: BOOL == false
+animated: BOOL == false
+mirror_west: BOOL == false
+destructable: BOOL == true
+interact_local: UNDEFINED
+interact_local_off: UNDEFINED
+cardinal_data: ARRAY (length == 4)
+interact_mask: UNDEFINED
+kitchen_level: UNDEFINED
+sub_grid: UNDEFINED
+interaction_chest: UNDEFINED
+footstep: UNDEFINED
+cardinals: ARRAY (length == 1)
+interaction_turn_on: OBJECT
+Member Name: turn_off_sound
+Member Name: light_offset
+Member Name: turn_on_sound
+Member Name: continual_on_sound
+Member Name: light
+------------------------------
+sprinkler: UNDEFINED
+house_stairs: UNDEFINED
+size: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+on_twos_only: BOOL == false
+on_wall: BOOL == false
+pet_bed: BOOL == false
+forecaster: UNDEFINED
+category_id: REAL == 5.000000
+=============== Argument[4] ===============
+REAL: 0.000000
+=============== Argument[5] ===============
+REAL: 0.000000
+=============== Result ===============
+OBJECT
+Member Name: prototype
+Member Name: date_photo
+Member Name: write_size_x
+Member Name: write_size_y
+Member Name: object_id
+Member Name: infusion
+Member Name: is_on
+Member Name: old_terrain
+Member Name: on
+Member Name: destructable
+Member Name: cardinal_index
+Member Name: parent_grid
+Member Name: top_left_x
+Member Name: top_left_y
+Member Name: last_update
+Member Name: child_grid
+Member Name: renderer
+------------------------------
+EXIT: gml_Script_write_furniture_to_location

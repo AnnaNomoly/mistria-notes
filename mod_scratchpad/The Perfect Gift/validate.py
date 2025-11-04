@@ -1,5 +1,7 @@
 import json
 
+CURRENT_GAME_VERSION = "v0.14.4"
+
 ADELINE = "adeline"
 BALOR = "balor"
 CALDARUS = "caldarus"
@@ -35,7 +37,7 @@ VERA = "vera"
 WHEEDLE = "wheedle"
 #ZOREL = "zorel"
 
-GIFT_DIALOG_DICT = { # As of 0.14.0
+GIFT_DIALOG_DICT = { # As of 0.14.4
 	# Adeline
 	"Cutscenes/Heart Events/Adeline/adeline_eight_hearts/adeline_eight_hearts/3":[ ADELINE, "lemon_pie" ],
 	"Conversations/Bank/Adeline/Relationship Lines/Relationship/post_8h_lines_romantic/adeline_post_8h_romantic_7/init":[ ADELINE, "middlemist" ],
@@ -53,6 +55,8 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 	"Conversations/Bank/Adeline/Market Lines/market_darcy_4/market_darcy_4/init":[ ADELINE, "spicy_cheddar_biscuit" ],
 	"Cutscenes/Story Events/adeline_quest_board/adeline_quest_board/15":[ ADELINE, "tulip" ],
 	"Cutscenes/Story Events/adeline_quest_board/adeline_quest_board/17":[ ADELINE, "tulip" ],
+    "Conversations/Bank/Josephine/Banked Lines/week_one_pt_2/week_two/4":[ ADELINE, "coffee" ],
+    "Conversations/Group Conversations/Adeline_Balor/market/market/2":[ ADELINE, "coffee" ],
 	# Balor
 	"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_romantic/balor_post_8h_romantic_3/init":[ BALOR, "ore_diamond", "ore_ruby"],
 	"Conversations/Bank/Balor/Banked Lines/bath_smelled_nice/bath_smelled_nice/1":[ BALOR, "jasmine" ],
@@ -90,20 +94,25 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 	"Conversations/Bank/Celine/Market Lines/market_darcy_3/market_darcy_3/init":[ CELINE, "rose_tea" ],
 	"Conversations/Group Conversations/Celine_Reina/foraging/foraging/1":[ CELINE, "frost_lily" ],	
 	# Darcy
-	"Conversations/General Dialogue/birthday_anticipation/darcy_birthday_anticipation/1":[ DARCY, "apple" ],
+	"Conversations/General Dialogue/birthday_anticipation/darcy_birthday_anticipation_dell/1":[ DARCY, "apple" ],
+    "Conversations/General Dialogue/birthday_anticipation/darcy_birthday_anticipation_luc/1":[ DARCY, "apple" ],
+    "Conversations/General Dialogue/birthday_anticipation/darcy_birthday_anticipation_maple/1":[ DARCY, "apple" ],
 	# Dell
 	"Conversations/Bank/Dell/Museum Lines/alda_bronze_sword/alda_bronze_sword/init":[ DELL, "alda_bronze_sword" ],
 	"Conversations/Bank/Dell/Museum Lines/aldarian_sword/aldarian_sword/init":[ DELL, "aldarian_sword" ],
 	"Conversations/Bank/Dell/Museum Lines/caldosian_sword/caldosian_sword/init":[ DELL, "caldosian_sword" ],
 	"Conversations/Bank/Dell/Museum Lines/lightning_dragonfly/lightning_dragonfly/init":[ DELL, "lightning_dragonfly" ],
-	"Conversations/General Dialogue/birthday_anticipation/dell_birthday_anticipation_family/init":[ DELL, "chocolate" ],
+	"Conversations/General Dialogue/birthday_anticipation/dell_birthday_anticipation_holt/init":[ DELL, "chocolate" ],
+    "Conversations/General Dialogue/birthday_anticipation/dell_birthday_anticipation_nora/init":[ DELL, "chocolate" ],
+    "Conversations/General Dialogue/birthday_anticipation/dell_birthday_anticipation_celine/init":[ DELL, "chocolate" ],
 	"Conversations/Tutorial Dialogue/misc_quest_lines/gossip_for_elsie_dell/12":[ DELL, "chocolate" ],
 	"Conversations/Tutorial Dialogue/misc_quest_lines/gossip_for_elsie_turn_in/2":[ DELL, "chocolate" ],
 	# Dozy
 	# Eiland
-	"Conversations/Bank/Eiland/Relationship Lines/post_8h_lines_romantic/eiland_post_8h_romantic_4/2":[ EILAND, "golden_cheesecake" ],
+	"Conversations/Bank/Eiland/Relationship Lines/Relationship/post_8h_lines_romantic/eiland_post_8h_romantic_4/2":[ EILAND, "golden_cheesecake" ],
 	"Conversations/Bank/Eiland/Banked Lines/pumpkin_pie/pumpkin_pie/init":[ EILAND, "pumpkin_pie" ],
 	"Conversations/Bank/Eiland/Market Lines/market_darcy_1/market_darcy_1/init":[ EILAND, "roasted_rice_tea" ],
+    "Conversations/Bank/Eiland/Banked Lines/breakfast/breakfast_2/2":[ EILAND, "strawberry_shortcake" ],
 	# Elsie
 	"Conversations/Bank/Elsie/Market Lines/market_darcy_1/market_darcy_1/init":[ ELSIE, "jasmine_tea" ],
 	"Conversations/Bank/Elsie/Market Lines/market_darcy_2/market_darcy_2/init":[ ELSIE, "jasmine_tea" ],
@@ -135,7 +144,8 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 	"Conversations/fetch_quests_follow_ups/request_for_ultimate_small_animal_feed_follow_up_henrietta/init":[ HENRIETTA, "ultimate_small_animal_feed" ],
 	# Holt
 	"Conversations/Bank/Holt/Museum Lines/narrows_moss/narrows_moss/init":[ HOLT, "narrows_moss" ],
-	"Conversations/General Dialogue/birthday_anticipation/holt_birthday_anticipation_kids/1":[ HOLT, "hard_wood" ],
+    "Conversations/General Dialogue/birthday_anticipation/holt_birthday_anticipation_dell/1":[ HOLT, "hard_wood" ],
+    "Conversations/General Dialogue/birthday_anticipation/holt_birthday_anticipation_celine/1":[ HOLT, "hard_wood" ],
 	# Josephine
 	"Conversations/Bank/Hemlock/Gift Lines/gift_lines/crayfish_etouffee/init":[ JOSEPHINE, "crayfish_etouffee" ], # Gift Line
 	"Conversations/Bank/Josephine/Gift Lines/gift_lines/crayfish_etouffee/init":[ JOSEPHINE, "crayfish_etouffee" ], # Gift Line
@@ -159,9 +169,11 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 	"Conversations/Tutorial Dialogue/misc_quest_lines/gossip_for_elsie_balor/2":[ JUNIPER, "newt" ],
 	"Conversations/Tutorial Dialogue/misc_quest_lines/gossip_for_elsie_balor/4":[ JUNIPER, "newt" ],
 	"Conversations/Tutorial Dialogue/misc_quest_lines/gossip_for_elsie_turn_in/7":[ JUNIPER, "newt" ],
+    "Conversations/General Dialogue/ari_birthday/ari_birthday_juniper_low_hearts/2":[ JUNIPER, "newt" ],
 	# Landen
 	"Conversations/Bank/Landen/Banked Lines/inn_special/inn_special/init":[ LANDEN, "vegetable_pot_pie" ],
 	"Cutscenes/Heart Events/Ryis/ryis_six_hearts/ryis_six_hearts/17":[ LANDEN, "coconut_cream_pie" ],
+    "Cutscenes/Story Events/Town Repair/upgrade_the_carpenters_shop/upgrade_the_carpenters_shop_pt_2_follow_up_landen/1":[ LANDEN, "vegetable_pot_pie" ],
 	# Luc
 	"Conversations/fetch_quests_follow_ups/request_for_cheese_follow_up_hemlock/init":[ LUC, "cheese" ],
 	"Conversations/Bank/Luc/Gift Lines/gift_lines/grilled_cheese/init":[ LUC, "grilled_cheese" ], # Gift Line
@@ -211,7 +223,8 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 	"Conversations/Bank/Nora/Gift Lines/gift_lines/coffee/init":[ NORA, "coffee" ], # Gift Line
 	"Conversations/Bank/Nora/Market Lines/market_darcy_4/market_darcy_4/init":[ NORA, "latte" ],
 	"Conversations/Bank/Nora/Museum Lines/ancient_gold_coin/ancient_gold_coin/init":[ NORA, "ancient_gold_coin" ],
-	"Conversations/General Dialogue/birthday_anticipation/nora_birthday_anticipation_kids/1":[ NORA, "baked_potato" ],
+	"Conversations/General Dialogue/birthday_anticipation/nora_birthday_anticipation_dell/1":[ NORA, "baked_potato" ],
+    "Conversations/General Dialogue/birthday_anticipation/nora_birthday_anticipation_celine/1":[ NORA, "baked_potato" ],
 	# Olric
 	"Conversations/Bank/March/Banked Lines/hardboiled_egg/hardboiled_egg/init":[ OLRIC, "hard_boiled_egg" ],
 	"Conversations/Bank/Olric/Gift Lines/gift_lines/hard_boiled_egg/init":[ OLRIC, "hard_boiled_egg" ], # Gift Line
@@ -220,19 +233,22 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 	"Conversations/Bank/Olric/Market Lines/market_wheedle_1/market_wheedle_1/init":[ OLRIC, "ore_stone" ],
 	# Priestess
 	# Reina
-	"Conversations/Bank/Reina/Relationship Lines/post_8h_lines_romantic/reina_post_8h_romantic_2/1":[ REINA, "cauliflower_curry" ],
-	"Conversations/Bank/Reina/Relationship Lines/post_8h_lines_romantic/reina_post_8h_romantic_8/1":[ REINA, "turnip_and_potato_gratin" ],
+	"Conversations/Bank/Reina/Relationship Lines/Relationship/post_8h_lines_romantic/reina_post_8h_romantic_2/1":[ REINA, "cauliflower_curry" ],
+	"Conversations/Bank/Reina/Relationship Lines/Relationship/post_8h_lines_romantic/reina_post_8h_romantic_8/1":[ REINA, "turnip_and_potato_gratin" ],
 	"Conversations/Bank/Reina/Banked Lines/garlic/garlic/init":[ REINA, "garlic" ],
 	"Conversations/Bank/Reina/Banked Lines/garlic/garlic_2/init":[ REINA, "garlic" ],
+    "Conversations/Bank/Reina/Banked Lines/general_store_shopping/general_store_shopping_3/init":[ REINA, "garlic" ],
 	"Conversations/Bank/Reina/Gift Lines/gift_lines/daffodil/init":[ REINA, "daffodil" ], # Gift Line
 	"Conversations/Bank/Reina/Market Lines/market_darcy_1/market_darcy_1/init":[ REINA, "coffee", "iced_coffee"],
 	"Conversations/Bank/Reina/Market Lines/market_darcy_4/market_darcy_4/init":[ REINA, "coffee" ],
 	"Cutscenes/Heart Events/Reina/reina_six_hearts/reina_six_hearts/37":[ REINA, "grilled_cheese" ],
 	"Cutscenes/Heart Events/Reina/reina_two_hearts/reina_two_hearts/1":[ REINA, "wildberry_pie" ],
+    "Conversations/General Dialogue/ari_birthday/ari_birthday_reina_romantic/1":[ REINA, "wildberry_pie" ],
 	# Ryis
 	"Conversations/Bank/Ryis/Relationship Lines/post_8h_lines_romantic/ryis_post_8h_romantic_10/init":[ RYIS, "iced_coffee" ],
-	"Conversations/Bank/Ryis/Relationship Lines/post_8h_lines_best_friend/ryis_post_8h_best_friend_12/4":[ RYIS, "golden_horse_hair" ],
-	"Conversations/Bank/Ryis/Relationship Lines/post_8h_lines_best_friend/ryis_post_8h_best_friend_2/1":[ RYIS, "iced_coffee" ],
+	"Conversations/Bank/Ryis/Relationship Lines/Relationship/post_8h_lines_best_friend/ryis_post_8h_best_friend_12/4":[ RYIS, "golden_horse_hair" ],
+	"Conversations/Bank/Ryis/Relationship Lines/Relationship/post_8h_lines_best_friend/ryis_post_8h_best_friend_2/1":[ RYIS, "iced_coffee" ],
+    "Conversations/Bank/Ryis/Relationship Lines/Relationship/post_8h_lines_romantic/ryis_post_8h_romantic_10/init":[ RYIS, "iced_coffee" ],
 	"Conversations/Bank/Ryis/Banked Lines/bath_smells_like_lavender/bath_smells_like_lavender/init":[ RYIS, "lilac" ],
 	"Conversations/Bank/Ryis/Gift Lines/gift_lines/hard_wood/1":[ RYIS, "hard_wood" ], # Gift Line
 	"Conversations/Bank/Ryis/Market Lines/market_darcy_1/market_darcy_1/init":[ RYIS, "iced_coffee" ],
@@ -248,17 +264,22 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 	# Terithia
 	"Conversations/Bank/Terithia/Gift Lines/gift_lines/fish_stew/init":[ TERITHIA, "fish_stew" ], # Gift Line
 	"Conversations/Bank/Valen/Banked Lines/terithia_fish_jerky/terithia_fish_jerky/init":[ TERITHIA, "canned_sardines" ],
-	"Conversations/General Dialogue/birthday_anticipation/terithia_birthday_anticipation/1":[ TERITHIA, "dried_squid" ],
+	"Conversations/General Dialogue/birthday_anticipation/terithia_birthday_anticipation_errol/1":[ TERITHIA, "dried_squid" ],
+    "Conversations/General Dialogue/birthday_anticipation/terithia_birthday_anticipation_landen/1":[ TERITHIA, "dried_squid" ],
 	# Valen
 	"Conversations/Bank/Valen/Banked Lines/rainy_stock_up/rainy_stock_up/init":[ VALEN, "honey" ],
 	"Conversations/Bank/Valen/Banked Lines/winter_honey/winter_honey/init":[ VALEN, "honey" ],
 	"Conversations/Bank/Valen/Market Lines/market_darcy_1/market_darcy_1/init":[ VALEN, "coffee" ],
 	"Conversations/Bank/Valen/Market Lines/market_darcy_2/market_darcy_2/init":[ VALEN, "coffee" ],
 	"Conversations/Bank/Valen/Market Lines/market_darcy_3/market_darcy_3/init":[ VALEN, "coffee" ],
+    "Conversations/Bank/Valen/Banked Lines/breakfast/breakfast_4/init":[ VALEN, "coffee" ],
+	"Conversations/General Dialogue/ari_birthday/ari_birthday_valen_low_hearts/1":[ VALEN, "coffee" ],
 	"Conversations/Festival Lines/Valen/shooting_star/shooting_star_romantic_follow_up_A/1":[ VALEN, "beet_soup" ],
-	"Conversations/General Dialogue/birthday_anticipation/valen_birthday_anticipation/1":[ VALEN, "vegetable_soup" ],
+	"Conversations/General Dialogue/birthday_anticipation/valen_birthday_anticipation_hayden/1":[ VALEN, "vegetable_soup" ],
 	"Conversations/Group Conversations/Adeline_Valen/salmon_benefits/salmon_benefits/init":[ VALEN, "pan_fried_salmon" ],
 	"Conversations/Group Conversations/Celine_Valen/deep_woods_nettle/deep_woods_nettle/1":[ VALEN, "nettle" ],
+    "Conversations/Bank/Reina/Banked Lines/general_store_shopping/general_store_shopping_3/init":[ VALEN, "garlic" ],
+    "Conversations/General Dialogue/ari_birthday/ari_birthday_valen_high_hearts/1":[ VALEN, "green_tea" ],
 	# Vera
 	"Conversations/Bank/Vera/Gift Lines/gift_lines/coconut_milk/init":[ VERA, "coconut_milk" ], # Gift Line
 	"Conversations/Bank/Vera/Gift Lines/gift_lines/cranberry_juice/init":[ VERA, "cranberry_juice" ], # Gift Line
@@ -286,7 +307,7 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 	"conversations/talkative_celine/dandelion/init":[ CELINE, "dandelion" ],
 	"conversations/talkative_celine/dandelion/init":[ VALEN, "dandelion" ],
 	"conversations/talkative_celine/tulip/init":[ CELINE, "tulip" ],
-	"conversations/talkative_celine/spring galette/init":[ CELINE, "spring_galette" ],
+	"conversations/talkative_celine/spring galette/init":[ ADELINE, "spring_galette" ],
 	"conversations/talkative_celine/rose tea/init":[ CELINE, "rose_tea" ],
 	"conversations/talkative_celine/spring salad/init":[ CELINE, "spring_salad" ],
 	"conversations/talkative_celine/hydrangea/init":[ CELINE, "hydrangea" ],
@@ -310,7 +331,7 @@ GIFT_DIALOG_DICT = { # As of 0.14.0
 }
 
 npc_gift_preferences = {}
-with open("__fiddle__.json", "r", encoding="UTF-8") as fiddle_file:
+with open(CURRENT_GAME_VERSION + "/__fiddle__.json", "r", encoding="UTF-8") as fiddle_file:
     fiddle_data = json.loads(fiddle_file.read())
     npcs = fiddle_data["npcs"]
 

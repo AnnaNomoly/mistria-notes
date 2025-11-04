@@ -1,0 +1,145 @@
+void draw_dashed_border_multi_dash_clockwise(
+	float dash_len,
+	float dash_thk,
+	float speed,          // pixels per second
+	float screen_width,
+	float screen_height,
+	uint64_t current_time_ms
+) {
+	constexpr int DASHES_PER_EDGE = 5;  // Number of dashes per edge
+
+	// Static arrays hold positions (distance along the edge) for each dash per edge
+	static float pos_top[DASHES_PER_EDGE];
+	static float pos_right[DASHES_PER_EDGE];
+	static float pos_bottom[DASHES_PER_EDGE];
+	static float pos_left[DASHES_PER_EDGE];
+
+	// Static bool to initialize positions once
+	static bool initialized = false;
+
+	// Lengths of edges
+	float top_len = screen_width;
+	float right_len = screen_height;
+	float bottom_len = screen_width;
+	float left_len = screen_height;
+
+	// Total perimeter length
+	float perimeter = 2.0f * (screen_width + screen_height);
+
+	// Initialize dash positions spaced evenly around perimeter
+	if (!initialized) {
+		// The perimeter is divided evenly among total dashes on all edges
+		int total_dashes = DASHES_PER_EDGE * 4;
+		for (int i = 0; i < DASHES_PER_EDGE; ++i) {
+			// Position along perimeter for dash i on top edge
+			pos_top[i] = (perimeter / total_dashes) * i;
+
+			// Right edge dashes start after top edge length
+			pos_right[i] = top_len + (perimeter / total_dashes) * i;
+
+			// Bottom edge dashes start after top + right edge lengths
+			pos_bottom[i] = top_len + right_len + (perimeter / total_dashes) * i;
+
+			// Left edge dashes start after top + right + bottom lengths
+			pos_left[i] = top_len + right_len + bottom_len + (perimeter / total_dashes) * i;
+		}
+		initialized = true;
+	}
+
+	// Track time delta for smooth movement
+	static uint64_t last_time = current_time_ms;
+	float delta_sec = (current_time_ms - last_time) / 1000.0f;
+	last_time = current_time_ms;
+
+	// Move all dashes clockwise by speed * delta time, wrap at perimeter
+	for (int i = 0; i < DASHES_PER_EDGE; ++i) {
+		pos_top[i] += speed * delta_sec;
+		if (pos_top[i] > perimeter) pos_top[i] -= perimeter;
+
+		pos_right[i] += speed * delta_sec;
+		if (pos_right[i] > perimeter) pos_right[i] -= perimeter;
+
+		pos_bottom[i] += speed * delta_sec;
+		if (pos_bottom[i] > perimeter) pos_bottom[i] -= perimeter;
+
+		pos_left[i] += speed * delta_sec;
+		if (pos_left[i] > perimeter) pos_left[i] -= perimeter;
+	}
+
+	// Helper lambda to draw a dash given its position along perimeter
+	auto draw_dash_at = [&](float pos) {
+		// Position ranges from 0 to perimeter. Determine which edge dash is on:
+
+		if (pos < top_len) {
+			// Top edge: left to right
+			float x = pos;
+			draw_rectangle(255, x, 0.0f, x + dash_len, dash_thk, false);
+		}
+		else if (pos < top_len + right_len) {
+			// Right edge: top to bottom
+			float y = pos - top_len;
+			draw_rectangle(255, screen_width - dash_thk, y, screen_width, y + dash_len, false);
+		}
+		else if (pos < top_len + right_len + bottom_len) {
+			// Bottom edge: right to left
+			float x = screen_width - (pos - (top_len + right_len));
+			draw_rectangle(255, x, screen_height - dash_thk, x + dash_len, screen_height, false);
+		}
+		else {
+			// Left edge: bottom to top
+			float y = screen_height - (pos - (top_len + right_len + bottom_len));
+			draw_rectangle(255, 0.0f, y, dash_thk, y + dash_len, false);
+		}
+		};
+
+	// Draw all dashes on all edges by feeding their positions into draw_dash_at
+	for (int i = 0; i < DASHES_PER_EDGE; ++i) {
+		draw_dash_at(pos_top[i]);
+		draw_dash_at(pos_right[i]);
+		draw_dash_at(pos_bottom[i]);
+		draw_dash_at(pos_left[i]);
+	}
+}
+
+
+RValue& GmlScriptOnDrawGuiCallback(
+	IN CInstance* Self,
+	IN CInstance* Other,
+	OUT RValue& Result,
+	IN int ArgumentCount,
+	IN RValue** Arguments
+)
+{
+    const PFUNC_YYGMLScript original = reinterpret_cast<PFUNC_YYGMLScript>(MmGetHookTrampoline(g_ArSelfModule, "gml_Script_on_draw_gui@Display@Display"));
+	original(
+		Self,
+		Other,
+		Result,
+		ArgumentCount,
+		Arguments
+	);
+
+	uint64_t time_now = get_current_time_ms(); // Replace with your timer logic
+	RValue window_get_width = g_ModuleInterface->CallBuiltin(
+		"window_get_width",
+		{}
+	);
+	double window_width = window_get_width.m_Real;
+
+	RValue window_get_height = g_ModuleInterface->CallBuiltin(
+		"window_get_height",
+		{}
+	);
+	double window_height = window_get_height.m_Real;
+
+	//draw_rectangle(4235519, 0, 0, 100, 100, false);
+
+	draw_dashed_border_multi_dash_clockwise(
+		20.0f,    // dash length in pixels
+		4.0f,     // dash thickness
+		80.0f,    // speed pixels per second
+		window_width,
+		window_height,
+		get_current_time_ms()
+	);
+}
