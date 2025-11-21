@@ -7,6 +7,13 @@
    - [string] __status_effect_id__[5] = 'slime_dash'
    - [string] __status_effect_id__[6] = 'shrine_boon'
    - [string] __status_effect_id__[7] = 'kill_haste'
+   - [string] __status_effect_id__[8] = 'flame_breath'
+   - [string] __status_effect_id__[9] = 'stacking_speed'
+   - [string] __status_effect_id__[10] = 'venomous'
+   - [string] __status_effect_id__[11] = 'venom_sword'
+   - [string] __status_effect_id__[12] = 'frozen'
+   - [string] __status_effect_id__[13] = 'ice_sword'
+   - [string] __status_effect_id__[14] = 'fire_sword'
 
 
  - [array] __vitals_element__

@@ -1,0 +1,55 @@
+=============== obj_dungeon_shrine ===============
+item_id: INT64 == 1427
+highlighter: OBJECT
+Member Name: interact_strength
+Member Name: highlight_mode
+Member Name: hold_transform
+Member Name: highlight_this_frame
+Member Name: request_highlight_mode
+Member Name: override_strength
+Member Name: override_strength_decrease
+Member Name: strength
+Member Name: hold_amplitude
+Member Name: play_sound_time
+Member Name: timer
+Member Name: update
+Member Name: color
+Member Name: hold_period
+------------------------------
+shrine_type: REAL == 0.000000
+allowed_in_fire_spell: BOOL == false
+small_icon: REFERENCE
+init: OBJECT
+------------------------------
+offset_with_cardinal: BOOL == false
+offset_x: REAL == 0.000000
+offset_y: REAL == -35.000000
+quantity: REAL == 10.000000
+override_mask: UNDEFINED
+has_potential_interactions: OBJECT
+------------------------------
+bouncer: OBJECT
+Member Name: period
+Member Name: request_bounce
+Member Name: override_request_bounce
+Member Name: alpha
+Member Name: timer
+Member Name: offset
+Member Name: alpha_refresh_rate
+Member Name: update
+Member Name: status
+------------------------------
+circle_size: REAL == 0.000000
+interactable_mode: INT64 == 1
+register_interaction: OBJECT
+------------------------------
+big_icon: REFERENCE
+attempt_interact: OBJECT
+------------------------------
+interactions: OBJECT
+Member Name: __internal_size
+Member Name: __count
+Member Name: __buffer
+------------------------------
+shadow_caster: ARRAY (length == 10)
+can_use: BOOL == true

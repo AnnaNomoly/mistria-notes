@@ -1,0 +1,112 @@
+    "Cutscenes/Story Events/Mines/earth_seal/break_earth_seal": {
+      "kind": "GameplayTriggered",
+      "requires": [],
+      "writes": [
+        {
+          "name": [
+            {
+              "Resolved": {
+                "type": "string",
+                "content": "bes"
+              }
+            }
+          ],
+          "value": {
+            "type": "float",
+            "content": 1.0
+          },
+          "expires": 345600
+        }
+      ],
+      "actions": [],
+      "lines": {
+        "1": {
+          "local": "Cutscenes/Story Events/Mines/earth_seal/break_earth_seal/1",
+          "writes": [],
+          "actions": [
+            {
+              "type": "speaker",
+              "content": "seridia"
+            },
+            {
+              "type": "portrait",
+              "content": "neutral_closed"
+            }
+          ],
+          "next_line_behavior": {
+            "type": "next_lines",
+            "content": [
+              {
+                "line_id": "2",
+                "requirements": []
+              }
+            ]
+          }
+        },
+        "2": {
+          "local": "Cutscenes/Story Events/Mines/earth_seal/break_earth_seal/2",
+          "writes": [],
+          "actions": [
+            {
+              "type": "speaker",
+              "content": "seridia"
+            },
+            {
+              "type": "portrait",
+              "content": "neutral"
+            }
+          ],
+          "next_line_behavior": {
+            "type": "next_lines",
+            "content": [
+              {
+                "line_id": "3",
+                "requirements": []
+              }
+            ]
+          }
+        },
+        "3": {
+          "local": "Cutscenes/Story Events/Mines/earth_seal/break_earth_seal/3",
+          "writes": [],
+          "actions": [
+            {
+              "type": "speaker",
+              "content": "seridia"
+            },
+            {
+              "type": "portrait",
+              "content": "neutral_closed"
+            }
+          ],
+          "next_line_behavior": {
+            "type": "finish"
+          }
+        },
+        "init": {
+          "local": "Cutscenes/Story Events/Mines/earth_seal/break_earth_seal/init",
+          "writes": [],
+          "actions": [
+            {
+              "type": "speaker",
+              "content": "seridia"
+            }
+          ],
+          "next_line_behavior": {
+            "type": "next_lines",
+            "content": [
+              {
+                "line_id": "1",
+                "requirements": []
+              }
+            ]
+          }
+        }
+      },
+      "multiple_speakers_in_conversation": false,
+      "speakers_in_conversation": [
+        "seridia"
+      ],
+      "can_talk_after": true,
+      "priority": "Normal"
+    },

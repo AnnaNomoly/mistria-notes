@@ -1,0 +1,53 @@
+    "Conversations/floor_10/mines_floor_ten": {
+      "kind": "GameplayTriggered",
+      "requires": [],
+      "writes": [
+        {
+          "name": [
+            {
+              "Resolved": {
+                "type": "string",
+                "content": "floor_10"
+              }
+            }
+          ],
+          "value": {
+            "type": "string",
+            "content": "seen"
+          }
+        }
+      ],
+      "actions": [],
+      "lines": {
+        "1": {
+          "local": "Conversations/floor_10/mines_floor_ten/1",
+          "writes": [],
+          "actions": [],
+          "next_line_behavior": {
+            "type": "finish"
+          }
+        },
+        "init": {
+          "local": "Conversations/floor_10/mines_floor_ten/init",
+          "writes": [],
+          "actions": [
+            {
+              "type": "no_speaker"
+            }
+          ],
+          "next_line_behavior": {
+            "type": "next_lines",
+            "content": [
+              {
+                "line_id": "1",
+                "requirements": []
+              }
+            ]
+          }
+        }
+      },
+      "multiple_speakers_in_conversation": false,
+      "speakers_in_conversation": [],
+      "can_talk_after": true,
+      "priority": "Normal"
+    },

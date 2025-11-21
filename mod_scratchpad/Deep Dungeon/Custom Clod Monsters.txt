@@ -1,0 +1,61 @@
+== Clod Monsters ==
+// Shoots pellets at the player
+- attack_legion: Number of pellets
+- attack_radial_degree: Attack cone size/shape
+  - For ironclod, it has a value of 45 which shoots 3 pellets in a 45-degree cone, despite not having attack_legion set.
+- projectile_speed: As named
+- attack_sequence: How many attacks in a row
+- attack_sequence_turn: how far to turn between attacks, uses attack_sequence
+- attack_sequence_image_speed: ???
+
+// Mutually exclusive with above parameters
+- split_depth: how many pellets a single pellet splits into
+- split_angle: angle of the split pellets
+- split_distance: distance until split
+- split_depreciation: ???
+
+// Rolls at the player
+- launcher: true
+- launch_speed: 2
+- launch_friction: 0.97
+- launch_cancel_threshold: 0.5
+
+// Shoots bombs at player
+- bomber: true,
+- bomb_radius: 64,
+- bomb_ammo: 2,
+- bomb_chance: 40,
+- bomb_force_limit: 2,
+- bomb_projectile_speed: 1.5,
+- bomb_stall: 90,
+- bomb_delay: 4,
+
+// Explodes into pellets on death
+"death_explosion_count": 9,
+"death_explosion_angle": 45,
+"death_explosion_speed": 1.8,
+"death_explosion_delay": 30,
+
+
+
+=== Test Builds ===
+// Shoots a single pellet that then splits into many that repeatedly split
+"attack_sequence": 20,
+"attack_sequence_turn": 18,
+"projectile_speed": 4,
+"split_distance": 20,
+"split_depth": 5,
+"split_angle": 20,
+
+// Rotates 18-degrees at a time while shooting 5 pellets in a small cone
+        "attack_sequence": 20,
+        "attack_legion": 5,
+        "attack_sequence_turn": 18,
+        "attack_sequence_image_speed": 2,
+        "projectile_speed": 4,
+
+// Shoots a wall of 10 pellets repeatedly 20 times
+        "attack_sequence": 20,
+        "attack_legion": 10,
+        "attack_sequence_image_speed": 2,
+        "projectile_speed": 4,

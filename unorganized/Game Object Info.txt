@@ -31,8 +31,200 @@ Known objects (work in progress)
                 "obj_eiland"
 
 
+=============== obj_monster_clod ===============
+bomb_stagger: BOOL == false
+process_status: OBJECT
+------------------------------
+slip_move: OBJECT
+    Member Name: x
+    Member Name: y
+------------------------------
+slippery_coefficient: REAL == 0.100000
+tired_effect: UNDEFINED
+process_tarball_status: OBJECT
+------------------------------
+acknowledgement_reset: BOOL == false
+insta_kill_timer: REAL == 0.000000
+image_speed_backup: UNDEFINED
+hit_points: REAL == 8.000000
+allow_shoving: BOOL == true
+set_state_sprite: OBJECT
+------------------------------
+calculate_flipper: OBJECT
+------------------------------
+shove_factor: REAL == 1.000000
+config: OBJECT
+    Member Name: bomb_projectile_speed
+    Member Name: iframes
+    Member Name: bomb_radius
+    Member Name: bomb_sprite
+    Member Name: bomb_sprite_fx
+    Member Name: bomb_stall
+    Member Name: tired
+    Member Name: bomber
+    Member Name: speed
+    Member Name: jump_cap
+    Member Name: acknowledgment
+    Member Name: jump_gravity
+    Member Name: jump_speed
+    Member Name: hitbox
+    Member Name: attack_legion
+    Member Name: misc_sprites
+    Member Name: drops
+    Member Name: misc_tango
+    Member Name: attack_radial_degree
+    Member Name: attack_radius
+    Member Name: attack_sequence
+    Member Name: tango
+    Member Name: attack_sequence_image_speed
+    Member Name: patience_acknowledgement_reset
+    Member Name: attack_sequence_turn
+    Member Name: projectile_speed
+    Member Name: death_explosion_angle
+    Member Name: death_explosion_count
+    Member Name: tango_catalogue
+    Member Name: death_explosion_delay
+    Member Name: death_explosion_speed
+    Member Name: knockback_friction
+    Member Name: knockback_multiplier
+    Member Name: split_angle
+    Member Name: split_depreciation
+    Member Name: split_depth
+    Member Name: split_distance
+    Member Name: split_speed
+    Member Name: windup
+    Member Name: starting_dir
+    Member Name: hp
+    Member Name: hurt
+    Member Name: monster_category
+    Member Name: hurtbox
+    Member Name: monster_id
+    Member Name: push_force
+    Member Name: fire_effect_offset
+    Member Name: push_radius
+    Member Name: pushed_radius
+    Member Name: sprite_catalogue
+    Member Name: reflect_speed
+    Member Name: coin_count
+    Member Name: status_effect_offset
+    Member Name: sprites
+    Member Name: use_circle
+    Member Name: launch_speed
+    Member Name: essence
+    Member Name: launcher
+    Member Name: damage
+    Member Name: collision_default
+    Member Name: damage_number_offset
+    Member Name: collision_jump
+    Member Name: gm_object
+    Member Name: bomb_ammo
+    Member Name: bomb_chance
+    Member Name: aggro_radius
+    Member Name: bomb_delay
+    Member Name: bomb_force_limit
+------------------------------
+venomous_opacity: REAL == 0.390000
+venomous_overlay_color: REAL == 8109486.000000
+patience: OBJECT
+    Member Name: shared_box
+    Member Name: pos
+    Member Name: destroy
+    Member Name: aggro
+    Member Name: aggro_box
+    Member Name: diameter
+    Member Name: use_circle
+    Member Name: value
+    Member Name: tick
+------------------------------
+amt: REAL == 0.000000
+show_damage: REAL == 0.000000
+dir: REAL == 234.462433
+knockback_big: UNDEFINED
+z: REAL == 0.000000
+knockback_move: OBJECT
+    Member Name: x
+    Member Name: y
+------------------------------
+try_spawn_stars: OBJECT
+------------------------------
+debug_state: OBJECT
+------------------------------
+play_state_tango: OBJECT
+------------------------------
+receiver: REFERENCE
+try_despawn_stars: OBJECT
+------------------------------
+perform_effect: BOOL == false
+landing: BOOL == false
+get_cardinal: OBJECT
+------------------------------
+track_player: OBJECT
+------------------------------
+monster_id: INT64 == 17
+fall_speed: REAL == 0.000000
+friction_coefficient: REAL == 0.100000
+stats_entry: OBJECT
+    Member Name: damage_dealt
+    Member Name: damage_dealt_count
+    Member Name: killed_by_ari
+    Member Name: damage_taken
+    Member Name: damage_taken_count
+    Member Name: monster
+------------------------------
+falling_to_death: BOOL == false
+can_overlap_ari: BOOL == false
+walk_or_windup: OBJECT
+------------------------------
+loot_drop: OBJECT
+    Member Name: x
+    Member Name: y
+------------------------------
+frozen_opacity: REAL == 0.290000
+effect_alpha: REAL == 1.000000
+status_effects: OBJECT
+    Member Name: get_effect_value
+    Member Name: deserialize
+    Member Name: serialize
+    Member Name: register
+    Member Name: effects
+    Member Name: cancel
+    Member Name: update
+------------------------------
+frozen_overlay_color: REAL == 15458452.000000
+collided_last_frame: INT64 == 0
+fsm: OBJECT
+    Member Name: state
+    Member Name: state_frame
+    Member Name: next_state
+    Member Name: last_state_id
+    Member Name: states
+    Member Name: blackboard
+------------------------------
+trauma: REAL == 0.000000
+check_collision: OBJECT
+------------------------------
+original_dir: REAL == 258.000000
+collision_debounce: REAL == 0.000000
+shadow_caster: ARRAY (length == 10)
+original_spawn_pos: OBJECT
+    Member Name: x
+    Member Name: y
+------------------------------
+move: OBJECT
+    Member Name: x
+    Member Name: y
+------------------------------
+draw: OBJECT
+------------------------------
+aggro: BOOL == true
+skip_destroy_logic: BOOL == false
+bomb_ammo: REAL == 0.000000
+bomb_patience: REAL == 0.000000
+
+
 ========== obj_monster_mimic ==========
 Member Name: aggro
+    BOOL: false
 Member Name: play_state_tango
 Member Name: monster_id
 Member Name: friction_coefficient
@@ -42,7 +234,13 @@ Member Name: show_damage
 Member Name: fsm
 Member Name: can_overlap_ari
 Member Name: allow_shoving
-Member Name: stats_entry
+Member Name: stats_entry: OBJECT
+    damage_dealt: REAL == 0.000000
+    damage_dealt_count: REAL == 0.000000
+    killed_by_ari: BOOL == false
+    damage_taken: REAL == 0.000000
+    damage_taken_count: REAL == 0.000000
+    monster: STRING == sapling
 Member Name: knockback_move
 Member Name: image_speed_backup
 Member Name: check_collision
