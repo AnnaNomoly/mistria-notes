@@ -1,0 +1,210 @@
+ENTER: gml_Script_use_item
+=============== Self =============== // Changes depending on the invocation context. For world interactables like a fountain, Self->m_Object->m_Name == "obj_world_fountain". For Ari using an item, Self->m_Object == NULL.
+Member Name: __capabilities
+Member Name: stashed_cardinal
+Member Name: target_idle
+Member Name: blackboard
+Member Name: create
+Member Name: drop_animal
+Member Name: state_id
+Member Name: blink_rate
+Member Name: blink_timer
+Member Name: hold_checks
+Member Name: start
+Member Name: in_idle_animation
+Member Name: delayed_audio
+Member Name: dir
+Member Name: fsm
+Member Name: step
+Member Name: reset_idle_timer
+Member Name: owner
+Member Name: saved_heading
+Member Name: move
+Member Name: relative_cell_select
+Member Name: idle_timer
+Member Name: input
+Member Name: stop
+Member Name: furniture_heading
+Member Name: item_cool_down
+Member Name: idle_variance_rate
+=============== Other =============== // Changes depending on the invocation context. For world interactables like a fountain, Other->m_Object->m_Name == "Game". For Ari using an item, Other->m_Object->m_Name == "obj_ari".
+Member Name: iframe_can_invisible
+Member Name: using_mouse
+Member Name: restore_iframes
+Member Name: iframes
+Member Name: check_pressed_input
+Member Name: iframes_invisible
+Member Name: is_mounted
+Member Name: in_collision_swimming
+Member Name: is_swimming
+Member Name: start_hurt_state
+Member Name: z
+Member Name: face_cell
+Member Name: face_dir
+Member Name: face_point
+Member Name: item_detection_radius
+Member Name: receiver
+Member Name: dust_particle_burst
+Member Name: dust_particles
+Member Name: vfx_sprites
+Member Name: set_animation
+Member Name: default_par_anim_spd
+Member Name: default_par_offset
+Member Name: can_land_at_position
+Member Name: can_mount
+Member Name: initialize_for_cutscene
+Member Name: summon_held_animal
+Member Name: set_cardinal
+Member Name: fsm
+Member Name: can_set_depth_in_pause
+Member Name: collision_check
+Member Name: meddler
+Member Name: shadow_caster
+Member Name: can_use_item_in_state
+Member Name: collision_list
+Member Name: furniture_place
+Member Name: furniture_rotate
+Member Name: no_clip
+Member Name: emit_fire
+Member Name: asset_objects_last_frame
+Member Name: god_mode
+Member Name: jump_data
+Member Name: cardinal
+Member Name: jump_goal
+Member Name: progress_bar_alpha
+Member Name: crit
+Member Name: progress_bar_color
+Member Name: progress_bar_offset
+Member Name: cardinal_placement
+Member Name: progress_bar_width
+Member Name: overlapping_animal
+Member Name: end_hurt_state
+Member Name: overlapping_monster
+Member Name: should_die
+Member Name: overlapping_npc
+Member Name: overlaps_mount_blocker
+Member Name: should_faint
+Member Name: interact_detection_radius
+Member Name: ui_journal_request
+Member Name: ui_map_request
+Member Name: interact_max_radius
+Member Name: should_show_item_usage_ux
+Member Name: interact_nudge_distance
+Member Name: save_iframes
+Member Name: ui_mount_request
+Member Name: ui_spell_request
+Member Name: set_idle_simple
+Member Name: try_room_transition
+Member Name: dir
+Member Name: breathe_fire_in_other_states
+Member Name: wimp_mode
+Member Name: show_progress_bar
+Member Name: lagged_dir
+Member Name: celebrate_loot
+Member Name: enter_action_animation
+Member Name: par
+Member Name: buffered_input
+Member Name: update_cell_select
+Member Name: cell_select
+Member Name: par_anim_spd
+Member Name: buffered_player_cmp_and_take
+Member Name: buffered_tick
+Member Name: par_offset
+Member Name: current_tool_effect
+Member Name: fire_breath_effects
+Member Name: player_collect_items
+Member Name: hurt_colors
+Member Name: hurt_state
+Member Name: dive
+Member Name: change_mount_while_mounted
+Member Name: change_preset
+Member Name: animal_u_index
+Member Name: animal_u_lut_tex
+Member Name: bark_emitter
+Member Name: animal_u_pixel_size
+Member Name: animal_u_uvs
+Member Name: quest_handle_queries
+Member Name: check_bbox_at_point
+Member Name: move
+Member Name: check_for_menu_opens
+Member Name: check_input
+Member Name: check_jump
+Member Name: _xx
+Member Name: _yy
+Member Name: leave_room
+=============== Argument[0] =============== // LiveItem
+OBJECT:
+cosmetic: UNDEFINED
+item_id: REAL == 2122.000000
+prototype: OBJECT
+Member Name: crafting_level_requirement
+Member Name: crafting_preview_sprite
+Member Name: date_unlock
+Member Name: stamina_cost
+Member Name: value
+Member Name: stamina_modifier
+Member Name: flooring
+Member Name: mini_sprite
+Member Name: range
+Member Name: mana_modifier
+Member Name: tags
+Member Name: sapling
+Member Name: crop_object
+Member Name: hold_over_head
+Member Name: stars
+Member Name: tool_type
+Member Name: plant_grass
+Member Name: set_unlock
+Member Name: kitchen_tier_requirement
+Member Name: soulbind
+Member Name: catch_size
+Member Name: name_key
+Member Name: recipe
+Member Name: item_id
+Member Name: sow_sprite
+Member Name: recipe_key
+Member Name: purchased_once_per_year
+Member Name: default_infusion
+Member Name: animal_feed
+Member Name: health_modifier
+Member Name: max_health_modifier
+Member Name: defense
+Member Name: tile_placement
+Member Name: quality
+Member Name: new_inventory_size
+Member Name: giftable
+Member Name: blueprint
+Member Name: icon_sprite
+Member Name: size
+Member Name: edible
+Member Name: max_stack
+Member Name: icon_sprite_outline
+Member Name: max_stamina_modifier
+Member Name: door_mold
+Member Name: wallpaper
+Member Name: cosmetic_to_unlock
+Member Name: use
+Member Name: pet_treat
+Member Name: damage
+Member Name: essence_charge
+Member Name: description_key
+Member Name: bomb
+Member Name: object
+------------------------------
+animal_cosmetic: UNDEFINED
+date_photo: UNDEFINED
+infusion: UNDEFINED
+inner_item: UNDEFINED
+toString: OBJECT
+------------------------------
+gold_to_gain: UNDEFINED
+pet_cosmetic_set_name: UNDEFINED
+auto_use: BOOL == false
+icon_override: UNDEFINED
+=============== Argument[1] =============== // TBD
+OBJECT:
+x: REAL == 30.000000
+y: REAL == 26.000000
+=============== Result =============== // Use speed? Seems to disable item use when UNDEFINED gets returned by mods ending the method early 
+INT64 == 2 // Can also be UNDEFINED
+EXIT: gml_Script_use_item
