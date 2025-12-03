@@ -1,0 +1,10 @@
+gml_Script_give_item@Ari@Ari // Called when Ari is receiving an item
+- Self:
+- Other:
+- ArgCount: 5
+- Arguments[0]: OBJECT // LiveItem, could try passing in an object prototype
+- Arguments[1]: REAL // The number of the item
+- Arguments[2]: BOOL // Was 1
+- Arguments[3]: BOOL // Was 1
+- Arguments[4]: BOOL // Was 0
+- Result: UNDEFINED

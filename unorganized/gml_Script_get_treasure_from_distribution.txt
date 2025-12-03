@@ -1,4 +1,9 @@
 ENTER: gml_Script_get_treasure_from_distribution
+=============== Arguments ===============
+ArgumentCount: 2
+Arguments[0] == 66.0 // Some sort of RNG roll?
+Arguments[1] == 52.0 // Some sort of RNG roll?
+
 =============== Result ===============
 ARRAY (length == 2)
 =============== Array[0] ===============

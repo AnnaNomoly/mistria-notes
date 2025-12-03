@@ -112,17 +112,36 @@ RValue& GmlScriptAriFsmWateringCanCallback(
 		g_ModuleInterface->Print(CM_AQUA, "ARRAY (length == %d)", static_cast<int>(array_length.m_Real));
 	}
 	else if (Result.m_Kind == VALUE_INT32)
-		g_ModuleInterface->Print(CM_AQUA, "%s: INT32 == %d", Result.m_i32);
+		g_ModuleInterface->Print(CM_AQUA, "INT32 == %d", Result.m_i32);
 	else if (Result.m_Kind == VALUE_INT64)
-		g_ModuleInterface->Print(CM_AQUA, "%s: INT64 == %d", Result.m_i64);
+		g_ModuleInterface->Print(CM_AQUA, "INT64 == %d", Result.m_i64);
 	else if (Result.m_Kind == VALUE_REAL)
-		g_ModuleInterface->Print(CM_AQUA, "%s: REAL == %f", Result.m_Real);
+		g_ModuleInterface->Print(CM_AQUA, "REAL == %f", Result.m_Real);
 	else if (Result.m_Kind == VALUE_BOOL)
-		g_ModuleInterface->Print(CM_AQUA, "%s: BOOL == %s", Result.m_Real == 0 ? "false" : "true");
+		g_ModuleInterface->Print(CM_AQUA, "BOOL == %s", Result.m_Real == 0 ? "false" : "true");
 	else if (Result.m_Kind == VALUE_STRING)
-		g_ModuleInterface->Print(CM_AQUA, "%s: STRING == %s", Result.ToString().c_str());
+		g_ModuleInterface->Print(CM_AQUA, "STRING == %s", Result.ToString().c_str());
 	else
-		g_ModuleInterface->Print(CM_AQUA, "%s: OTHER");
+		g_ModuleInterface->Print(CM_AQUA, "OTHER");
 
 	return Result;
+}
+
+
+static std::vector<std::string> struct_field_names = {};
+bool GetStructFieldNames(
+	IN const char* MemberName,
+	IN OUT RValue* Value
+)
+{
+	struct_field_names.push_back(MemberName);
+	return false;
+}
+bool EnumFunction(
+	IN const char* MemberName,
+	IN OUT RValue* Value
+)
+{
+	g_ModuleInterface->Print(CM_LIGHTYELLOW, "Member Name: %s", MemberName);
+	return false;
 }

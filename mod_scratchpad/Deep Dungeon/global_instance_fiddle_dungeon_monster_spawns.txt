@@ -1,0 +1,104 @@
+- [struct] __fiddle
+  - [struct] __inner
+    - [struct] inner
+       - [struct] dungeons
+         - [struct] dungeons
+           - [array] biomes
+             - [struct] biomes[0]
+               - [string] name = 'Upper Mines'
+               - [number] floor = 1.00
+               - [struct] votes
+                 - [array] enemy
+                   - [struct] enemy[0] = 000001C90799FA00
+                     - [string] object = 'sapling'
+                     - [number] votes = 8.00
+                   - [struct] enemy[1] = 000001C90799FB00
+                     - [string] object = 'mushroom'
+                     - [number] votes = 5.00
+                   - [struct] enemy[2] = 000001C90799FC00
+                     - [string] object = 'rockclod'
+                     - [number] votes = 5.00
+                   - [struct] enemy[3] = 000001C90799FD00
+                     - [string] object = 'enchantern'
+                     - [number] votes = 5.00
+                   - [struct] enemy[4] = 000001C90799FE00
+                     - [string] object = 'sapling_cool'
+                     - [number] votes = 3.00
+                   - [struct] enemy[5] = 000001C90799FF00
+                     - [string] object = 'copperclod'
+                     - [number] votes = 3.00
+                   - [struct] enemy[6] = 000001C9079A0000
+                     - [string] object = 'mimic'
+                     - [number] votes = 1.00
+             - [struct] biomes[1]
+               - [string] name = 'The Tide Caverns'
+               - [number] floor = 20.00
+               - [struct] votes
+                   - [struct] enemy[0] = 000001C9079A3700
+                     - [string] object = 'sapling_blue'
+                     - [number] votes = 5.00
+                   - [struct] enemy[1] = 000001C9079A3800
+                     - [string] object = 'mushroom_green'
+                     - [number] votes = 5.00
+                   - [struct] enemy[2] = 000001C9079A3900
+                     - [string] object = 'rockclod_blue'
+                     - [number] votes = 5.00
+                   - [struct] enemy[3] = 000001C9079A3A00
+                     - [string] object = 'enchantern_blue'
+                     - [number] votes = 5.00
+                   - [struct] enemy[4] = 000001C9079A3B00
+                     - [string] object = 'ironclod'
+                     - [number] votes = 3.00
+                   - [struct] enemy[5] = 000001C9079A3C00
+                     - [string] object = 'stalagmite'
+                     - [number] votes = 3.00
+                   - [struct] enemy[6] = 000001C9079A3D00
+                     - [string] object = 'bat'
+                     - [number] votes = 3.00
+                   - [struct] enemy[7] = 000001C9079A3E00
+                     - [string] object = 'mimic'
+                     - [number] votes = 1.00
+         - [struct] misc = 000001C9079B0B00
+           - [array] bug_count
+             - [number] bug_count[0] = 0.00
+             - [number] bug_count[1] = 1.00
+           - [array] chance_tiles
+             - [number] chance_tiles[0] = 0.00
+             - [number] chance_tiles[1] = 100.00
+             - [number] chance_tiles[2] = 75.00
+             - [number] chance_tiles[3] = 50.00
+             - [number] chance_tiles[4] = 25.00
+             - [number] chance_tiles[5] = 10.00
+             - [number] chance_tiles[6] = 5.00
+             - [number] chance_tiles[7] = 1.00
+           - [struct] corner_tiles = 000001C9079B0700
+             - [array] bottom_left
+               - [number] bottom_left[0] = 34.00
+               - [number] bottom_left[1] = 40.00
+               - [number] bottom_left[2] = 41.00
+               - [number] bottom_left[3] = 42.00
+               - [number] bottom_left[4] = 43.00
+             - [array] bottom_right
+               - [number] bottom_right[0] = 35.00
+               - [number] bottom_right[1] = 36.00
+               - [number] bottom_right[2] = 37.00
+               - [number] bottom_right[3] = 38.00
+               - [number] bottom_right[4] = 39.00
+             - [array] top_left
+               - [number] top_left[0] = 12.00
+               - [number] top_left[1] = 29.00
+               - [number] top_left[2] = 30.00
+               - [number] top_left[3] = 31.00
+               - [number] top_left[4] = 32.00
+             - [array] top_right
+               - [number] top_right[0] = 8.00
+               - [number] top_right[1] = 24.00
+               - [number] top_right[2] = 25.00
+               - [number] top_right[3] = 26.00
+               - [number] top_right[4] = 27.00
+           - [number] elevator_frequency = 5.00
+           - [number] ground_variant_chance = 3.00
+           - [number] impl_dampening = 0.25
+           - [number] impl_dampening_decay = 10.00
+           - [number] ladder_spawn_modifier = 0.25
+           - [number] max_floors = 99.00

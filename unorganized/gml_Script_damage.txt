@@ -1,0 +1,230 @@
+ENTER: gml_Script_damage@gml_Object_obj_damage_receiver_Create_0
+
+=============== Self (name = obj_damage_receiver) =============== 
+Member Name: iframes
+Member Name: target
+Member Name: on_damage_back
+Member Name: parent_id
+Member Name: damage
+Member Name: damage_back_tarball
+Member Name: parent_object
+Member Name: in_air
+Member Name: damaged
+Member Name: current_iframes
+Member Name: drop_damage
+Member Name: offset
+Member Name: try_take_damage
+Member Name: status
+=============== Other (name = NULL) ===============
+Member Name: __capabilities
+Member Name: combo_state
+Member Name: make_tarball
+Member Name: blackboard
+Member Name: create
+Member Name: can_go_to_next_combo
+Member Name: state_id
+Member Name: cached_cardinal
+Member Name: push_spd
+Member Name: max_push_spd
+Member Name: can_make_tarball
+Member Name: player_requested_move
+Member Name: start
+Member Name: end_step
+Member Name: dir
+Member Name: fsm
+Member Name: step
+Member Name: owner
+Member Name: is_critical
+Member Name: move
+Member Name: next_swing
+Member Name: stop
+Member Name: on_hit
+Member Name: input
+Member Name: input_buffer
+Member Name: cancel_tarball
+Member Name: tarball
+=============== Argument[0] ===============
+OBJECT:
+notifee: OBJECT
+    Member Name: __capabilities
+    Member Name: combo_state
+    Member Name: make_tarball
+    Member Name: blackboard
+    Member Name: create
+    Member Name: can_go_to_next_combo
+    Member Name: state_id
+    Member Name: cached_cardinal
+    Member Name: push_spd
+    Member Name: max_push_spd
+    Member Name: can_make_tarball
+    Member Name: player_requested_move
+    Member Name: start
+    Member Name: end_step
+    Member Name: dir
+    Member Name: fsm
+    Member Name: step
+    Member Name: owner
+    Member Name: is_critical
+    Member Name: move
+    Member Name: next_swing
+    Member Name: stop
+    Member Name: on_hit
+    Member Name: input
+    Member Name: input_buffer
+    Member Name: cancel_tarball
+    Member Name: tarball
+target: INT64 == 2 // 1 == Ari
+provenance: UNDEFINED
+can_chop_grid_objects: BOOL == false
+can_destroy_grid_objects: BOOL == true
+parent_id: OBJECT
+    Member Name: iframe_can_invisible
+    Member Name: using_mouse
+    Member Name: restore_iframes
+    Member Name: iframes
+    Member Name: check_pressed_input
+    Member Name: iframes_invisible
+    Member Name: is_mounted
+    Member Name: in_collision_swimming
+    Member Name: is_swimming
+    Member Name: start_hurt_state
+    Member Name: z
+    Member Name: face_cell
+    Member Name: face_dir
+    Member Name: face_point
+    Member Name: item_detection_radius
+    Member Name: receiver
+    Member Name: dust_particle_burst
+    Member Name: dust_particles
+    Member Name: vfx_sprites
+    Member Name: set_animation
+    Member Name: default_par_anim_spd
+    Member Name: default_par_offset
+    Member Name: can_land_at_position
+    Member Name: can_mount
+    Member Name: initialize_for_cutscene
+    Member Name: summon_held_animal
+    Member Name: set_cardinal
+    Member Name: fsm
+    Member Name: can_set_depth_in_pause
+    Member Name: collision_check
+    Member Name: meddler
+    Member Name: shadow_caster
+    Member Name: can_use_item_in_state
+    Member Name: collision_list
+    Member Name: furniture_place
+    Member Name: furniture_rotate
+    Member Name: no_clip
+    Member Name: emit_fire
+    Member Name: asset_objects_last_frame
+    Member Name: god_mode
+    Member Name: jump_data
+    Member Name: cardinal
+    Member Name: jump_goal
+    Member Name: progress_bar_alpha
+    Member Name: crit
+    Member Name: progress_bar_color
+    Member Name: progress_bar_offset
+    Member Name: cardinal_placement
+    Member Name: progress_bar_width
+    Member Name: overlapping_animal
+    Member Name: end_hurt_state
+    Member Name: overlapping_monster
+    Member Name: should_die
+    Member Name: overlapping_npc
+    Member Name: overlaps_mount_blocker
+    Member Name: should_faint
+    Member Name: interact_detection_radius
+    Member Name: ui_journal_request
+    Member Name: ui_map_request
+    Member Name: interact_max_radius
+    Member Name: should_show_item_usage_ux
+    Member Name: interact_nudge_distance
+    Member Name: save_iframes
+    Member Name: ui_mount_request
+    Member Name: ui_spell_request
+    Member Name: set_idle_simple
+    Member Name: try_room_transition
+    Member Name: dir
+    Member Name: breathe_fire_in_other_states
+    Member Name: wimp_mode
+    Member Name: show_progress_bar
+    Member Name: lagged_dir
+    Member Name: celebrate_loot
+    Member Name: enter_action_animation
+    Member Name: par
+    Member Name: buffered_input
+    Member Name: update_cell_select
+    Member Name: cell_select
+    Member Name: par_anim_spd
+    Member Name: buffered_player_cmp_and_take
+    Member Name: buffered_tick
+    Member Name: par_offset
+    Member Name: current_tool_effect
+    Member Name: fire_breath_effects
+    Member Name: player_collect_items
+    Member Name: hurt_colors
+    Member Name: hurt_state
+    Member Name: dive
+    Member Name: change_mount_while_mounted
+    Member Name: change_preset
+    Member Name: animal_u_index
+    Member Name: animal_u_lut_tex
+    Member Name: bark_emitter
+    Member Name: animal_u_pixel_size
+    Member Name: animal_u_uvs
+    Member Name: quest_handle_queries
+    Member Name: check_bbox_at_point
+    Member Name: move
+    Member Name: check_for_menu_opens
+    Member Name: check_input
+    Member Name: check_jump
+    Member Name: _xx
+    Member Name: _yy
+    Member Name: leave_room
+hit_notify_only: BOOL == false
+can_hit_count: UNDEFINED
+persists: BOOL == false
+parent_object: OBJECT
+critical: BOOL == false
+can_hurt: BOOL == true
+destruction_timer: UNDEFINED
+push_force_mask: OBJECT
+    Member Name: x
+    Member Name: y
+in_air: BOOL == false
+fire_oil: BOOL == false
+blocked: OBJECT
+offset: OBJECT
+    Member Name: x
+    Member Name: y
+already_hit_array: ARRAY (length == 1)
+calculate_knockback: OBJECT
+stats_entry: UNDEFINED
+succesful_hit: OBJECT
+heavy: BOOL == false
+override_offset: OBJECT
+    Member Name: x
+    Member Name: y
+frozen: BOOL == false
+can_pick_grid_objects: BOOL == false
+venomous: BOOL == false
+dimensions: OBJECT
+    Member Name: x
+    Member Name: y
+knockback: BOOL == true
+electrocute_kind: UNDEFINED
+damage: REAL == 16.000000
+knockback_force: OBJECT
+    Member Name: x
+    Member Name: y
+damage_flag: OBJECT
+knockback_radius: REAL == 48.000000
+callback_per_frame: UNDEFINED
+collision_list: REFERENCE
+collision_mode: INT64 == 1
+flags: INT64 == 0
+=============== Result ===============
+BOOL == true
+
+EXIT: gml_Script_damage@gml_Object_obj_damage_receiver_Create_0

@@ -51,15 +51,6 @@ if(IsNight(current_time_in_seconds) && AriIsAtSanityLossLocation() && !ari_is_in
 
 }
 
-
-
-
-
-
-
-
-
-
 ==================== SPAWN MONSTER ====================
 
 if (GetAsyncKeyState(VK_F1) & 1)

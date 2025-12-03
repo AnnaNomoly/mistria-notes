@@ -1,0 +1,112 @@
+gml_Script_drop_item // Called when a monster is dropping loot OR mining nodes OR opening treasure chests
+- Self: obj_animation_effect
+- Other: obj_animation_effect
+- ArgCount: 4
+- Arguments[0]: ARRAY || OBJECT // TBD
+- Arguments[1]: REAL // The x-coordinate?
+- Arguments[2]: BOOL // The y-coordinate?
+- Arguments[3]: UNDEFINED
+- Result: UNDEFINED
+
+
+ENTER: gml_Script_drop_item
+=============== Self ===============
+Member Name: notifee
+Member Name: target
+Member Name: provenance
+Member Name: can_chop_grid_objects
+Member Name: can_destroy_grid_objects
+Member Name: parent_id
+Member Name: hit_notify_only
+Member Name: can_hit_count
+Member Name: persists
+Member Name: parent_object
+Member Name: critical
+Member Name: can_hurt
+Member Name: destruction_timer
+Member Name: push_force_mask
+Member Name: in_air
+Member Name: fire_oil
+Member Name: blocked
+Member Name: offset
+Member Name: already_hit_array
+Member Name: calculate_knockback
+Member Name: stats_entry
+Member Name: succesful_hit
+Member Name: heavy
+Member Name: override_offset
+Member Name: frozen
+Member Name: can_pick_grid_objects
+Member Name: venomous
+Member Name: dimensions
+Member Name: knockback
+Member Name: electrocute_kind
+Member Name: damage
+Member Name: knockback_force
+Member Name: damage_flag
+Member Name: knockback_radius
+Member Name: callback_per_frame
+Member Name: collision_list
+Member Name: collision_mode
+Member Name: flags
+=============== Other ===============
+Member Name: notifee
+Member Name: target
+Member Name: provenance
+Member Name: can_chop_grid_objects
+Member Name: can_destroy_grid_objects
+Member Name: parent_id
+Member Name: hit_notify_only
+Member Name: can_hit_count
+Member Name: persists
+Member Name: parent_object
+Member Name: critical
+Member Name: can_hurt
+Member Name: destruction_timer
+Member Name: push_force_mask
+Member Name: in_air
+Member Name: fire_oil
+Member Name: blocked
+Member Name: offset
+Member Name: already_hit_array
+Member Name: calculate_knockback
+Member Name: stats_entry
+Member Name: succesful_hit
+Member Name: heavy
+Member Name: override_offset
+Member Name: frozen
+Member Name: can_pick_grid_objects
+Member Name: venomous
+Member Name: dimensions
+Member Name: knockback
+Member Name: electrocute_kind
+Member Name: damage
+Member Name: knockback_force
+Member Name: damage_flag
+Member Name: knockback_radius
+Member Name: callback_per_frame
+Member Name: collision_list
+Member Name: collision_mode
+Member Name: flags
+=============== Argument[0] ===============
+ARRAY (length == 1)
+ARRAY[0]: OBJECT
+Member Name: cosmetic
+Member Name: item_id
+Member Name: prototype
+Member Name: animal_cosmetic
+Member Name: date_photo
+Member Name: infusion
+Member Name: inner_item
+Member Name: toString
+Member Name: gold_to_gain
+Member Name: pet_cosmetic_set_name
+Member Name: auto_use
+Member Name: icon_override
+------------------------------
+=============== Argument[1] ===============
+REAL: 296.000000
+=============== Argument[2] ===============
+REAL: 368.000000
+=============== Argument[3] ===============
+UNDEFINED

@@ -1,0 +1,38 @@
+ENTER: gml_Script_create_treasure_distributions
+=============== Self ===============
+Member Name: load_state
+=============== Other ===============
+Member Name: load_state
+=============== Argument[0] ===============
+OBJECT:
+music: STRING == Music/Playlists/MinesUpper
+combat_xp_gain: REAL == 3.000000
+artifact_set: STRING == upper_mines_artifacts
+gem: INT64 == 1424
+armor: ARRAY (length == 6)
+ore: INT64 == 1417
+shrine: OBJECT
+Member Name: outputs
+Member Name: inputs
+------------------------------
+cosmetics: ARRAY (length == 3)
+floor: REAL == 1.000000
+name: STRING == Upper Mines
+recipes: ARRAY (length == 11)
+monster_element_points: REAL == 1.000000
+dungeon_delicacies: ARRAY (length == 6)
+furniture: ARRAY (length == 17)
+votes: ARRAY (length == 14)
+taste_maker: ARRAY (length == 3)
+ladder_chance_range: ARRAY (length == 2)
+asset_insert: STRING == mines_biome_1
+object_element_points: REAL == 1.000000
+=============== Argument[1] ===============
+OBJECT:
+REAL: 0.000000
+=============== Result ===============
+OBJECT
+Member Name: spawnable_candidates
+Member Name: __SpawnableCandidate
+Member Name: __SpawnableCandidateVotes
+------------------------------

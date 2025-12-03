@@ -1,0 +1,10 @@
+gml_Script_check_value@Input@Input
+- ArgCount: 1
+- Arguments[0]: INT64
+ - 1: Up
+ - 2: Down
+ - 3: Left
+ - 4: Right
+- Result: REAL (seems like a BOOL)
+ - 0 == ??
+ - 1 == ??

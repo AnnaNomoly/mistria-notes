@@ -1,0 +1,421 @@
+ENTER: gml_Script_make_tarball@anon@119926@AriFsm@AriFsm
+=============== Self ===============
+Member Name: __capabilities
+Member Name: combo_state
+Member Name: make_tarball
+Member Name: blackboard
+Member Name: create
+Member Name: can_go_to_next_combo
+Member Name: state_id
+Member Name: cached_cardinal
+Member Name: push_spd
+Member Name: max_push_spd
+Member Name: can_make_tarball
+Member Name: player_requested_move
+Member Name: start
+Member Name: end_step
+Member Name: dir
+Member Name: fsm
+Member Name: step
+Member Name: owner
+Member Name: is_critical
+Member Name: move
+Member Name: next_swing
+Member Name: stop
+Member Name: on_hit
+Member Name: input
+Member Name: input_buffer
+Member Name: cancel_tarball
+Member Name: tarball
+=============== Other ===============
+Member Name: iframe_can_invisible
+Member Name: using_mouse
+Member Name: restore_iframes
+Member Name: iframes
+Member Name: check_pressed_input
+Member Name: iframes_invisible
+Member Name: is_mounted
+Member Name: in_collision_swimming
+Member Name: is_swimming
+Member Name: start_hurt_state
+Member Name: z
+Member Name: face_cell
+Member Name: face_dir
+Member Name: face_point
+Member Name: item_detection_radius
+Member Name: receiver
+Member Name: dust_particle_burst
+Member Name: dust_particles
+Member Name: vfx_sprites
+Member Name: set_animation
+Member Name: default_par_anim_spd
+Member Name: default_par_offset
+Member Name: can_land_at_position
+Member Name: can_mount
+Member Name: initialize_for_cutscene
+Member Name: summon_held_animal
+Member Name: set_cardinal
+Member Name: fsm
+Member Name: can_set_depth_in_pause
+Member Name: collision_check
+Member Name: meddler
+Member Name: shadow_caster
+Member Name: can_use_item_in_state
+Member Name: collision_list
+Member Name: furniture_place
+Member Name: furniture_rotate
+Member Name: no_clip
+Member Name: emit_fire
+Member Name: asset_objects_last_frame
+Member Name: god_mode
+Member Name: jump_data
+Member Name: cardinal
+Member Name: jump_goal
+Member Name: progress_bar_alpha
+Member Name: crit
+Member Name: progress_bar_color
+Member Name: progress_bar_offset
+Member Name: cardinal_placement
+Member Name: progress_bar_width
+Member Name: overlapping_animal
+Member Name: end_hurt_state
+Member Name: overlapping_monster
+Member Name: should_die
+Member Name: overlapping_npc
+Member Name: overlaps_mount_blocker
+Member Name: should_faint
+Member Name: interact_detection_radius
+Member Name: ui_journal_request
+Member Name: ui_map_request
+Member Name: interact_max_radius
+Member Name: should_show_item_usage_ux
+Member Name: interact_nudge_distance
+Member Name: save_iframes
+Member Name: ui_mount_request
+Member Name: ui_spell_request
+Member Name: set_idle_simple
+Member Name: try_room_transition
+Member Name: dir
+Member Name: breathe_fire_in_other_states
+Member Name: wimp_mode
+Member Name: show_progress_bar
+Member Name: lagged_dir
+Member Name: celebrate_loot
+Member Name: enter_action_animation
+Member Name: par
+Member Name: buffered_input
+Member Name: update_cell_select
+Member Name: cell_select
+Member Name: par_anim_spd
+Member Name: buffered_player_cmp_and_take
+Member Name: buffered_tick
+Member Name: par_offset
+Member Name: current_tool_effect
+Member Name: fire_breath_effects
+Member Name: player_collect_items
+Member Name: hurt_colors
+Member Name: hurt_state
+Member Name: dive
+Member Name: change_mount_while_mounted
+Member Name: change_preset
+Member Name: animal_u_index
+Member Name: animal_u_lut_tex
+Member Name: bark_emitter
+Member Name: animal_u_pixel_size
+Member Name: animal_u_uvs
+Member Name: quest_handle_queries
+Member Name: check_bbox_at_point
+Member Name: move
+Member Name: check_for_menu_opens
+Member Name: check_input
+Member Name: check_jump
+Member Name: _xx
+Member Name: _yy
+Member Name: leave_room
+=============== Argument[0] ===============
+OBJECT:
+iframe_can_invisible: BOOL == false
+using_mouse: BOOL == true
+restore_iframes: OBJECT
+------------------------------
+iframes: REAL == 0.000000
+check_pressed_input: OBJECT
+------------------------------
+iframes_invisible: BOOL == false
+is_mounted: OBJECT
+------------------------------
+in_collision_swimming: BOOL == false
+is_swimming: OBJECT
+------------------------------
+start_hurt_state: OBJECT
+------------------------------
+z: REAL == 0.000000
+face_cell: OBJECT
+------------------------------
+face_dir: OBJECT
+------------------------------
+face_point: OBJECT
+------------------------------
+item_detection_radius: REAL == 50.000000
+receiver: REFERENCE
+dust_particle_burst: OBJECT
+------------------------------
+dust_particles: OBJECT
+Member Name: spawn_rectangle
+Member Name: rand_range
+Member Name: image_angle_equal_dir
+Member Name: fadeout_after_one_loop
+Member Name: spd
+Member Name: x_offset
+Member Name: spd_inc
+Member Name: instances
+Member Name: rot_spd
+Member Name: init_alpha
+Member Name: follow_obj
+Member Name: y_offset
+Member Name: size_inc
+Member Name: start_alpha_fadeout
+Member Name: start_angle
+Member Name: ydir
+Member Name: dir
+Member Name: angle_lock
+Member Name: grav
+Member Name: sway
+Member Name: grav_inc
+Member Name: on_floor
+Member Name: animate
+Member Name: lifetime
+------------------------------
+vfx_sprites: ARRAY (length == 4)
+set_animation: OBJECT
+------------------------------
+default_par_anim_spd: REAL == 0.016667
+default_par_offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+can_land_at_position: OBJECT
+------------------------------
+can_mount: OBJECT
+------------------------------
+initialize_for_cutscene: OBJECT
+------------------------------
+summon_held_animal: OBJECT
+------------------------------
+set_cardinal: OBJECT
+------------------------------
+fsm: OBJECT
+Member Name: state
+Member Name: state_frame
+Member Name: next_state
+Member Name: last_state_id
+Member Name: states
+Member Name: blackboard
+------------------------------
+can_set_depth_in_pause: BOOL == true
+collision_check: OBJECT
+------------------------------
+meddler: OBJECT
+Member Name: can_move_to_square
+Member Name: id
+Member Name: size
+Member Name: last_pos
+Member Name: reserve_new_square
+Member Name: agent_kind
+Member Name: update
+Member Name: release_reservations
+Member Name: held_squares
+Member Name: owner
+------------------------------
+shadow_caster: ARRAY (length == 10)
+can_use_item_in_state: OBJECT
+------------------------------
+collision_list: REFERENCE
+furniture_place: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+furniture_rotate: INT64 == 3
+no_clip: BOOL == false
+emit_fire: OBJECT
+------------------------------
+asset_objects_last_frame: OBJECT
+Member Name: __internal_size
+Member Name: __count
+Member Name: __buffer
+------------------------------
+god_mode: BOOL == false
+jump_data: OBJECT
+Member Name: spd
+Member Name: grv
+Member Name: frames
+------------------------------
+cardinal: INT64 == 2
+jump_goal: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+progress_bar_alpha: REAL == 0.000000
+crit: BOOL == false
+progress_bar_color: REAL == 16777215.000000
+progress_bar_offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+cardinal_placement: REAL == 0.000000
+progress_bar_width: REAL == 0.000000
+overlapping_animal: REAL == 0.000000
+end_hurt_state: OBJECT
+------------------------------
+overlapping_monster: REAL == 0.000000
+should_die: OBJECT
+------------------------------
+overlapping_npc: REAL == 0.000000
+overlaps_mount_blocker: OBJECT
+------------------------------
+should_faint: OBJECT
+------------------------------
+interact_detection_radius: REAL == 128.000000
+ui_journal_request: BOOL == false
+ui_map_request: BOOL == false
+interact_max_radius: REAL == 12.000000
+should_show_item_usage_ux: OBJECT
+------------------------------
+interact_nudge_distance: REAL == 6.000000
+save_iframes: OBJECT
+------------------------------
+ui_mount_request: BOOL == false
+ui_spell_request: BOOL == false
+set_idle_simple: OBJECT
+------------------------------
+try_room_transition: OBJECT
+------------------------------
+dir: REAL == 180.000000
+breathe_fire_in_other_states: BOOL == false
+wimp_mode: BOOL == false
+show_progress_bar: BOOL == false
+lagged_dir: REAL == 0.000000
+celebrate_loot: OBJECT
+------------------------------
+enter_action_animation: OBJECT
+------------------------------
+par: OBJECT
+Member Name: set_skin_tone
+Member Name: remove_asset
+Member Name: remove_attachment
+Member Name: base_to_frame
+Member Name: outline_uniform_handle
+Member Name: remove_held_sprite
+Member Name: cardinal
+Member Name: is_modifier_broadcasting
+Member Name: slots
+Member Name: render_hair
+Member Name: render_offscreen
+Member Name: attachment
+Member Name: alpha
+Member Name: has_modifier
+Member Name: tool_effect
+Member Name: set_held_sprite
+Member Name: render_tool_effect
+Member Name: image_blend
+Member Name: unset_all_animations
+Member Name: unset_all_modifiers
+Member Name: scale
+Member Name: unset_modifier
+Member Name: modifier_to_frame
+Member Name: perform_clip
+Member Name: perform_outline
+Member Name: clip_region
+Member Name: blend
+Member Name: set_animation
+Member Name: set_animation_on_slot
+Member Name: new_frame
+Member Name: set_asset
+Member Name: set_attachment
+Member Name: set_base_hold_on_last_frame
+Member Name: set_base_loop
+Member Name: set_cardinal
+Member Name: priority
+Member Name: held_item_render_callback
+Member Name: surface
+Member Name: held_sprite
+Member Name: surface_alpha_clip_region_handle
+Member Name: is_broadcasting
+Member Name: surface_alpha_perform_clip_handle
+Member Name: animate
+Member Name: draw
+Member Name: base_animation
+Member Name: base_broadcast_message
+Member Name: base_current_frame_index
+Member Name: animation_complete
+------------------------------
+buffered_input: INT64 == 11
+update_cell_select: OBJECT
+------------------------------
+cell_select: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+par_anim_spd: REAL == 0.016667
+buffered_player_cmp_and_take: OBJECT
+------------------------------
+buffered_tick: REAL == 1190.000000
+par_offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+current_tool_effect: OBJECT
+------------------------------
+fire_breath_effects: ARRAY (length == 0)
+player_collect_items: OBJECT
+------------------------------
+hurt_colors: ARRAY (length == 4)
+hurt_state: UNDEFINED
+dive: OBJECT
+------------------------------
+change_mount_while_mounted: OBJECT
+------------------------------
+change_preset: OBJECT
+------------------------------
+animal_u_index: REAL == 13.000000
+animal_u_lut_tex: REAL == 1.000000
+bark_emitter: OBJECT
+Member Name: emit
+Member Name: y_offset
+Member Name: is_barking
+Member Name: owner
+Member Name: on_draw
+Member Name: state
+Member Name: x_offset
+Member Name: bark_type
+Member Name: icon_index
+Member Name: modifier
+Member Name: icon_index_counter
+Member Name: timer
+Member Name: active_bark
+Member Name: bubble_index
+Member Name: bubble_index_counter
+Member Name: bubble_sprite
+------------------------------
+animal_u_pixel_size: REAL == 14.000000
+animal_u_uvs: REAL == 15.000000
+quest_handle_queries: OBJECT
+------------------------------
+check_bbox_at_point: OBJECT
+------------------------------
+move: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+check_for_menu_opens: OBJECT
+------------------------------
+check_input: OBJECT
+------------------------------
+check_jump: OBJECT
+------------------------------
+_xx: REAL == 1292.000000
+_yy: REAL == 1031.000000
+leave_room: OBJECT
+------------------------------
+=============== Result ===============
+(null): OTHER

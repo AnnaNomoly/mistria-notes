@@ -1,0 +1,4 @@
+gml_Script_take_press@Input@Input
+- ArgCount: 1
+- Arguments[0]: INT64 // The key binding index, 0=mouse_left_click?, 1=up, 2=down, 3=left, 4=right, 5=jump, 6=interact
+- Result: BOOL

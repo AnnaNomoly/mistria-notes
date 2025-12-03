@@ -48,14 +48,14 @@
 "split_angle": 20,
 
 // Rotates 18-degrees at a time while shooting 5 pellets in a small cone
-        "attack_sequence": 20,
-        "attack_legion": 5,
-        "attack_sequence_turn": 18,
-        "attack_sequence_image_speed": 2,
-        "projectile_speed": 4,
+"attack_sequence": 20,
+"attack_legion": 5,
+"attack_sequence_turn": 18,
+"attack_sequence_image_speed": 2,
+"projectile_speed": 4,
 
 // Shoots a wall of 10 pellets repeatedly 20 times
-        "attack_sequence": 20,
-        "attack_legion": 10,
-        "attack_sequence_image_speed": 2,
-        "projectile_speed": 4,
+"attack_sequence": 20,
+"attack_legion": 10,
+"attack_sequence_image_speed": 2,
+"projectile_speed": 4,
