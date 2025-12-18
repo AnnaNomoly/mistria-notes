@@ -1,0 +1,45 @@
+Mushrooms
+---------
+"fade_in_rate": 0.5,
+"fade_out_rate": 0.5,
+"shadow_threshold": 0.5,
+
+Stalagmites
+-----------
+"secondary_spikes": [...]
+// Requires additional sprites found at: monsters/mite/stalagmite_green/misc/secondary_*
+
+Saplings
+--------
+"sticky": true, // From sapling_blue
+"free_fly": true, // From sapling_purple
+"air_speed_modifier": 0.6, // From sapling_purple
+"use_circle": true,
+"attack_radius": 624, // From sapling_purple
+"max_jump_radius": 624, // From sapling_purple
+"aggro_radius": 624, // From sapling_purple
+"sap_children_birth_timer": 60, // From sapling_orange
+"sap_children_birth_distance": 15, // From sapling_orange
+"sap_children": 2, // From sapling_orange
+"sap_children_species": "sapling_orange_mini", // From sapling_orange
+
+Enchanterns
+-----------
+"drops_balls": true,
+
+Spirits
+-------
+"teleport_duration": [
+    30,
+    45
+],
+"teleport_distance_from_player": [
+    30,
+    96
+],
+"projectile_life_time": [
+    240,
+    400
+],
+"projectile_turn_rate": 0.65,
+"projectile_speed": 1,

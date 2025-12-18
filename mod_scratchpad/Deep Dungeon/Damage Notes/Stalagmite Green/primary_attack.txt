@@ -1,0 +1,263 @@
+=============== Self->parent_id ===============
+OBJECT:
+process_status: OBJECT
+------------------------------
+slip_move: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+slippery_coefficient: REAL == 0.100000
+tired_effect: UNDEFINED
+process_tarball_status: OBJECT
+------------------------------
+acknowledgement_reset: BOOL == false
+insta_kill_timer: REAL == 0.000000
+destroy_spikes: OBJECT
+------------------------------
+image_speed_backup: UNDEFINED
+hit_points: REAL == 22.000000
+allow_shoving: BOOL == false
+set_state_sprite: OBJECT
+------------------------------
+calculate_flipper: OBJECT
+------------------------------
+shove_factor: REAL == 1.000000
+snap_position: OBJECT
+------------------------------
+config: OBJECT
+Member Name: iframes
+Member Name: hp
+Member Name: speed
+Member Name: hurt
+Member Name: monster_category
+Member Name: hitbox
+Member Name: hurtbox
+Member Name: monster_id
+Member Name: push_force
+Member Name: fire_effect_offset
+Member Name: push_radius
+Member Name: pushed_radius
+Member Name: sprite_catalogue
+Member Name: coin_count
+Member Name: status_effect_offset
+Member Name: misc_sprites
+Member Name: drops
+Member Name: misc_tango
+Member Name: attack_radius
+Member Name: tango
+Member Name: patience_acknowledgement_reset
+Member Name: sprites
+Member Name: tango_catalogue
+Member Name: use_circle
+Member Name: essence
+Member Name: damage
+Member Name: damage_number_offset
+Member Name: gm_object
+Member Name: hide_timer
+Member Name: aggro_radius
+Member Name: secondary_spikes
+Member Name: starting_dir
+------------------------------
+venomous_opacity: REAL == 0.390000
+venomous_overlay_color: REAL == 8109486.000000
+patience: OBJECT
+Member Name: shared_box
+Member Name: pos
+Member Name: destroy
+Member Name: aggro
+Member Name: aggro_box
+Member Name: diameter
+Member Name: use_circle
+Member Name: value
+Member Name: tick
+------------------------------
+amt: REAL == 0.000000
+show_damage: REAL == 0.000000
+dir: REAL == 90.000000
+z: REAL == 0.000000
+knockback_move: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+try_spawn_stars: OBJECT
+------------------------------
+debug_state: OBJECT
+------------------------------
+play_state_tango: OBJECT
+------------------------------
+receiver: REFERENCE
+try_despawn_stars: OBJECT
+------------------------------
+perform_effect: BOOL == true
+get_cardinal: OBJECT
+------------------------------
+track_player: OBJECT
+------------------------------
+ground_attack_effect: REFERENCE
+distance_to_ari: OBJECT
+------------------------------
+monster_id: INT64 == 32
+friction_coefficient: REAL == 0.100000
+stats_entry: OBJECT
+Member Name: damage_dealt
+Member Name: damage_dealt_count
+Member Name: killed_by_ari
+Member Name: damage_taken
+Member Name: damage_taken_count
+Member Name: monster
+------------------------------
+can_overlap_ari: BOOL == false
+frozen_opacity: REAL == 0.290000
+effect_alpha: REAL == 0.756942
+status_effects: OBJECT
+Member Name: get_effect_value
+Member Name: deserialize
+Member Name: serialize
+Member Name: register
+Member Name: effects
+Member Name: cancel
+Member Name: update
+------------------------------
+frozen_overlay_color: REAL == 15458452.000000
+fsm: OBJECT
+Member Name: state
+Member Name: state_frame
+Member Name: next_state
+Member Name: last_state_id
+Member Name: states
+Member Name: blackboard
+------------------------------
+trauma: REAL == 0.000000
+check_collision: OBJECT
+------------------------------
+original_dir: REAL == 135.000000
+original_spawn_pos: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+shadow_caster: ARRAY (length == 10)
+move: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+draw: OBJECT
+------------------------------
+aggro: BOOL == true
+create_spikes: OBJECT
+------------------------------
+skip_destroy_logic: BOOL == false
+=============== Argument[0] ===============
+OBJECT:
+notifee: UNDEFINED
+target: INT64 == 1
+provenance: INT64 == 32
+can_chop_grid_objects: BOOL == false
+can_destroy_grid_objects: BOOL == true
+parent_id: OBJECT
+Member Name: process_status
+Member Name: slip_move
+Member Name: slippery_coefficient
+Member Name: tired_effect
+Member Name: process_tarball_status
+Member Name: acknowledgement_reset
+Member Name: insta_kill_timer
+Member Name: destroy_spikes
+Member Name: image_speed_backup
+Member Name: hit_points
+Member Name: allow_shoving
+Member Name: set_state_sprite
+Member Name: calculate_flipper
+Member Name: shove_factor
+Member Name: snap_position
+Member Name: config
+Member Name: venomous_opacity
+Member Name: venomous_overlay_color
+Member Name: patience
+Member Name: amt
+Member Name: show_damage
+Member Name: dir
+Member Name: z
+Member Name: knockback_move
+Member Name: try_spawn_stars
+Member Name: debug_state
+Member Name: play_state_tango
+Member Name: receiver
+Member Name: try_despawn_stars
+Member Name: perform_effect
+Member Name: get_cardinal
+Member Name: track_player
+Member Name: ground_attack_effect
+Member Name: distance_to_ari
+Member Name: monster_id
+Member Name: friction_coefficient
+Member Name: stats_entry
+Member Name: can_overlap_ari
+Member Name: frozen_opacity
+Member Name: effect_alpha
+Member Name: status_effects
+Member Name: frozen_overlay_color
+Member Name: fsm
+Member Name: trauma
+Member Name: check_collision
+Member Name: original_dir
+Member Name: original_spawn_pos
+Member Name: shadow_caster
+Member Name: move
+Member Name: draw
+Member Name: aggro
+Member Name: create_spikes
+Member Name: skip_destroy_logic
+------------------------------
+hit_notify_only: BOOL == false
+can_hit_count: UNDEFINED
+persists: BOOL == false
+parent_object: OBJECT
+------------------------------
+critical: BOOL == false
+can_hurt: BOOL == true
+destruction_timer: UNDEFINED
+push_force_mask: UNDEFINED
+in_air: BOOL == false
+fire_oil: BOOL == false
+blocked: OBJECT
+------------------------------
+offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+already_hit_array: ARRAY (length == 1)
+calculate_knockback: OBJECT
+------------------------------
+stats_entry: OBJECT
+Member Name: damage_dealt
+Member Name: damage_dealt_count
+Member Name: killed_by_ari
+Member Name: damage_taken
+Member Name: damage_taken_count
+Member Name: monster
+------------------------------
+succesful_hit: OBJECT
+------------------------------
+heavy: BOOL == false
+override_offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+frozen: BOOL == false
+can_pick_grid_objects: BOOL == false
+venomous: BOOL == false
+dimensions: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+knockback: BOOL == false
+electrocute_kind: UNDEFINED
+damage: REAL == 30.000000
+knockback_force: UNDEFINED
+damage_flag: OBJECT
+------------------------------
+knockback_radius: REAL == 0.000000
+callback_per_frame: UNDEFINED
+collision_list: REFERENCE
+collision_mode: INT64 == 1
+flags: INT64 == 0

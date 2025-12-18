@@ -1,0 +1,166 @@
+=============== Self ===============
+Member Name: iframes
+Member Name: target
+Member Name: on_damage_back
+Member Name: parent_id
+Member Name: damage
+Member Name: damage_back_tarball
+Member Name: parent_object
+Member Name: in_air
+Member Name: damaged
+Member Name: current_iframes
+Member Name: drop_damage
+Member Name: offset
+Member Name: try_take_damage
+Member Name: status
+=============== Other ===============
+Member Name: notifee
+Member Name: target
+Member Name: provenance
+Member Name: can_chop_grid_objects
+Member Name: can_destroy_grid_objects
+Member Name: parent_id
+Member Name: hit_notify_only
+Member Name: can_hit_count
+Member Name: persists
+Member Name: parent_object
+Member Name: critical
+Member Name: can_hurt
+Member Name: destruction_timer
+Member Name: push_force_mask
+Member Name: in_air
+Member Name: fire_oil
+Member Name: blocked
+Member Name: offset
+Member Name: already_hit_array
+Member Name: calculate_knockback
+Member Name: stats_entry
+Member Name: succesful_hit
+Member Name: heavy
+Member Name: override_offset
+Member Name: frozen
+Member Name: can_pick_grid_objects
+Member Name: venomous
+Member Name: dimensions
+Member Name: knockback
+Member Name: electrocute_kind
+Member Name: damage
+Member Name: knockback_force
+Member Name: damage_flag
+Member Name: knockback_radius
+Member Name: callback_per_frame
+Member Name: collision_list
+Member Name: collision_mode
+Member Name: flags
+=============== Self->parent_id ===============
+OBJECT:
+receiver: REFERENCE
+tarball: REFERENCE
+display_number: REAL == 1.000000
+dir: REAL == 90.000000
+tango_asset: STRING == SoundEffects/Enemies/EssenceBat/EchoProjectile
+dir_offset: REAL == 0.000000
+tango_handle: REAL == 1319282184.000000
+damage: REAL == 18.000000
+monster_id: INT64 == 1
+ready: BOOL == true
+x_move: REAL == -0.000000
+on_hit: OBJECT
+------------------------------
+stats_entry: OBJECT
+Member Name: damage_dealt
+Member Name: damage_dealt_count
+Member Name: killed_by_ari
+Member Name: damage_taken
+Member Name: damage_taken_count
+Member Name: monster
+------------------------------
+y_move: REAL == -8.000000
+=============== Argument[0] ===============
+OBJECT:
+notifee: OBJECT
+Member Name: receiver
+Member Name: tarball
+Member Name: display_number
+Member Name: dir
+Member Name: tango_asset
+Member Name: dir_offset
+Member Name: tango_handle
+Member Name: damage
+Member Name: monster_id
+Member Name: ready
+Member Name: x_move
+Member Name: on_hit
+Member Name: stats_entry
+Member Name: y_move
+------------------------------
+target: INT64 == 1
+provenance: INT64 == 1
+can_chop_grid_objects: BOOL == false
+can_destroy_grid_objects: BOOL == false
+parent_id: OBJECT
+Member Name: receiver
+Member Name: tarball
+Member Name: display_number
+Member Name: dir
+Member Name: tango_asset
+Member Name: dir_offset
+Member Name: tango_handle
+Member Name: damage
+Member Name: monster_id
+Member Name: ready
+Member Name: x_move
+Member Name: on_hit
+Member Name: stats_entry
+Member Name: y_move
+------------------------------
+hit_notify_only: BOOL == false
+can_hit_count: UNDEFINED
+persists: BOOL == false
+parent_object: OBJECT
+------------------------------
+critical: BOOL == false
+can_hurt: BOOL == true
+destruction_timer: UNDEFINED
+push_force_mask: UNDEFINED
+in_air: BOOL == false
+fire_oil: BOOL == false
+blocked: OBJECT
+------------------------------
+offset: UNDEFINED
+already_hit_array: ARRAY (length == 1)
+calculate_knockback: OBJECT
+------------------------------
+stats_entry: OBJECT
+Member Name: damage_dealt
+Member Name: damage_dealt_count
+Member Name: killed_by_ari
+Member Name: damage_taken
+Member Name: damage_taken_count
+Member Name: monster
+------------------------------
+succesful_hit: OBJECT
+------------------------------
+heavy: BOOL == false
+override_offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+frozen: BOOL == false
+can_pick_grid_objects: BOOL == false
+venomous: BOOL == false
+dimensions: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+knockback: BOOL == false
+electrocute_kind: UNDEFINED
+damage: REAL == 18.000000
+knockback_force: UNDEFINED
+damage_flag: OBJECT
+------------------------------
+knockback_radius: REAL == 0.000000
+callback_per_frame: UNDEFINED
+collision_list: REFERENCE
+collision_mode: INT64 == 0
+flags: INT64 == 0
