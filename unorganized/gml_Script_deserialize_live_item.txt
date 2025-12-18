@@ -1,0 +1,39 @@
+ENTER: gml_Script_deserialize_live_item
+=============== Self ===============
+Member Name: maximum_item_counts
+Member Name: toString
+Member Name: slots
+=============== Other ===============
+Member Name: execute_return_to_menu
+Member Name: last_serde_path
+Member Name: unique_identifier
+Member Name: load_state
+Member Name: play_time_comparator
+Member Name: exit_to_menu
+=============== Argument[0] ===============
+OBJECT:
+cosmetic: UNDEFINED
+item_id: STRING == sword_scrap_metal
+infusion: UNDEFINED
+animal_cosmetic: UNDEFINED
+date_photo: UNDEFINED
+inner_item: UNDEFINED
+gold_to_gain: UNDEFINED
+auto_use: BOOL == false
+pet_cosmetic_set_name: UNDEFINED
+=============== Result ===============
+OBJECT
+Member Name: cosmetic
+Member Name: item_id
+Member Name: prototype
+Member Name: animal_cosmetic
+Member Name: date_photo
+Member Name: infusion
+Member Name: inner_item
+Member Name: toString
+Member Name: gold_to_gain
+Member Name: pet_cosmetic_set_name
+Member Name: auto_use
+Member Name: icon_override
+------------------------------
+EXIT: gml_Script_deserialize_live_item

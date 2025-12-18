@@ -1,0 +1,62 @@
+ENTER: gml_Script_enter_dungeon
+=============== Self ===============
+Member Name: type
+Member Name: pilot
+Member Name: canvas
+Member Name: request_hide
+Member Name: on_think
+Member Name: lock
+Member Name: enable
+Member Name: close
+Member Name: pilots
+Member Name: request_show
+Member Name: close_requested
+Member Name: free
+Member Name: background
+Member Name: free_requested
+Member Name: backplate
+Member Name: listen_for_exit
+Member Name: listen_for_exit_flag
+Member Name: new_pilot
+Member Name: initialize
+Member Name: on_close
+Member Name: in_transition
+Member Name: unlock
+Member Name: disable
+Member Name: think
+Member Name: internal_chain
+Member Name: run_exit_listening
+Member Name: toString
+Member Name: on_free
+Member Name: hide_requests
+Member Name: data
+=============== Other ===============
+Member Name: exit_to_menu
+Member Name: go_to_main_menu
+Member Name: last_serde_path
+Member Name: bird_refresh
+Member Name: music_cut_off
+Member Name: animal_eat
+Member Name: animal_eat_exit
+Member Name: bell_rang
+Member Name: unique_identifier
+Member Name: late_warning_issued
+Member Name: moving_average
+Member Name: execute_return_to_menu
+Member Name: last_alpha_edit_amount
+Member Name: prevent_eod_music_stop
+Member Name: player_home_light_count
+Member Name: spawn_birds
+Member Name: turned_on_lights
+Member Name: load_state
+Member Name: play_time_comparator
+Member Name: manual_crash_timer
+=============== Argument[0] ===============
+REAL: 4.000000
+=============== Argument[1] ===============
+UNDEFINED
+=============== Argument[2] ===============
+UNDEFINED
+=============== Result ===============
+OTHER
+EXIT: gml_Script_enter_dungeon

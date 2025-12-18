@@ -1,0 +1,367 @@
+ENTER: gml_Script_anon@5223@build_equipment_section@PlayerMenu@PlayerMenu
+=============== Self ===============
+Member Name: a_tab
+Member Name: type
+Member Name: canvas
+Member Name: button_section
+Member Name: enable
+Member Name: c_tab
+Member Name: left_pilot
+Member Name: pilots
+Member Name: renown_backplate
+Member Name: sort_icon
+Member Name: on_close
+Member Name: in_transition
+Member Name: unlock
+Member Name: disable
+Member Name: think
+Member Name: internal_chain
+Member Name: toString
+Member Name: on_free
+Member Name: inventory
+Member Name: request_hide
+Member Name: on_think
+Member Name: lock
+Member Name: armor
+Member Name: armor_subscriber
+Member Name: b_tab
+Member Name: close
+Member Name: inventory_pilot
+Member Name: inventory_section
+Member Name: request_show
+Member Name: info_section
+Member Name: close_requested
+Member Name: free
+Member Name: inventory_title
+Member Name: background
+Member Name: free_requested
+Member Name: equipment_header
+Member Name: equipment_section
+Member Name: equipment_title
+Member Name: listen_for_exit
+Member Name: listen_for_exit_flag
+Member Name: new_pilot
+Member Name: initialize
+Member Name: build_equipment_section
+Member Name: build_info_section
+Member Name: build_skill_section
+Member Name: skill_header
+Member Name: trash_icon
+Member Name: skill_section
+Member Name: skill_title
+Member Name: run_exit_listening
+Member Name: hide_requests
+Member Name: data
+Member Name: journal
+=============== Other ===============
+Member Name: exit_to_menu
+Member Name: go_to_main_menu
+Member Name: last_serde_path
+Member Name: bird_refresh
+Member Name: music_cut_off
+Member Name: animal_eat
+Member Name: animal_eat_exit
+Member Name: bell_rang
+Member Name: unique_identifier
+Member Name: late_warning_issued
+Member Name: moving_average
+Member Name: execute_return_to_menu
+Member Name: last_alpha_edit_amount
+Member Name: prevent_eod_music_stop
+Member Name: player_home_light_count
+Member Name: spawn_birds
+Member Name: turned_on_lights
+Member Name: load_state
+Member Name: play_time_comparator
+Member Name: manual_crash_timer
+=============== Argument[0] ===============
+OBJECT:
+x: REAL == -3.000000
+y: REAL == 0.000000
+event_callbacks: OBJECT
+Member Name: free
+Member Name: tap
+Member Name: think
+Member Name: room_start
+Member Name: gui_resize
+------------------------------
+cache_alpha: REAL == 0.000000
+cache_bbox_bottom: REAL == 204.000000
+cache_bbox_left: REAL == 313.000000
+cache_bbox_right: REAL == 313.000000
+cache_bbox_top: REAL == 197.000000
+cache_is_dirty: BOOL == false
+cache_layer: INT64 == 2
+cache_x: REAL == 313.000000
+cache_y: REAL == 197.000000
+cache_z: REAL == 0.000000
+text: STRING ==
+bbox_offset: UNDEFINED
+text_align: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+child_offset: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+children: ARRAY (length == 1) // TODO: Figure out what's in this array
+text_input_mode: INT64 == 0
+in_hover: BOOL == false
+soft_locked: BOOL == false
+font: REFERENCE
+font_is_forced: BOOL == false
+text_style: UNDEFINED
+in_tap: BOOL == false
+vert_align: INT64 == 2
+z: REAL == 395.000000
+z_dirty: BOOL == true
+z_mod: REAL == 0.000000
+marked_for_death: BOOL == false
+max_alpha: REAL == 1.000000
+source_menu: OBJECT
+Member Name: type
+Member Name: left_body
+Member Name: canvas
+Member Name: left_header
+Member Name: enable
+Member Name: book
+Member Name: left_page
+Member Name: pilots
+Member Name: tabs
+Member Name: right_body
+Member Name: right_full_body
+Member Name: on_close
+Member Name: in_transition
+Member Name: right_header
+Member Name: unlock
+Member Name: right_page
+Member Name: disable
+Member Name: think
+Member Name: internal_chain
+Member Name: toString
+Member Name: on_free
+Member Name: page_order
+Member Name: request_hide
+Member Name: lock
+Member Name: on_think
+Member Name: set_active_sub_menu
+Member Name: close
+Member Name: request_show
+Member Name: close_requested
+Member Name: free
+Member Name: sub_menu
+Member Name: background
+Member Name: free_requested
+Member Name: listen_for_exit
+Member Name: listen_for_exit_flag
+Member Name: new_pilot
+Member Name: initialize
+Member Name: reset
+Member Name: check_for_cosmetic_alert
+Member Name: run_exit_listening
+Member Name: hide_requests
+Member Name: data
+------------------------------
+max_characters: UNDEFINED
+blackboard: OBJECT
+Member Name: inner
+Member Name: entry
+Member Name: toString
+------------------------------
+line_height: REAL == 12.000000
+lines: OBJECT
+------------------------------
+freed: BOOL == false
+layer: INT64 == 2
+can_line_break: BOOL == false
+spawn_callstack: UNDEFINED
+listens_for_hovers: BOOL == false
+height: REAL == 7.000000
+listens_for_taps: BOOL == false
+max_width: UNDEFINED
+depress_children: BOOL == true
+age: REAL == 0.000000
+run_logic: BOOL == true
+color: REAL == 16777215.000000
+type: INT64 == 1
+pilot: UNDEFINED
+canvas: OBJECT
+Member Name: type
+Member Name: x
+Member Name: y
+Member Name: event_callbacks
+Member Name: pilot
+Member Name: canvas
+Member Name: enabled
+Member Name: cache_alpha
+Member Name: cache_bbox_bottom
+Member Name: cache_bbox_left
+Member Name: safe_enabled
+Member Name: cache_bbox_right
+Member Name: safe_unlocked
+Member Name: cache_bbox_top
+Member Name: cache_is_dirty
+Member Name: cache_layer
+Member Name: cache_x
+Member Name: cache_y
+Member Name: cache_z
+Member Name: alpha
+Member Name: bbox_offset
+Member Name: render_partial_info
+Member Name: offset
+Member Name: child_offset
+Member Name: children
+Member Name: children_are_dirty
+Member Name: in_hover
+Member Name: soft_locked
+Member Name: in_tap
+Member Name: width
+Member Name: vert_align
+Member Name: z
+Member Name: z_dirty
+Member Name: z_mod
+Member Name: unlocked
+Member Name: tap_is_deferred
+Member Name: horz_align
+Member Name: marked_for_death
+Member Name: toString
+Member Name: label
+Member Name: hover_frames
+Member Name: tap_repeating
+Member Name: tap_sound
+Member Name: tap_tick
+Member Name: hover_outline
+Member Name: hover_sound
+Member Name: max_alpha
+Member Name: source_menu
+Member Name: parent
+Member Name: locked
+Member Name: blackboard
+Member Name: freed
+Member Name: layer
+Member Name: spawn_callstack
+Member Name: listens_for_hovers
+Member Name: height
+Member Name: listens_for_taps
+Member Name: set_render_partial
+Member Name: depress_children
+Member Name: mouse_can_escape_tap_flag
+Member Name: lut_info
+Member Name: age
+Member Name: run_logic
+Member Name: idx
+Member Name: color
+------------------------------
+enabled: BOOL == true
+safe_enabled: BOOL == true
+safe_unlocked: BOOL == true
+spawned_steam_keyboard: BOOL == false
+alpha: REAL == 1.000000
+strike_through_node: UNDEFINED
+takes_input: BOOL == false
+width: REAL == 0.000000
+local_key: UNDEFINED
+unlocked: BOOL == true
+tap_is_deferred: BOOL == false
+horz_align: INT64 == 8
+toString: OBJECT
+------------------------------
+label: UNDEFINED
+disallow_spillover: BOOL == false
+hover_frames: REAL == 0.000000
+tap_repeating: BOOL == false
+tap_sound: STRING == SoundEffects/UI/UIClick
+tap_tick: UNDEFINED
+hover_outline: UNDEFINED
+hover_sound: STRING == SoundEffects/UI/UIMouseOver
+parent: OBJECT
+Member Name: type
+Member Name: x
+Member Name: y
+Member Name: event_callbacks
+Member Name: pilot
+Member Name: canvas
+Member Name: enabled
+Member Name: cache_alpha
+Member Name: cache_bbox_bottom
+Member Name: cache_bbox_left
+Member Name: safe_enabled
+Member Name: cache_bbox_right
+Member Name: safe_unlocked
+Member Name: cache_bbox_top
+Member Name: cache_is_dirty
+Member Name: cache_layer
+Member Name: cache_x
+Member Name: cache_y
+Member Name: cache_z
+Member Name: alpha
+Member Name: bbox_offset
+Member Name: offset
+Member Name: child_offset
+Member Name: children
+Member Name: in_hover
+Member Name: soft_locked
+Member Name: in_tap
+Member Name: width
+Member Name: vert_align
+Member Name: z
+Member Name: z_dirty
+Member Name: z_mod
+Member Name: unlocked
+Member Name: tap_is_deferred
+Member Name: horz_align
+Member Name: marked_for_death
+Member Name: toString
+Member Name: label
+Member Name: hover_frames
+Member Name: tap_repeating
+Member Name: tap_sound
+Member Name: tap_tick
+Member Name: hover_outline
+Member Name: hover_sound
+Member Name: max_alpha
+Member Name: source_menu
+Member Name: parent
+Member Name: blackboard
+Member Name: freed
+Member Name: layer
+Member Name: spawn_callstack
+Member Name: listens_for_hovers
+Member Name: height
+Member Name: listens_for_taps
+Member Name: depress_children
+Member Name: mouse_can_escape_tap_flag
+Member Name: lut_info
+Member Name: age
+Member Name: run_logic
+Member Name: idx
+Member Name: color
+------------------------------
+display_text: STRING ==
+cursor_timer: REAL == 0.000000
+backspace_info: OBJECT
+Member Name: active
+Member Name: delay_timer
+Member Name: delay_timer_max
+Member Name: timer
+------------------------------
+mouse_can_escape_tap_flag: BOOL == true
+lut_info: OBJECT
+Member Name: use_day_night_index
+Member Name: texture
+Member Name: uvs
+Member Name: index
+Member Name: sprite
+Member Name: speed
+Member Name: slot_count
+Member Name: enabled
+------------------------------
+idx: REAL == 535.000000
+=============== Result ===============
+OTHER
+EXIT: gml_Script_anon@5223@build_equipment_section@PlayerMenu@PlayerMenu
