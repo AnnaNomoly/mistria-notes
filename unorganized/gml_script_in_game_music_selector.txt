@@ -1,0 +1,41 @@
+ENTER: gml_Script_in_game_music_selector
+=============== Self ===============
+Member Name: refresh
+Member Name: selector
+Member Name: on_step
+Member Name: play
+Member Name: locked
+Member Name: play_all_children
+Member Name: current_track
+Member Name: state
+Member Name: requested_track
+Member Name: is_on
+Member Name: stop
+Member Name: controller
+Member Name: crossfade
+=============== Other ===============
+Member Name: exit_to_menu
+Member Name: go_to_main_menu
+Member Name: last_serde_path
+Member Name: bird_refresh
+Member Name: music_cut_off
+Member Name: animal_eat
+Member Name: animal_eat_exit
+Member Name: bell_rang
+Member Name: unique_identifier
+Member Name: late_warning_issued
+Member Name: moving_average
+Member Name: execute_return_to_menu
+Member Name: last_alpha_edit_amount
+Member Name: prevent_eod_music_stop
+Member Name: player_home_light_count
+Member Name: spawn_birds
+Member Name: turned_on_lights
+Member Name: load_state
+Member Name: play_time_comparator
+Member Name: manual_crash_timer
+=============== Argument[0] ===============
+REAL: 56.000000
+=============== Result ===============
+STRING == Music/Location Tracks/Player Home/Day
+EXIT: gml_Script_in_game_music_selector

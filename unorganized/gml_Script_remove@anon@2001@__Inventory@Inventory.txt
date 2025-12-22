@@ -1,0 +1,33 @@
+ENTER: gml_Script_remove@anon@2001@__Inventory@Inventory
+=============== Self ===============
+Member Name: maximum_item_counts
+Member Name: toString
+Member Name: slots
+=============== Other ===============
+Member Name: exit_to_menu
+Member Name: go_to_main_menu
+Member Name: last_serde_path
+Member Name: bird_refresh
+Member Name: music_cut_off
+Member Name: animal_eat
+Member Name: animal_eat_exit
+Member Name: bell_rang
+Member Name: unique_identifier
+Member Name: late_warning_issued
+Member Name: moving_average
+Member Name: execute_return_to_menu
+Member Name: last_alpha_edit_amount
+Member Name: prevent_eod_music_stop
+Member Name: player_home_light_count
+Member Name: spawn_birds
+Member Name: turned_on_lights
+Member Name: load_state
+Member Name: play_time_comparator
+Member Name: manual_crash_timer
+=============== Argument[0] ===============
+INT64: 1906
+=============== Argument[1] ===============
+REAL: 3.000000
+=============== Result ===============
+OTHER
+EXIT: gml_Script_remove@anon@2001@__Inventory@Inventory

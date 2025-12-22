@@ -1,0 +1,29 @@
+ENTER: gml_Script_play@SceneAudioPlayer@SceneAudioPlayer
+=============== Self ===============
+Member Name: refresh
+Member Name: selector
+Member Name: on_step
+Member Name: play
+Member Name: locked
+Member Name: play_all_children
+Member Name: current_track
+Member Name: state
+Member Name: requested_track
+Member Name: is_on
+Member Name: stop
+Member Name: controller
+Member Name: crossfade
+=============== Other ===============
+Member Name: collect_count
+Member Name: enter_game
+Member Name: save_manager
+Member Name: output
+Member Name: manual_crash_timer
+Member Name: load_menu_data
+Member Name: from_game
+=============== Argument[0] ===============
+STRING: Music/Menu Tracks/Main Theme
+[46] TRACE gml_Script_play@SceneAudioPlayer@SceneAudioPlayer:73 -- Playing track: Music/Menu Tracks/Main Theme
+=============== Result ===============
+UNDEFINED
+EXIT: gml_Script_play@SceneAudioPlayer@SceneAudioPlayer
