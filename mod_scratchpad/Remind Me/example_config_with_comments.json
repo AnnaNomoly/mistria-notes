@@ -1,0 +1,19 @@
+{
+    "reminders": [
+        {
+            "conditions": {
+                "26h_time": "16:45", // Expressed using HH:MM. Can be any valid value between 06:00 and 26:00.
+                "day_of_week": "WEDNESDAY", // Any valid day of the week constant.
+                "day_of_month": 21, // Any valid day of the month (1-28 inclusive).
+                "season": "FALL", // Any valid season constant.
+                "year": 2, // Any valid year (1+)
+                "weather": "CALM", // Any valid weather constant.
+                "location": "TOWN", // Any supported location constant.
+                "npc_nearby": "BALOR", // Any supported NPC constant.
+                "reset_after": "LOCATION", // Any value of: "HH:MM", "LOCATION", or "DAY". 
+                "can_trigger_after": false // Boolean.
+            },
+            "notification": "This is an absurdly specific notification!"
+        }
+    ]
+}
