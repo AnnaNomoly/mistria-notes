@@ -4,61 +4,66 @@ gml_Script_get_all_animals
     Result: VALUE_OBJECT // struct
         __buffer: VALUE_ARRAY
             __buffer[i]: VALUE_OBJECT // struct
-                Member Name: breeding_with
-                Member Name: adult_sound_index
-                Member Name: ate_breeding_treat
-                Member Name: cosmetic
-                Member Name: idx
-                Member Name: instance
-                Member Name: kind
-                Member Name: can_mount
-                Member Name: location_position
-                Member Name: is_present
-                Member Name: has_animation
-                Member Name: has_animation_with_cardinal
-                Member Name: can_pet
-                Member Name: sounds
-                Member Name: days_old
-                Member Name: has_been_outside
-                Member Name: has_been_pat
-                Member Name: has_eaten
-                Member Name: birthday
-                Member Name: in_daycare
-                Member Name: liminal
-                Member Name: sprites_for_animation
-                Member Name: active_animation
-                Member Name: baby_sound_index
-                Member Name: sell_value
-                Member Name: stable
-                Member Name: feed
-                Member Name: simulated_distance_traveled
-                Member Name: send_to_stall_point
-                Member Name: eat_data
-                Member Name: pet
-                Member Name: serialize
-                Member Name: active_sprites
-                Member Name: production_days
-                Member Name: cardinality
-                Member Name: tier
-                Member Name: bark_on_sight
-                Member Name: sex
-                Member Name: variant
-                Member Name: itinerary
-                Member Name: is_baby
-                Member Name: must_name
-                Member Name: variant_data
-                Member Name: add_heart_points
-                Member Name: name
-                Member Name: deserialize
-                Member Name: heart_points
-                Member Name: celibate
-                Member Name: unhappy_days
-                Member Name: set_cardinality
-                Member Name: is_home
-                Member Name: animation
-                Member Name: is_incubating
-                Member Name: can_breed
-                Member Name: prototype
+                breeding_with
+                adult_sound_index
+                ate_breeding_treat
+                cosmetic
+                idx
+                instance
+                kind
+                can_mount
+                location_position: OBJECT
+                    location_id: REAL == 67.000000
+                    pos: OBJECT
+                        x: REAL
+                        y: REAL
+                    dyn_index: REAL == 7.000000
+                is_present: OBJECT
+                has_animation
+                has_animation_with_cardinal
+                can_pet
+                sounds
+                days_old
+                has_been_outside
+                has_been_pat
+                has_eaten
+                birthday
+                in_daycare: OBJECT
+                liminal
+                sprites_for_animation
+                active_animation
+                baby_sound_index
+                sell_value
+                stable
+                feed
+                simulated_distance_traveled
+                send_to_stall_point
+                eat_data
+                pet
+                serialize
+                active_sprites
+                production_days
+                cardinality
+                tier
+                bark_on_sight
+                sex
+                variant
+                itinerary
+                is_baby
+                must_name
+                variant_data
+                add_heart_points
+                name
+                deserialize
+                heart_points
+                celibate
+                unhappy_days
+                set_cardinality
+                is_home: OBJECT
+                animation
+                is_incubating
+                can_breed
+                prototype
         __count: VALUE_REAL
         __internal_size: VALUE_REAL
 

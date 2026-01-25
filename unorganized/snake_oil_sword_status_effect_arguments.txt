@@ -1,0 +1,17 @@
+Fire Sword:
+- Arg0: status_effect_id // 14
+- Arg1: amount // 1.25
+- Arg2: start
+- Arg3: finish
+
+Ice Sword:
+- Arg0: status_effect_id // 13
+- Arg1: amount // 1.0
+- Arg2: start
+- Arg3: finish
+
+Venom Sword:
+- Arg0: status_effect_id // 11
+- Arg1: amount // 1.0
+- Arg2: start
+- Arg3: finish
