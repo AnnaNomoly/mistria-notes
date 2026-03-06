@@ -1,0 +1,83 @@
+config:
+    knockback_friction: REAL == 0.880000
+    knockback_multiplier: REAL == 4.000000
+    damage: REAL == 50.000000
+    essence: REAL == 15.000000
+    damage_number_offset: REAL == -12.000000
+    misc_sprites: OBJECT
+        Member Name: windup_top
+        Member Name: windup_top_fx
+        Member Name: landing_top
+        ------------------------------
+    sprite_catalogue: ARRAY (length == 9)
+    misc_tango: OBJECT
+        Member Name: hit_by_projectile
+        Member Name: death
+        Member Name: projectile_break
+        Member Name: projectile_reflect
+        Member Name: strong_damage
+        Member Name: weak_damage
+        ------------------------------
+    hurtbox: REFERENCE
+    speed: REAL == 1.500000
+    fell_stall: ARRAY (length == 2)
+        Index 0: 60.0 (REAL)
+        Index 1: 75.0 (REAL)
+    landing_vfx: REFERENCE
+    status_effect_offset: REAL == -18.000000
+    sprites: UNDEFINED
+    patience_acknowledgement_reset: REAL == -120.000000
+    gm_object: REFERENCE
+    super_drops: OBJECT
+        Member Name: exclusive_drops
+        Member Name: drops
+        Member Name: functor
+        ------------------------------
+    execution_distance: REAL == 10.000000
+    execution_height: REAL == 32.000000
+    execution_width: REAL == 32.000000
+    monster_category: REAL == 10.000000
+    monster_id: REAL == 17.000000
+    wander_frequency: REAL == 180.000000
+    use_circle: BOOL == true
+    drops: OBJECT
+        Member Name: exclusive_drops
+        Member Name: drops
+        Member Name: functor
+        ------------------------------
+    iframes: REAL == 0.000000
+    hitbox: UNDEFINED
+    lut: REFERENCE
+    rise_speed: REAL == -6.500000
+    push_force: REAL == 0.250000
+    push_radius: REAL == 4.000000
+    jump_gravity: REAL == 0.125000
+    pushed_radius: REAL == 7.000000
+    jump_speed: REAL == -2.000000
+    jump_zx_factor: REAL == 36.000000
+    homie_offset: REAL == -8.000000
+    hop_threshold: REAL == 48.000000
+    coin_count: OBJECT
+        Member Name: x
+        Member Name: y
+        ------------------------------
+    tango: UNDEFINED
+    tango_catalogue: ARRAY (length == 9)
+    aggro_radius: REAL == 256.000000
+    air_speed_acceleration: REAL == 0.020000
+    starting_dir: ARRAY (length == 2)
+    fall_acceleration: REAL == 0.300000
+    air_speed_max: REAL == 1.500000
+    rising_duration: REAL == 30.000000
+    air_speed_starting: REAL == 0.000000
+    fall_speed: REAL == 1.000000
+    whistle_frame: REAL == 100.000000
+    air_stall: ARRAY (length == 2)
+        Index 0: 150 (REAL)
+        Index 1: 250 (REAL)
+    air_speed: REAL == 1.250000
+    fire_effect_offset: REAL == -6.000000
+    air_wait: ARRAY (length == 2)
+        Index 0: 30 (REAL)
+        Index 1: 60 (REAL)
+    hp: REAL == 150.000000

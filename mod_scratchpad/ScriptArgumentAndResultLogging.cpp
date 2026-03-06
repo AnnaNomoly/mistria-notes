@@ -1,3 +1,24 @@
+//==========================================================================
+static std::vector<std::string> struct_field_names = {};
+bool GetStructFieldNames(
+	IN const char* MemberName,
+	IN OUT RValue* Value
+)
+{
+	struct_field_names.push_back(MemberName);
+	return false;
+}
+
+bool EnumFunction(
+	IN const char* MemberName,
+	IN OUT RValue* Value
+)
+{
+	g_ModuleInterface->Print(CM_LIGHTYELLOW, "Member Name: %s", MemberName);
+	return false;
+}
+//==========================================================================
+
 RValue& GmlScriptAriFsmWateringCanCallback(
 	IN CInstance* Self,
 	IN CInstance* Other,

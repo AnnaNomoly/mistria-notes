@@ -1,0 +1,45 @@
+Ancient Ruins
+17, rock_stack
+4, cat_void
+36, tome
+28, sapling_pink
+32, spirit_purple
+11, mimic
+
+Deep Earth
+29, sapling_purple
+30, silverclod
+14, mushroom_blue
+20, rockclod_green
+2, bat_blue
+34, stalagmite_green
+11, mimic
+
+The Lava Caves
+31, spirit
+11, mimic
+35, stalagmite_purple
+3, cat
+26, sapling_orange
+8, goldclod
+16, mushroom_purple
+22, rockclod_red
+
+The Tide Caverns
+24, sapling_blue
+7, enchantern_blue
+15, mushroom_green
+11, mimic
+19, rockclod_blue
+10, ironclod 
+1, bat
+33, stalagmite
+
+Upper Mines
+23, sapling
+5, copperclod
+13, mushroom
+18, rockclod
+6, enchantern
+25, sapling_cool
+11, mimic

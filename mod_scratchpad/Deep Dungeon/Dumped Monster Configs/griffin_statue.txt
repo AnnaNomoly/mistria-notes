@@ -1,0 +1,57 @@
+config:
+  damage: REAL == 60.000000
+  essence: REAL == 0.000000
+  hurt_duration: REAL == 30.000000
+  damage_number_offset: REAL == -38.000000
+  misc_sprites: OBJECT
+    Member Name: particle
+    ------------------------------
+  sprite_catalogue: ARRAY (length == 5)
+  misc_tango: OBJECT
+    Member Name: presentation
+    Member Name: damage
+    ------------------------------
+  speed: REAL == 0.600000
+  hurtbox: REFERENCE
+  status_effect_offset: REAL == -32.000000
+  sprites: UNDEFINED
+  patience_acknowledgement_reset: REAL == -120.000000
+  sticky: BOOL == false
+  gm_object: REFERENCE
+  trauma_range_buffer: REAL == 32.000000
+  monster_category: REAL == 11.000000
+  trauma_range_full: REAL == 64.000000
+  stomp_frames: REAL == 6.000000
+  tumble_hit_cap: REAL == 0.000000
+  monster_id: REAL == 9.000000
+  tumble_hit_reduction: REAL == 0.750000
+  tumble_hit_speed_reduction: REAL == 1.000000
+  tumble_hit_speed: REAL == 6.000000
+  bonus_damage: REAL == 5.000000
+  use_circle: BOOL == true
+  drops: OBJECT
+    Member Name: exclusive_drops
+    Member Name: drops
+    Member Name: functor
+    ------------------------------
+  tumble_spd_reduction: REAL == 0.200000
+  iframes: REAL == 0.000000
+  hitbox: REFERENCE
+  push_force: REAL == 0.250000
+  push_radius: REAL == 4.000000
+  pushed_radius: REAL == 7.000000
+  dying_frames: REAL == 30.000000
+  jump_speed_gain: REAL == 0.250000
+  gravity_gain: REAL == 0.250000
+  move_speed: REAL == 6.000000
+  coin_count: OBJECT
+    Member Name: x
+    Member Name: y
+    ------------------------------
+  tango: UNDEFINED
+  tango_catalogue: ARRAY (length == 5)
+  aggro_radius: REAL == 360.000000
+  chase_rate: REAL == 20.000000
+  starting_dir: ARRAY (length == 2)
+  fire_effect_offset: REAL == -10.000000
+  hp: REAL == 200.000000

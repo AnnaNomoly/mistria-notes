@@ -1,4 +1,25 @@
 gml_Script_take_press@Input@Input
 - ArgCount: 1
-- Arguments[0]: INT64 // The key binding index, 0=mouse_left_click?, 1=up, 2=down, 3=left, 4=right, 5=jump, 6=interact
+- Arguments[0]: INT64 // The key binding index, 0=mouse_left_click?, 1=up, 2=down, 3=left, 4=right, 5=jump, 6=interact, 9=open journal
 - Result: BOOL
+
+
+// v0.15.1: Settings Menu > Controls
+0. ??? (left mouse click)
+1. Move Up
+2. Move Down
+3. Move Left
+4. Move Right
+5. Jump
+6. Interact
+7. Secondary Interact
+8. Pick Up One (Inventory)
+9. Open Journal
+10. Close Menu
+11. Use Tool (Charged)
+12. Use Tool (Repeated)
+13. Cast Pinned Spell
+14. Give Gift
+15. Toggle Walk
+16. Mount
+17. Open Map

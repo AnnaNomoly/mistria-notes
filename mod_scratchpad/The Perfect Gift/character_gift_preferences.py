@@ -1,7 +1,7 @@
 import re
 import json
 
-CURRENT_GAME_VERSION = "v0.14.4"
+CURRENT_GAME_VERSION = "v0.15.1"
 
 characters = [
     "adeline",
@@ -28,9 +28,9 @@ characters = [
     "merri",
     "nora",
     "olric",
-    #"priestess",
     "reina",
     "ryis",
+    "seridia",
     #"stillwell",
     "taliferro",
     "terithia",
