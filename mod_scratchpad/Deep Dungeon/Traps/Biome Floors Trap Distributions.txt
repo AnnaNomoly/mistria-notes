@@ -1,0 +1,13 @@
+Biome      Floors      Min Traps       Max Traps        Max + Peril
+Upper      1-19        2               2                4
+Tide       21-39       2               3                5
+Earth      41-59       2               4                6
+Lava       61-79       2               5                7
+Ruins      81-99       2               6                8
+
+
+1. Upper: 2
+2. Tide: 3
+3. Earth: 4
+4. Lava: 5
+5. Ruins: 6
