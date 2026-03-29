@@ -3,7 +3,7 @@ from PIL import Image
 from pathlib import Path
 from itertools import combinations, product
 
-base_path = Path("C:\\Users\\" + getpass.getuser() + "\\Pictures\\Deep Dungeon\\Custom Dungeon Backplate")
+base_path = Path("C:\\Code\\mistria-notes\\mod_scratchpad\\Deep Dungeon\\Generate Backplates")
 group_one_path = base_path / "floor enchantments" / "group 1"
 group_two_path = base_path / "floor enchantments" / "group 2"
 group_three_path = base_path / "floor enchantments" / "group 3"

@@ -2,7 +2,8 @@ import json
 import getpass
 from pathlib import Path
 
-base_path = Path("C:\\Users\\" + getpass.getuser() + "\\Pictures\\Deep Dungeon\\Custom Dungeon Backplate")
+base_path = Path("C:\\Code\\mistria-notes\\mod_scratchpad\\Deep Dungeon\\Generate Backplates")
+output_path = base_path / "output"
 output_dict = {}
 
 def name(p):
@@ -13,5 +14,5 @@ for p in output_path.iterdir():
         "Location": "images/ui/backplates/" + name(p) + ".png"
     }
 
-with open(output_path / "deep_dungeon_backplates.json", "w") as out:
+with open(base_path / "deep_dungeon_backplates.json", "w") as out:
     out.write(json.dumps(output_dict))
