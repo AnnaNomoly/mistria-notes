@@ -1,0 +1,196 @@
+ENTER: gml_Script_generate_fireball@gml_Object_obj_monster_spirit_Create_0
+=============== Self ===============
+Member Name: effect_alpha
+Member Name: get_coordinate_near_player
+Member Name: try_spawn_stars
+Member Name: acknowledgement_reset
+Member Name: knockback_move
+Member Name: knockback_speed
+Member Name: allow_shoving
+Member Name: friction_coefficient
+Member Name: try_despawn_stars
+Member Name: frozen_opacity
+Member Name: ladder_value
+Member Name: frozen_overlay_color
+Member Name: process_status
+Member Name: draw
+Member Name: process_tarball_status
+Member Name: track_player
+Member Name: z
+Member Name: fsm
+Member Name: shadow_caster
+Member Name: light
+Member Name: stats_entry
+Member Name: amt
+Member Name: patience
+Member Name: status_effects
+Member Name: skip_destroy_logic
+Member Name: calculate_flipper
+Member Name: __deep_dungeon__current_floor_monsters
+Member Name: __deep_dungeon__default_hit_points
+Member Name: slip_move
+Member Name: slippery_coefficient
+Member Name: projectiles
+Member Name: config
+Member Name: trauma
+Member Name: monster_id
+Member Name: perform_effect
+Member Name: set_state_sprite
+Member Name: look_south
+Member Name: play_state_tango
+Member Name: stop_windup_tango
+Member Name: hit_points
+Member Name: dir
+Member Name: receiver
+Member Name: shove_factor
+Member Name: tired_effect
+Member Name: insta_kill_timer
+Member Name: image_speed_backup
+Member Name: debug_state
+Member Name: show_damage
+Member Name: generate_fireball
+Member Name: move
+Member Name: original_dir
+Member Name: original_spawn_pos
+Member Name: can_overlap_ari
+Member Name: aggro
+Member Name: get_cardinal
+Member Name: venomous_opacity
+Member Name: venomous_overlay_color
+Member Name: check_collision
+=============== Other ===============
+Member Name: effect_alpha
+Member Name: get_coordinate_near_player
+Member Name: try_spawn_stars
+Member Name: acknowledgement_reset
+Member Name: knockback_move
+Member Name: knockback_speed
+Member Name: allow_shoving
+Member Name: friction_coefficient
+Member Name: try_despawn_stars
+Member Name: frozen_opacity
+Member Name: ladder_value
+Member Name: frozen_overlay_color
+Member Name: process_status
+Member Name: draw
+Member Name: process_tarball_status
+Member Name: track_player
+Member Name: z
+Member Name: fsm
+Member Name: shadow_caster
+Member Name: light
+Member Name: stats_entry
+Member Name: amt
+Member Name: patience
+Member Name: status_effects
+Member Name: skip_destroy_logic
+Member Name: calculate_flipper
+Member Name: __deep_dungeon__current_floor_monsters
+Member Name: __deep_dungeon__default_hit_points
+Member Name: slip_move
+Member Name: slippery_coefficient
+Member Name: projectiles
+Member Name: config
+Member Name: trauma
+Member Name: monster_id
+Member Name: perform_effect
+Member Name: set_state_sprite
+Member Name: look_south
+Member Name: play_state_tango
+Member Name: stop_windup_tango
+Member Name: hit_points
+Member Name: dir
+Member Name: receiver
+Member Name: shove_factor
+Member Name: tired_effect
+Member Name: insta_kill_timer
+Member Name: image_speed_backup
+Member Name: debug_state
+Member Name: show_damage
+Member Name: generate_fireball
+Member Name: move
+Member Name: original_dir
+Member Name: original_spawn_pos
+Member Name: can_overlap_ari
+Member Name: aggro
+Member Name: get_cardinal
+Member Name: venomous_opacity
+Member Name: venomous_overlay_color
+Member Name: check_collision
+=============== Argument[0] ===============
+REAL: 917.586975
+=============== Argument[1] ===============
+REAL: 305.189880
+=============== Argument[2] ===============
+REAL: -306.000000
+=============== Argument[3] ===============
+REAL: 243.802353
+=============== Argument[4] ===============
+OBJECT:
+hp: REAL == 150.000000
+acknowledgment: ARRAY (length == 2)
+knockback_friction: REAL == 0.650000
+damage: REAL == 38.000000
+knockback_multiplier: REAL == 1.000000
+essence: REAL == 15.000000
+damage_number_offset: REAL == -15.000000
+speed: REAL == 0.750000
+misc_sprites: OBJECT
+Member Name: projectile
+Member Name: teleport_in
+Member Name: teleport_out
+Member Name: projectile_fx
+------------------------------
+misc_tango: OBJECT
+Member Name: magic_particles
+Member Name: strong_damage
+Member Name: projectile_spawn
+------------------------------
+hurtbox: REFERENCE
+sprite_catalogue: ARRAY (length == 9)
+status_effect_offset: REAL == -25.000000
+sprites: UNDEFINED
+attack_radius: REAL == 96.000000
+patience_acknowledgement_reset: REAL == -120.000000
+teleport_distance_from_player: ARRAY (length == 2)
+teleport_duration: ARRAY (length == 2)
+projectile_damage: REAL == 30.000000
+projectile_distance: REAL == 36.000000
+gm_object: REFERENCE
+flee_speed: REAL == 0.750000
+projectile_life_time: ARRAY (length == 2)
+idle_duration: ARRAY (length == 2)
+projectile_speed: REAL == 4.000000
+projectile_turn_rate: REAL == 0.200000
+belt_size: REAL == 3.000000
+monster_category: REAL == 7.000000
+monster_id: REAL == 32.000000
+drops: OBJECT
+Member Name: functor
+Member Name: exclusive_drops
+Member Name: drops
+------------------------------
+shot_rate: REAL == 90.000000
+iframes: REAL == 1.000000
+use_circle: BOOL == true
+pre_attack_wait: REAL == 120.000000
+hitbox: UNDEFINED
+tired_duration: ARRAY (length == 2)
+push_force: REAL == 0.250000
+push_radius: REAL == 4.000000
+pushed_radius: REAL == 7.000000
+fade_in_clamp: REAL == 5.000000
+fade_in_rate: REAL == 0.100000
+coin_count: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+aggro_radius: REAL == 288.000000
+tango: UNDEFINED
+tango_catalogue: ARRAY (length == 9)
+rotation_speed: REAL == 4.750000
+fire_effect_offset: REAL == -13.000000
+starting_dir: ARRAY (length == 2)
+knockback: REAL == 2.000000
+=============== Result ===============
+OTHER

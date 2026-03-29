@@ -1,0 +1,161 @@
+=============== tome ===============
+effect_alpha: REAL == 1.000000
+try_spawn_stars: OBJECT
+------------------------------
+collision_data_last_frame: INT64 == 0
+acknowledgement_reset: BOOL == false
+knockback_move: OBJECT
+  Member Name: x
+  Member Name: y
+------------------------------
+allow_shoving: BOOL == true
+friction_coefficient: REAL == 0.100000
+try_despawn_stars: OBJECT
+------------------------------
+frozen_opacity: REAL == 0.290000
+ladder_value: BOOL == true
+frozen_overlay_color: REAL == 15458452.000000
+process_status: OBJECT
+------------------------------
+draw: OBJECT
+------------------------------
+process_tarball_status: OBJECT
+------------------------------
+track_player: OBJECT
+------------------------------
+z: REAL == -2.000000
+fsm: OBJECT
+  Member Name: state_frame
+  Member Name: next_state
+  Member Name: blackboard
+  Member Name: states
+  Member Name: last_state_id
+  Member Name: state
+------------------------------
+shadow_caster: ARRAY (length == 10)
+light: REFERENCE
+stats_entry: OBJECT
+  Member Name: monster
+  Member Name: damage_dealt
+  Member Name: damage_dealt_count
+  Member Name: killed_by_ari
+  Member Name: damage_taken
+  Member Name: damage_taken_count
+------------------------------
+amt: REAL == 0.000000
+patience: OBJECT
+  Member Name: aggro
+  Member Name: aggro_box
+  Member Name: use_circle
+  Member Name: pos
+  Member Name: destroy
+  Member Name: value
+  Member Name: tick
+  Member Name: diameter
+  Member Name: shared_box
+------------------------------
+status_effects: OBJECT
+  Member Name: update
+  Member Name: effects
+  Member Name: serialize
+  Member Name: cancel
+  Member Name: register
+  Member Name: deserialize
+  Member Name: get_effect_value
+------------------------------
+skip_destroy_logic: BOOL == false
+calculate_flipper: OBJECT
+------------------------------
+normalized_cardinal: OBJECT
+------------------------------
+__deep_dungeon__current_floor_monsters: BOOL == true
+__deep_dungeon__default_hit_points: REAL == 150.000000
+slip_move: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+slippery_coefficient: REAL == 0.100000
+config: OBJECT
+  Member Name: hp
+  Member Name: acknowledgment
+  Member Name: damage
+  Member Name: essence
+  Member Name: damage_number_offset
+  Member Name: speed
+  Member Name: wind_attack_duration
+  Member Name: hurt_frames
+  Member Name: misc_sprites
+  Member Name: stun_blink_duration
+  Member Name: misc_tango
+  Member Name: stun_star_duration
+  Member Name: hurtbox
+  Member Name: sprite_catalogue
+  Member Name: height
+  Member Name: status_effect_offset
+  Member Name: sprites
+  Member Name: patience_acknowledgement_reset
+  Member Name: flash_sfx_frame_start
+  Member Name: steering
+  Member Name: gm_object
+  Member Name: on_hit_knockback
+  Member Name: idle_override_len
+  Member Name: charge_up_time
+  Member Name: blink_timing_decrement
+  Member Name: monster_category
+  Member Name: monster_id
+  Member Name: drops
+  Member Name: flying_speed
+  Member Name: flying_timeout
+  Member Name: iframes
+  Member Name: use_circle
+  Member Name: hitbox
+  Member Name: push_force
+  Member Name: dying_frames
+  Member Name: push_radius
+  Member Name: blink_timing
+  Member Name: pushed_radius
+  Member Name: coin_count
+  Member Name: aggro_radius
+  Member Name: tango
+  Member Name: get_up_attack_radius
+  Member Name: tango_catalogue
+  Member Name: fire_effect_offset
+  Member Name: starting_dir
+------------------------------
+trauma: REAL == 0.000000
+__deep_dungeon__gloom_applied: BOOL == true
+__deep_dungeon__conceal_hit_points: REAL == 225.000000
+monster_id: INT64 == 36
+perform_effect: BOOL == false
+set_state_sprite: OBJECT
+------------------------------
+play_state_tango: OBJECT
+------------------------------
+hit_points: REAL == 225.000000
+dir: REAL == 168.422562
+receiver: REFERENCE
+shove_factor: REAL == 1.000000
+tired_effect: UNDEFINED
+insta_kill_timer: REAL == 0.000000
+image_speed_backup: UNDEFINED
+debug_state: OBJECT
+------------------------------
+show_damage: REAL == 0.000000
+move: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
+original_dir: REAL == 158.000000
+original_spawn_pos: OBJECT
+  Member Name: x
+  Member Name: y
+------------------------------
+reflected: BOOL == false
+can_overlap_ari: BOOL == true
+aggro: BOOL == false
+get_cardinal: OBJECT
+------------------------------
+venomous_opacity: REAL == 0.390000
+venomous_overlay_color: REAL == 8109486.000000
+check_collision: OBJECT
+------------------------------

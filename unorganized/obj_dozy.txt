@@ -42,6 +42,86 @@ initialize: OBJECT
 me: OBJECT
 Member Name: set_cardinality
 Member Name: activity_handler
+    =============== activity_handler ===============
+    clear_activity: OBJECT
+    ------------------------------
+    end_time: UNDEFINED
+    try_get_activity: OBJECT
+    ------------------------------
+    next_location: OBJECT
+    Member Name: dyn_index
+    Member Name: pos
+    Member Name: location_id
+    ------------------------------
+    begin_activity: OBJECT
+    ------------------------------
+    try_get_location_for_activity: OBJECT
+    ------------------------------
+    npc_fulfills_activity: OBJECT
+    ------------------------------
+    run: OBJECT
+    ------------------------------
+    activity: OBJECT
+    Member Name: trellis_points
+    Member Name: required_vendor
+    Member Name: id // 61
+    Member Name: kind
+    Member Name: duration_range
+    Member Name: animations
+    ------------------------------
+    state: INT64 == 2
+    request: UNDEFINED
+    start_time: INT64 == 39924
+    set_routine: OBJECT
+    ------------------------------
+    request_activity: OBJECT
+    ------------------------------
+    needs_brain: OBJECT
+    ------------------------------
+    npc: OBJECT
+    Member Name: add_heart_points
+    Member Name: simulated_distance_traveled
+    Member Name: known_gift_preferences
+    Member Name: times_spoken_today
+    Member Name: prototype
+    Member Name: wardrobe
+    Member Name: gift_flag
+    Member Name: heart_level
+    Member Name: set_cardinality
+    Member Name: deserialize
+    Member Name: heart_points
+    Member Name: has_met
+    Member Name: id
+    Member Name: gifts_given
+    Member Name: report_hearts
+    Member Name: give_gift
+    Member Name: serialize
+    Member Name: can_go_on_dates
+    Member Name: complete_pathfind
+    Member Name: location_position
+    Member Name: cardinality
+    Member Name: activity_handler
+    Member Name: can_perform_animation
+    Member Name: is_romantic
+    Member Name: talk_flag
+    Member Name: is_best_friend
+    Member Name: brain
+    Member Name: brain_dead
+    Member Name: animation
+    Member Name: is_birthday
+    Member Name: set_animation
+    Member Name: itinerary
+    Member Name: try_set_animation
+    Member Name: set_has_met
+    Member Name: set_heart_level
+    ------------------------------
+    routine: OBJECT
+    Member Name: id // 
+    Member Name: activities
+    Member Name: overrides
+    ------------------------------
+    reset: OBJECT
+    ------------------------------
 Member Name: animation
 Member Name: times_spoken_today
 Member Name: heart_level
@@ -68,6 +148,10 @@ Member Name: simulated_distance_traveled
 Member Name: set_animation
 Member Name: brain
 Member Name: location_position
+    =============== location_position ===============
+    Member Name: dyn_index
+    Member Name: pos
+    Member Name: location_id
 Member Name: brain_dead
 Member Name: deserialize
 Member Name: set_has_met

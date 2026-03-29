@@ -1,0 +1,44 @@
+ENTER: gml_Script_Patience
+=============== Self ===============
+=============== Other ===============
+Member Name: effect_alpha
+Member Name: hit_points
+Member Name: allow_shoving
+Member Name: dir
+Member Name: friction_coefficient
+Member Name: shove_factor
+Member Name: insta_kill_timer
+Member Name: frozen_opacity
+Member Name: ladder_value
+Member Name: frozen_overlay_color
+Member Name: image_speed_backup
+Member Name: debug_state
+Member Name: z
+Member Name: show_damage
+Member Name: shadow_caster
+Member Name: move
+Member Name: amt
+Member Name: patience
+Member Name: skip_destroy_logic
+Member Name: original_dir
+Member Name: original_spawn_pos
+Member Name: can_overlap_ari
+Member Name: slip_move
+Member Name: slippery_coefficient
+Member Name: config
+Member Name: monster_id
+Member Name: perform_effect
+Member Name: venomous_opacity
+Member Name: venomous_overlay_color
+Member Name: check_collision
+=============== Argument[0] ===============
+REAL: 392.000000
+=============== Argument[1] ===============
+REAL: 296.000000
+=============== Argument[2] ===============
+REAL: 360.000000
+=============== Argument[3] ===============
+BOOL: true
+=============== Result ===============
+UNDEFINED
+EXIT: gml_Script_Patience

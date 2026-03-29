@@ -1,0 +1,136 @@
+ENTER: gml_Script_emit@BarkEmitter@BarkEmitter
+=============== Self ===============
+Member Name: timer
+Member Name: modifier
+Member Name: on_draw
+Member Name: y_offset
+Member Name: owner
+Member Name: bubble_index
+Member Name: bubble_index_counter
+Member Name: state
+Member Name: bubble_sprite
+Member Name: is_barking
+Member Name: active_bark
+Member Name: icon_index
+Member Name: icon_index_counter
+Member Name: x_offset
+Member Name: emit
+Member Name: bark_type
+=============== Other (obj_npc) ===============
+Member Name: reset_cycle_cardinality
+Member Name: reset_cycle_name
+Member Name: y_offset
+Member Name: allowed_in_fire_spell
+Member Name: heart_particle_bundle
+Member Name: offset_with_cardinal
+Member Name: update_animation
+Member Name: z
+Member Name: pathfinding_agent
+Member Name: my_query_quests
+Member Name: restore_animation
+Member Name: fsm
+Member Name: shadow_caster
+Member Name: restore_cardinality
+Member Name: update_cardinality
+Member Name: zone
+Member Name: handle_chatting
+Member Name: override_mask
+Member Name: update_dialogue_pip
+Member Name: handle_thinking
+Member Name: update_position
+Member Name: initialize
+Member Name: position
+Member Name: drink_animation
+Member Name: attempt_interact
+Member Name: update_talk_status
+Member Name: drink_offset
+Member Name: drink_override
+Member Name: bounce_y_offset
+Member Name: bouncer
+Member Name: anim_speed
+Member Name: possible_next_conversation
+Member Name: circle_size
+Member Name: needs_talk_status_update
+Member Name: look_for_entry_transition
+Member Name: clean_eat_and_drink
+Member Name: withhold_pip
+Member Name: highlighter
+Member Name: create_default_fsm
+Member Name: dummy_walk_out_of_room
+Member Name: is_group_conversation
+Member Name: npc_id
+Member Name: want_to_talk_timer
+Member Name: DummyExitConditionFactory
+Member Name: receive_gift
+Member Name: conversation_available
+Member Name: star_offset
+Member Name: me
+Member Name: has_potential_interactions
+Member Name: hold_power
+Member Name: move_accel
+Member Name: interact_distance
+Member Name: interact_nudge_distance
+Member Name: move_spd
+Member Name: setup_drinking
+Member Name: setup_eating
+Member Name: bark_emitter
+Member Name: talk
+Member Name: interactable_mode
+Member Name: animate
+Member Name: is_seated
+Member Name: eat_animation
+Member Name: chat_partner
+Member Name: eat_plate
+Member Name: chat_scan_timer
+Member Name: chat_timer
+Member Name: get_walk_animation
+Member Name: chat_with
+Member Name: interactions
+Member Name: think_timer
+Member Name: register_interaction
+Member Name: can_talk
+Member Name: animator
+=============== Argument[0] ===============
+REAL: 84.000000 // bark_id from __bark_id__ global
+=============== Argument[1] ===============
+INT64: 1 // bark_type from __bark_type__
+=============== Result ===============
+OTHER
+EXIT: gml_Script_emit@BarkEmitter@BarkEmitter
+
+
+
+// OTHER when it's Ari object
+=============== Other (obj_ari?) ===============
+Member Name: iframes
+Member Name: hurt_colors
+Member Name: dir
+Member Name: wimp_mode
+Member Name: hurt_state
+Member Name: lagged_dir
+Member Name: z
+Member Name: cardinal
+Member Name: vfx_sprites
+Member Name: progress_bar_alpha
+Member Name: move
+Member Name: progress_bar_color
+Member Name: progress_bar_offset
+Member Name: progress_bar_width
+Member Name: cardinal_placement
+Member Name: crit
+Member Name: show_progress_bar
+Member Name: furniture_place
+Member Name: furniture_rotate
+Member Name: default_par_anim_spd
+Member Name: bark_emitter
+Member Name: default_par_offset
+Member Name: ui_journal_request
+Member Name: ui_map_request
+Member Name: god_mode
+Member Name: ui_mount_request
+Member Name: ui_spell_request
+Member Name: par
+Member Name: par_anim_spd
+Member Name: par_offset
+
+

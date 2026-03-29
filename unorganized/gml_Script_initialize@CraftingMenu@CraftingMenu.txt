@@ -1,0 +1,258 @@
+ENTER: gml_Script_initialize@CraftingMenu@CraftingMenu
+=============== Self ===============
+Member Name: stat_box
+Member Name: minus_button
+Member Name: minus_icon
+Member Name: stat_one_icon
+Member Name: stat_one_root
+Member Name: stat_one_text
+Member Name: stat_two_icon
+Member Name: check_item_craftable
+Member Name: stat_two_root
+Member Name: stat_two_text
+Member Name: pilots
+Member Name: tier_requirement
+Member Name: craft_button
+Member Name: craft_icon
+Member Name: run_exit_listening
+Member Name: sub_data
+Member Name: data
+Member Name: run_post_sequence
+Member Name: handle_preview
+Member Name: lock
+Member Name: modify_quantity
+Member Name: ari_pos
+Member Name: layout
+Member Name: lut_indexes
+Member Name: duration_container
+Member Name: type
+Member Name: duration_icon
+Member Name: request_hide
+Member Name: close
+Member Name: duration_text
+Member Name: left_body
+Member Name: left_header
+Member Name: close_requested
+Member Name: request_show
+Member Name: left_page
+Member Name: quantity
+Member Name: left_pilot
+Member Name: quantity_box
+Member Name: tooltip
+Member Name: quantity_text
+Member Name: in_transition
+Member Name: object_id
+Member Name: plus_button
+Member Name: plus_icon
+Member Name: free
+Member Name: toString
+Member Name: level_requirement
+Member Name: free_requested
+Member Name: level_requirement_box
+Member Name: level_requirement_icon
+Member Name: level_requirement_root
+Member Name: item
+Member Name: unlock
+Member Name: scroller
+Member Name: reset_right_page
+Member Name: description
+Member Name: description_box
+Member Name: canvas
+Member Name: book
+Member Name: item_lists
+Member Name: item_name
+Member Name: on_close
+Member Name: enable
+Member Name: bottom_pilot
+Member Name: initialize
+Member Name: max_button
+Member Name: select_category
+Member Name: on_free
+Member Name: hide_requests
+Member Name: carousel_callback
+Member Name: carousel_nodes
+Member Name: max_icon
+Member Name: on_think
+Member Name: listen_for_exit
+Member Name: listen_for_exit_flag
+Member Name: right_body
+Member Name: category_index
+Member Name: right_full_body
+Member Name: right_header
+Member Name: context
+Member Name: set_to_item
+Member Name: right_page
+Member Name: right_pilot
+Member Name: disable
+Member Name: maximum_crafts
+Member Name: recipe_box
+Member Name: new_pilot
+Member Name: background
+Member Name: stars
+Member Name: preview_box
+Member Name: start_craft_sequence
+Member Name: text_lut
+Member Name: corner_icon
+Member Name: build_carousel
+Member Name: corner_plate
+Member Name: corner_skill
+Member Name: corner_tier
+Member Name: think
+Member Name: internal_chain
+=============== Other ===============
+Member Name: check_for_menu_opens
+Member Name: hurt_colors
+Member Name: check_input
+Member Name: hurt_state
+Member Name: check_jump
+Member Name: set_cardinal
+Member Name: check_pressed_input
+Member Name: overlapping_animal
+Member Name: dark_mines_light
+Member Name: lagged_dir
+Member Name: overlapping_monster
+Member Name: overlapping_npc
+Member Name: overlaps_mount_blocker
+Member Name: z
+Member Name: shadow_caster
+Member Name: vfx_sprites
+Member Name: progress_bar_alpha
+Member Name: progress_bar_color
+Member Name: progress_bar_offset
+Member Name: progress_bar_width
+Member Name: summon_held_animal
+Member Name: par
+Member Name: par_anim_spd
+Member Name: par_offset
+Member Name: iframe_can_invisible
+Member Name: iframes
+Member Name: save_iframes
+Member Name: iframes_invisible
+Member Name: should_die
+Member Name: should_faint
+Member Name: set_idle_simple
+Member Name: should_show_item_usage_ux
+Member Name: player_collect_items
+Member Name: is_in_normal_state
+Member Name: face_cell
+Member Name: face_dir
+Member Name: face_point
+Member Name: leave_room
+Member Name: in_collision_swimming
+Member Name: is_mounted
+Member Name: move
+Member Name: dust_particle_burst
+Member Name: dust_particles
+Member Name: can_land_at_position
+Member Name: show_progress_bar
+Member Name: can_mount
+Member Name: default_par_anim_spd
+Member Name: default_par_offset
+Member Name: try_room_transition
+Member Name: ui_journal_request
+Member Name: ui_map_request
+Member Name: quest_handle_queries
+Member Name: ui_mount_request
+Member Name: ui_spell_request
+Member Name: is_swimming
+Member Name: can_set_depth_in_pause
+Member Name: asset_objects_last_frame
+Member Name: collision_check
+Member Name: can_use_item_in_state
+Member Name: item_detection_radius
+Member Name: wimp_mode
+Member Name: collision_list
+Member Name: fsm
+Member Name: restore_iframes
+Member Name: update_cell_select
+Member Name: cardinal
+Member Name: emit_fire
+Member Name: cardinal_placement
+Member Name: crit
+Member Name: furniture_place
+Member Name: initialize_for_cutscene
+Member Name: furniture_rotate
+Member Name: end_hurt_state
+Member Name: god_mode
+Member Name: breathe_fire_in_other_states
+Member Name: dir
+Member Name: receiver
+Member Name: celebrate_loot
+Member Name: cell_select
+Member Name: buffered_input
+Member Name: buffered_player_cmp_and_take
+Member Name: buffered_tick
+Member Name: using_mouse
+Member Name: meddler
+Member Name: enter_action_animation
+Member Name: jump_data
+Member Name: current_tool_effect
+Member Name: jump_goal
+Member Name: interact_detection_radius
+Member Name: animal_u_index
+Member Name: animal_u_lut_tex
+Member Name: animal_u_pixel_size
+Member Name: animal_u_uvs
+Member Name: change_mount_while_mounted
+Member Name: change_preset
+Member Name: interact_max_radius
+Member Name: start_hurt_state
+Member Name: interact_nudge_distance
+Member Name: bark_emitter
+Member Name: dive
+Member Name: no_clip
+Member Name: refresh_light
+Member Name: fire_breath_effects
+Member Name: _xx
+Member Name: _yy
+Member Name: set_animation
+Member Name: check_bbox_at_point
+=============== Argument[0] ===============
+OBJECT:
+inner: OBJECT
+Member Name: categories
+Member Name: use_common_slice
+Member Name: context
+Member Name: skill
+Member Name: corner_tier
+Member Name: game_stats_key
+Member Name: stat_one
+Member Name: stat_two
+Member Name: preview_y_offset
+Member Name: open_to_index
+Member Name: sprites
+------------------------------
+entry: OBJECT
+------------------------------
+toString: OBJECT
+------------------------------
+=============== Result ===============
+OTHER
+EXIT: gml_Script_initialize@CraftingMenu@CraftingMenu
+Pause event has been registered for this frame
+Pause event has been unregistered
+
+
+
+
+=============== inner ===============
+OBJECT:
+categories: OBJECT
+Member Name: __count
+Member Name: __internal_size
+Member Name: __buffer
+------------------------------
+use_common_slice: BOOL == true
+context: INT64 == 1
+skill: INT64 == 8
+corner_tier: BOOL == false
+game_stats_key: STRING == items_woodcrafted
+stat_one: UNDEFINED
+stat_two: UNDEFINED
+preview_y_offset: REAL == 0.000000
+open_to_index: REAL == 2.000000
+sprites: OBJECT
+Member Name: inner
+Member Name: entry
+Member Name: toString
+------------------------------
