@@ -1,0 +1,164 @@
+ENTER: gml_Script_anon@9276@anon@9213@StoreMenu@StoreMenu
+=============== Self ===============
+Member Name: toString
+Member Name: free_requested
+Member Name: total_box
+Member Name: total_count
+Member Name: unlock
+Member Name: total_icon
+Member Name: total_label
+Member Name: pilots
+Member Name: canvas
+Member Name: run_exit_listening
+Member Name: inventory_pilot
+Member Name: buy_button
+Member Name: basket
+Member Name: data
+Member Name: basket_total
+Member Name: basket_ui
+Member Name: init
+Member Name: on_close
+Member Name: enable
+Member Name: initialize
+Member Name: update_prices
+Member Name: select_category
+Member Name: on_free
+Member Name: lock
+Member Name: carousel
+Member Name: carousel_callback
+Member Name: hide_requests
+Member Name: stock
+Member Name: calendar
+Member Name: spawn_tooltip
+Member Name: shelf
+Member Name: shelf_item_nodes
+Member Name: gold_adder
+Member Name: gold_animator
+Member Name: on_think
+Member Name: gold_backplate
+Member Name: listen_for_exit
+Member Name: categories
+Member Name: gold_canvas
+Member Name: listen_for_exit_flag
+Member Name: shop_pilot
+Member Name: gold_icon
+Member Name: store
+Member Name: gold_text
+Member Name: receipt
+Member Name: disable
+Member Name: title
+Member Name: background
+Member Name: new_pilot
+Member Name: player_gold_cache
+Member Name: press_and_hold_reader
+Member Name: type
+Member Name: request_hide
+Member Name: create_ghost
+Member Name: close
+Member Name: close_requested
+Member Name: request_show
+Member Name: tooltip
+Member Name: price_markup
+Member Name: in_transition
+Member Name: header
+Member Name: think
+Member Name: free
+Member Name: internal_chain
+=============== Other ===============
+Member Name: load_state
+Member Name: animal_eat
+Member Name: animal_eat_exit
+Member Name: unique_identifier
+Member Name: late_warning_issued
+Member Name: manual_crash_timer
+Member Name: spawn_birds
+Member Name: bird_refresh
+Member Name: music_cut_off
+Member Name: turned_on_lights
+Member Name: dark_room_light_count
+Member Name: dark_room_target_override
+Member Name: player_home_light_count
+Member Name: dark_room_transition_speed
+Member Name: prevent_eod_music_stop
+Member Name: execute_return_to_menu
+Member Name: last_alpha_edit_amount
+Member Name: bell_rang
+Member Name: go_to_main_menu
+Member Name: exit_to_menu
+Member Name: moving_average
+Member Name: last_serde_path
+Member Name: play_time_comparator
+=============== Argument[0] ===============
+OBJECT:
+date_photo: UNDEFINED
+toString: OBJECT
+------------------------------
+gold_to_gain: UNDEFINED
+prototype: OBJECT
+Member Name: door_mold
+Member Name: damage
+Member Name: bomb
+Member Name: health_modifier
+Member Name: essence_charge
+Member Name: size
+Member Name: description_key
+Member Name: item_id
+Member Name: giftable
+Member Name: crafting_level_requirement
+Member Name: crafting_preview_sprite
+Member Name: range
+Member Name: icon_sprite
+Member Name: tile_placement
+Member Name: icon_sprite_outline
+Member Name: name_key
+Member Name: plant_grass
+Member Name: date_unlock
+Member Name: attract
+Member Name: crop_object
+Member Name: max_health_modifier
+Member Name: sapling
+Member Name: flooring
+Member Name: wallpaper
+Member Name: catch_size
+Member Name: use
+Member Name: stamina_cost
+Member Name: animal_feed
+Member Name: stamina_modifier
+Member Name: max_stack
+Member Name: max_stamina_modifier
+Member Name: recipe
+Member Name: new_inventory_size
+Member Name: set_unlock
+Member Name: purchased_once_per_year
+Member Name: hold_over_head
+Member Name: stars
+Member Name: recipe_key
+Member Name: soulbind
+Member Name: tags
+Member Name: value
+Member Name: quality
+Member Name: tool_type
+Member Name: pet_skin_unlock
+Member Name: default_infusion
+Member Name: blueprint
+Member Name: pet_treat
+Member Name: object
+Member Name: defense
+Member Name: sow_sprite
+Member Name: mana_modifier
+Member Name: cosmetic_to_unlock
+Member Name: edible
+Member Name: mini_sprite
+Member Name: kitchen_tier_requirement
+------------------------------
+item_id: INT64 == 2080
+cosmetic: UNDEFINED
+pet_cosmetic_set_name: UNDEFINED
+auto_use: BOOL == false
+infusion: INT64 == 14
+inner_item: UNDEFINED
+animal_cosmetic: UNDEFINED
+icon_override: UNDEFINED
+=============== Result ===============
+OTHER
+EXIT: gml_Script_anon@9276@anon@9213@StoreMenu@StoreMenu
