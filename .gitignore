@@ -19,3 +19,6 @@ mod_scratchpad/Crop Timers/crop_metadata/sprite_metadata.json
 /mod_scratchpad/DonateIt/Item Sprites/output_images
 mod_scratchpad/DonateIt/Insect Entity Sprites/insect_entities.json
 mod_scratchpad/DonateIt/Item Sprites/sprite_metadata.json
+/mod_scratchpad/Crop Timers/output_images_v3
+mod_scratchpad/Crop Timers/add_red_zeroes_to_sprite_json/output.json
+mod_scratchpad/Crop Timers/add_red_zeroes_to_sprite_json/crop_timers.json
