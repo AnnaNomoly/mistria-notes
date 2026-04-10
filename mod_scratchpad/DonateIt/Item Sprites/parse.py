@@ -31,7 +31,7 @@ for item in items:
         # Count how many words from the item match in order inside the image name
         score = 0
         for i in range(len(img_words) - len(item_words) + 1):
-            if img_words[i:i+len(item_words)] == item_words:
+            if img_words[i:i+len(item_words)] == item_words and "bagseed" not in core_name and "crop_sign" not in core_name and "faux" not in core_name and "decor" not in core_name and "furniture" not in core_name and "cosmetic" not in core_name:
                 score = len(item_words)
                 break
         
@@ -42,7 +42,25 @@ for item in items:
     item_to_image[item] = best_match
 
 
-# Manually fix incorrect duplicate mappings
+# Manually fix incorrect mappings
+item_to_image["bell_berry"] = IMAGE_FOLDER + "\\" + "spr_ui_item_bush_bell_berry_0.png"
+item_to_image["crab"] = IMAGE_FOLDER + "\\" + "spr_ui_item_fish_small_crab_0.png"
+item_to_image["earthshroom"] = IMAGE_FOLDER + "\\" + "spr_ui_item_earthshroom_0.png"
+item_to_image["firefly"] = IMAGE_FOLDER + "\\" + "spr_ui_item_insect_firefly_0.png"
+item_to_image["fog_orchid"] = IMAGE_FOLDER + "\\" + "spr_ui_item_fogorchid_0.png"
+item_to_image["dandelion"] = IMAGE_FOLDER + "\\" + "spr_ui_item_dandelionflower_0.png"
+item_to_image["moon_fruit"] = IMAGE_FOLDER + "\\" + "spr_ui_item_moon_fruit_0.png"
+item_to_image["morel_mushroom"] = IMAGE_FOLDER + "\\" + "spr_ui_item_morelmushroom_0.png"
+item_to_image["potato"] = IMAGE_FOLDER + "\\" + "spr_ui_item_potato_0.png"
+item_to_image["snow_peas"] = IMAGE_FOLDER + "\\" + "spr_ui_item_snow_peas_0.png"
+item_to_image["sweet_potato"] = IMAGE_FOLDER + "\\" + "spr_ui_item_sweet_potato_0.png"
+item_to_image["sweetroot"] = IMAGE_FOLDER + "\\" + "spr_ui_item_sweetroot_0.png"
+item_to_image["thyme"] = IMAGE_FOLDER + "\\" + "spr_ui_item_thyme_0.png"
+item_to_image["turnip"] = IMAGE_FOLDER + "\\" + "spr_ui_item_turnip_0.png"
+item_to_image["watermelon"] = IMAGE_FOLDER + "\\" + "spr_ui_item_watermelon_0.png"
+item_to_image["wild_leek"] = IMAGE_FOLDER + "\\" + "spr_ui_item_springonion_0.png"
+
+# Manually fix duplicate mappings
 item_to_image["clay"] = IMAGE_FOLDER + "\\" + "spr_ui_item_clay_0.png"
 item_to_image["koi"] = IMAGE_FOLDER + "\\" + "spr_ui_item_fish_medium_koi_0.png"
 item_to_image["minnow"] = IMAGE_FOLDER + "\\" + "spr_ui_item_fish_small_minnow_0.png"
