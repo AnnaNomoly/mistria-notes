@@ -1,0 +1,68 @@
+============== obj_fish ================
+OBJECT:
+update_facing_dir: OBJECT
+------------------------------
+initialise: OBJECT
+------------------------------
+dir: REAL == 372.300486
+try_apply_movement: OBJECT
+------------------------------
+update_sprite: OBJECT
+------------------------------
+preferred_depth: INT64 == 2
+fish_loot: OBJECT
+    prototype: OBJECT
+        Member Name: water_type
+        Member Name: any_size
+        Member Name: bait_only
+        Member Name: item
+        Member Name: retrieval
+        Member Name: rarity
+        Member Name: size
+        Member Name: legendary
+        Member Name: rarity_value
+        Member Name: id
+        Member Name: conditions
+        Member Name: is_chest
+        Member Name: secondary_item
+    size: INT64 == 2
+    item: OBJECT
+        Member Name: date_photo
+        Member Name: toString
+        Member Name: gold_to_gain
+        Member Name: prototype
+        Member Name: item_id // INT_64 [Example: 2062 (smallmouth_bass)]
+        Member Name: cosmetic
+        Member Name: pet_cosmetic_set_name
+        Member Name: auto_use
+        Member Name: infusion
+        Member Name: inner_item
+        Member Name: animal_cosmetic
+        Member Name: icon_override
+------------------------------
+can_move_to: OBJECT
+------------------------------
+move_sprites: ARRAY (length == 9)
+facing_dir: REAL == 11.054099
+water_current_dir: REAL == 270.000000
+trigger_escape: OBJECT
+------------------------------
+water_depth: REAL == 0.000000
+idle_sprites: ARRAY (length == 9)
+fsm: OBJECT
+Member Name: state_frame
+Member Name: next_state
+Member Name: blackboard
+Member Name: states
+Member Name: last_state_id
+Member Name: state
+------------------------------
+current_tile: REAL == 7.000000
+sparkle: BOOL == false
+sparkle_sprite: REFERENCE
+flow_downstream: OBJECT
+------------------------------
+move: OBJECT
+Member Name: x
+Member Name: y
+------------------------------
