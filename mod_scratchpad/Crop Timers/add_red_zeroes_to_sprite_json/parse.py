@@ -6,8 +6,9 @@ with open("crop_timers.json", "r") as in_file:
 
     for key in data:
         if "timer_0" in key:
+            name = key[0:key.rfind("_timer")]
             output[key + "_red"] = {
-                "Location": "/images/" + key + "/" + key + "_0_timer_0_red.png",
+                "Location": "images/" + name + "/" + name + "_0_timer_0_red.png",
                 "OriginX": data[key]["OriginX"],
                 "OriginY": data[key]["OriginY"],
                 "MarginLeft": data[key]["MarginLeft"],
